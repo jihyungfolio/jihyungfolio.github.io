@@ -1602,8 +1602,11 @@ input, select, textarea {
 			#main article .map iframe {
 				width: 100%;
 			}
+			#main article p {
+				text-align: center;
+			}
 
-		@media screen and (max-width: 736px) {
+			@media screen and (max-width: 736px) {
 
 			#main article {
 				padding: 3.5rem 2rem 0.5rem 2rem ;
