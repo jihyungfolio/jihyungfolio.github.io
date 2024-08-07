@@ -1299,8 +1299,8 @@ input, select, textarea {
 		}
 
 		#header .logo img {
-			width: 80%;
-			padding-top: 10%;
+			width: 45%;
+			padding-top: 25%;
 			filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(60deg) brightness(103%) contrast(101%);
 		}
 
