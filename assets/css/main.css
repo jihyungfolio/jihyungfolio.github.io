@@ -1,6 +1,6 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");
-@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Dosis:wght@200..800&family=East+Sea+Dokdo&family=Happy+Monkey&family=Nanum+Gothic+Coding&family=Orbitron:wght@400..900&family=Poor+Story&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Poor+Story&display=swap');
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -167,7 +167,7 @@ input, select, textarea {
 
 	p {
 		margin: 0 0 2rem 0;
-		font-family: "Nanum Gothic Coding", sans-serif;
+		font-family: "Poor Story", sans-serif;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
