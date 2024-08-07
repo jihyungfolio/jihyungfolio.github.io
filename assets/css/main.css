@@ -1671,6 +1671,13 @@ body.is-preload #footer {
 .map iframe {
 	width: 100%
 }
+.description {
+	padding: 3rem;
+	background: #ffffff47;
+	border-radius: 15px;
+	margin-bottom: 5rem;
+	border: 2px solid #fff;
+}
 article p {
 	text-align: center;
 }
