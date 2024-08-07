@@ -1660,3 +1660,9 @@ body.is-preload #footer {
 article p {
 	text-align: center;
 }
+.logo a img {
+	width: 80%;
+	padding: 15%;
+	margin-top: 9%;
+	filter: invert(100%) sepia(93%) saturate(0%) hue-rotate(36deg) brightness(108%) contrast(108%);
+}
