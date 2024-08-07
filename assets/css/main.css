@@ -167,6 +167,7 @@ input, select, textarea {
 
 	p {
 		margin: 0 0 2rem 0;
+		font-family: "Sunflower", sans-serif;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -176,6 +177,7 @@ input, select, textarea {
 		margin: 0 0 1rem 0;
 		text-transform: uppercase;
 		letter-spacing: 0.2rem;
+		font-family: "Bangers", sans-serif;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
