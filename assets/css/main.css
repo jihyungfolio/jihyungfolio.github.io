@@ -692,6 +692,7 @@ input[type="radio"] + label:before {
 	display: block;
 	margin: 2.5rem 0;
 	width: 100%;
+	border-radius: 15px;
 }
 
 .image.main img {
