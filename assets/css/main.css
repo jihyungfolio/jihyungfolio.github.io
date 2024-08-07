@@ -638,6 +638,10 @@ input[type="radio"] + label:before {
 	position: relative;
 }
 
+article img {
+	border-radius: 15px;
+}
+
 .image:before {
 	pointer-events: none;
 	background-image: url("../../images/overlay.png");
