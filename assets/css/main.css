@@ -1,7 +1,6 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");
-@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Hahmlet:wght@100..900&family=Poor+Story&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Hahmlet:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poor+Story&display=swap');
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -186,6 +185,8 @@ h1, h2, h3, h4, h5, h6 {
 	margin: 0 0 1rem 0;
 	text-transform: uppercase;
 	letter-spacing: 0.2rem;
+	font-family: "Playfair Display", sans-serif;
+
 }
 
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
