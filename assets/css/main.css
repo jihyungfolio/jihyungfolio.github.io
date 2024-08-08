@@ -643,6 +643,14 @@ article img {
 	border-radius: 15px;
 }
 
+article .image.flex {
+	display: flex;
+}
+article .image.flex img {
+	width: 50%;
+	object-fit: contain;
+}
+
 .image:before {
 	pointer-events: none;
 	/*background-image: url("../../images/overlay.png");*/
