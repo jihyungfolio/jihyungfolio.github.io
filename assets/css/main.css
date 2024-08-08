@@ -1695,6 +1695,9 @@ body.is-preload #footer {
 article p {
 	text-align: center;
 }
+.logo a {
+	border-bottom: 0;
+}
 .logo img {
 	width: 80%;
 	padding: 15%;
