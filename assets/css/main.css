@@ -55,12 +55,12 @@ mark {
 }
 
 span,  a {
-	font-family: "Poor Story", sans-serif;
+
 }
 
 article h2,
 p {
-	font-family: "Hahmlet", sans-serif;
+
 }
 
 input::-moz-focus-inner {
@@ -173,8 +173,6 @@ h1, h2, h3, h4, h5, h6 {
 	margin: 0 0 1rem 0;
 	text-transform: uppercase;
 	letter-spacing: 0.2rem;
-	font-family: "Playfair Display", sans-serif;
-
 }
 
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -500,7 +498,6 @@ input[type="radio"] + label:before {
 	text-rendering: auto;
 	line-height: 1;
 	text-transform: none !important;
-	font-family: 'Font Awesome 5 Free';
 	font-weight: 900;
 }
 
