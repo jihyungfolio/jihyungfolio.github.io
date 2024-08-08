@@ -1673,10 +1673,15 @@ body.is-preload #footer {
 }
 .description {
 	padding: 3rem;
-	background: #ffffff47;
+	background: #ffffffbf;
 	border-radius: 15px;
 	margin-bottom: 5rem;
-	border: 2px solid #fff;
+	color: #000;
+}
+@media screen and (max-width: 480px) {
+	.description {
+		padding: 3rem 1rem;
+	}
 }
 article p {
 	text-align: center;
