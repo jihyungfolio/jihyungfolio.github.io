@@ -1,6 +1,6 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");
-@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Poor+Story&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Hahmlet:wght@100..900&family=Poor+Story&display=swap');
 
 
 html, body, div, span, applet, object,
@@ -56,8 +56,12 @@ mark {
 	color: inherit;
 }
 
-span, p,  a {
+span,  a {
 	font-family: "Poor Story", sans-serif;
+}
+
+p {
+	font-family: "Hahmlet", sans-serif;
 }
 
 input::-moz-focus-inner {
