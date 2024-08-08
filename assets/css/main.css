@@ -1684,7 +1684,7 @@ body.is-preload #footer {
 }
 @media screen and (max-width: 480px) {
 	.description {
-		padding: 3rem 1rem;
+		padding: 3rem 2rem;
 	}
 }
 article p {
