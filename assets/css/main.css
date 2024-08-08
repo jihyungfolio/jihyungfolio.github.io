@@ -1,5 +1,7 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Song+Myung&display=swap');
+
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -58,9 +60,8 @@ span,  a {
 
 }
 
-article h2,
-p {
-
+article h2 {
+	font-family: "Song Myung", sans-serif;
 }
 
 input::-moz-focus-inner {
