@@ -649,6 +649,7 @@ article .image.flex {
 article .image.flex img {
 	width: 50%;
 	object-fit: contain;
+	margin-right: .1rem;
 }
 
 .image:before {
