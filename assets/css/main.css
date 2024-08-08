@@ -1683,6 +1683,8 @@ body.is-preload #footer {
 	margin-bottom: 5rem;
 	color: #000;
 	border: 2px solid;
+	background: repeating-linear-gradient(#0000 0 calc(1.2rem - 1px), #b1daf6 0 1.2rem) right bottom / 100% 100%, linear-gradient(#fbf7f7 0 0) 30px 0 / 2px 100% #fff;
+	-webkit-mask: radial-gradient(circle .8rem at 2px 50%, #0000 98%, #000) 0 0 / 100% 2.4rem;
 }
 @media screen and (max-width: 480px) {
 	.description {
