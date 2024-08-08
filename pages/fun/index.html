@@ -238,9 +238,21 @@
                 <p></p>
             </div>
             <p>[ PHOTOS 📸 ]</p>
-            <span class="image main" style="display: flex"><img alt="" src="220201-YANG-SU-RI/img/0.jpg"/>
-            <img alt="" src="220201-YANG-SU-RI/img/1.jpg"/></span>
-            <span class="image main"></span>
+
+            <style>
+                #yangsuri .image.flex {
+                    display: flex;
+                }
+                #yangsuri .image.flex img {
+                    width: 50%;
+                    object-fit: contain;
+                }
+            </style>
+
+            <span class="image main flex">
+                <img alt="" src="220201-YANG-SU-RI/img/0.jpg"/>
+                <img alt="" src="220201-YANG-SU-RI/img/1.jpg"/>
+            </span>
             <span class="image main"><img alt="" src="220201-YANG-SU-RI/img/2.jpg"/></span>
             <span class="image main"><img alt="" src="220201-YANG-SU-RI/img/3.jpg"/></span>
             <span class="image main"><img alt="" src="220201-YANG-SU-RI/img/4.jpg"/></span>
