@@ -1677,10 +1677,11 @@ body.is-preload #footer {
 }
 .description {
 	padding: 3rem;
-	background: #ffffffbf;
+	background: #ffffffd6;
 	border-radius: 15px;
 	margin-bottom: 5rem;
 	color: #000;
+	border: 2px solid;
 }
 @media screen and (max-width: 480px) {
 	.description {
