@@ -645,6 +645,9 @@ article img {
 article .image.flex {
 	display: flex;
 }
+article .image.flex .svg-buttons {
+	display: none;
+}
 article .image.flex img {
 	width: 50%;
 	object-fit: contain;
