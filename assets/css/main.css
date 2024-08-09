@@ -701,7 +701,7 @@ article .image.flex img {
 
 .image.main {
 	display: block;
-	margin: 2.5rem 0;
+	margin: 2.5rem 0 1rem;
 	width: 100%;
 }
 
@@ -710,6 +710,24 @@ article .image.flex img {
 }
 #graduation .image.main img {
 	filter: brightness(1.2) saturate(1.4) contrast(.8);
+}
+
+.svg-buttons{
+	display:flex;
+	justify-content:space-between;
+	margin-top:.6em;
+}
+.svg-buttons-1{
+	display:grid;
+	grid-template-columns:repeat(3, 1fr);
+	grid-column-gap:.8em;
+}
+.svg-buttons svg{
+	box-sizing:content-box;
+	width:20px;
+	height:20px;
+	cursor:pointer;
+	fill: white;
 }
 
 @media screen and (max-width: 736px) {
