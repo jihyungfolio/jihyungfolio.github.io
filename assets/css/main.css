@@ -715,7 +715,9 @@ article .image.flex img {
 .svg-buttons{
 	display:flex;
 	justify-content:space-between;
-	margin-top:.6em;
+	position: relative;
+	margin-top: -10%;
+	padding: 0 1rem;
 }
 .svg-buttons-1{
 	display:grid;
