@@ -708,7 +708,7 @@ article .image.flex img {
 .image.main img {
 	width: 100%;
 	border: 1px solid;
-	width: 300px;
+	max-width: 576px;
 	margin: 0 auto;
 }
 #graduation .image.main img {
