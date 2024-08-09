@@ -1334,6 +1334,12 @@ body.is-article-visible #bg:after {
 	background: #a1a1a14a;
 }
 
+#header .logo:hover {
+	background: #000;
+	border: 5px solid #fff;
+	box-shadow: 1px -1px 10px rgba(255, 255, 255, 0.45);
+}
+
 #header .logo .icon:before {
 	font-size: 2rem;
 }
