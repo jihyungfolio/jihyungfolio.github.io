@@ -1366,8 +1366,8 @@ body.is-article-visible #bg:after {
 
 #header .content p {
 	text-transform: uppercase;
-	letter-spacing: 0.05rem;
-	font-size: 0.8rem;
+	letter-spacing: 0.08rem;
+	font-size: 0.9rem;
 	line-height: 1.9;
 	font-family: "Poor Story", sans-serif;
 }
