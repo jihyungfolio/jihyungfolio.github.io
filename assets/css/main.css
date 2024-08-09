@@ -62,6 +62,7 @@ span,  a {
 
 article h2 {
 	font-family: "Song Myung", sans-serif;
+	margin-bottom: 1rem!important;
 }
 
 input::-moz-focus-inner {
