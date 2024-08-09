@@ -708,6 +708,9 @@ article .image.flex img {
 .image.main img {
 	width: 100%;
 }
+#graduation .image.main img {
+	filter: brightness(1.2) saturate(1.4) contrast(.8);
+}
 
 @media screen and (max-width: 736px) {
 
