@@ -132,6 +132,12 @@ html {
 
 }
 
+@media screen and (min-width: 780px) {
+	article p {
+		font-size: 13px;
+	}
+}
+
 body, input, select, textarea {
 	color: #ffffff;
 	font-family: "Source Sans Pro", sans-serif;
