@@ -137,6 +137,9 @@ html {
 	article p {
 		font-size: 13px;
 	}
+	#header .content p {
+		font-size: 1.2rem;
+	}
 }
 
 body, input, select, textarea {
