@@ -61,7 +61,8 @@ span,  a {
 
 article h2 {
 	font-family: "Poor Story", sans-serif;
-	margin-bottom: 1rem!important;
+	margin: 0 auto 1rem !important;
+	display: block;
 }
 
 input::-moz-focus-inner {
