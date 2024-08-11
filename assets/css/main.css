@@ -1707,7 +1707,7 @@ body.is-article-visible #footer {
 }
 @media screen and (max-width: 480px) {
 	.description {
-		padding: 3rem 1.5rem;
+		padding: 3rem;
 	}
 }
 article p {
