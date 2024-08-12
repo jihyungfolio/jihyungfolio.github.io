@@ -1727,9 +1727,10 @@ article p {
 	text-align: center;
 	line-height: 1.9;
 	font-family: "Poor Story", sans-serif;
+	font-weight: 600;
 }
 article p:first-child {
-	font-weight: 600;
+	color: #1b1f22;
 }
 .logo a {
 	border-bottom: 0;
