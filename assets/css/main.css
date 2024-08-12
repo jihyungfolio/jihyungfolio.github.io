@@ -1715,7 +1715,11 @@ body.is-article-visible #footer {
 }
 article p {
 	text-align: center;
-	line-height: 1.9
+	line-height: 1.9;
+	font-family: "Poor Story", sans-serif;
+}
+article p:first-child {
+	font-weight: 600;
 }
 .logo a {
 	border-bottom: 0;
