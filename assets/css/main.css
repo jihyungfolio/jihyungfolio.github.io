@@ -1715,6 +1715,7 @@ body.is-article-visible #footer {
 }
 article p {
 	text-align: center;
+	line-height: 1.9
 }
 .logo a {
 	border-bottom: 0;
