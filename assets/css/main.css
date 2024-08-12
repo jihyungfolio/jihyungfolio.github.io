@@ -1595,6 +1595,7 @@ body.is-article-visible #header {
 	-ms-transform: translateY(0);
 	transform: translateY(0);
 	opacity: 1;
+	background: #0000008a;
 }
 
 #main article .close {
