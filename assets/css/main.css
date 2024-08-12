@@ -63,6 +63,7 @@ article h2 {
 	font-family: "Poor Story", sans-serif;
 	margin: 0 auto 1rem !important;
 	display: block;
+	letter-spacing: 0.05em;
 }
 
 input::-moz-focus-inner {
