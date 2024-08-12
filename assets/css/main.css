@@ -1340,9 +1340,15 @@ body.is-article-visible #bg:after {
 	width: 5.5rem;
 	height: 5.5rem;
 	line-height: 5.5rem;
-	border: solid 2px #ffffff;
 	border-radius: 100%;
+	background: #000;
+	border: 5px solid #fff;
+	box-shadow: 1px -1px 10px rgba(255, 255, 255, 0.45);
+}
+
+#header .logo:hover {
 	background: #a1a1a14a;
+	border: solid 2px #ffffff;
 }
 
 #header .logo:hover {
