@@ -1405,13 +1405,13 @@ body.is-article-visible #bg:after {
 	margin-bottom: 0;
 	list-style: none;
 	padding-left: 0;
-	border: solid 1px #ffffff;
+	border: solid 3px #ffffff;
 	border-radius: 4px;
 }
 
 #header nav ul li {
 	padding-left: 0;
-	border-left: solid 1px #ffffff;
+	border-left: solid 3px #ffffff;
 }
 
 #header nav ul li:first-child {
@@ -1444,14 +1444,15 @@ body.is-article-visible #bg:after {
 	position: absolute;
 	top: 0;
 	left: calc(50% - 1px);
-	width: 3px;
+	width: 1px;
 	height: 100%;
 	background: #ffffff;
 }
 
+/*
 #header nav.use-middle ul li.is-middle {
 	border-left: 0;
-}
+}*/
 
 body.is-article-visible #header {
 	-moz-transform: scale(0.95);
