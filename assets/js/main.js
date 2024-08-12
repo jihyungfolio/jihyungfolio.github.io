@@ -409,6 +409,7 @@
 
 		//home
 		$(".home #header .logo:first-child").remove();
+		$(".home #header .logo .home").remove();
 
 
 })(jQuery);
