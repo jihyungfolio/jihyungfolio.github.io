@@ -408,6 +408,7 @@
 		$("#header .logo .home").append("<img src=\"../../images/home.svg\">")
 
 		//home
-		$("#header .logo:first-child").remove();
+		$(".home #header .logo:first-child").remove();
+
 
 })(jQuery);
