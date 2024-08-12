@@ -726,10 +726,9 @@ article .image.flex img {
 
 .image.main img {
 	width: 100%;
-	border: 1px solid;
 	max-width: 780px;
 	margin: 0 auto;
-	filter: saturate(1.57) contrast(.9) grayscale(.1);
+	filter: saturate(1.6) contrast(.9) grayscale(.1);
 }
 #graduation .image.main img {
 	filter: brightness(1.2) saturate(1.4) contrast(.8);
