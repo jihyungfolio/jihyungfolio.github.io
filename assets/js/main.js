@@ -407,4 +407,7 @@
 		$("#header .logo").append("<a class=\"home\" href=\"https://jihyungfolio.github.io\"></a>");
 		$("#header .logo .home").append("<img src=\"../../images/home.svg\">")
 
+		//home
+
+
 })(jQuery);
