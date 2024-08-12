@@ -738,7 +738,7 @@ article .image.flex img {
 	display:flex;
 	justify-content:space-between;
 	position: relative;
-	margin-top: -40px;
+	margin-top: -32px;
 	margin-bottom: 40px;
 	padding: 0 1rem;
 }
