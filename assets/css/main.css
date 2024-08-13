@@ -1343,6 +1343,7 @@ body.is-article-visible #bg:after {
 	border-radius: 100%;
 	background: rgba(255, 255, 255, 0.15);
 	border: 3px solid #000;
+	margin-bottom: -1px;
 }
 
 #header .logo:hover {
