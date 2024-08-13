@@ -1337,8 +1337,8 @@ body.is-article-visible #bg:after {
 }
 
 #header .logo {
-	width: 5.5rem;
-	height: 5.5rem;
+	width: 4rem;
+	height: 4rem;
 	line-height: 5.5rem;
 	border-radius: 100%;
 	background: rgba(255, 255, 255, 0.15);
@@ -1487,8 +1487,8 @@ body.is-article-visible #header {
 	}
 
 	#header .logo {
-		width: 4.75rem;
-		height: 4.75rem;
+		width: 3.75rem;
+		height: 3.75rem;
 		line-height: 4.75rem;
 	}
 
