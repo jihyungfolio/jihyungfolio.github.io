@@ -413,6 +413,6 @@
 
 		//article
 		$("#main article").append("<p>[ 끝🥰 ]</p>")
-
+		$(".description").after("<p>[ PHOTOS 📸 ]</p>")
 
 })(jQuery);
