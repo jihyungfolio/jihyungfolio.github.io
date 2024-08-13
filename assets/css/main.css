@@ -1352,8 +1352,8 @@ body.is-article-visible #bg:after {
 }
 
 #header .logo:hover {
-	background: #000;
-	border: 5px solid #fff;
+	background: #fff;
+	border: 5px solid #000;
 	box-shadow: 1px -1px 10px rgba(255, 255, 255, 0.45);
 }
 
@@ -1363,7 +1363,7 @@ body.is-article-visible #bg:after {
 
 #header .content {
 	border-style: solid;
-	border-color: #ffffff;
+	border-color: #000;
 	border-top-width: 3px;
 	border-bottom-width: 3px;
 	max-width: 100%;
