@@ -1,6 +1,6 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");
-@import url('https://fonts.googleapis.com/css2?family=Grandstander:ital,wght@0,100..900;1,100..900&family=Oldenburg&family=Poor+Story&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grandstander:ital,wght@0,100..900;1,100..900&family=Poor+Story&family=Share+Tech+Mono&display=swap');
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -60,7 +60,7 @@ span,  a {
 }
 
 article h2 {
-	font-family: "Poor Story", sans-serif;
+	font-family: "Share Tech Mono", sans-serif;
 	margin: 0 auto 1rem !important;
 	display: block;
 	letter-spacing: 0.05em;
