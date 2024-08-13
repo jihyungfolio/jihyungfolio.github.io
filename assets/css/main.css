@@ -1325,7 +1325,7 @@ body.is-article-visible #bg:after {
 	left: calc(50% - 1px);
 	width: 3px;
 	height: calc(3.5rem + 1px);
-	background: #0000;
+	background: #000;
 }
 
 #header > :first-child {
