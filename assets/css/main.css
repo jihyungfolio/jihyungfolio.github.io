@@ -1425,7 +1425,7 @@ body.is-article-visible #bg:after {
 	padding: 0 1.25rem 0 1.45rem;
 	text-transform: uppercase;
 	letter-spacing: 0.1rem;
-	font-size: 1rem;
+	font-size: 0.75rem;
 	border-bottom: 0;
 	background: #ffffff24;
 	letter-spacing: -0.02em;
