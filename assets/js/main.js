@@ -411,5 +411,8 @@
 		$(".home #header .logo:first-child").remove();
 		$(".home #header .logo .home").remove();
 
+		//article
+		$("#main article").append("<p>[ 끝🥰 ]</p>")
+
 
 })(jQuery);
