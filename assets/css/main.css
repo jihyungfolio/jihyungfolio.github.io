@@ -1527,7 +1527,7 @@ body.is-article-visible #header {
 
 	#header nav ul li {
 		border-left: 0;
-		border-top: solid 1px #000;
+		border-top: solid 2px #000;
 	}
 
 	#header nav ul li:first-child {
