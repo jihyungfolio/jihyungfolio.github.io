@@ -1192,7 +1192,7 @@ button {
 	-ms-transition-delay: 0.75s;
 	transition-delay: 0.75s;
 	/*background-image: linear-gradient(to top, rgb(10 13 8 / 71%), rgb(12 10 14 / 78%)), url(../../images/overlay.png);*/
-	background: linear-gradient(to top, rgb(151 130 120 / 71%), rgb(139 136 124 / 90%));
+	background: linear-gradient(to top, rgb(171 165 161 / 71%), rgb(214 208 203 / 90%));
 	background-size: auto, 256px 256px;
 	background-position: center;
 	background-repeat: no-repeat, repeat;
@@ -1428,7 +1428,7 @@ body.is-article-visible #bg:after {
 	font-size: 1rem;
 	border-bottom: 0;
 	background: #ffffff24;
-	font-weight: 600;
+	letter-spacing: -0.02em;
 }
 
 #header nav ul li a:hover {
