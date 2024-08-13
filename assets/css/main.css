@@ -1351,7 +1351,7 @@ body.is-article-visible #bg:after {
 }
 
 #header .logo:hover {
-	background: #fff;
+	background: rgba(255, 255, 255, 0.42);
 	border: 5px solid #000;
 	box-shadow: 1px -1px 10px rgba(255, 255, 255, 0.45);
 }
