@@ -1342,7 +1342,7 @@ body.is-article-visible #bg:after {
 	line-height: 5.5rem;
 	border-radius: 100%;
 	background: rgba(255, 255, 255, 0.15);
-	border: 3px solid #000;
+	border: 2px solid #000;
 	margin-bottom: -1px;
 }
 
@@ -1404,13 +1404,13 @@ body.is-article-visible #bg:after {
 	margin-bottom: 0;
 	list-style: none;
 	padding-left: 0;
-	border: solid 3px #000;
+	border: solid 2px #000;
 	border-radius: 4px;
 }
 
 #header nav ul li {
 	padding-left: 0;
-	border-left: solid 3px #000;
+	border-left: solid 2px #000;
 }
 
 #header nav ul li:first-child {
