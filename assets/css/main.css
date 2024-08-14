@@ -1817,9 +1817,9 @@ body.is-preload #footer {
 }
 
 #nav-container nav ul ul li {
-	width:170px;
-	float:none;
-	display:list-item;
+	width: auto;
+	float: none;
+	display: list-item;
 	position: relative;
 }
 
@@ -1836,5 +1836,8 @@ li > a:only-child:after { content: ''; }
 @media screen and (max-width: 780px) {
 	#nav-container nav ul {
 		text-align: center;
+		background: #0006;
 	}
+
+
 }
