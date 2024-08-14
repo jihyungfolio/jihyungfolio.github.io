@@ -1340,7 +1340,7 @@ body.is-article-visible #bg:after {
 	height: 3.5rem;
 	line-height: 5.5rem;
 	border-radius: 100%;
-	background: #000;
+	background: #0006;
 	border: 1px solid #ffffffd4;
 	box-shadow: 1px -1px 10px rgba(255, 255, 255, 0.45);
 }
