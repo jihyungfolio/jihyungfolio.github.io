@@ -1792,14 +1792,13 @@ body.is-preload #footer {
 
 #nav-container nav ul li {
 	display:inline-block;
-	background-color: #0006;
 }
 
 #nav-container nav a {
 	display:block;
 	padding:0 10px;
 	color:#FFF;
-	font-size:20px;
+	font-size: 1em;
 	line-height: 30px;
 	text-decoration:none;
 }
