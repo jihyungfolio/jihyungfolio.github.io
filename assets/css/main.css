@@ -1797,7 +1797,7 @@ body.is-preload #footer {
 	display:block;
 	padding:0 10px;
 	color:#FFF;
-	font-size: 0.7em;
+	font-size: 0.8em;
 	line-height: 30px;
 	text-decoration:none;
 	border: 0;
@@ -1836,9 +1836,7 @@ li > a:only-child:after { content: ''; }
 
 @media screen and (max-width: 780px) {
 	#nav-container nav ul {
-		text-align: center;
 		background: #0006;
 	}
-
 
 }
