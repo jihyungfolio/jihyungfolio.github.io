@@ -1772,9 +1772,13 @@ body.is-preload #footer {
 	opacity: 0;
 }
 
+#container {
+	position: fixed;
+	top: 0;
+	z-index: 2;
+}
 
 nav {
-	margin: 50px 0;
 	background-color: #000;
 }
 
@@ -1803,11 +1807,9 @@ nav a:hover {
 	background-color: #000000;
 }
 
-/* Hide Dropdowns by Default */
 nav ul ul {
 	display: none;
 	position: absolute;
-	top: 60px; /* the height of the main nav */
 }
 
 /* Display Dropdowns on Hover */
