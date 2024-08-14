@@ -1779,9 +1779,7 @@ body.is-preload #footer {
 }
 
 #nav-container nav {
-	background-color: #0000005c;
 	width: 100vw;
-	border-bottom: 1px solid;
 }
 
 #nav-container nav ul {
