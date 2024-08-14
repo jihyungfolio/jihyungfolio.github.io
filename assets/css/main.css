@@ -1840,5 +1840,7 @@ li > a:only-child:after { content: ''; }
 		background: #0006;
 		box-shadow: 1px -1px 10px #ffffff7d;
 	}
-
+	#nav-container nav a {
+		font-size: 15px;
+	}
 }
