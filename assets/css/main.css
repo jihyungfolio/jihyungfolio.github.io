@@ -1779,7 +1779,8 @@ body.is-preload #footer {
 }
 
 #nav-container nav {
-	background-color: #000;
+	background-color: #0006;
+	width: 100%;
 }
 
 #nav-container nav ul {
@@ -1791,7 +1792,7 @@ body.is-preload #footer {
 
 #nav-container nav ul li {
 	display:inline-block;
-	background-color: #000;
+	background-color: #0006;
 }
 
 #nav-container nav a {
@@ -1804,7 +1805,7 @@ body.is-preload #footer {
 }
 
 #nav-container nav a:hover {
-	background-color: #000000;
+	background-color: #0006;
 }
 
 #nav-container nav ul ul {
