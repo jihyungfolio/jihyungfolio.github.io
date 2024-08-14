@@ -1781,6 +1781,7 @@ body.is-preload #footer {
 #nav-container nav {
 	background-color: #0006;
 	width: 100vw;
+	border-bottom: 1px solid;
 }
 
 #nav-container nav ul {
