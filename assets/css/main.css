@@ -1347,11 +1347,6 @@ body.is-article-visible #bg:after {
 
 #header .logo:hover {
 	background: #a1a1a14a;
-	border: solid 2px #ffffff;
-}
-
-#header .logo:hover {
-	background: #000;
 }
 
 #header .logo .icon:before {
