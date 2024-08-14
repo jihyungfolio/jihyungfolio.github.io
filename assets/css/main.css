@@ -1801,6 +1801,7 @@ body.is-preload #footer {
 	line-height: 30px;
 	text-decoration:none;
 	border: 0;
+	text-transform: uppercase;
 }
 
 #nav-container nav a:hover {
