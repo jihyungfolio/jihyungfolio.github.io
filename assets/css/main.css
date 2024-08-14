@@ -1830,7 +1830,8 @@ body.is-preload #footer {
 	left:170px;
 }
 
-li > a:after { content:  ' +'; }
+li > a:after { content:  ' 🎀'; }
+
 li > a:only-child:after { content: ''; }
 
 
