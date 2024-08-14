@@ -1843,4 +1843,5 @@ li > a:only-child:after { content: ''; }
 	#nav-container nav a {
 		font-size: 15px;
 	}
+	li > a:after { content:  ' +'; }
 }
