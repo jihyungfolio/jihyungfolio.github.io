@@ -1209,7 +1209,7 @@ button {
 	transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
 	background-image: url("../../images/bg.jpg");
 	background-position-x: center;
-	background-position-y: 40%;
+	background-position-y: 30%;
 	background-size: cover;
 	background-repeat: no-repeat;
 	z-index: 1;
