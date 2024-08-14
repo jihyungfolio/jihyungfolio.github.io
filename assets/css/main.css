@@ -1424,7 +1424,7 @@ body.is-article-visible #bg:after {
 	letter-spacing: 0.1rem;
 	font-size: 0.8rem;
 	border-bottom: 0;
-	background: #0000008f;
+	background: #0006;
 }
 
 #header nav ul li a:hover {
