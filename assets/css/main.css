@@ -1336,8 +1336,8 @@ body.is-article-visible #bg:after {
 }
 
 #header .logo {
-	width: 5.5rem;
-	height: 5.5rem;
+	width: 3.5rem;
+	height: 3.5rem;
 	line-height: 5.5rem;
 	border-radius: 100%;
 	background: #000;
