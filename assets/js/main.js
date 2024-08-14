@@ -380,8 +380,6 @@
     //home
     $(".home #header .logo:first-child").remove();
     $(".home #header .logo .home").remove();
-    $(".art #header .logo:first-child").remove();
-    $(".art #header .logo .home").remove();
 
     //article
     $("#main article").append("<p>[ 끝🥰 ]</p>")
