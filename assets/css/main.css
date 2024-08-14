@@ -1837,6 +1837,7 @@ li > a:only-child:after { content: ''; }
 @media screen and (max-width: 780px) {
 	#nav-container nav ul {
 		background: #0006;
+		box-shadow: 1px -1px 10px #ffffff7d;
 	}
 
 }
