@@ -1,9 +1,3 @@
-/*
-	Jihyung's Blog 🎨
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
 (function ($) {
 
     var $window = $(window), $body = $('body'), $wrapper = $('#wrapper'), $header = $('#header'),
@@ -370,6 +364,7 @@
     if (location.hash != '' && location.hash != '#') $window.on('load', function () {
         $main._show(location.hash.substr(1), true);
     });
+
 
     //요소 추가
     //header
