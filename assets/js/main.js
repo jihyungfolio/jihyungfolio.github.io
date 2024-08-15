@@ -366,6 +366,9 @@
     //home
     $(".home #header .logo:first-child").remove();
     $(".home #header .logo .home").remove();
+    //art
+    $(".art #header .logo:first-child").remove();
+    $(".art #header .logo .home").remove();
 
     //article
     $("#main article").append("<p>[ 끝🥰 ]</p>")
@@ -380,5 +383,7 @@
     $("#nav-trip").append("<li><a href=\"https://jihyungfolio.github.io/pages/trip/jeju\">Jeju</a></li><li><a href=\"https://jihyungfolio.github.io/pages/trip/hongkong\">hongkong</a></li><li><a href=\"https://jihyungfolio.github.io/pages/trip/japan\">japan</a></li><li><a href=\"https://jihyungfolio.github.io/pages/trip/malaysia\">malaysia</a></li><li><a href=\"https://jihyungfolio.github.io/pages/trip/vietnam\">vietnam</a></li>")
     $("#nav-daily").append("<li><a href=\"https://jihyungfolio.github.io/pages/daily/holiday\">holiday</a></li><li><a href=\"https://jihyungfolio.github.io/pages/daily/fun\">fun</a></li><li><a href=\"https://jihyungfolio.github.io/pages/daily/food\">food</a></li><li><a href=\"https://jihyungfolio.github.io/pages/daily/beauty-fashion\">beauty & fashion</a></li>")
     $("#nav-study").append("<li><a href=\"https://jihyungfolio.github.io/pages/study/css\">css/scss</a></li><li><a href=\"https://jihyungfolio.github.io/pages/study/html\">html</a></li><li><a href=\"https://jihyungfolio.github.io/pages/study/ruby\">ruby</a></li><li><a href=\"https://jihyungfolio.github.io/pages/study/script\">script</a></li><li><a href=\"https://jihyungfolio.github.io/pages/study/vue\">vue</a></li>");
+
+
 
 })(jQuery);
