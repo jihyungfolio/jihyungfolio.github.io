@@ -1798,10 +1798,6 @@ li > a:after { content:  ' 🎀'; }
 
 li > a:only-child:after { content: ''; }
 
-#nav-container nav ul ul li > before {
-	content: '-';
-}
-
 @media screen and (max-width: 780px) {
 	#nav-container nav ul {
 		background: #0006;
