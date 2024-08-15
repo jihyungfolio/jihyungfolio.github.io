@@ -153,23 +153,6 @@
 			opacity: 0;
 		}
 
-		body.is-preload & {
-			> * {
-				opacity: 0;
-			}
-
-			@include vendor('filter', 'blur(0.125rem)');
-
-			.content {
-				.inner {
-					max-height: 0;
-					padding-top: 0;
-					padding-bottom: 0;
-					opacity: 0;
-				}
-			}
-		}
-
 		@include breakpoint('<=medium') {
 			.content {
 				p {
