@@ -357,7 +357,7 @@
     });
 
 
-    //요소 추가
+    //요소 추가&삭제
     //header
     $("#header").prepend("<div class=\"logo\"></div>");
     $("#header .logo").append("<a class=\"home\" href=\"https://jihyungfolio.github.io\"></a>");
@@ -366,6 +366,7 @@
     //home
     $(".home #header .logo:first-child").remove();
     $(".home #header .logo .home").remove();
+
     //art
     $(".art #header .logo:first-child").remove();
     $(".art #header .logo .home").remove();
@@ -373,6 +374,10 @@
     //article
     $("#main article").append("<p>[ 끝🥰 ]</p>")
     $(".description").after("<p>[ PHOTOS 📸 ]</p>")
+
+    //study
+    $(".study .description p:first-child").remove();
+    $(".study .description p:last-child").remove();
 
     //image
     $(".image.main").prepend("<source media=\"(max-width: 780px)\">")
