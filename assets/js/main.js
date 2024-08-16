@@ -372,12 +372,12 @@
     $(".art #header .logo .home").remove();
 
     //article
-    $("#main article").append("<p>[ 끝🥰 ]</p>")
-    $(".description").after("<p>[ PHOTOS 📸 ]</p>")
+    $("#main article").append("<p id='the-end'>[ 끝🥰 ]</p>")
+    $(".description").after("<p id='photos'>[ PHOTOS 📸 ]</p>")
 
     //study
-    $(".study .description p:first-child").remove();
-    $(".study .article p:last-child").remove();
+    $(".study #the-end").remove();
+    $(".study #photos").remove();
 
     //image
     $(".image.main").prepend("<source media=\"(max-width: 780px)\">")
