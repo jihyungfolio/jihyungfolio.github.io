@@ -377,7 +377,7 @@
 
     //study
     $(".study .description p:first-child").remove();
-    $(".study .description p:last-child").remove();
+    $(".study .article p:last-child").remove();
 
     //image
     $(".image.main").prepend("<source media=\"(max-width: 780px)\">")
