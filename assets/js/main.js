@@ -376,8 +376,8 @@
     $(".description").after("<p id='photos'>[ PHOTOS 📸 ]</p>")
 
     //study
-    $(".study #the-end").remove();
-    $(".study #photos").remove();
+    // $(".study #the-end").remove();
+    // $(".study #photos").remove();
 
     //image
     $(".image.main").prepend("<source media=\"(max-width: 780px)\">")
