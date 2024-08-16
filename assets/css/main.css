@@ -688,6 +688,10 @@ article .image.flex img {
 	display: block;
 }
 
+.study .image img {
+	border-radius: 0;
+}
+
 .image.left, .image.right {
 	max-width: 40%;
 }
