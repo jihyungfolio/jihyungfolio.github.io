@@ -1,35 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Aubrey&family=Georama:ital,wght@0,100..900;1,100..900&family=Gloock&family=Jomolhari&family=Kumar+One&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Righteous&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Anybody:ital,wght@0,100..900;1,100..900&family=Khand:wght@300;400;500;600;700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
-
-
-@font-face {
-  font-family: "HSBom";
-  src: url(../font/HSBom.ttf);
-  font-weight: 400;
-}
-
-@font-face {
-  font-family: "Ohsquareair";
-  src: url(../font/Ohsquareair.ttf);
-  font-weight: 400;
-}
-
-@font-face {
-  font-family: "Simplehae";
-  src: url(../font/Simplehae.ttf);
-  font-weight: 400;
-}
-
-@font-face {
-  font-family: "Binggrae-Two";
-  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Binggrae-Bold.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
+@import url('https://fonts.googleapis.com/css2?family=Gloock:ital,wght@0,400;0,700&display=swap');
 
 @font-face {
   font-family: "S-CoreDream-3Light";
@@ -37,15 +6,6 @@
   font-weight: normal;
   font-style: normal;
 }
-
-@font-face {
-  font-family: "YUniverse-B";
-  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_yuniverse@1.0/YUniverse-B.woff2") format("woff2");
-  font-weight: normal;
-  font-style: normal;
-}
-
-
 
 body {
   font-family: "Gloock", "S-CoreDream-3Light", sans-serif;
@@ -1109,9 +1069,8 @@ section h2 {
 }
 
 @media screen and (max-width: 768px) {
-  .pagination ul li {
-    
-  }
+  .pagination ul li {}
+
   #main h1 {
     font-size: 36px;
   }
