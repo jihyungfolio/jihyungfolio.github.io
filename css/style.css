@@ -65,10 +65,11 @@ section {
 }
 
 .img-01 {
-  width: 250px;
+  width: 280px;
   position: absolute;
   z-index: 1;
   animation: floating1 5s ease-in-out infinite;
+  bottom: 100px;
 }
 
 .img-11 {
@@ -82,23 +83,26 @@ section {
   width: 160px;
   position: absolute;
   z-index: 2;
-  left: 120px;
+  left: 150px;
+  bottom: 300px;
   animation: floating2 8s ease-in-out infinite;
 }
 
 .img-06 {
-  width: 120px;
+  width: 100px;
   position: absolute;
-  z-index: 1;
+  z-index: 0;
   left: 80px;
+  bottom: 380px;
   animation: floating6 3s ease-in-out infinite;
 }
 
 .img-07 {
-  width: 400px;
-  left: -100px;
+  width: 500px;
+  left: -150px;
+  bottom: -100px;
   position: relative;
-  animation: floating7 10s ease-in-out infinite;
+  animation: floating7 6s ease-in-out infinite;
 }
 
 .img-03 {
@@ -183,7 +187,7 @@ section {
   }
 
   50% {
-    transform: translateY(40px);
+    transform: translateY(90px);
   }
 }
 
@@ -231,7 +235,7 @@ section {
   }
 
   50% {
-    transform: translateY(15px);
+    transform: translateY(45px);
   }
 }
 
@@ -255,7 +259,7 @@ section {
   }
 
   50% {
-    transform: translateY(30px);
+    transform: translateY(80px);
   }
 }
 
