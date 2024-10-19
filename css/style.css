@@ -89,11 +89,11 @@ section {
 }
 
 .img-06 {
-  width: 100px;
+  width: 120px;
   position: absolute;
   z-index: 0;
-  left: 80px;
-  bottom: 380px;
+  left: 20px;
+  bottom: 400px;
   animation: floating6 3s ease-in-out infinite;
 }
 
@@ -106,9 +106,10 @@ section {
 }
 
 .img-03 {
-  width: 350px;
-  z-index: -2;
-  left: 100px;
+  width: 300px;
+  z-index: 0;
+  top: 0px;
+  left: 80px;
   position: relative;
   animation: floating3 10s ease-in-out infinite;
 }
@@ -123,7 +124,12 @@ section {
 }
 
 .img-05 {
-  width: 100px;
+  width: 250px;
+  left: -50px;
+  bottom: 200px;
+  z-index: -1;
+  position: absolute;
+  animation: floating5 10s ease-in-out infinite;
 }
 
 .img-08 {
@@ -143,7 +149,11 @@ section {
 
 .img-10 {
   width: 100px;
-  opacity: 0.8;
+  top: -20px;
+  right: 0;
+  position: absolute;
+  z-index: 1;
+  animation: scale10 10s ease-in-out infinite;
 }
 
 .img-44 {
@@ -156,14 +166,14 @@ section {
 
 .img-55 {
   width: 400px;
-  right: -80px;
+  right: -100px;
   position: absolute;
   top: -150px;
   animation: floating55 10s ease-in-out infinite;
 }
 
 .img-12 {
-  width: 180px;
+  width: 240px;
   position: absolute;
   top: 40px;
   right: 160px;
@@ -171,9 +181,9 @@ section {
 }
 
 .img-13 {
-  width: 70px;
+  width: 120px;
   position: absolute;
-  top: 150px;
+  top: 250px;
   right: 50px;
   z-index: 2;
   animation: floating13 3s ease-in-out infinite;
@@ -192,6 +202,18 @@ section {
 }
 
 @keyframes floating3 {
+
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(80px);
+  }
+}
+
+@keyframes floating5 {
 
   0%,
   100% {
@@ -275,7 +297,7 @@ section {
   }
 }
 
-@keyframes scale4 {
+@keyframes scale10 {
   0% {
     transform: scale(0.7);
   }
@@ -315,12 +337,13 @@ section {
 }
 
 .pagination ul li {
-  background-color: #151515f3;
+  background-color: #171719;
   width: 15px;
   height: 30px;
   list-style: none;
   border-radius: 30px;
-  box-shadow: 0 2px 10px #93646e7a;
+  box-shadow: 1px 3px 6px #30385bcc;
+  ;
   cursor: pointer;
   transition: background-color 0.1s ease-in;
 }
@@ -334,11 +357,11 @@ section {
 }
 
 .pagination ul li.active {
-  background-color: rgb(90 92 179);
+  background-color: rgb(223 204 159);
 }
 
-.pagination ul li:nth-child(2).active {
-  background-color: rgb(113 126 141);
+/* .pagination ul li:nth-child(2).active {
+  background-color: rgb(153 209 207);
 }
 
 .pagination ul li:nth-child(3).active {
@@ -346,8 +369,8 @@ section {
 }
 
 .pagination ul li:nth-child(4).active {
-  background-color: rgb(221 182 211);
-}
+  background-color: rgb(223 204 159);
+} */
 
 #career .table {
   text-align: center;
@@ -551,7 +574,7 @@ section h2 {
 }
 
 #contact {
-  /* background: linear-gradient(140deg, rgba(5, 5, 30, 0) 15%, rgb(232 232 255 / 35%) 50%, rgba(5, 5, 30, 0) 80%),
+  background: linear-gradient(140deg, rgba(5, 5, 30, 0) 15%, rgb(232 232 255 / 35%) 50%, rgba(5, 5, 30, 0) 80%),
     radial-gradient(160% 120% at 80% 20%, rgba(255, 255, 255, 0) 30%, rgb(255 255 221 / 42%) 70%),
     radial-gradient(140% 130% at 30% 75%, rgba(68, 36, 99, 0) 50%, rgb(68 36 99 / 17%) 80%),
     radial-gradient(130% 180% at 25% 5%, rgb(28 30 79 / 9%) 50%, rgb(231 232 255 / 29%) 85%),
@@ -560,8 +583,8 @@ section h2 {
     radial-gradient(55% 125% at 98% 10%, rgb(79 79 129 / 0%) 8%, rgb(235 242 255 / 10%) 50%, rgba(160, 160, 220, 0) 100%),
     radial-gradient(60% 130% at 85% 105%, rgba(255, 165, 0, 0) 30%, rgb(255 167 0 / 9%) 75%, rgba(255, 165, 0, 0) 100%),
     radial-gradient(40% 70% at 35% 85%, #ff450000 45%, rgb(203 208 131 / 13%) 80%),
-    linear-gradient(80deg, #6a0dad1a 4%, #ecbd8d36 120%); */
-  /* filter: brightness(1.05) contrast(1.1); */
+    linear-gradient(80deg, #6a0dad1a 4%, #ecbd8d36 120%);
+  filter: brightness(1.05) contrast(1.1);
 }
 
 #contact:before {
@@ -992,18 +1015,16 @@ section h2 {
   line-height: 2;
 }
 
-.contact-text .email {
+.contact-text .email,
+.contact-text .blog {
   margin-top: 30px;
   font-weight: 700;
-  font-family: "S-CoreDream-3Light";
   margin-top: 30px;
   font-weight: 700;
-  font-family: "S-CoreDream-3Light";
   text-align: center;
   padding: 6px 10px;
   border-radius: 5px;
   overflow: hidden;
-  font-size: 20px;
 }
 
 .copyright {
