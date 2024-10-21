@@ -806,18 +806,16 @@ section h2 {
 }
 
 .works .work {
-  height: 510px;
+  height: 570px;
   min-width: 380px;
   margin-right: 15px;
   padding: 5px;
   border-radius: 5px;
   box-shadow: 5px 2px 10px #5645497a;
-  color: #fff;
 }
 
 .works .work img {
   width: 100%;
-  height: 340px;
   object-fit: cover;
   border-radius: 5px;
   object-position: top;
@@ -881,39 +879,37 @@ section h2 {
 }
 
 .work h3 {
-  font-size: 20px;
+  font-size: 24px;
   text-transform: capitalize;
   text-align: center;
   margin: 0 auto;
   display: block;
-  padding: 55px 10px 20px;
-  text-shadow: 1px 1px 1px #0000006b;
-  font-family: "Ubuntu";
-  letter-spacing: -0.02em;
+  padding: 60px 10px 20px;
+  letter-spacing: 0.04em;
 }
 
 .work.hapa-global {
-  background: linear-gradient(340deg, #a393cf85, #c093aa, #a9caeb)
+  background: linear-gradient(348deg, #aebbcb, #949aab, #7b808a);
 }
 
 .work.hapa-sg {
-  background: linear-gradient(340deg, #91884b9c, #837469, #292018);
+  background: linear-gradient(0deg, #151618, #2a374b, #8092af);
 }
 
 .work.hapa-jp {
-  background: linear-gradient(45deg, #8c8daa8c, #747e8b, #aeb5c6);
+  background: linear-gradient(45deg, #2b3439, #061723, #061824);
 }
 
 .work.hapa-tw {
-  background: linear-gradient(0deg, #7c7e74a8, #5c6666, #06111a);
+  background: linear-gradient(0deg, #0f1213, #0c0f10, #c5a599);
 }
 
 .work.hapa-kr {
-  background: linear-gradient(106deg, #b1957d26, #bdaa8f, #ad98a6b8);
+  background: linear-gradient(170deg, #e1e6ef, #e6e9f1, #e1e4ec);
 }
 
 .work.chuu-jp {
-  background: linear-gradient(40deg, #e2b96c8f, #c27453, #c5ab7a);
+  background: linear-gradient(180deg, #5c663e, #1e2711, #545726);
 }
 
 .work.hapa-sg img,
@@ -925,7 +921,7 @@ section h2 {
 }
 
 .work.chuu-tw {
-  background: linear-gradient(207deg, #8a9085, #7d8a47, #b89a8eb5);
+  background: linear-gradient(13deg, #eb954b, #9f2f1e, #b0a776);
 }
 
 .work.chuu-tw img {
@@ -933,15 +929,15 @@ section h2 {
 }
 
 .work.chuu-fashion {
-  background: linear-gradient(330deg, #ffea50a1, #e3c3a2b8, #cac0c52e);
+  background: linear-gradient(90deg, #cbc0c6, #d3cda3, #b9b599);
 }
 
 .work.gemhour {
-  background: linear-gradient(15deg, #767b77, #d2dbdb, #ffffff);
+  background: linear-gradient(0deg, #e3ebe5, #d6e5e5, #e6eaed);
 }
 
 .work.eotd-global {
-  background: linear-gradient(15deg, #483d46a8, #789aaa, #151b25)
+  background: linear-gradient(15deg, #b94146, #937a8e, #4f5e5c);
 }
 
 .work.eotd-global img {
@@ -949,7 +945,7 @@ section h2 {
 }
 
 .work.eotd-jp {
-  background: linear-gradient(300deg, #bcb3a5, #bfb5a6dc, #7d6c5a);
+  background: linear-gradient(300deg, #e3e3da, #958776, #7d6c5a);
 }
 
 .work.eotd-jp img {
@@ -959,18 +955,16 @@ section h2 {
 .work .content ul {
   margin: 0 10px;
   line-height: 1.3;
-  border-top: 1px solid #ffffff87;
-  padding: 15px 0;
+  padding: 10px 0;
 }
 
 .work .content li {
   list-style: none;
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 600;
   font-family: "S-CoreDream-3Light";
   padding-bottom: 10px;
   letter-spacing: 0.03em;
-  text-shadow: 1px 1px 2px #000000c4;
 }
 
 .contact-container {
