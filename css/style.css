@@ -370,7 +370,7 @@ section {
 }
 
 .timeline:before {
-  background: #171719;
+  background: #202026ed;
   content: "";
   margin-left: -3px;
   position: absolute;
@@ -386,6 +386,7 @@ section {
   list-style: none;
   left: 4em;
   padding: 1.1em 1em;
+  margin-top: 1.3em
 }
 
 .timeline-event:hover .timeline-event-icon {
@@ -412,16 +413,15 @@ section {
 }
 
 .timeline-event strong {
-  font-weight: 700;
-  letter-spacing: -0.05em;
+  letter-spacing: -0.02em;
   background: #fff;
   color: #000;
-  padding: 0.1em 0.7em;
+  padding: 0.15em 0.7em;
   display: block;
   width: fit-content;
   margin-top: 0.8em;
   border-radius: 20px;
-  font-size: 15px;
+  font-size: 17px;
 }
 
 .timeline-event p:not(.timeline-event-thumbnail) {
@@ -439,7 +439,7 @@ section {
   -ms-transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
-  background-color: #171719;
+  background-color: #202026ed;
   /* outline: 10px solid rgb(187 171 173 / 37%); */
   display: block;
   margin: 0.5em 0.5em 0.5em -0.5em;
@@ -459,13 +459,13 @@ section {
   transition: box-shadow 0.5s ease-in 0.1s;
   color: #fff;
   font-size: 0.75em;
-  background: #000000d1;
-  -moz-box-shadow: 2px 2px 10px #ffffff4a;
-  -webkit-box-shadow: 2px 2px 10px #ffffff4a;
-  box-shadow: 2px 2px 10px #ffffff4a;
+  background: #202026ed;
+  -moz-box-shadow: 1px 3px 6px #30385bcc;
+  -webkit-box-shadow: 1px 3px 6px #30385bcc;
+  box-shadow: 1px 3px 6px #30385bcc;
   display: inline-block;
   margin: -5px 0 5px;
-  padding: 1em 1.3em 1.4em;
+  padding: 1em 1.4em 1.4em;
   font-size: 16px;
   font-weight: 600;
   letter-spacing: 0.02em;
@@ -476,13 +476,13 @@ section {
 
 .timeline-event:nth-child(1) .timeline-title,
 .timeline-event:nth-child(2) .timeline-title {
-  width: 180px;
+  width: 200px;
 }
 
 .timeline-event:nth-child(3) .timeline-title,
 .timeline-event:nth-child(4) .timeline-title {
-  width: 350px;
-  padding: 1.15em 1.2em 1.4em;
+  width: 360px;
+  padding: 1.2em 1.4em 1.5em;
 }
 
 .timeline-event p:not(.timeline-title) {
@@ -497,12 +497,12 @@ section {
 }
 
 .timeline-event a {
-  background: #171719;
+  background: #000;
   color: #b5caff;
   border-radius: 3px;
   display: block;
   width: fit-content;
-  padding: 2px 10px;
+  padding: 4px 15px;
   line-height: 1.8;
   margin-bottom: 0.8em;
   margin-top: -0.3em;
@@ -520,7 +520,7 @@ section {
 }
 
 .timeline-event:nth-child(2) a:hover {
-  background-color: #4b9b7c;
+  background-color: #249fa3;
 }
 
 section:before {
