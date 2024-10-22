@@ -573,7 +573,7 @@ section h2 {
   height: 640px;
   min-width: 380px;
   margin-right: 15px;
-  padding: 2px;
+  padding: 1px;
   border-radius: 5px;
   box-shadow: 5px 2px 10px #5645497a;
 }
@@ -669,7 +669,7 @@ section h2 {
 }
 
 .work.chuu-jp {
-  background: linear-gradient(180deg, #5c663e, #1e2711, #575944);
+  background: linear-gradient(180deg, #908e5a, #7a8749, #c7ca95);
 }
 
 .work.hapa-sg img,
@@ -681,7 +681,7 @@ section h2 {
 }
 
 .work.chuu-tw {
-  background: linear-gradient(13deg, #eb954b, #9f2f1e, #b0a776);
+  background: linear-gradient(15deg, #f5b4a5, #c37a46, #b0a776);
 }
 
 .work.chuu-fashion {
@@ -689,15 +689,15 @@ section h2 {
 }
 
 .work.gemhour {
-  background: linear-gradient(172deg, #f7f6f6, #ff9be9, #c995e9);
+  background: linear-gradient(130deg, #f7f6f6, #ffa2eb, #d686df, #c995e9);
 }
 
 .work.eotd-jp {
-  background: linear-gradient(0deg, #ada0a0, #dbb1a6, #755857);
+  background: linear-gradient(0deg, #d7c4c3, #f7ddd3, #d0bec3);
 }
 
 .work.eotd-global {
-  background: linear-gradient(300deg, #438ba4, #b1aea9, #6693a6);
+  background: linear-gradient(300deg, #2582a3, #9bb2b3, #0097d5);
 }
 
 .work .content ul {
