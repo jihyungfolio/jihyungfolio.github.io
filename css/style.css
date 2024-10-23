@@ -639,7 +639,7 @@ section h2 {
 }
 
 .work h3 {
-  font-size: 24px;
+  font-size: 18px;
   text-transform: capitalize;
   text-align: center;
   margin: 0 auto;
@@ -649,19 +649,19 @@ section h2 {
 }
 
 .work.hapa-global {
-  background: linear-gradient(348deg, #aebbcb, #949aab, #7b808a);
+  background: linear-gradient(270deg, #abb5cf, #969bab, #989ead);
 }
 
 .work.hapa-sg {
-  background: linear-gradient(0deg, #151618, #2a374b, #8092af);
+  background: linear-gradient(0deg, #cfae9a, #ddcbbc, #ecd8c9);
 }
 
 .work.hapa-jp {
-  background: linear-gradient(45deg, #2b3439, #061723, #061824);
+  background: linear-gradient(0deg, #2b3439, #9da29e, #061824);
 }
 
 .work.hapa-tw {
-  background: linear-gradient(340deg, #e596c3, #c16693, #b9cfe4);
+  background: linear-gradient(340deg, #e596c3, #dd5080, #b9cfe4);
 }
 
 .work.hapa-kr {
@@ -697,7 +697,7 @@ section h2 {
 }
 
 .work.eotd-global {
-  background: linear-gradient(300deg, #2582a3, #9bb2b3, #0097d5);
+  background: linear-gradient(0deg, #67909d, #238399, #307091);
 }
 
 .work .content ul {
