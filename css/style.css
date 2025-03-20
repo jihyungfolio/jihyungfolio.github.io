@@ -339,7 +339,7 @@ section {
 }
 
 .pagination ul li.active {
-  background-color: rgb(215 151 160);
+  background-color: rgb(223 223 194);
 }
 
 /* .pagination ul li:nth-child(2).active {
