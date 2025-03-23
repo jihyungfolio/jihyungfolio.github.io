@@ -578,7 +578,7 @@ section h2 {
   object-position: center;
   height: 100%;
   opacity: 1;
-  transition: all 0.1s ease-in-out;
+  transition: all 1s ease-in-out;
 }
 
 
@@ -612,28 +612,37 @@ section h2 {
   line-height: 1.6;
   height: 26px;
   margin: 20px 80px;
-  margin-top: 200px;
+  margin-top: 215px;
 }
 
 .works .work.hapa-kr a .work-site .site-link {
-  background: linear-gradient(200deg, #ff3a6466, #6b5454a3, #ff87babf);
+  background: #000;
 }
 
 .works .work.hapa-global a .work-site .site-link {
-  background-color: #81778394;
+  background: linear-gradient(45deg, #b1a8caab, #cea4a4cf, #ffe3e3);
 }
 
 .works .work.hapa-jp a .work-site .site-link {
-  background-color: #cebeb4bf;
+  background: linear-gradient(230deg, #f3d3b59e, #abbebd8a, #75737c47);
 }
 
 .works .work.hapa-tw a .work-site .site-link {
-  background-color: #a3abc2c7;
+  background: linear-gradient(160deg, #e9decdb3, #ce98a7b5, #9287ddba);
+}
+
+.works .work.hapa-kr a .work-site .site-link {
+  background: linear-gradient(200deg, #b06e48d8, #b06f6fc3, #864d4ced);
+}
+
+.works .work.chuu-jp a .work-site .site-link {
+  background: linear-gradient(210deg, #afb28f57, #bc8d4152, #c6a8a147);
 }
 
 
 .works .work a .work-site .site-link:hover {
   background: #000;
+  transition: all 1s ease-in-out;
 }
 
 
@@ -698,60 +707,65 @@ section h2 {
   filter: saturate(1.6);
 }
 
-.work.hapa-global {
-  background: linear-gradient(270deg, #e7e9e3e0, #dedae1d9, #a99ca3);
+.work.hapa-global .content {
+  background: linear-gradient(240deg, #f8d7d7bd, #e6dfe7e6, #c7c6d5, #c1c0d2);
 }
 
 .work.hapa-global a .work-site {
-  background-image: url(../images/hapakristin-global-b.png);
+  background-image: linear-gradient(266deg, #c3c2d1, #c2c1d1cc, #c5c4d321, #d4d3e38a), url(../images/hapakristin-global-b.png);
   background-size: cover;
 }
 
-.work.hapa-sg {
-  background: linear-gradient(0deg, #d7bfb0, #8b8562, #9e806c);
+.work.hapa-sg .content {
+  background: linear-gradient(270deg, #eae6dc, #ecedfad1, #dadcea, #c6c4d2);
 }
 
 .work.hapa-sg a .work-site {
-  background-image: url(../images/hapakristin-sg-b.png);
+  background-image: linear-gradient(74deg, #54818f9c, #c3bef23d, #e3e4e0), url(../images/hapakristin-sg-b.jpg);
   background-size: cover;
 }
 
-.work.hapa-jp {
-  background: linear-gradient(27deg, #f1d3d3, #d8cdc6, #fff7f3b8);
+.work.hapa-jp .content {
+  background: linear-gradient(135deg, #011616, #030712d9, #003129db, #9e7b67f5);
+  color: #fff;
 }
 
 .work.hapa-jp a .work-site {
-  background-image: url(../images/hapakristin-jp-b.png);
+  background-image: url(../images/hapakristin-jp-b.jpg);
   background-size: cover;
 }
 
-.work.hapa-tw {
-  background: linear-gradient(340deg, #abb6c89c, #f3f6ffe6, #dfe6f0);
+.work.hapa-tw .content {
+  background: linear-gradient(270deg, #ffe1f5e6, #fff0f5, #fff4f8, #f1e6ef);
 }
 
 .work.hapa-tw a .work-site {
-  background-image: url(../images/hapakristin-tw-b.png);
+  background-image: linear-gradient(90deg, #e3c0d5a3, #dac5b712, #f7dad852, #f1e7ef), url(../images/hapakristin-tw-b.png);
   background-size: cover;
 }
 
 .work.hapa-kr .content {
-  background: linear-gradient(240deg, #efd3d3e6, #fff8f4ed, #fffdf6e3, #e7d1cb);
-}
-
-.work.hapa-global a img {
-  filter: brightness(1.11)
+  background: linear-gradient(45deg, #f0bca2, #a06e5ff2, #4e2d1ceb, #140b09);
+  color: #fff;
 }
 
 .work.hapa-kr a .work-site {
-  background: linear-gradient(240deg, #917668e6, #c6aca9, #ffe6df96);
+  background-image: linear-gradient(300deg, #d8b6a9, #ffdabd1e, #ffcece8f), url(../images/hapakristin-kr-b.jpg);
+  background-size: cover;
 }
 
-.work.chuu-jp {
-  background: linear-gradient(180deg, #908e5a, #7a8749, #c7ca95);
+.work.chuu-jp .content {
+  background: linear-gradient(143deg, #6a5c4a, #433f2deb, #535540f5, #47582bcf);
+  color: #fff;
 }
 
-.work.chuu-tw {
-  background: linear-gradient(95deg, #bf8844, #cf8767, #ab7454);
+.work.chuu-jp a .work-site {
+  background-image: linear-gradient(240deg, #2b1b01, #376a2e4d, #e8ff8d3d, #e4eaa352, #4323024f, #14250157), url(../images/chuulens-jp-b.jpg);
+  background-size: cover;
+}
+
+.work.chuu-tw .content {
+  background: linear-gradient(95deg, #fcf8d6cf, #fff9b9bf, #f6d5a1e8, #eec182e0, #efa372);
 }
 
 .work.chuu-fashion {
