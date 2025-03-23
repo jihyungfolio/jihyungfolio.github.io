@@ -31,7 +31,7 @@ section {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  font-size: 112px;
+  font-size: 600%;
   color: #151515f3;
   text-shadow: 1px 3px 6px #30385bcc;
   letter-spacing: -0.04em;
@@ -451,7 +451,7 @@ section {
   display: block;
   width: fit-content;
   border-radius: 20px;
-  font-size: 20px;
+  font-size: 120%;
 }
 
 .timeline-event:before {
@@ -499,7 +499,6 @@ section {
   text-shadow: 5px 2px 10px #ffffff41;
   display: inline-block;
   padding: 7px 15px 10px 20px;
-  font-size: 16px;
   letter-spacing: 0.02em;
 }
 
@@ -544,16 +543,14 @@ section h2 {
 }
 
 .works-container {
-  border-radius: 20px;
   height: 80vh;
   left: 50px;
   position: relative;
-  margin-top: 20px;
 }
 
 .works {
   display: flex;
-  top: 50%;
+  top: 53%;
   transform: translateY(-50%);
   flex-wrap: nowrap;
   white-space: nowrap;
@@ -562,45 +559,83 @@ section h2 {
 }
 
 .works .work {
-  height: 550px;
-  min-width: 380px;
-  margin-right: 30px;
-  border-radius: 5px;
+  height: 480px;
+  margin-right: 60px;
+  display: flex;
+  box-shadow: 1px 3px 2px #30385b21;
+  border-radius: 10px;
 }
 
 .works .work a {
-  display: block;
+  width: 370px;
+  border-radius: 10px 0 0 10px;
+  overflow: hidden;
 }
 
-.works .work a .site-link {
-  display: none;
-  position: absolute;
-  background: linear-gradient(45deg, #83a4da, #245b3f, #342c4d, rgb(255 174 255));
-
-  color: #fff;
-  margin-left: 50px;
-  margin-top: -175px;
-  padding: 7px 20px;
-  border-radius: 10px;
-  transform: translateX(50%);
-}
-
-.works .work a:hover img {
-  opacity: 0.5;
-  filter: brightness(1.1) contrast(0.3) saturate(1.4);
-}
-
-.works .work a:hover .site-link {
-  display: block;
-}
-
-.works .work img {
+.works .work a img {
   width: 100%;
   object-fit: cover;
-  border-radius: 5px;
   object-position: center;
-  height: 300px;
+  height: 100%;
+  opacity: 1;
+  transition: all 0.1s ease-in-out;
 }
+
+
+.works .work a:hover img {
+  opacity: 0;
+  transition: all 1s ease-in-out;
+}
+
+.works .work a .work-site {
+  opacity: 0;
+  background-color: #fff;
+  width: 370px;
+  position: absolute;
+  background-position: center;
+  height: 100%;
+  transition: all 1s ease-in-out;
+  top: 0;
+}
+
+
+.works .work a:hover .work-site {
+  opacity: 1;
+  border-radius: 10px 0 0 10px;
+  overflow: hidden;
+}
+
+.works .work a .work-site .site-link {
+  color: #fff;
+  padding: 7px 10px;
+  border-radius: 20px;
+  line-height: 1.6;
+  height: 26px;
+  margin: 20px 80px;
+  margin-top: 200px;
+}
+
+.works .work.hapa-kr a .work-site .site-link {
+  background: linear-gradient(200deg, #ff3a6466, #6b5454a3, #ff87babf);
+}
+
+.works .work.hapa-global a .work-site .site-link {
+  background-color: #81778394;
+}
+
+.works .work.hapa-jp a .work-site .site-link {
+  background-color: #cebeb4bf;
+}
+
+.works .work.hapa-tw a .work-site .site-link {
+  background-color: #a3abc2c7;
+}
+
+
+.works .work a .work-site .site-link:hover {
+  background: #000;
+}
+
 
 .works .work .hapa-logo {
   position: relative;
@@ -649,8 +684,6 @@ section h2 {
   margin: 0;
 }
 
-.work .content {}
-
 .work h3 {
   font-size: 18px;
   text-transform: capitalize;
@@ -661,36 +694,56 @@ section h2 {
   font-family: "DaeguCatholicUniversity";
 }
 
-.work.hapa-sg img,
-.work.hapa-jp img,
-.work.chuu-jp img,
-.work.chuu-tw img,
-.work.gemhour img {
-  object-position: center;
-}
-
 .work.gemhour img {
   filter: saturate(1.6);
 }
 
 .work.hapa-global {
-  background: linear-gradient(270deg, #abb5cf, #969bab, #989ead);
+  background: linear-gradient(270deg, #e7e9e3e0, #dedae1d9, #a99ca3);
+}
+
+.work.hapa-global a .work-site {
+  background-image: url(../images/hapakristin-global-b.png);
+  background-size: cover;
 }
 
 .work.hapa-sg {
   background: linear-gradient(0deg, #d7bfb0, #8b8562, #9e806c);
 }
 
+.work.hapa-sg a .work-site {
+  background-image: url(../images/hapakristin-sg-b.png);
+  background-size: cover;
+}
+
 .work.hapa-jp {
-  background: linear-gradient(0deg, #717f5f, #a7adab, #061824);
+  background: linear-gradient(27deg, #f1d3d3, #d8cdc6, #fff7f3b8);
+}
+
+.work.hapa-jp a .work-site {
+  background-image: url(../images/hapakristin-jp-b.png);
+  background-size: cover;
 }
 
 .work.hapa-tw {
-  background: linear-gradient(340deg, #e596c3, #efc5da, #e4c9d5);
+  background: linear-gradient(340deg, #abb6c89c, #f3f6ffe6, #dfe6f0);
 }
 
-.work.hapa-kr {
-  background: linear-gradient(170deg, #e1e6ef, #e6e9f1, #e1e4ec);
+.work.hapa-tw a .work-site {
+  background-image: url(../images/hapakristin-tw-b.png);
+  background-size: cover;
+}
+
+.work.hapa-kr .content {
+  background: linear-gradient(240deg, #efd3d3e6, #fff8f4ed, #fffdf6e3, #e7d1cb);
+}
+
+.work.hapa-global a img {
+  filter: brightness(1.11)
+}
+
+.work.hapa-kr a .work-site {
+  background: linear-gradient(240deg, #917668e6, #c6aca9, #ffe6df96);
 }
 
 .work.chuu-jp {
@@ -717,25 +770,31 @@ section h2 {
   background: linear-gradient(0deg, #d0dfd1, #007893, #307091);
 }
 
+.work .content {
+  padding: 50px;
+  border-radius: 0 10px 10px 0;
+}
+
 .work .content ul {
   line-height: 1.7;
-  padding: 17px 10px 10px;
-  margin: 0 4px;
 }
 
 .work .content li {
   list-style: none;
-  font-size: 16px;
+  font-size: 17px;
   padding-bottom: 10px;
   font-family: "Hahmlet-Regular";
 }
 
 .work .content li label {
-  border-radius: 20px;
   padding: 2px 8px;
+  width: 100%;
+  display: block;
 }
 
-.work .content li label:first-child {}
+.work .content li label:first-child {
+  font-size: 12px;
+}
 
 .skills-container {
   width: 1020px;
@@ -889,10 +948,25 @@ section h2 {
   .pagination ul li {}
 
   #main h1 {
-    font-size: 36px;
+    font-size: 180%;
   }
 
   section h2 {
-    font-size: 30px;
+    font-size: 170%;
+  }
+
+
+  .timeline {
+    top: 40%;
+    max-width: 75%;
+    margin: 5%;
+  }
+
+  .timeline-event .career-title {
+    font-size: 90%;
+  }
+
+  .timeline-event p span {
+    font-size: 80%
   }
 }
