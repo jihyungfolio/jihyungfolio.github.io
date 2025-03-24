@@ -615,10 +615,6 @@ section h2 {
   margin-top: 215px;
 }
 
-.works .work.hapa-kr a .work-site .site-link {
-  background: #000;
-}
-
 .works .work.hapa-global a .work-site .site-link {
   background: linear-gradient(45deg, #b1a8caab, #cea4a4cf, #ffe3e3);
 }
@@ -628,15 +624,23 @@ section h2 {
 }
 
 .works .work.hapa-tw a .work-site .site-link {
-  background: linear-gradient(160deg, #e9decdb3, #ce98a7b5, #9287ddba);
+  background: linear-gradient(175deg, #e9decdb3, #5a470d42, #e0984a85);
 }
 
 .works .work.hapa-kr a .work-site .site-link {
-  background: linear-gradient(200deg, #b06e48d8, #b06f6fc3, #864d4ced);
+  background: linear-gradient(200deg, #a88775b3, #bd949470, #dfcdb88f);
+}
+
+.works .work.hapa-sg a .work-site .site-link {
+  background: linear-gradient(290deg, #fccae057, #dfb89691, #eabbd147);
 }
 
 .works .work.chuu-jp a .work-site .site-link {
   background: linear-gradient(210deg, #afb28f57, #bc8d4152, #c6a8a147);
+}
+
+.works .work.chuu-tw a .work-site .site-link {
+  background: linear-gradient(95deg, #fcf8d6cf, #fff9b94d, #f6d5a167, #eec182e0, #efa47244);
 }
 
 
@@ -708,49 +712,49 @@ section h2 {
 }
 
 .work.hapa-global .content {
-  background: linear-gradient(240deg, #f8d7d7bd, #e6dfe7e6, #c7c6d5, #c1c0d2);
+  background: linear-gradient(270deg, #edd9e4, #f5dbe8, #f5d0df, #eabecf);
 }
 
 .work.hapa-global a .work-site {
-  background-image: linear-gradient(266deg, #c3c2d1, #c2c1d1cc, #c5c4d321, #d4d3e38a), url(../images/hapakristin-global-b.png);
+  background-image: linear-gradient(270deg, #eabecf, #c8879d26, #4a49540d, #de82af82), url(../images/hapakristin-global-b.png);
   background-size: cover;
 }
 
 .work.hapa-sg .content {
-  background: linear-gradient(270deg, #eae6dc, #ecedfad1, #dadcea, #c6c4d2);
+  background: linear-gradient(270deg, #f7e5e9, #e7dceaf0, #dbd9e7, #d1cfdd, #c6c4d2);
 }
 
 .work.hapa-sg a .work-site {
-  background-image: linear-gradient(74deg, #54818f9c, #c3bef23d, #e3e4e0), url(../images/hapakristin-sg-b.jpg);
+  background-image: linear-gradient(270deg, #c7c5d3, #c8c6d4, #3733642b, #a9a2bf4d, #cabfc366, #f7e6eb), url(../images/hapakristin-sg-b.jpg);
   background-size: cover;
 }
 
 .work.hapa-jp .content {
-  background: linear-gradient(135deg, #011616, #030712d9, #003129db, #9e7b67f5);
+  background: linear-gradient(135deg, #000606, #030712f0, #1d2d2aed, #605955);
   color: #fff;
 }
 
 .work.hapa-jp a .work-site {
-  background-image: url(../images/hapakristin-jp-b.jpg);
+  background-image: linear-gradient(180deg, #000606, #f4ffde12, #52716c12, #6c5b3540, transparent), url(../images/hapakristin-jp-b.jpg);
   background-size: cover;
 }
 
 .work.hapa-tw .content {
-  background: linear-gradient(270deg, #ffe1f5e6, #fff0f5, #fff4f8, #f1e6ef);
+  background: linear-gradient(95deg, #dfe4ed, #ebf1fa, #ebf1fa, #f0f5fa, #f7f7f6, #fcf5edcc);
 }
 
 .work.hapa-tw a .work-site {
-  background-image: linear-gradient(90deg, #e3c0d5a3, #dac5b712, #f7dad852, #f1e7ef), url(../images/hapakristin-tw-b.png);
+  background-image: linear-gradient(90deg, #b19a7aa3, #dac5b712, #aeb3c317, #e2e7f0), url(../images/hapakristin-tw-b.jpg);
   background-size: cover;
 }
 
 .work.hapa-kr .content {
-  background: linear-gradient(45deg, #f0bca2, #a06e5ff2, #4e2d1ceb, #140b09);
+  background: linear-gradient(270deg, #302620e6, #493931ed, #5b4b45f5, #78615c);
   color: #fff;
 }
 
 .work.hapa-kr a .work-site {
-  background-image: linear-gradient(300deg, #d8b6a9, #ffdabd1e, #ffcece8f), url(../images/hapakristin-kr-b.jpg);
+  background-image: linear-gradient(90deg, #5a342999, #7055472b, #7f594e30, #5f3c3245, #79645ed4, #78615c), url(../images/hapakristin-kr-b.jpg);
   background-size: cover;
 }
 
@@ -765,7 +769,12 @@ section h2 {
 }
 
 .work.chuu-tw .content {
-  background: linear-gradient(95deg, #fcf8d6cf, #fff9b9bf, #f6d5a1e8, #eec182e0, #efa372);
+  background: linear-gradient(95deg, #fcf8d6cf, #fff6cce3, #f6d5a1e8, #eec182e0, #efa372);
+}
+
+.work.chuu-tw a .work-site {
+  background-image: linear-gradient(252deg, #fff7ccdb, #fffaceb5, #f5ff9b26, #c2a06d3d, #d0b579c4), url(../images/chuulens-tw-b.png);
+  background-size: cover;
 }
 
 .work.chuu-fashion {
@@ -787,6 +796,7 @@ section h2 {
 .work .content {
   padding: 50px;
   border-radius: 0 10px 10px 0;
+  margin-left: -1px;
 }
 
 .work .content ul {
