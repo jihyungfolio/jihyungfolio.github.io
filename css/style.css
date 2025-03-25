@@ -13,8 +13,6 @@ body {
 
 .container {
   height: auto;
-  background-image: url(../images/background5.png);
-  background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
@@ -347,11 +345,11 @@ section {
 }
 
 .pagination ul li:nth-child(3).active {
-  background-color: #ff7bad;
+  background-color: #bcc4b0;
 }
 
 .pagination ul li:nth-child(4).active {
-  background-color: #7b90ff;
+  background-color: #e4ccd1;
 }
 
 #career .table {
@@ -732,7 +730,7 @@ section h2 {
 }
 
 .work.hapa-global .content {
-  background: linear-gradient(270deg, #ffa5bd, #ffbed2, #ffc5dc, #eabecf);
+  background: linear-gradient(270deg, #ffcdd799, #ffdbe6e0, #f9d1e0, #eabecf);
 }
 
 .work.hapa-global a .work-site {
@@ -800,7 +798,7 @@ section h2 {
 }
 
 .work.chuu-fashion {
-  background: linear-gradient(270deg, #e5ff1c, #fffc71, #fff6a0eb, #e3ecc3, #f6ffd5);
+  background: linear-gradient(270deg, #beef4bf5, #cee774, #c5cf53, #a2ab7b);
 }
 
 .work.chuu-fashion a .work-site {
@@ -814,7 +812,7 @@ section h2 {
 }
 
 .work.chuumade-fashion .content {
-  background: linear-gradient(270deg, #1a201acc, #121311e3, #131d16eb, #10160cf2, #050606);
+  background: linear-gradient(270deg, #0a100a, #0e181b, #131d16eb, #10160cf2, #050606);
   color: #fff;
 }
 
@@ -833,19 +831,19 @@ section h2 {
 }
 
 .work.eotd-global a .work-site {
-  background-image: linear-gradient(90deg, #717f9861, #110e1100, #f7f6f3), url(../images/eotd-b.jpg);
+  background-image: linear-gradient(90deg, #717f9861, #110e1100, #f7f6f3), url(../images/eotd-b.png);
   background-size: cover;
   background-position: right;
 }
 
 
 .work.eotd-jp .content {
-  background: linear-gradient(0deg, #1b1216, #110e11f2, #110e0ceb);
+  background: linear-gradient(88deg, #000, #1b1216, #110e11f2, #0e0b09bd);
   color: #fff;
 }
 
 .work.eotd-jp a .work-site {
-  background-image: linear-gradient(90deg, #9c80799e, #110e1100, #1c161b), url(../images/eotd-jp-b.png);
+  background-image: linear-gradient(90deg, #9c80799e, #110e1100, #010101), url(../images/eotd-jp-b.png);
   background-size: cover;
 }
 
@@ -880,10 +878,13 @@ section h2 {
 }
 
 .skills-container {
-  width: 1020px;
+  width: 80vw;
   margin: 0 auto;
-  background: #ffffff5e;
-  border-radius: 25px;
+  background: linear-gradient(45deg, #ffe7eabf 0%, rgba(225, 5, 34, 0) 70%), linear-gradient(135deg, #cec1fda1 10%, rgba(49, 5, 209, 0) 80%), linear-gradient(225deg, #e2fffec9 10%, rgba(10, 219, 216, 0) 80%), linear-gradient(315deg, #e4f8e48f 100%, rgba(9, 245, 5, 0) 70%);
+  border-radius: 20px;
+  box-shadow: 1px 3px 2px #30385b21;
+  transform: translateY(15%);
+  position: relative;
 }
 
 .skills-container .skills-image {
@@ -938,12 +939,11 @@ section h2 {
 }
 
 .skills-text {
-  width: 880px;
+  width: 80%;
   margin: 0 auto;
-  padding: 50px;
 }
 
-.skills-text p {
+.skills-text .skills-details {
   font-size: 14px;
   font-weight: 600;
   line-height: 2;
