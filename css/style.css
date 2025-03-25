@@ -589,7 +589,6 @@ section h2 {
 
 .works .work a .work-site {
   opacity: 0;
-  background-color: #fff;
   width: 370px;
   position: absolute;
   background-position: center;
@@ -800,13 +799,12 @@ section h2 {
   background-size: cover;
 }
 
-.work.chuu-fashion .content {
-  background: linear-gradient(270deg, #50313c, #39252eeb, #362f36);
-  color: #fff;
+.work.chuu-fashion {
+  background: linear-gradient(270deg, #e5ff1c, #fffc71, #fff6a0eb, #e3ecc3, #f6ffd5);
 }
 
 .work.chuu-fashion a .work-site {
-  background-image: linear-gradient(90deg, #5a1e3715, #36203b31), url(../images/chuu-fashion-b.png);
+  background-image: url(../images/chuu-fashion-b.png);
   background-size: cover;
 }
 
@@ -901,7 +899,7 @@ section h2 {
   flex-grow: 0;
   text-align: center;
   word-wrap: break-word;
-  padding: 0 5px;
+  padding: 0 2px;
 }
 
 .skills-container .skills-image .skill:nth-child(1) span {
