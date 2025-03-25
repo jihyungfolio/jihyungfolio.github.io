@@ -613,6 +613,8 @@ section h2 {
   height: 26px;
   margin: 20px 80px;
   margin-top: 215px;
+  backdrop-filter: blur(4px);
+  opacity: 0.95;
 }
 
 .works .work.hapa-global a .work-site .site-link {
@@ -628,19 +630,19 @@ section h2 {
 }
 
 .works .work.hapa-kr a .work-site .site-link {
-  background: linear-gradient(200deg, #a88775b3, #bd949470, #dfcdb88f);
+  background: linear-gradient(300deg, #ffffff3d, #e9d9ca45, #55442b2e, #ffe7f1ad);
 }
 
 .works .work.hapa-sg a .work-site .site-link {
-  background: linear-gradient(290deg, #fccae057, #dfb89691, #eabbd147);
+  background: linear-gradient(290deg, #f5905373, #b29a884d, #eabbd145);
 }
 
 .works .work.chuu-jp a .work-site .site-link {
-  background: linear-gradient(210deg, #afb28f57, #bc8d4152, #c6a8a147);
+  background: linear-gradient(210deg, #ffe0e357, #d7962d85, #c6a7a194);
 }
 
 .works .work.chuu-tw a .work-site .site-link {
-  background: linear-gradient(95deg, #fcf8d6cf, #fff9b94d, #f6d5a167, #eec182e0, #efa47244);
+  background: linear-gradient(95deg, #986f5a4d, #d4b78a52, #dcbeb447, #bfb19d6e, #efa47244);
 }
 
 .works .work.chuu-fashion a .work-site .site-link {
@@ -731,7 +733,7 @@ section h2 {
 }
 
 .work.hapa-global .content {
-  background: linear-gradient(270deg, #edd9e4, #f5dbe8, #f5d0df, #eabecf);
+  background: linear-gradient(270deg, #ffa5bd, #ffbed2, #ffc5dc, #eabecf);
 }
 
 .work.hapa-global a .work-site {
@@ -739,8 +741,9 @@ section h2 {
   background-size: cover;
 }
 
-.work.hapa-sg .content {
-  background: linear-gradient(270deg, #f7e5e9, #e7dceaf0, #dbd9e7, #d1cfdd, #c6c4d2);
+.work.hapa-sg {
+  background: linear-gradient(280deg, #051007, #25240fed, #6b6a52, #b5af8e, #efece6, #fff9ed);
+  color: #fff;
 }
 
 .work.hapa-sg a .work-site {
@@ -754,54 +757,56 @@ section h2 {
 }
 
 .work.hapa-jp a .work-site {
-  background-image: linear-gradient(180deg, #000606, #f4ffde12, #52716c12, #6c5b3540, transparent), url(../images/hapakristin-jp-b.jpg);
+  background-image: linear-gradient(247deg, #060808, #252d3191, #52716c12, #6c5b3540, transparent), url(../images/hapakristin-jp-b.jpg);
   background-size: cover;
 }
 
 .work.hapa-tw .content {
-  background: linear-gradient(95deg, #dfe4ed, #ebf1fa, #ebf1fa, #f0f5fa, #f7f7f6, #fcf5edcc);
+  background: linear-gradient(4deg, #41355a, #5b4978, #655973, #5b5268, #15133d);
+  color: #fff;
 }
 
 .work.hapa-tw a .work-site {
-  background-image: linear-gradient(90deg, #b19a7aa3, #dac5b712, #aeb3c317, #e2e7f0), url(../images/hapakristin-tw-b.jpg);
+  background-image: linear-gradient(0deg, #41355a, #5c4c758a, #b7a9cc47, #f2e8e600, #eae8fe52, #1d182f), url(../images/hapakristin-tw-b.png);
   background-size: cover;
 }
 
 .work.hapa-kr .content {
-  background: linear-gradient(270deg, #302620e6, #493931ed, #5b4b45f5, #78615c);
+  background: linear-gradient(270deg, #2d1e1b, #7d5247, #936655, #ab8579, #d7bcb3e0);
   color: #fff;
 }
 
 .work.hapa-kr a .work-site {
-  background-image: linear-gradient(90deg, #5a342999, #7055472b, #7f594e30, #5f3c3245, #79645ed4, #78615c), url(../images/hapakristin-kr-b.jpg);
+  background-image: linear-gradient(90deg, #835d53b5, #f7fffea8, #f5f2ff73, #d1a59845, #d8c0b27d, #d7bcb2), url(../images/hapakristin-kr-b.jpg);
   background-size: cover;
 }
 
 .work.chuu-jp .content {
-  background: linear-gradient(143deg, #6a5c4a, #433f2deb, #535540f5, #47582bcf);
+  background: linear-gradient(45deg, #daa160, #d89a5cf0, #dda25bf2, #dc9f5d, #cc5d41e6);
   color: #fff;
 }
 
 .work.chuu-jp a .work-site {
-  background-image: linear-gradient(240deg, #2b1b01, #376a2e4d, #e8ff8d3d, #e4eaa352, #4323024f, #14250157), url(../images/chuulens-jp-b.jpg);
+  background-image: linear-gradient(90deg, transparent, transparent, #dcc05857, #d9a066), url(../images/chuulens-jp-b.png);
   background-size: cover;
 }
 
 .work.chuu-tw .content {
-  background: linear-gradient(95deg, #fcf8d6cf, #fff6cce3, #f6d5a1e8, #eec182e0, #efa372);
+  background: linear-gradient(0deg, #e4cdc5, #e6cac1, #e9ccc4, #e4c8be, #e1c3b8);
 }
 
 .work.chuu-tw a .work-site {
-  background-image: linear-gradient(252deg, #fff7ccdb, #fffaceb5, #f5ff9b26, #c2a06d3d, #d0b579c4), url(../images/chuulens-tw-b.png);
+  background-image: linear-gradient(210deg, #e1c3b7, #e2c5bac7, #e6cbc280, #e5cbc3, #411a0a5e), url(../images/chuulens-tw-b.png);
   background-size: cover;
 }
 
-.work.chuu-fashion {
-  background: #ffbad7;
+.work.chuu-fashion .content {
+  background: linear-gradient(270deg, #50313c, #39252eeb, #362f36);
+  color: #fff;
 }
 
 .work.chuu-fashion a .work-site {
-  background-image: linear-gradient(95deg, #ffe10f54, #6c424236, #ffa1e21c, #91bfde54, #ffbad7eb, #ffbad7), url(../images/chuu-fashion-b.jpg);
+  background-image: linear-gradient(90deg, #5a1e3715, #36203b31), url(../images/chuu-fashion-b.png);
   background-size: cover;
 }
 
@@ -851,7 +856,8 @@ section h2 {
 .work .content {
   padding: 50px;
   border-radius: 0 10px 10px 0;
-  margin-left: -1px;
+  margin-left: -2px;
+  z-index: 1;
 }
 
 .work .content ul {
