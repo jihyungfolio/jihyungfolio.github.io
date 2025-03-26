@@ -557,7 +557,7 @@ section h2 {
 }
 
 .works .work {
-  height: 480px;
+  height: 420px;
   margin-right: 60px;
   display: flex;
   box-shadow: 1px 3px 2px #30385b21;
@@ -565,7 +565,7 @@ section h2 {
 }
 
 .works .work a {
-  width: 370px;
+  width: 320px;
   border-radius: 10px 0 0 10px;
   overflow: hidden;
 }
@@ -587,7 +587,7 @@ section h2 {
 
 .works .work a .work-site {
   opacity: 0;
-  width: 370px;
+  width: 320px;
   position: absolute;
   background-position: center;
   height: 100%;
@@ -609,7 +609,7 @@ section h2 {
   line-height: 1.6;
   height: 26px;
   margin: 20px 80px;
-  margin-top: 215px;
+  margin-top: 180px;
   backdrop-filter: blur(4px);
   opacity: 0.95;
 }
@@ -729,17 +729,17 @@ section h2 {
   filter: saturate(1.6);
 }
 
-.work.hapa-global .content {
-  background: linear-gradient(270deg, #ffdfe6, #f9d1e0, #eabecf);
+.work.hapa-global {
+  background: linear-gradient(270deg, #e8cbd6, #edc1d4, #d1a8b8);
 }
 
 .work.hapa-global a .work-site {
-  background-image: linear-gradient(270deg, #eabecf, #c8879d26, #4a49540d, #de82af82), url(../images/hapakristin-global-b.png);
+  background-image: linear-gradient(90deg, #ae859445, #e4c0ce00, #e1bcca), url(../images/hapakristin-global-b.png);
   background-size: cover;
 }
 
 .work.hapa-sg {
-  background: linear-gradient(280deg, #051007, #25240fed, #6b6a52, #b5af8e, #efece6, #fff9ed);
+  background: linear-gradient(280deg, #000, #27292d, #303339, #000);
   color: #fff;
 }
 
@@ -748,23 +748,23 @@ section h2 {
   background-size: cover;
 }
 
-.work.hapa-jp .content {
-  background: linear-gradient(274deg, #0c2121, #030712f0, #02090f);
-  color: #fff;
+.work.hapa-jp {
+  background: linear-gradient(90deg, #e8cad5, #d8ecf3);
 }
 
 .work.hapa-jp a .work-site {
-  background-image: linear-gradient(247deg, #060808, #252d3191, #52716c12, #6c5b3540, transparent), url(../images/hapakristin-jp-b.jpg);
+  background-image: url(../images/hapakristin-jp-b.png);
   background-size: cover;
+  background-position: left;
 }
 
-.work.hapa-tw .content {
-  background: linear-gradient(4deg, #41355a, #5b4978, #655973, #5b5268, #15133d);
+.work.hapa-tw {
+  background: linear-gradient(90deg, #312325, #291919, #000000);
   color: #fff;
 }
 
 .work.hapa-tw a .work-site {
-  background-image: linear-gradient(0deg, #41355a, #5c4c758a, #b7a9cc47, #f2e8e600, #eae8fe52, #1d182f), url(../images/hapakristin-tw-b.png);
+  background-image: url(../images/hapakristin-tw-b.png);
   background-size: cover;
 }
 
@@ -799,7 +799,7 @@ section h2 {
 }
 
 .work.chuu-fashion {
-  background: linear-gradient(90deg, #000000, #000000, #11110f, #090808, #231e14, #2b2512, #000);
+  background: linear-gradient(90deg, #000000, #000000, #191911, #090808, #211d14, #1e190a, #000);
   color: #fff;
 }
 
