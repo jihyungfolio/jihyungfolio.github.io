@@ -560,12 +560,12 @@ section h2 {
   height: 420px;
   margin-right: 60px;
   display: flex;
-  box-shadow: 1px 3px 2px #30385b21;
+  box-shadow: 12px 7px 15px #aab6ed7a;
   border-radius: 10px;
 }
 
 .works .work a {
-  width: 320px;
+  width: 340px;
   border-radius: 10px 0 0 10px;
   overflow: hidden;
 }
@@ -587,7 +587,7 @@ section h2 {
 
 .works .work a .work-site {
   opacity: 0;
-  width: 320px;
+  width: 340px;
   position: absolute;
   background-position: center;
   height: 100%;
@@ -615,7 +615,8 @@ section h2 {
 }
 
 .works .work.hapa-global a .work-site .site-link {
-  background: linear-gradient(45deg, #b1a8caab, #cea4a4cf, #ffe3e3);
+  background: linear-gradient(270deg, #07080fd9, #0a0f18cf, #000, #000000, #000000f5);
+  color: #fff;
 }
 
 .works .work.hapa-jp a .work-site .site-link {
@@ -737,7 +738,6 @@ section h2 {
 .work.hapa-global a .work-site {
   background-image: url(../images/hk-global-b.png);
   background-size: cover;
-  background-position: right;
 }
 
 .work.hapa-sg {
@@ -752,18 +752,18 @@ section h2 {
 }
 
 .work.hapa-jp {
-  background: linear-gradient(90deg, #000, #000, #312c2c);
+  background: linear-gradient(90deg, #000, #000000, #0b1315d6);
   color: #fff;
 }
 
 .work.hapa-jp a .work-site {
   background-image: url(../images/hk-jp-b.png);
   background-size: cover;
-  background-position: left;
+  background-position: 80%;
 }
 
 .work.hapa-tw {
-  background: linear-gradient(90deg, #312325, #251512, #1d1717, #000000);
+  background: linear-gradient(90deg, #312325, #000000, #1d1411de, #180b0b);
   color: #fff;
 }
 
@@ -860,6 +860,7 @@ section h2 {
   border-radius: 0 10px 10px 0;
   margin-left: -2px;
   z-index: 1;
+  min-width: 380px;
 }
 
 .work .content ul {
