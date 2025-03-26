@@ -623,7 +623,7 @@ section h2 {
 }
 
 .works .work.hapa-tw a .work-site .site-link {
-  background: linear-gradient(175deg, #e9decdb3, #5a470d42, #e0984a85);
+  background: linear-gradient(175deg, #e9decdb3, #5a0d4442, #eda7de85);
 }
 
 .works .work.hapa-kr a .work-site .site-link {
@@ -739,7 +739,7 @@ section h2 {
 }
 
 .work.hapa-sg {
-  background: linear-gradient(280deg, #000, #27292d, #303339, #000);
+  background: linear-gradient(270deg, #000, #221a25f5, #242027, #393535, #614e5a, #594755);
   color: #fff;
 }
 
