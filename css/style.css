@@ -730,13 +730,14 @@ section h2 {
 }
 
 .work.hapa-global {
-  background: linear-gradient(270deg, #000000, #000000, #2a2020, #5e5356f5);
+  background: linear-gradient(270deg, #000000, #000000, #0c0c10, #5e5356f5);
   color: #fff;
 }
 
 .work.hapa-global a .work-site {
-  background-image: linear-gradient(90deg, #ae859445, #e4c0ce00, #e1bcca), url(../images/hk-global-b.png);
+  background-image: url(../images/hk-global-b.png);
   background-size: cover;
+  background-position: right;
 }
 
 .work.hapa-sg {
@@ -747,10 +748,11 @@ section h2 {
 .work.hapa-sg a .work-site {
   background-image: url(../images/hk-sg-b.png);
   background-size: cover;
+  background-position: right;
 }
 
 .work.hapa-jp {
-  background: linear-gradient(90deg, #000, #3a3637, #0c1010);
+  background: linear-gradient(90deg, #000, #000, #312c2c);
   color: #fff;
 }
 
@@ -776,7 +778,7 @@ section h2 {
 }
 
 .work.hapa-kr a .work-site {
-  background-image: url(../images/hk-kr-b.png);
+  background-image: url(../images/hk-kr-b.jpg);
   background-size: cover;
   background-position: bottom;
 }
