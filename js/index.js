@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", () => {
   // ========== Scroll 처리 부분 시작 ==========
   gsap.registerPlugin(ScrollTrigger);
 
-  const worksContainer = document.querySelector(".works");
+  const worksWrapper = document.querySelector(".works-wrapper");
   const works = document.querySelectorAll(".work");
 
   const worksWidth = [...works].reduce(
@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
   );
   const workWidth = worksWidth / works.length;
 
-  gsap.to(worksContainer, {
+  gsap.to(worksWrapper, {
     x: () => -(worksWidth - (window.innerWidth - workWidth)),
     ease: "none",
     scrollTrigger: {
