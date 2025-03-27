@@ -602,72 +602,82 @@ section h2 {
   overflow: hidden;
 }
 
-.works .work a .work-site .site-link {
+.works .work a .site-link {
   color: #fff;
   padding: 7px 10px;
   border-radius: 20px;
   line-height: 1.6;
   height: 26px;
-  margin: 20px 80px;
-  margin-top: 180px;
-  backdrop-filter: blur(4px);
-  opacity: 0.95;
+  border: 1px solid #ffffff5e;
+  text-align: center;
+  z-index: 2;
+  position: relative;
+  top: -55%;
+  margin: 0 60px;
+  backdrop-filter: blur(1px);
 }
 
-.works .work.hapa-global a .work-site .site-link {
+
+.works .work.hapa-global a .site-link:hover {
   background: linear-gradient(270deg, #07080fd9, #0a0f18cf, #000, #000000, #000000f5);
   color: #fff;
 }
 
-.works .work.hapa-jp a .work-site .site-link {
+.works .work.hapa-jp a .site-link:hover {
   background: linear-gradient(230deg, #f3d3b59e, #abbebd8a, #75737c47);
 }
 
-.works .work.hapa-tw a .work-site .site-link {
+.works .work.hapa-tw a .site-link:hover {
   background: linear-gradient(175deg, #e9decdb3, #5a0d4442, #eda7de85);
 }
 
-.works .work.hapa-kr a .work-site .site-link {
+.works .work.hapa-kr a .site-link:hover {
   background: linear-gradient(300deg, #ffffff3d, #e9d9ca45, #55442b2e, #ffe7f1ad);
 }
 
-.works .work.hapa-sg a .work-site .site-link {
+.works .work.hapa-sg a .site-link:hover {
   background: linear-gradient(290deg, #f5905373, #b29a884d, #eabbd145);
 }
 
-.works .work.chuu-jp a .work-site .site-link {
+.works .work.chuu-jp a .site-link:hover {
   background: linear-gradient(210deg, #ffe0e357, #d7962d85, #c6a7a194);
 }
 
-.works .work.chuu-tw a .work-site .site-link {
+.works .work.chuu-tw a .site-link:hover {
   background: linear-gradient(95deg, #986f5a4d, #d4b78a52, #dcbeb447, #bfb19d6e, #efa47244);
 }
 
-.works .work.chuu-fashion a .work-site .site-link {
+.works .work.chuu-fashion a .site-link:hover {
   background: linear-gradient(95deg, #ff72cd6b, #fff9b94d, #c4ae9e67, #ebb2ce8a, #e3edff7d);
 }
 
-.works .work.chuumade-fashion .work-site .site-link {
+.works .work.chuumade-fashion .site-link:hover {
   background: linear-gradient(95deg, #fcf8d6cf, #fff9b94d, #f6d5a167, #43765570, #2b401f87);
 }
 
-.works .work.gemhour .work-site .site-link {
+.works .work.gemhour .site-link:hover {
   background: linear-gradient(95deg, #8b7a95cf, #fff9b94d, #7e6a6667, #87859870, #3d3e3e5c);
 }
 
-.works .work.eotd-global .work-site .site-link {
+.works .work.eotd-global .site-link:hover {
   background: linear-gradient(165deg, #f2ebdb4a, #b79a7e2e, #53504659, #aba9bc70, #3d3e3e5c);
 }
 
-.works .work.eotd-jp .work-site .site-link {
+.works .work.eotd-jp .site-link:hover {
   background: linear-gradient(95deg, #5b483d4a, #b7927e4d, #53504659, #524f7070, #3d3e3e5c);
 }
 
-.works .work a .work-site .site-link:hover {
-  background: #000;
+.works .work a .site-link:hover {
+  opacity: 0.95;
   transition: all 1s ease-in-out;
+  backdrop-filter: blur(0);
+  border: none
 }
 
+.works .work .site-link a:hover {
+  background: #ffffffe0;
+  color: #000;
+}
 
 .works .work .hapa-logo {
   position: relative;
@@ -677,13 +687,6 @@ section h2 {
   left: -30px;
   height: 100px;
 }
-
-.works .work .site-link {
-  text-align: center;
-  z-index: 2;
-  position: relative;
-}
-
 
 .works .work .site-link a {
   text-decoration: none;
@@ -697,11 +700,6 @@ section h2 {
   background: #000;
   color: #fff;
   margin: 0 15px;
-}
-
-.works .work .site-link a:hover {
-  background: #ffffffe0;
-  color: #000;
 }
 
 .work-title {
@@ -731,7 +729,7 @@ section h2 {
 }
 
 .work.hapa-global {
-  background: linear-gradient(270deg, #000000, #000000, #0c0c10, #5e5356f5);
+  background: linear-gradient(270deg, #0a0d1a, #11101c, #000000, #000000, #1a171fb8);
   color: #fff;
 }
 
@@ -741,7 +739,7 @@ section h2 {
 }
 
 .work.hapa-sg {
-  background: linear-gradient(270deg, #000, #1a1310, #090a0d, #1a1a22);
+  background: linear-gradient(270deg, #000, #1a1310, #000000, #1a1a22);
   color: #fff;
 }
 
@@ -759,17 +757,18 @@ section h2 {
 .work.hapa-jp a .work-site {
   background-image: url(../images/hk-jp-b.png);
   background-size: cover;
-  background-position: 80%;
+  background-position: left
 }
 
 .work.hapa-tw {
-  background: linear-gradient(90deg, #312325, #000000, #1d1411de, #180b0b);
+  background: linear-gradient(90deg, #312325, #000000, #1d0a0f, #180b0b);
   color: #fff;
 }
 
 .work.hapa-tw a .work-site {
   background-image: url(../images/hk-tw-b.png);
   background-size: cover;
+  background-position: top;
 }
 
 .work.hapa-kr .content {
@@ -778,7 +777,7 @@ section h2 {
 }
 
 .work.hapa-kr a .work-site {
-  background-image: url(../images/hk-kr-b.jpg);
+  background-image: url(../images/hk-kr-b.png);
   background-size: cover;
   background-position: bottom;
 }
@@ -841,7 +840,6 @@ section h2 {
   background-size: cover;
   background-position: right;
 }
-
 
 .work.eotd-jp .content {
   background: linear-gradient(88deg, #000, #1b1216, #110e11f2, #0e0b09bd);
