@@ -393,23 +393,22 @@ section {
   font-family: "Hahmlet-Regular";
 }
 
-.timeline-event a {
+.timeline-event img {
   height: 100%;
   display: block;
   border: none !important;
+  width: 150px;
+  padding: 10px;
 }
 
-.timeline-event .winc-logo {
-  width: 140px;
+.timeline-event .w-logo {
   margin-top: 7px;
   margin-bottom: -7px;
 }
 
-.timeline-event .ppb-logo {
-  width: 120px;
-  margin-left: 20px;
-  margin-bottom: -5px;
-  margin-top: 15px;
+.timeline-event .pb-logo {
+  margin-left: 15px;
+  margin-top: 10px;
 }
 
 .timeline-event:nth-child(1) {
@@ -556,6 +555,22 @@ section h2 {
   z-index: 1;
 }
 
+.works .logo {
+  position: relative;
+  display: block;
+  border-radius: 25px;
+}
+
+.works .logo img {
+  background: #000;
+  padding: 10px;
+  border-radius: 20px 0 0 20px;
+  margin-right: 0px;
+  width: 150px;
+  height: 100px;
+  object-fit: contain;
+}
+
 .works .work {
   height: 420px;
   margin-right: 60px;
@@ -576,9 +591,7 @@ section h2 {
   object-position: center;
   height: 100%;
   opacity: 1;
-  transition: all 1s ease-in-out;
 }
-
 
 .works .work a:hover img {
   opacity: 0;
@@ -591,15 +604,14 @@ section h2 {
   position: absolute;
   background-position: center;
   height: 100%;
-  transition: all 1s ease-in-out;
   top: 0;
 }
-
 
 .works .work a:hover .work-site {
   opacity: 1;
   border-radius: 10px 0 0 10px;
   overflow: hidden;
+  transition: all 1s ease-in-out;
 }
 
 .works .work a .site-link {
@@ -607,16 +619,32 @@ section h2 {
   padding: 7px 10px;
   border-radius: 20px;
   line-height: 1.6;
-  height: 26px;
-  border: 1px solid #ffffff5e;
+  height: 80px;
   text-align: center;
   z-index: 2;
   position: relative;
-  top: -55%;
+  top: -65%;
   margin: 0 60px;
   backdrop-filter: blur(1px);
 }
 
+.works .work a .site-link .logo {
+  padding: 15px;
+  object-fit: contain;
+  height: -webkit-fill-available;
+  margin: 0 auto;
+  width: auto;
+}
+
+.works .work.ch-fashion a .site-link:hover {
+  background: linear-gradient(95deg, #ff72cd6b, #fff9b94d, #c4ae9e67, #ebb2ce8a, #e3edff7d);
+}
+
+.works .work.cm-fashion .site-link {}
+
+.works .work.cm-fashion .site-link:hover label {
+  background: linear-gradient(95deg, #fcf8d6cf, #fff9b94d, #f6d5a167, #43765570, #2b401f87);
+}
 
 .works .work.hapa-global a .site-link:hover {
   background: linear-gradient(270deg, #07080fd9, #0a0f18cf, #000, #000000, #000000f5);
@@ -639,21 +667,14 @@ section h2 {
   background: linear-gradient(290deg, #f5905373, #b29a884d, #eabbd145);
 }
 
-.works .work.chuu-jp a .site-link:hover {
+.works .work.ch-jp a .site-link:hover {
   background: linear-gradient(210deg, #ffe0e357, #d7962d85, #c6a7a194);
 }
 
-.works .work.chuu-tw a .site-link:hover {
+.works .work.ch-tw a .site-link:hover {
   background: linear-gradient(95deg, #986f5a4d, #d4b78a52, #dcbeb447, #bfb19d6e, #efa47244);
 }
 
-.works .work.chuu-fashion a .site-link:hover {
-  background: linear-gradient(95deg, #ff72cd6b, #fff9b94d, #c4ae9e67, #ebb2ce8a, #e3edff7d);
-}
-
-.works .work.chuumade-fashion .site-link:hover {
-  background: linear-gradient(95deg, #fcf8d6cf, #fff9b94d, #f6d5a167, #43765570, #2b401f87);
-}
 
 .works .work.gemhour .site-link:hover {
   background: linear-gradient(95deg, #8b7a95cf, #fff9b94d, #7e6a6667, #87859870, #3d3e3e5c);
@@ -667,16 +688,21 @@ section h2 {
   background: linear-gradient(95deg, #5b483d4a, #b7927e4d, #53504659, #524f7070, #3d3e3e5c);
 }
 
-.works .work a .site-link:hover {
-  opacity: 0.95;
+.works .work a .site-link label {
+  display: none;
   transition: all 1s ease-in-out;
-  backdrop-filter: blur(0);
-  border: none
 }
 
-.works .work .site-link a:hover {
+.works .work a .site-link:hover {
+  opacity: 0.95;
+  backdrop-filter: blur(0);
+  border: none;
   background: #ffffffe0;
   color: #000;
+}
+
+.works .work a .site-link:hover label {
+  display: block;
 }
 
 .works .work .hapa-logo {
@@ -782,41 +808,41 @@ section h2 {
   background-position: bottom;
 }
 
-.work.chuu-jp {
+.work.ch-jp {
   background: linear-gradient(270deg, #ca5a43, #c87235, #bd7b3c, #b5895d);
   color: #fff;
 }
 
-.work.chuu-jp a .work-site {
-  background-image: url(../images/chuulens-jp-b.png);
+.work.ch-jp a .work-site {
+  background-image: url(../images/chlens-jp-b.png);
   background-size: cover;
 }
 
-.work.chuu-tw .content {
+.work.ch-tw .content {
   background: linear-gradient(0deg, #e4cdc5, #e6cac1, #e9ccc4, #e4c8be, #e1c3b8);
 }
 
-.work.chuu-tw a .work-site {
-  background-image: linear-gradient(210deg, #e1c3b7, #e2c5bac7, #e6cbc280, #e5cbc3, #411a0a5e), url(../images/chuulens-tw-b.png);
+.work.ch-tw a .work-site {
+  background-image: linear-gradient(210deg, #e1c3b7, #e2c5bac7, #e6cbc280, #e5cbc3, #411a0a5e), url(../images/chlens-tw-b.png);
   background-size: cover;
 }
 
-.work.chuu-fashion {
+.work.ch-fashion {
   background: linear-gradient(90deg, #000000, #000000, #191911, #090808, #211d14, #1e190a, #000);
   color: #fff;
 }
 
-.work.chuu-fashion a .work-site {
-  background-image: url(../images/chuu-fashion-b.png);
+.work.ch-fashion a .work-site {
+  background-image: url(../images/ch-fashion-b.png);
   background-size: cover;
 }
 
-.work.chuumade-fashion a .work-site {
-  background-image: url(../images/chuumade-fashion-b.png);
+.work.cm-fashion a .work-site {
+  background-image: url(../images/cm-fashion-b.png);
   background-size: cover;
 }
 
-.work.chuumade-fashion .content {
+.work.cm-fashion .content {
   background: linear-gradient(270deg, #0a100a, #0e181b, #131d16eb, #10160cf2, #050606);
   color: #fff;
 }
@@ -876,6 +902,13 @@ section h2 {
   padding: 2px 8px;
   width: 100%;
   display: block;
+}
+
+.work .content li label img {
+  width: 140px;
+  padding: 15px;
+  background: #006422;
+  border-radius: 5px;
 }
 
 .work .content li label:first-child {
