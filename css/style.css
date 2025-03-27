@@ -724,10 +724,8 @@ section h2 {
   margin: 0 15px;
 }
 
-
-
 .work.ch-jp {
-  background: linear-gradient(270deg, #000000, #151514, #1c1915, #000000);
+  background: linear-gradient(270deg, #000000, #1c1c14, #000000, #000000);
   color: #fff;
 }
 
@@ -738,10 +736,11 @@ section h2 {
 
 .work.ch-tw {
   background: linear-gradient(0deg, #000000, #0a0a0a, #121211, #000000, #000000);
+  color: #fff;
 }
 
 .work.ch-tw a .work-site {
-  background-image: linear-gradient(210deg, #e1c3b7, #e2c5bac7, #e6cbc280, #e5cbc3, #411a0a5e), url(../images/chlns-tw-b.png);
+  background-image: url(../images/chlns-tw-b.png);
   background-size: cover;
 }
 
