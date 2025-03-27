@@ -642,6 +642,16 @@ section h2 {
   background: linear-gradient(95deg, #f6d5a167, #43765570, #2b401f87);
 }
 
+
+#works .works-wrapper .work.ch-jp a .site-link:hover {
+  background: linear-gradient(210deg, #ffe0e357, #d7962d85, #c6a7a194);
+}
+
+#works .works-wrapper .work.ch-tw a .site-link:hover {
+  background: linear-gradient(95deg, #986f5a4d, #d4b78a52, #dcbeb447, #bfb19d6e, #efa47244);
+}
+
+
 #works .works-wrapper .work.hapa-global a .site-link:hover {
   background: linear-gradient(270deg, #07080fd9, #0a0f18cf, #000, #000000, #000000f5);
   color: #fff;
@@ -661,14 +671,6 @@ section h2 {
 
 #works .works-wrapper .work.hapa-sg a .site-link:hover {
   background: linear-gradient(290deg, #f5905373, #b29a884d, #eabbd145);
-}
-
-#works .works-wrapper .work.ch-jp a .site-link:hover {
-  background: linear-gradient(210deg, #ffe0e357, #d7962d85, #c6a7a194);
-}
-
-#works .works-wrapper .work.ch-tw a .site-link:hover {
-  background: linear-gradient(95deg, #986f5a4d, #d4b78a52, #dcbeb447, #bfb19d6e, #efa47244);
 }
 
 #works .works-wrapper .work.gemhour .site-link:hover {
@@ -722,27 +724,48 @@ section h2 {
   margin: 0 15px;
 }
 
-.work-title {
-  margin-left: -70px;
-  margin-top: -25px;
+
+
+.work.ch-jp {
+  background: linear-gradient(270deg, #000000, #151514, #1c1915, #000000);
+  color: #fff;
 }
 
-.work-title h2,
-.skills-title h2 {
-  font-size: 68px;
-  letter-spacing: -0.07em;
-  margin: 0;
+.work.ch-jp a .work-site {
+  background-image: url(../images/chlns-jp-b.png);
+  background-size: cover;
 }
 
-.work h3 {
-  font-size: 18px;
-  text-transform: capitalize;
-  text-align: center;
-  margin: 0 auto;
-  display: block;
-  letter-spacing: 0.04em;
-  font-family: "DaeguCatholicUniversity";
+.work.ch-tw {
+  background: linear-gradient(0deg, #000000, #0a0a0a, #121211, #000000, #000000);
 }
+
+.work.ch-tw a .work-site {
+  background-image: linear-gradient(210deg, #e1c3b7, #e2c5bac7, #e6cbc280, #e5cbc3, #411a0a5e), url(../images/chlns-tw-b.png);
+  background-size: cover;
+}
+
+.work.ch-fashion {
+  background: linear-gradient(90deg, #000000, #000000, #191911, #090808, #211d14, #1e190a, #000);
+  color: #fff;
+}
+
+.work.ch-fashion a .work-site {
+  background-image: url(../images/ch-fashion-b.png);
+  background-size: cover;
+}
+
+.work.cm-fashion a .work-site {
+  background-image: url(../images/cm-fashion-b.png);
+  background-size: cover;
+}
+
+.work.cm-fashion .content {
+  background: linear-gradient(270deg, #0a100a, #0e181b, #050606);
+  color: #fff;
+}
+
+
 
 .work.gemhour img {
   filter: saturate(1.6);
@@ -800,45 +823,6 @@ section h2 {
   background-image: url(../images/hk-kr-b.png);
   background-size: cover;
   background-position: bottom;
-}
-
-.work.ch-jp {
-  background: linear-gradient(270deg, #ca5a43, #c87235, #bd7b3c, #b5895d);
-  color: #fff;
-}
-
-.work.ch-jp a .work-site {
-  background-image: url(../images/chlens-jp-b.png);
-  background-size: cover;
-}
-
-.work.ch-tw .content {
-  background: linear-gradient(0deg, #e4cdc5, #e6cac1, #e9ccc4, #e4c8be, #e1c3b8);
-}
-
-.work.ch-tw a .work-site {
-  background-image: linear-gradient(210deg, #e1c3b7, #e2c5bac7, #e6cbc280, #e5cbc3, #411a0a5e), url(../images/chlens-tw-b.png);
-  background-size: cover;
-}
-
-.work.ch-fashion {
-  background: linear-gradient(90deg, #000000, #000000, #191911, #090808, #211d14, #1e190a, #000);
-  color: #fff;
-}
-
-.work.ch-fashion a .work-site {
-  background-image: url(../images/ch-fashion-b.png);
-  background-size: cover;
-}
-
-.work.cm-fashion a .work-site {
-  background-image: url(../images/cm-fashion-b.png);
-  background-size: cover;
-}
-
-.work.cm-fashion .content {
-  background: linear-gradient(270deg, #0a100a, #0e181b, #050606);
-  color: #fff;
 }
 
 .work.gemhour .content {
