@@ -593,6 +593,7 @@ section h2 {
   object-position: center;
   height: 100%;
   opacity: 1;
+  transition: all 1s ease-in-out;
 }
 
 #works .works-wrapper .work a:hover img {
@@ -636,11 +637,11 @@ section h2 {
 
 #works .works-wrapper .ch-jp a .site-link .logo,
 #works .works-wrapper .ch-tw a .site-link .logo {
-  opacity: 0.95;
-  filter: brightness(1.1) saturate(1.5);
+  opacity: 0.9;
+  filter: drop-shadow(14px 10px 20px black) brightness(1.1) saturate(1.5);
 }
 
-#works .works-wrapper .work.ch-fashion a:hover {
+/* #works .works-wrapper .work.ch-fashion a:hover {
   background: linear-gradient(95deg, #ff72cd6b, #fff9b94d);
 }
 
@@ -689,7 +690,7 @@ section h2 {
 
 #works .works-wrapper .work.eotd-jp .site-link:hover {
   background: linear-gradient(95deg, #5b483d4a, #b7927e4d, #53504659, #524f7070, #3d3e3e5c);
-}
+} */
 
 #works .works-wrapper .work a .site-link label {
   display: none;
@@ -774,17 +775,30 @@ section h2 {
   filter: saturate(1.6);
 }
 
-.work.hapa-global,
-.work.hapa-kr,
-.work.hapa-jp,
-.work.hapa-tw,
+.work.hapa-jp {
+  background: linear-gradient(80deg, #d8d8d8, #cbd6d6, #fcfafd, #f4eef7);
+}
+
+.work.hapa-global {
+  background: linear-gradient(80deg, #f6fbec, #f2feff);
+}
+
+.work.hapa-kr {
+  background: linear-gradient(80deg, #bbcdb5, #e4e8d8, #f9fff0);
+}
+
+.work.hapa-tw {
+  background: linear-gradient(80deg, #e7d5e4, #f3eaf1, #e9f8ff);
+}
+
 .work.hapa-sg {
-  background: #ffd8e8;
+  background: linear-gradient(80deg, #eaf5fc, #d4edff, #bef4ff);
 }
 
 .work.hapa-global a .work-site {
   background-image: url(../images/hk-global-b.png);
   background-size: cover;
+  background-position: 80% !important;
 }
 
 .work.hapa-sg a .work-site {
@@ -808,7 +822,7 @@ section h2 {
 .work.hapa-kr a .work-site {
   background-image: url(../images/hk-kr-b.png);
   background-size: cover;
-  background-position: bottom;
+  background-position: right;
 }
 
 .work.gemhour .content {
@@ -840,8 +854,6 @@ section h2 {
   background-image: linear-gradient(90deg, #9c80799e, #110e1100, #010101), url(../images/eotd-jp-b.png);
   background-size: cover;
 }
-
-.work.eotd-global .content {}
 
 .work .content {
   padding: 50px;
