@@ -577,7 +577,7 @@ section h2 {
   height: 500px;
   margin-right: 60px;
   display: flex;
-  box-shadow: 12px 7px 15px #aab6ed7a;
+  box-shadow: 12px 7px 15px #282a307a;
   border-radius: 10px;
 }
 
@@ -625,16 +625,22 @@ section h2 {
   position: relative;
   top: -65%;
   margin: 0 60px;
-  backdrop-filter: blur(1px);
 }
 
 #works .works-wrapper .work a .site-link .logo {
   object-fit: contain;
   margin: 0 auto;
   height: 100%;
+  filter: drop-shadow(4px 10px 10px black);
 }
 
-#works .works-wrapper .work.ch-fashion a .site-link:hover {
+#works .works-wrapper .ch-jp a .site-link .logo,
+#works .works-wrapper .ch-tw a .site-link .logo {
+  opacity: 0.95;
+  filter: brightness(1.1) saturate(1.5);
+}
+
+#works .works-wrapper .work.ch-fashion a:hover {
   background: linear-gradient(95deg, #ff72cd6b, #fff9b94d);
 }
 
@@ -764,25 +770,21 @@ section h2 {
   color: #fff;
 }
 
-
-
 .work.gemhour img {
   filter: saturate(1.6);
 }
 
-.work.hapa-global {
-  background: linear-gradient(270deg, #0a0d1a, #11101c, #000000, #000000, #1a171fb8);
-  color: #fff;
+.work.hapa-global,
+.work.hapa-kr,
+.work.hapa-jp,
+.work.hapa-tw,
+.work.hapa-sg {
+  background: #ffd8e8;
 }
 
 .work.hapa-global a .work-site {
   background-image: url(../images/hk-global-b.png);
   background-size: cover;
-}
-
-.work.hapa-sg {
-  background: linear-gradient(270deg, #000, #1a1310, #000000, #1a1a22);
-  color: #fff;
 }
 
 .work.hapa-sg a .work-site {
@@ -791,31 +793,16 @@ section h2 {
   background-position: right;
 }
 
-.work.hapa-jp {
-  background: linear-gradient(90deg, #000, #000000, #0b1315d6);
-  color: #fff;
-}
-
 .work.hapa-jp a .work-site {
   background-image: url(../images/hk-jp-b.png);
   background-size: cover;
   background-position: left
 }
 
-.work.hapa-tw {
-  background: linear-gradient(90deg, #312325, #000000, #1d0a0f, #180b0b);
-  color: #fff;
-}
-
 .work.hapa-tw a .work-site {
   background-image: url(../images/hk-tw-b.png);
   background-size: cover;
   background-position: top;
-}
-
-.work.hapa-kr .content {
-  background: linear-gradient(90deg, #000000, #171c23, #2b2633);
-  color: #fff;
 }
 
 .work.hapa-kr a .work-site {
