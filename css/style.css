@@ -641,6 +641,10 @@ section h2 {
   filter: drop-shadow(14px 10px 20px black) brightness(1.1) saturate(1.5);
 }
 
+#works .works-wrapper .work a .site-link:hover .logo {
+  display: none;
+}
+
 /* #works .works-wrapper .work.ch-fashion a:hover {
   background: linear-gradient(95deg, #ff72cd6b, #fff9b94d);
 }
@@ -776,7 +780,7 @@ section h2 {
 }
 
 .work.hapa-jp {
-  background: linear-gradient(80deg, #fcfafd, #f4eef7);
+  background: linear-gradient(0deg, #878b6f, #99b8a0, #bacfd0, #d3e7fa, #d3dbff);
 }
 
 .work.hapa-global {
