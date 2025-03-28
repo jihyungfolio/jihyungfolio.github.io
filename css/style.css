@@ -776,7 +776,7 @@ section h2 {
 }
 
 .work.hapa-jp {
-  background: linear-gradient(80deg, #d8d8d8, #cbd6d6, #fcfafd, #f4eef7);
+  background: linear-gradient(80deg, #fcfafd, #f4eef7);
 }
 
 .work.hapa-global {
@@ -798,13 +798,11 @@ section h2 {
 .work.hapa-global a .work-site {
   background-image: url(../images/hk-global-b.png);
   background-size: cover;
-  background-position: 80% !important;
 }
 
 .work.hapa-sg a .work-site {
   background-image: url(../images/hk-sg-b.png);
   background-size: cover;
-  background-position: right;
 }
 
 .work.hapa-jp a .work-site {
