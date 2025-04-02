@@ -799,56 +799,37 @@ section h2 {
   filter: saturate(1.6);
 }
 
-.work.hapa-jp {
-  background: linear-gradient(45deg, #d56a64, #e65b72, #ff7064, #ffb85a);
-  color: #fff;
-}
-
-.work.hapa-global {
-  background: linear-gradient(2deg, #958d8c, #5f6469, #474a50, #3e3a37);
-  color: #fff;
-}
-
-.work.hapa-kr {
-  background: linear-gradient(320deg, #ea71e4, #ff8cba, #ffc1dd);
-  color: #fff;
-}
-
-.work.hapa-tw {
-  background: linear-gradient(45deg, #dddde1, #3f4349, #0e1f16, #09090d, #0a0a0f);
-  color: #fff;
-}
-
-.work.hapa-sg {
-  background: linear-gradient(45deg, #4c0025, #7e4d68, #ad7692, #c6a5be, #a8d4ff);
-  color: #fff;
+.work.hk {
+  background: #fbe7f6;
+  border: 10px solid #ffb7cf;
+  box-sizing: border-box;
 }
 
 .work.hapa-kr a .work-site {
-  background-image: url(../images/Group\ 76.png);
+  background-image: url(../images/hk/kr-b.png);
   background-size: cover;
   background-position: right;
 }
 
 .work.hapa-global a .work-site {
-  background-image: url(../images/Group\ 8\ \(1\).png);
+  background-image: url(../images/hk/global-b.webp);
   background-size: cover;
 }
 
 .work.hapa-jp a .work-site {
-  background-image: url(../images/Group\ 74.png);
+  background-image: url(../images/hk/jp-b.png);
   background-size: cover;
   background-position: left
 }
 
 .work.hapa-tw a .work-site {
-  background-image: url(../images/Group\ 28.png);
+  background-image: url(../images/hk/tw-b.png);
   background-size: cover;
   background-position: top;
 }
 
 .work.hapa-sg a .work-site {
-  background-image: url(../images/Group\ 68.png);
+  background-image: url(../images/hk/sg-b.png);
   background-size: cover;
 }
 
