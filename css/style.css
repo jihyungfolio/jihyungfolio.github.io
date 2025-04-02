@@ -582,7 +582,7 @@ section h2 {
 }
 
 #works .works-wrapper .work a {
-  width: 340px;
+  width: 360px;
   border-radius: 10px 0 0 10px;
   overflow: hidden;
 }
@@ -596,6 +596,26 @@ section h2 {
   transition: all 1s ease-in-out;
 }
 
+#works .works-wrapper .work a img:nth-child(2) {
+  position: relative;
+  left: -96.5%;
+  z-index: 2;
+  width: 45%;
+  height: 45%;
+  object-fit: contain;
+  bottom: 30%;
+}
+
+#works .works-wrapper .work a img:nth-child(3) {
+  position: relative;
+  left: -95.5%;
+  z-index: 2;
+  width: 45%;
+  height: 45%;
+  object-fit: contain;
+  bottom: 30%;
+}
+
 #works .works-wrapper .work a:hover img {
   opacity: 0;
   transition: all 1s ease-in-out;
@@ -603,7 +623,7 @@ section h2 {
 
 #works .works-wrapper .work a .work-site {
   opacity: 0;
-  width: 340px;
+  width: 360px;
   position: absolute;
   background-position: center;
   height: 100%;
@@ -632,7 +652,7 @@ section h2 {
   object-fit: contain;
   margin: 0 auto;
   height: 100%;
-  filter: drop-shadow(4px 10px 10px black);
+  filter: drop-shadow(4px 5px 5px rgba(59, 13, 32, 0.374));
 }
 
 #works .works-wrapper .ch-jp a .site-link .logo,
@@ -741,7 +761,7 @@ section h2 {
 }
 
 .work.ch-jp a .work-site {
-  background-image: url(../images/chlns-jp-b.jpg);
+  background-image: url(../images/ch/chlns-jp-b.jpg);
   background-size: cover;
 }
 
@@ -751,7 +771,7 @@ section h2 {
 }
 
 .work.ch-tw a .work-site {
-  background-image: url(../images/chlns-tw-b.png);
+  background-image: url(../images/ch/chlns-tw-b.png);
   background-size: cover;
 }
 
@@ -761,12 +781,12 @@ section h2 {
 }
 
 .work.ch-fashion a .work-site {
-  background-image: url(../images/ch-fashion-b.png);
+  background-image: url(../images/ch/ch-fashion-b.png);
   background-size: cover;
 }
 
 .work.cm-fashion a .work-site {
-  background-image: url(../images/cm-fashion-b.png);
+  background-image: url(../images/ch/cm-fashion-b.png);
   background-size: cover;
 }
 
@@ -780,51 +800,56 @@ section h2 {
 }
 
 .work.hapa-jp {
-  background: linear-gradient(0deg, #878b6f, #99b8a0, #bacfd0, #d3e7fa, #d3dbff);
+  background: linear-gradient(45deg, #d56a64, #e65b72, #ff7064, #ffb85a);
+  color: #fff;
 }
 
 .work.hapa-global {
-  background: linear-gradient(80deg, #f6fbec, #f2feff);
+  background: linear-gradient(2deg, #958d8c, #5f6469, #474a50, #3e3a37);
+  color: #fff;
 }
 
 .work.hapa-kr {
-  background: linear-gradient(80deg, #bbcdb5, #e4e8d8, #f9fff0);
+  background: linear-gradient(320deg, #ea71e4, #ff8cba, #ffc1dd);
+  color: #fff;
 }
 
 .work.hapa-tw {
-  background: linear-gradient(80deg, #e7d5e4, #f3eaf1, #e9f8ff);
+  background: linear-gradient(45deg, #dddde1, #3f4349, #0e1f16, #09090d, #0a0a0f);
+  color: #fff;
 }
 
 .work.hapa-sg {
-  background: linear-gradient(80deg, #eaf5fc, #d4edff, #bef4ff);
+  background: linear-gradient(45deg, #4c0025, #7e4d68, #ad7692, #c6a5be, #a8d4ff);
+  color: #fff;
+}
+
+.work.hapa-kr a .work-site {
+  background-image: url(../images/Group\ 76.png);
+  background-size: cover;
+  background-position: right;
 }
 
 .work.hapa-global a .work-site {
-  background-image: url(../images/hk-global-b.png);
-  background-size: cover;
-}
-
-.work.hapa-sg a .work-site {
-  background-image: url(../images/hk-sg-b.png);
+  background-image: url(../images/Group\ 8\ \(1\).png);
   background-size: cover;
 }
 
 .work.hapa-jp a .work-site {
-  background-image: url(../images/hk-jp-b.png);
+  background-image: url(../images/Group\ 74.png);
   background-size: cover;
   background-position: left
 }
 
 .work.hapa-tw a .work-site {
-  background-image: url(../images/hk-tw-b.png);
+  background-image: url(../images/Group\ 28.png);
   background-size: cover;
   background-position: top;
 }
 
-.work.hapa-kr a .work-site {
-  background-image: url(../images/hk-kr-b.png);
+.work.hapa-sg a .work-site {
+  background-image: url(../images/Group\ 68.png);
   background-size: cover;
-  background-position: right;
 }
 
 .work.gemhour .content {
