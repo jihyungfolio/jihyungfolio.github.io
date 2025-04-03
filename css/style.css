@@ -655,6 +655,10 @@ section h2 {
   filter: drop-shadow(4px 5px 5px rgba(59, 13, 32, 0.374));
 }
 
+#works .works-wrapper .work.hk a .site-link {
+  margin: 0 30px;
+}
+
 #works .works-wrapper .ch-jp a .site-link .logo,
 #works .works-wrapper .ch-tw a .site-link .logo {
   opacity: 0.9;
@@ -663,6 +667,14 @@ section h2 {
 
 #works .works-wrapper .work a .site-link:hover .logo {
   display: none;
+}
+
+#works .works-wrapper .work.hk a .site-link .logo {
+  display: none;
+}
+
+#works .works-wrapper .work.hk a .site-link:hover .logo {
+  display: block;
 }
 
 /* #works .works-wrapper .work.ch-fashion a:hover {
@@ -800,19 +812,24 @@ section h2 {
 }
 
 .work.hk {
-  background: #fbe7f6;
-  border: 10px solid #ffb7cf;
   box-sizing: border-box;
 }
 
+.work.hapa-kr {
+  background: linear-gradient(358deg, #eddad4, #eedbdf);
+}
+
 .work.hapa-kr a .work-site {
-  background-image: url(../images/hk/kr-b.png);
+  background-image: linear-gradient(90deg, #ffd5d53d, #0f13165c, #eddcdc), url(../images/hk/kr-b.png);
   background-size: cover;
-  background-position: right;
+}
+
+.work.hapa-global {
+  background: #e8eaf1;
 }
 
 .work.hapa-global a .work-site {
-  background-image: url(../images/hk/global-b.webp);
+  background-image: url(../images/hk/global-b.png);
   background-size: cover;
 }
 
