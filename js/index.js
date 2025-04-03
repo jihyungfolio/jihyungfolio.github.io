@@ -30,13 +30,6 @@ document.addEventListener("DOMContentLoaded", () => {
   const container = document.querySelector(".container");
   const sections = document.querySelectorAll("main section");
   const pagination = document.querySelector(".pagination ul");
-
-  sections.forEach((section, index) => {
-    const li = document.createElement("li");
-    li.dataset.index = index;
-    pagination.appendChild(li);
-  });
-
   const paginationItems = document.querySelectorAll(".pagination li");
   // const filterColors = ['white', 'black', 'orange', 'red']
 
