@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
+
   // ========== Scroll 처리 부분 시작 ==========
   gsap.registerPlugin(ScrollTrigger);
 
@@ -25,6 +26,7 @@ document.addEventListener("DOMContentLoaded", () => {
     },
   });
   // ========== Scroll 처리 부분 끝 ==========
+
 
   // ========== Pagination 처리 부분 시작 ==========
   const container = document.querySelector(".container");
