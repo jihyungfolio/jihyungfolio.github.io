@@ -3,24 +3,24 @@ document.addEventListener("DOMContentLoaded", () => {
   // ========== Scroll 처리 부분 시작 ==========
   gsap.registerPlugin(ScrollTrigger);
 
-  const worksWrapper = document.querySelector(".works-wrapper");
-  const works = document.querySelectorAll(".work");
+  const projectsWrapper = document.querySelector(".projects-wrapper");
+  const projects = document.querySelectorAll(".project");
 
-  const worksWidth = [...works].reduce(
+  const projectsWidth = [...projects].reduce(
     (acc, cur) => (acc += cur.offsetWidth),
     0
   );
-  const workWidth = worksWidth / works.length;
+  const projectWidth = projectsWidth / projects.length;
 
-  gsap.to(worksWrapper, {
-    x: () => -(worksWidth - (window.innerWidth - workWidth)),
+  gsap.to(projectsWrapper, {
+    x: () => -(projectsWidth - (window.innerWidth - projectWidth)),
     ease: "none",
     scrollTrigger: {
-      trigger: "section#works",
+      trigger: "section#projects",
       pin: true,
       scrub: true,
       start: "top top",
-      end: () => worksWidth - (window.innerWidth - workWidth),
+      end: () => projectsWidth - (window.innerWidth - projectWidth),
       invalidateOnRefresh: true,
       anticipatePin: 1,
     },
