@@ -45,10 +45,10 @@ body {
 }
 
 section h2 {
-  font-size: 60px;
+  font-size: 3vw;
   letter-spacing: -0.01em;
   padding-top: 3%;
-  padding-left: 4%;
+  padding-left: 3%;
   line-height: 0.8;
   z-index: 1;
   position: relative;
@@ -96,14 +96,6 @@ section h2 {
   color: #000;
 }
 
-#skills h1 {
-  position: absolute;
-  left: 4%;
-  top: 4%;
-  font-size: 6vw;
-  z-index: 2;
-}
-
 #career .timeline-wrapper {
   height: 100%;
   width: 80vw;
@@ -143,6 +135,8 @@ section h2 {
   height: 8vh;
   border: 2px solid;
   position: relative;
+  display: flex;
+  align-items: center;
 }
 
 #career .timeline-event img {
@@ -286,13 +280,7 @@ section h2 {
   background-color: #ced7e1;
 }
 
-#career .timeline-title {
-  line-height: 1.8;
-  text-shadow: 5px 2px 10px #ffffff41;
-  display: inline-block;
-  padding: 7px 15px 10px 20px;
-  letter-spacing: 0.02em;
-}
+#career .timeline-title {}
 
 #career .timeline-event p span {
   display: block;
