@@ -301,8 +301,7 @@ section h2 {
 
 #projects .projects-container {
   position: relative;
-  padding-left: 10vw;
-  padding-right: 25vw;
+  margin: 0 5%;
 }
 
 #projects .projects-wrapper {
@@ -316,9 +315,10 @@ section h2 {
 }
 
 #projects .projects-wrapper .projects {
-  height: 75vh;
+  height: 70vh;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  margin-top: 2vw;
 }
 
 #projects .projects-wrapper .projects.chlens,
@@ -328,7 +328,7 @@ section h2 {
 }
 
 #projects .projects-wrapper .project {
-  width: 20vw;
+  width: 300px;
   margin: 0.5vw;
   padding: 10px;
   border-radius: 20px;
@@ -336,10 +336,56 @@ section h2 {
   box-shadow: 2px 2px 0 #e0dadd, 3px 3px 0 0 rgb(56 6 98 / 91%);
 }
 
+
+#projects .projects-wrapper .hapa-kr {
+  transform: rotateZ(2deg);
+  margin-top: 5vw;
+}
+
 #projects .projects-wrapper .hapa-global {
   transform: rotateZ(357deg);
 }
 
+#projects .projects-wrapper .hapa-jp {
+  margin-top: 3vw;
+}
+
+#projects .projects-wrapper .hapa-sg {
+  transform: rotateZ(5deg);
+}
+
+#projects .projects-wrapper .ch-jp {
+  transform: rotateZ(9deg);
+  margin-bottom: 1vw;
+}
+
+#projects .projects-wrapper .ch-tw {
+  transform: rotateZ(357deg);
+  margin: 1vw 0 0 0;
+}
+
+#projects .projects-wrapper .ch-fashion {
+  transform: rotateZ(2deg);
+  margin-top: 5vw;
+}
+
+#projects .projects-wrapper .cm-fashion {
+  transform: rotateZ(358deg);
+  margin-top: 8vw;
+}
+
+#projects .projects-wrapper .eotd-jp {
+  transform: rotateZ(357deg);
+}
+
+#projects .projects-wrapper .eotd-global {
+  transform: rotateZ(6deg);
+  margin: 3vw 0 1vw 0.5vw;
+}
+
+#projects .projects-wrapper .gemhour {
+  margin-top: 8vw;
+}
 
 #projects .projects-wrapper .project a {
   display: block;
