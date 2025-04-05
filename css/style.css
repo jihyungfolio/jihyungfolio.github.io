@@ -37,6 +37,11 @@ body {
 .container section {
   height: 100vh;
   overflow: hidden;
+  border-bottom: 5px solid
+}
+
+.container section#skills:last-child {
+  border-bottom: 0;
 }
 
 section h2 {
@@ -97,10 +102,6 @@ section h2 {
   top: 4%;
   font-size: 6vw;
   z-index: 2;
-}
-
-#career {
-  padding-top: 12vw
 }
 
 #career .timeline-wrapper {
@@ -299,9 +300,8 @@ section h2 {
 }
 
 #projects .projects-container {
-  height: 85vh;
   position: relative;
-  left: 10vw;
+  padding-left: 10vw;
   padding-right: 25vw;
 }
 
@@ -311,31 +311,40 @@ section h2 {
   white-space: nowrap;
   position: relative;
   z-index: 1;
-  padding-top: 3vw;
   width: 100%;
+  padding-right: 5vw;
 }
 
 #projects .projects-wrapper .projects {
+  height: 75vh;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  margin-right: 10vw;
-  height: 60vh;
+}
+
+#projects .projects-wrapper .projects.chlens,
+#projects .projects-wrapper .projects.eotd {
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: auto;
 }
 
 #projects .projects-wrapper .project {
-  width: 30vw;
-  height: 30vh;
+  width: 20vw;
+  margin: 0.5vw;
+  padding: 10px;
+  border-radius: 20px;
   border: 1px solid;
-  margin: 1vw;
-  box-shadow: 2px 2px 0 #eef1f7, 3px 3px 0 0 rgb(32 32 32 / 91%);
+  box-shadow: 2px 2px 0 #e0dadd, 3px 3px 0 0 rgb(56 6 98 / 91%);
+}
+
+#projects .projects-wrapper .hapa-global {
+  transform: rotateZ(357deg);
 }
 
 
 #projects .projects-wrapper .project a {
-  border-radius: 10px 0 0 10px;
   display: block;
   overflow: hidden;
-  display: none;
+  height: 4vw;
 }
 
 #projects .projects-wrapper .project a img {
@@ -389,10 +398,10 @@ section h2 {
 
 #projects .projects-wrapper .project a .project-site {
   opacity: 0;
+  height: 50px;
   width: 50px;
   position: absolute;
   background-position: center;
-  height: 100%;
   top: 0;
 }
 
