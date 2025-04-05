@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
   gsap.registerPlugin(ScrollTrigger);
 
   const projectsWrapper = document.querySelector(".projects-wrapper");
-  const projects = document.querySelectorAll(".project");
+  const projects = document.querySelectorAll(".projects");
 
   const projectsWidth = [...projects].reduce(
     (acc, cur) => (acc += cur.offsetWidth),

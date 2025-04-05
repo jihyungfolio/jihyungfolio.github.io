@@ -86,11 +86,11 @@ section h2 {
   font-size: 1.3vw;
   height: 32px;
   line-height: 1;
-  padding-top: 7px;
 }
 
-.pagination ul li p:nth-child(3) {
-  padding-top: 0 !important;
+.pagination ul li p:nth-child(1),
+.pagination ul li p:nth-child(2) {
+  padding-top: 5px;
 }
 
 .pagination ul li:not(:first-of-type) {
@@ -320,42 +320,34 @@ section h2 {
 
 #projects .projects-wrapper {
   display: flex;
-  top: 53%;
-  transform: translateY(-50%);
   flex-wrap: nowrap;
   white-space: nowrap;
   position: relative;
   z-index: 1;
+  padding-top: 3vw;
+  width: 100%;
 }
 
-#projects .projects-wrapper .logo {
-  position: relative;
-  display: flex;
-  margin-right: 10px;
-  width: 200px;
-  height: 200px;
-  justify-content: center;
-}
-
-#projects .projects-wrapper .logo img {
-  display: block;
-  position: relative;
-  width: 200px;
-  margin: auto;
+#projects .projects-wrapper .projects {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-right: 10vw;
+  height: 60vh;
 }
 
 #projects .projects-wrapper .project {
-  height: 65vh;
-  margin-right: 30px;
   border-radius: 10px;
-  min-width: 80vw;
+  width: 30vw;
+  height: 30vh;
+  border: 1px solid;
+  margin: 1vw;
 }
 
 #projects .projects-wrapper .project a {
   border-radius: 10px 0 0 10px;
   display: block;
   overflow: hidden;
-  height: 15vw;
+  display: none;
 }
 
 #projects .projects-wrapper .project a img {
@@ -364,6 +356,22 @@ section h2 {
   height: 100%;
   opacity: 1;
   transition: all 1s ease-in-out;
+}
+
+#projects .projects-wrapper .logo {
+  position: relative;
+  display: flex;
+  margin-right: 10px;
+  width: 20px;
+  height: 20px;
+  justify-content: center;
+}
+
+#projects .projects-wrapper .logo img {
+  display: block;
+  position: relative;
+  width: 20px;
+  margin: auto;
 }
 
 #projects .projects-wrapper .project a img:nth-child(2) {
@@ -393,7 +401,7 @@ section h2 {
 
 #projects .projects-wrapper .project a .project-site {
   opacity: 0;
-  width: 350px;
+  width: 50px;
   position: absolute;
   background-position: center;
   height: 100%;
@@ -410,7 +418,7 @@ section h2 {
 #projects .projects-wrapper .project a .site-link {
   color: #fff;
   line-height: 1.6;
-  height: 150px;
+  height: 50px;
   text-align: center;
   z-index: 2;
   position: relative;
@@ -554,51 +562,15 @@ section h2 {
   background-size: cover;
 }
 
-.project.gemhour .content {
-  background: linear-gradient(310deg, #292129, #29292d, #343636, #464240, #332f20e6, #362f24);
-  color: #fff;
-}
-
-.project.gemhour a .project-site {
-  background-image: linear-gradient(308deg, #44434b, #938d5938, #91966a26, #664d2700, #403f47), url(../images/gemhour-b.png);
-  background-size: cover;
-}
-
-.project.eotd-global .content {
-  background: linear-gradient(90deg, #f6f6f6, #eceaef, #faf8f8db, #fffaf2, #efead4eb);
-}
-
-.project.eotd-global a .project-site {
-  background-image: linear-gradient(90deg, #717f9861, #110e1100, #f7f6f3), url(../images/eotd-b.png);
-  background-size: cover;
-  background-position: right;
-}
-
-.project.eotd-jp .content {
-  background: linear-gradient(88deg, #000, #1b1216, #110e11f2, #0e0b09bd);
-  color: #fff;
-}
-
-.project.eotd-jp a .project-site {
-  background-image: linear-gradient(90deg, #9c80799e, #110e1100, #010101), url(../images/eotd-jp-b.png);
-  background-size: cover;
-}
-
 .project .content {
-  padding: 50px 50px 50px 20px;
   border-radius: 0 10px 10px 0;
-  margin-left: -2px;
-  margin-top: -50%;
 }
 
-.project .content ul {
-  line-height: 1.7;
-}
+.project .content ul {}
 
 .project .content li {
   list-style: none;
   font-size: 17px;
-  padding-bottom: 15px;
   font-family: "Dovemayo_gothic";
 }
 
@@ -617,6 +589,15 @@ section h2 {
 
 .project .content li label:first-child {
   font-size: 12px;
+}
+
+.project .content li:first-child label:first-child {
+  font-size: 5vw;
+  -webkit-text-stroke: 1px #000;
+  color: #fff;
+  padding: 0;
+  line-height: 0.7;
+  margin-left: -0.5vw;
 }
 
 .skills-container {
