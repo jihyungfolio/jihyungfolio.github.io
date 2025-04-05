@@ -40,7 +40,7 @@ body {
   border-bottom: 5px solid
 }
 
-.container section#skills:last-child {
+.container section#contact:last-child {
   border-bottom: 0;
 }
 
@@ -96,7 +96,7 @@ section h2 {
   color: #000;
 }
 
-#intro h1 {
+#skills h1 {
   position: absolute;
   left: 4%;
   top: 4%;
@@ -108,7 +108,7 @@ section h2 {
   height: 100%;
   width: 80vw;
   margin: 0 auto;
-  top: 3vw;
+  top: 1vw;
   position: relative;
 }
 
@@ -319,6 +319,7 @@ section h2 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   margin-top: 2vw;
+  width: 120%;
 }
 
 #projects .projects-wrapper .projects.chlens,
@@ -328,14 +329,13 @@ section h2 {
 }
 
 #projects .projects-wrapper .project {
-  width: 300px;
+  width: 600px;
   margin: 0.5vw;
   padding: 10px;
   border-radius: 20px;
   border: 1px solid;
   box-shadow: 2px 2px 0 #e0dadd, 3px 3px 0 0 rgb(56 6 98 / 91%);
 }
-
 
 #projects .projects-wrapper .hapa-kr {
   transform: rotateZ(2deg);
@@ -393,7 +393,7 @@ section h2 {
   height: 4vw;
 }
 
-#projects .projects-wrapper .project a img {
+A #projects .projects-wrapper .project a img {
   object-fit: cover;
   object-position: center;
   height: 100%;
@@ -635,10 +635,9 @@ section h2 {
 }
 
 .skills-container {
-  width: 80vw;
+  width: 70vw;
   margin: 0 auto;
-  transform: translateY(15%);
-  position: relative;
+  transform: translateY(120%);
 }
 
 .skills-container .skills-image {
@@ -655,6 +654,7 @@ section h2 {
   text-align: center;
   word-wrap: break-word;
   padding: 0 2px;
+  margin: 3px;
 }
 
 .skills-container .skills-image .skill:nth-child(1) span {
@@ -683,27 +683,24 @@ section h2 {
 
 .skills-image span {
   text-transform: uppercase;
-  font-weight: 600;
   letter-spacing: -0.04em;
-  padding-bottom: 10px;
-  font-size: 13px;
-  margin-top: -3px;
+  font-size: 1vw;
   display: block;
 }
 
-.skills-text {
+.contact-text {
   width: 80%;
   margin: 0 auto;
 }
 
-.skills-text .skills-details {
+.contact-text .contact-details {
   font-size: 14px;
   font-weight: 600;
   line-height: 2;
 }
 
-.skills-text .email,
-.skills-text .blog {
+.contact-text .email,
+.contact-text .blog {
   margin-top: 30px;
   font-weight: 700;
   margin-top: 30px;
@@ -782,7 +779,7 @@ section h2 {
 
 @media screen and (max-width: 768px) {
 
-  #intro h1 {
+  #skills h1 {
     font-size: 180%;
   }
 
