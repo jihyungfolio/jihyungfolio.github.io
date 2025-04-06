@@ -445,14 +445,14 @@ A #tasks .tasks-wrapper .task a img {
 .skills-container .skills-image .skill {
   background-color: #f0f0f0;
   padding: 3vw;
-  outline: 1px solid #ffffff;
   outline-offset: -1px;
   height: 30vw;
   overflow: hidden;
   position: relative;
   border-radius: 5px;
   margin: 0 1vw;
-  filter: saturate(0.8);
+  filter: saturate(0.7);
+  box-shadow: 2px 4px 20px #b3b3b3;
 }
 
 /* .skills-container .skills-image .skill:nth-child(2n) {
@@ -512,10 +512,9 @@ A #tasks .tasks-wrapper .task a img {
 }
 
 .skills-container .skills-image .skill img {
-  width: 16vw;
+  width: 22vw;
   z-index: 1;
   position: relative;
-  padding-top: 3vw
 }
 
 .skills-image span {

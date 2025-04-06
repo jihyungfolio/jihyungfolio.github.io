@@ -6,7 +6,7 @@
     position: absolute;
     width: 50%;
     height: 50%;
-    filter: blur(60px);
+    filter: blur(45px);
     z-index: 0;
 }
 
@@ -30,8 +30,18 @@
     right: 0;
 }
 
+.skill span {
+    box-shadow: 1px 5px 10px #0000004a;
+}
+
 .shopify {
     background: linear-gradient(90deg, #66896c, transparent, #a9b3a7, transparent, #acb9aa, #a1c699e8);
+
+    span {
+        background: #56a493;
+        color: #fff;
+        border: 1px solid #649f83;
+    }
 
     .b1 {
         background-color: #b7dcff;
@@ -55,6 +65,11 @@
 
     background: linear-gradient(90deg, #b6bbe3, transparent, #a7b0b3a6, transparent, transparent, #9aadd9, #d1ecff, #abcaffe8);
 
+    span {
+        background: #5185ff;
+        color: #fff;
+    }
+
     .b1 {
         background-color: #fbffcd;
     }
@@ -76,6 +91,10 @@
 
     background: linear-gradient(90deg, #ffffff00, transparent, #a7b0b3a6, transparent, transparent, #d6e1e7, #fff2d1, #abffb8e8);
 
+    span {
+        background: #ffcf45;
+    }
+
     .b1 {
         background-color: #fbfdff;
     }
@@ -91,26 +110,6 @@
     .b4 {
         background-color: #7eff6d;
     }
-}
-
-.java {
-
-    .b1 {
-        background-color: #ffae00;
-    }
-
-    .b2 {
-        background-color: rgb(169, 118, 0);
-    }
-
-    .b3 {
-        background-color: rgb(255, 83, 45);
-    }
-
-    .b4 {
-        background-color: rgb(104, 3, 0);
-    }
-
 }
 
 .ruby {
@@ -134,42 +133,42 @@
 }
 
 .visualstudio {
-    background: linear-gradient(90deg, #ffffff00, transparent, #a7b0b3a6, transparent, transparent, #d6e1e7, #6f9bbe8f, transparent, transparent, #d6e1e7, #abbeffe8);
+    background: linear-gradient(90deg, #ffffff00, transparent, #e0e4f7a6, transparent, transparent, #d6e1e7, #a7bbca1f, #4c677d00, transparent, #d6e1e7, #bfc6cae8);
 
     .b1 {
         background-color: #0099ff;
     }
 
     .b2 {
-        background-color: #ffffff;
+        background-color: #110f29;
     }
 
     .b3 {
-        background-color: #5fbeff;
+        background-color: #0f4366;
     }
 
     .b4 {
-        background-color: #00ffdd;
+        background-color: #4d595f;
     }
 }
 
 .java {
-    background: linear-gradient(90deg, #ffffff00, transparent, #a7b0b3a6, transparent, transparent, #d6e1e7, #6f9bbe8f, transparent, transparent, #c2979c54, #ff83836b);
+    background: linear-gradient(90deg, #f1c6a240, #fff5f591, #f1ede3d0, transparent, transparent, #e2e2e217, #6d7a851f, transparent, transparent, #c2ac9754, #0b89ff21);
 
     .b1 {
-        background-color: #4b3914;
+        background-color: #297781;
     }
 
     .b2 {
-        background-color: rgb(241, 233, 215);
+        background-color: rgb(169, 0, 0);
     }
 
     .b3 {
-        background-color: rgb(153, 28, 0);
+        background-color: rgb(0 31 74);
     }
 
     .b4 {
-        background-color: rgb(117, 46, 44);
+        background-color: rgb(214, 146, 119);
     }
 
 }
@@ -320,7 +319,7 @@
 }
 
 .github {
-    background: linear-gradient(180deg, black, transparent);
+    background: linear-gradient(180deg, black, #1d0f43, transparent);
 
     .b1 {
         background-color: #0e0e0e;
@@ -344,19 +343,19 @@
     background-size: 1px 1px, 1px 1px, 1px 1px, 1px 1px, 1px 1px, 150% 150%;
 
     .b1 {
-        background-color: #188fff;
+        background-color: #004b91;
     }
 
     .b2 {
-        background-color: rgb(0, 76, 255);
+        background-color: rgb(1 94 138);
     }
 
     .b3 {
-        background-color: rgb(0, 114, 120);
+        background-color: rgb(0, 56, 120);
     }
 
     .b4 {
-        background-color: rgb(125, 196, 255);
+        background-color: rgb(3, 142, 255);
     }
 
 }
@@ -374,11 +373,11 @@
     }
 
     .b3 {
-        background-color: #009dff;
+        background-color: #0066a5;
     }
 
     .b4 {
-        background-color: #db741f;
+        background-color: #a84c00;
     }
 }
 
@@ -425,14 +424,14 @@
 }
 
 .sql {
-    background: linear-gradient(222deg, #ffffff40, #d6eaff21, #d2ff810f, #18273a12, #6fc0ff38, #2a6e8a3b, #8899a35e, #ffffff52);
+    background: linear-gradient(222deg, #e5e3ffd2, #b7daffcb, #ffffff73, #e8f2ffb4, #ffffffe1, #d3f2ff3b, #ffffffe7, #ffffff52);
 
     .b1 {
-        background-color: #003d75;
+        background-color: #01e1ff;
     }
 
     .b2 {
-        background-color: rgb(0, 30, 90);
+        background-color: rgb(100, 152, 255);
     }
 
     .b3 {
@@ -446,14 +445,14 @@
 }
 
 .photoshop {
-    background: linear-gradient(150deg, #18292f40, #d6eaff21, #d2ff810f, #18273a12, #6fc0ff38, #0e3f2f3b, #2954845e, #407dd652);
+    background: linear-gradient(150deg, #18292fd3, #002d5ea4, #364f74bb, #1a488577, #6fc0ff38, #0e3f2f3b, #2954845e, #407dd652);
 
     .b1 {
         background-color: #4f5569;
     }
 
     .b2 {
-        background-color: #0000ff;
+        background-color: #011722;
     }
 
     .b3 {
