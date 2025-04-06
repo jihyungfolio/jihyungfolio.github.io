@@ -439,7 +439,7 @@ A #tasks .tasks-wrapper .task a img {
 
 .skills-container .skills-image {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(9, 1fr);
 }
 
 .skills-container .skills-image .skill {
@@ -604,6 +604,11 @@ A #tasks .tasks-wrapper .task a img {
     font-size: 12px;
     border: 0;
   }
+
+  .skills-container .skills-image {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
 
   .skills-container .skills-image .skill {}
 

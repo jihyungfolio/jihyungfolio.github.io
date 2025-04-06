@@ -1,5 +1,5 @@
 .timeline-wrapper {
-    padding: 10vw;
+    padding: 5vw;
 
     .t {
 
@@ -8,7 +8,7 @@
 
         li {
             list-style: none;
-            border-radius: 250px;
+            border-radius: 5px;
             padding: 0.5vw 2vw;
             height: 8vh;
             position: relative;
@@ -60,7 +60,7 @@
 
 
             .b1 {
-                background-color: #fbffcd;
+                background-color: #baccbd;
             }
 
             .b2 {
@@ -68,67 +68,67 @@
             }
 
             .b3 {
-                background-color: #d1edff;
+                background-color: rgb(216 255 249);
             }
 
             .b4 {
-                background-color: #3671c6;
+                background-color: rgb(255 197 197);
             }
         }
 
         .t2 {
             .b1 {
-                background-color: #ffb7b7;
+                background-color: #dca0a0;
             }
 
             .b2 {
-                background-color: rgb(255, 223, 244);
+                background-color: rgb(242 255 187);
             }
 
             .b3 {
-                background-color: rgb(233, 255, 213);
+                background-color: rgb(248 255 224);
             }
 
             .b4 {
-                background-color: rgb(229, 125, 255);
+                background-color: rgb(191 255 248);
             }
         }
 
         .t3 {
 
             .b1 {
-                background-color: #c4ff22;
+                background-color: #ffa3e8;
             }
 
             .b2 {
-                background-color: rgb(232, 255, 239);
+                background-color: #e389ff;
             }
 
             .b3 {
-                background-color: rgb(187, 255, 229);
+                background-color: #cbffcc;
             }
 
             .b4 {
-                background-color: rgb(252, 255, 63);
+                background-color: #d5f1ad;
             }
+
         }
 
         .t4 {
-
             .b1 {
-                background-color: #89cfff;
+                background-color: #f5ffd1;
             }
 
             .b2 {
-                background-color: #fd742d;
+                background-color: rgb(255 198 198);
             }
 
             .b3 {
-                background-color: #5fbeff;
+                background-color: rgb(135 184 255);
             }
 
             .b4 {
-                background-color: #cbffcc;
+                background-color: rgb(229 255 206);
             }
         }
 
@@ -197,7 +197,7 @@
             li {
 
                 .work-title {
-                    font-size: 14px;
+                    font-size: 16px;
                 }
 
                 /* background: black;
