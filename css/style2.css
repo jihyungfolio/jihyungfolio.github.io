@@ -144,7 +144,7 @@
     background: linear-gradient(180deg, rgb(14, 38, 70), #270202, #64462e73, transparent);
 
     .b1 {
-        background-color: #297781;
+        background-color: #04292e;
     }
 
     .b2 {
@@ -209,15 +209,15 @@
     background: linear-gradient(180deg, #00171d, #003d55, #004b5873, transparent);
 
     .b1 {
-        background-color: #ffffff;
+        background-color: #00131e;
     }
 
     .b2 {
-        background-color: #c7fffc;
+        background-color: #026863;
     }
 
     .b3 {
-        background-color: #005e98;
+        background-color: #acf9ff;
     }
 
     .b4 {
@@ -284,7 +284,7 @@
     }
 
     .b4 {
-        background-color: #3671c6;
+        background-color: #00e0b2;
     }
 }
 
@@ -407,7 +407,7 @@
     }
 
     .b3 {
-        background-color: #662eff;
+        background-color: #2ee4ff;
     }
 
     .b4 {
@@ -428,7 +428,7 @@
     }
 
     .b3 {
-        background-color: rgb(0, 160, 252);
+        background-color: rgb(63 70 75);
     }
 
     .b4 {

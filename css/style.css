@@ -513,7 +513,7 @@ A #tasks .tasks-wrapper .task a img {
   width: 22vw;
   z-index: 1;
   position: relative;
-  margin-top: 4vw;
+  margin-top: 6vw;
 }
 
 .skills-image span {
@@ -618,7 +618,9 @@ A #tasks .tasks-wrapper .task a img {
 }
 
 @media screen and (max-width: 1024px) {
-  .skills-container {}
+  .skills-container {
+    padding: 50px 10px;
+  }
 
   .skills-image span {
     font-size: 13px;
