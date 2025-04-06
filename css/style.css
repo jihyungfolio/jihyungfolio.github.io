@@ -36,8 +36,8 @@ body {
 
 .container section {
   height: 100%;
+  min-height: 100vh;
   overflow: hidden;
-  border-bottom: 5px solid
 }
 
 .container section#contact:last-child {
@@ -434,7 +434,7 @@ A #tasks .tasks-wrapper .task a img {
 }
 
 .skills-container {
-  padding: 5vw;
+  padding: 10px;
 }
 
 .skills-container .skills-image {
@@ -447,11 +447,28 @@ A #tasks .tasks-wrapper .task a img {
   padding: 3vw;
   outline: 1px solid #ffffff;
   outline-offset: -1px;
-  height: 21vw;
+  height: 30vw;
   overflow: hidden;
   position: relative;
   border-radius: 5px;
-  margin: 1vw;
+  margin: 0 1vw;
+  filter: saturate(0.8);
+}
+
+/* .skills-container .skills-image .skill:nth-child(2n) {
+  margin-top: 10px;
+}
+
+.skills-container .skills-image .skill:nth-child(3n) {
+  margin-top: 10px;
+} */
+
+.skills-container .skills-image .skill:nth-child(3n+1) {
+  margin-top: -10px;
+}
+
+.skills-container .skills-image .skill:nth-child(3n+2) {
+  margin-top: 10px;
 }
 
 
@@ -495,9 +512,10 @@ A #tasks .tasks-wrapper .task a img {
 }
 
 .skills-container .skills-image .skill img {
-  width: 15vw;
+  width: 16vw;
   z-index: 1;
   position: relative;
+  padding-top: 3vw
 }
 
 .skills-image span {
@@ -505,10 +523,15 @@ A #tasks .tasks-wrapper .task a img {
   font-size: 1vw;
   display: block;
   margin: auto;
-  background: #ffffff9f;
+  background: #ffffffd5;
   z-index: 1;
   position: relative;
   box-shadow: 5px 1px 10px #ffffff8c;
+  width: max-content;
+  padding: 2px 5px;
+  top: 5px;
+  border-radius: 5px;
+  ;
 }
 
 .contact-text {}

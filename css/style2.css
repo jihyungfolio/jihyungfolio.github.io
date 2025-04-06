@@ -32,6 +32,8 @@
 
 .shopify {
 
+    background-image: url(../images/background/1.jpg);
+
     .b1 {
         background-color: #b7dcff;
     }
@@ -52,6 +54,8 @@
 
 .cafe24 {
 
+    background-image: url(../images/background/2.jpg);
+
     .b1 {
         background-color: #fbffcd;
     }
@@ -70,6 +74,8 @@
 }
 
 .webstorm {
+
+    background-image: url(../images/background/3.jpg);
 
     .b1 {
         background-color: #fbfdff;
@@ -110,6 +116,9 @@
 
 .ruby {
 
+    background-image: url(../images/background/17.jpg);
+    background-size: cover;
+
     .b1 {
         background-color: #ff0000;
     }
@@ -129,6 +138,9 @@
 
 .visualstudio {
 
+    background-image: url(../images/background/4.jpg);
+    background-size: cover;
+
     .b1 {
         background-color: #0099ff;
     }
@@ -147,6 +159,8 @@
 }
 
 .java {
+    background-image: url(../images/background/6.jpg);
+    background-size: cover;
 
     .b1 {
         background-color: #ffd57c;
@@ -167,6 +181,8 @@
 }
 
 .html {
+    background-image: url(../images/background/16.jpg);
+    background-size: cover;
 
     .b1 {
         background-color: #ffd7d7;
@@ -186,6 +202,9 @@
 }
 
 .illustrator {
+
+    background-image: url(../images/background/8.jpg);
+    background-size: cover;
 
     .b1 {
         background-color: #473600;
@@ -207,6 +226,9 @@
 
 .react {
 
+    background-image: url(../images/background/5.jpg);
+    background-size: cover;
+
     .b1 {
         background-color: #ffffff;
     }
@@ -225,9 +247,11 @@
 }
 
 .python {
+    background-image: url(../images/background/25.jpg);
+    background-size: cover;
 
     .b1 {
-        background-color: #0a2537;
+        background-color: #ffffff;
     }
 
     .b2 {
@@ -239,11 +263,13 @@
     }
 
     .b4 {
-        background-color: #cbffcc;
+        background-color: #fdff9c;
     }
 }
 
 .vue {
+    background-image: url(../images/background/11.jpg);
+    background-size: cover;
 
     .b1 {
         background-color: #086ac6;
@@ -264,6 +290,8 @@
 }
 
 .css {
+    background-image: url(../images/background/15.jpg);
+    background-size: cover;
 
     .b1 {
         background-color: #fbffcd;
@@ -283,6 +311,8 @@
 }
 
 .figma {
+    background-image: url(../images/background/24.jpg);
+    background-size: cover;
 
     .b1 {
         background-color: #0099ff;
@@ -297,12 +327,14 @@
     }
 
     .b4 {
-        background-color: #00ff04;
+        background-color: #fffae9;
     }
 
 }
 
 .github {
+    background-image: url(../images/background/10.jpg);
+    background-size: cover;
 
     .b1 {
         background-color: #0e0e0e;
@@ -322,6 +354,8 @@
 }
 
 .docker {
+    background-image: url(../images/background/13.jpg);
+    background-size: cover;
 
     .b1 {
         background-color: #188fff;
@@ -342,6 +376,8 @@
 }
 
 .mysql {
+    background-image: url(../images/background/9.jpg);
+    background-size: cover;
 
     .b1 {
         background-color: #ffeaa3;
@@ -361,6 +397,8 @@
 }
 
 .js {
+    background-image: url(../images/background/19.jpg);
+    background-size: cover;
 
     .b1 {
         background-color: #f1ffd6;
@@ -381,6 +419,8 @@
 }
 
 .bootstrap {
+    background-image: url(../images/background/7.jpg);
+    background-size: cover;
 
     .b1 {
         background-color: #0400ff;
@@ -400,6 +440,8 @@
 }
 
 .sql {
+    background-image: url(../images/background/21.jpg);
+    background-size: cover;
 
     .b1 {
         background-color: #b7dcff;
@@ -420,6 +462,8 @@
 }
 
 .photoshop {
+    background-image: url(../images/background/22.jpg);
+    background-size: cover;
 
     .b1 {
         background-color: #ffeaa3;
@@ -439,6 +483,8 @@
 }
 
 .protools {
+    background-image: url(../images/background/18.jpg);
+    background-size: cover;
 
     .b1 {
         background-color: #9000ff;

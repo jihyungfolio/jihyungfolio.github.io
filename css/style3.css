@@ -9,32 +9,31 @@
         li {
             list-style: none;
             border-radius: 5px;
-            padding: 0.5vw 2vw;
-            height: 8vh;
+            padding: 5vw 2vw;
+            /* height: 8vh; */
             position: relative;
-            display: flex;
+            /* display: flex; */
             justify-content: center;
             align-items: center;
             text-align: center;
             overflow: hidden;
-            margin: 2vw;
+            margin: 2vw 0;
 
             img {
-                position: absolute;
                 display: block;
                 border: none !important;
-                top: -50%;
+                z-index: 1;
+                position: relative;
+                margin: 0 auto;
+                padding-bottom: 3vw;
             }
 
             .w-logo {
-                height: 2vw;
-                left: 10%;
+                height: 30px;
             }
 
             .pb-logo {
-                width: 6vw;
-                top: -40%;
-                right: 10%;
+                width: 100px;
             }
 
             h3 {
@@ -53,18 +52,19 @@
 
             p {
                 z-index: 1;
+                position: relative;
+                line-height: 2;
             }
         }
 
         .t1 {
-
 
             .b1 {
                 background-color: #f1fff4;
             }
 
             .b2 {
-                background-color: #ddddeb;
+                background-color: #d4e4ff;
             }
 
             .b3 {
@@ -132,7 +132,7 @@
             }
         }
 
-
+        /* 
         li:before {
             content: "";
             -moz-transition: -moz-transform 0.2s ease-in;
@@ -151,7 +151,7 @@
             width: 1em;
             height: 1em;
             border-radius: 5px;
-        }
+        } */
 
 
         li p span {
@@ -159,21 +159,13 @@
             font-size: 12px;
         }
 
+        li img {}
+
+
+
     }
 
-    .t:before {
-        background: #202026ed;
-        content: "";
-        margin-left: -3px;
-        position: absolute;
-        top: 1em;
-        left: 2em;
-        width: 5px;
-        height: 100%;
-        border-radius: 5px;
-        box-shadow: 10px 5px 10px #0000007d;
-        display: none;
-    }
+    li {}
 
 }
 
@@ -209,3 +201,5 @@
     }
 
 }
+
+.t .blur {}
