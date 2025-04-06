@@ -32,8 +32,6 @@
 
 .shopify {
 
-
-
     .b1 {
         background-color: #b7dcff;
     }
@@ -43,7 +41,7 @@
     }
 
     .b3 {
-        background-color: rgb(233, 255, 213);
+        background-color: rgb(163 255 80);
     }
 
     .b4 {
@@ -59,11 +57,11 @@
     }
 
     .b2 {
-        background-color: #c7c7ff;
+        background-color: #5f5fff;
     }
 
     .b3 {
-        background-color: #d1edff;
+        background-color: #1693ff;
     }
 
     .b4 {
@@ -74,11 +72,11 @@
 .webstorm {
 
     .b1 {
-        background-color: #89cfff;
+        background-color: #fbfdff;
     }
 
     .b2 {
-        background-color: #fd742d;
+        background-color: #ff5a05;
     }
 
     .b3 {
@@ -86,26 +84,26 @@
     }
 
     .b4 {
-        background-color: #cbffcc;
+        background-color: #7eff6d;
     }
 }
 
 .java {
 
     .b1 {
-        background-color: #ffd57c;
+        background-color: #ffae00;
     }
 
     .b2 {
-        background-color: rgb(241, 233, 215);
+        background-color: rgb(169, 118, 0);
     }
 
     .b3 {
-        background-color: rgb(255, 177, 159);
+        background-color: rgb(255, 83, 45);
     }
 
     .b4 {
-        background-color: rgb(255, 217, 216);
+        background-color: rgb(104, 3, 0);
     }
 
 }
@@ -113,11 +111,11 @@
 .ruby {
 
     .b1 {
-        background-color: #ffd7d7;
+        background-color: #ff0000;
     }
 
     .b2 {
-        background-color: #94746b;
+        background-color: #ffffff;
     }
 
     .b3 {
@@ -125,18 +123,18 @@
     }
 
     .b4 {
-        background-color: #fff7f8;
+        background-color: #500009;
     }
 }
 
 .visualstudio {
 
     .b1 {
-        background-color: #89cfff;
+        background-color: #0099ff;
     }
 
     .b2 {
-        background-color: #422dfd;
+        background-color: #ffffff;
     }
 
     .b3 {
@@ -144,7 +142,7 @@
     }
 
     .b4 {
-        background-color: #cbfff8;
+        background-color: #00ffdd;
     }
 }
 
@@ -175,7 +173,7 @@
     }
 
     .b2 {
-        background-color: #94746b;
+        background-color: #ff8000;
     }
 
     .b3 {
@@ -190,7 +188,7 @@
 .illustrator {
 
     .b1 {
-        background-color: #ffeeb7;
+        background-color: #473600;
     }
 
     .b2 {
@@ -198,11 +196,11 @@
     }
 
     .b3 {
-        background-color: rgb(255, 223, 213);
+        background-color: rgb(255, 247, 21);
     }
 
     .b4 {
-        background-color: rgb(230, 201, 199);
+        background-color: rgb(255, 66, 52);
     }
 
 }
@@ -210,15 +208,15 @@
 .react {
 
     .b1 {
-        background-color: #fbffcd;
+        background-color: #ffffff;
     }
 
     .b2 {
-        background-color: #c7c7ff;
+        background-color: #c7fffc;
     }
 
     .b3 {
-        background-color: #d1edff;
+        background-color: #005e98;
     }
 
     .b4 {
@@ -229,7 +227,7 @@
 .python {
 
     .b1 {
-        background-color: #89cfff;
+        background-color: #0a2537;
     }
 
     .b2 {
@@ -237,7 +235,7 @@
     }
 
     .b3 {
-        background-color: #efff5f;
+        background-color: #e5ff00;
     }
 
     .b4 {
@@ -248,7 +246,7 @@
 .vue {
 
     .b1 {
-        background-color: #b7dcff;
+        background-color: #086ac6;
     }
 
     .b2 {
@@ -287,11 +285,11 @@
 .figma {
 
     .b1 {
-        background-color: #89cfff;
+        background-color: #0099ff;
     }
 
     .b2 {
-        background-color: #fd742d;
+        background-color: #ff5500;
     }
 
     .b3 {
@@ -299,7 +297,7 @@
     }
 
     .b4 {
-        background-color: #cbffcc;
+        background-color: #00ff04;
     }
 
 }
@@ -307,7 +305,7 @@
 .github {
 
     .b1 {
-        background-color: #969696;
+        background-color: #0e0e0e;
     }
 
     .b2 {
@@ -319,22 +317,22 @@
     }
 
     .b4 {
-        background-color: #adadad;
+        background-color: #000000;
     }
 }
 
 .docker {
 
     .b1 {
-        background-color: #b7dcff;
+        background-color: #188fff;
     }
 
     .b2 {
-        background-color: rgb(201, 216, 245);
+        background-color: rgb(0, 76, 255);
     }
 
     .b3 {
-        background-color: rgb(219, 233, 231);
+        background-color: rgb(0, 114, 120);
     }
 
     .b4 {
@@ -369,15 +367,15 @@
     }
 
     .b2 {
-        background-color: #efffe1;
+        background-color: #77ff00;
     }
 
     .b3 {
-        background-color: #9daa9e;
+        background-color: #ffffff;
     }
 
     .b4 {
-        background-color: #cbffcc;
+        background-color: #263727;
     }
 
 }
@@ -385,19 +383,19 @@
 .bootstrap {
 
     .b1 {
-        background-color: #d0abff;
+        background-color: #0400ff;
     }
 
     .b2 {
-        background-color: #d9c4ff;
+        background-color: #e0cdff;
     }
 
     .b3 {
-        background-color: #f0daff;
+        background-color: #000000;
     }
 
     .b4 {
-        background-color: #c3bdce;
+        background-color: #dfceff;
     }
 }
 
@@ -416,7 +414,7 @@
     }
 
     .b4 {
-        background-color: rgb(125, 196, 255);
+        background-color: rgb(0, 140, 255);
     }
 
 }
@@ -428,11 +426,11 @@
     }
 
     .b2 {
-        background-color: #c7c7ff;
+        background-color: #0000ff;
     }
 
     .b3 {
-        background-color: #58bfff;
+        background-color: #019eff;
     }
 
     .b4 {
@@ -443,7 +441,7 @@
 .protools {
 
     .b1 {
-        background-color: #abb1ff;
+        background-color: #9000ff;
     }
 
     .b2 {
@@ -451,10 +449,10 @@
     }
 
     .b3 {
-        background-color: #cfa7e9;
+        background-color: #1c002f;
     }
 
     .b4 {
-        background-color: #c3bdce;
+        background-color: #ffdafb;
     }
 }
