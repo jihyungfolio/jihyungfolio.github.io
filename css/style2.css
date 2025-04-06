@@ -1,11 +1,14 @@
-@media screen and (max-width: 1024px) {
-    .skills-container {
-        transform: unset;
-    }
+/* @media screen and (max-width: 1024px) {
+    .skills-container {}
 
     .skills-image span {
-        font-size: 24px;
-
+        font-size: 19px;
+        margin-top: unset;
+        border: 0;
     }
 
-}
+    .skills-container .skills-image .skill {}
+
+    .skills-container .skills-image .skill img {}
+
+} */
