@@ -443,9 +443,8 @@ A #tasks .tasks-wrapper .task a img {
 }
 
 .skills-container .skills-image .skill {
-  padding: 3vw;
   outline-offset: -1px;
-  height: 38vw;
+  height: 45vw;
   overflow: hidden;
   position: relative;
   border-radius: 3px;
@@ -622,7 +621,7 @@ A #tasks .tasks-wrapper .task a img {
   .skills-container {}
 
   .skills-image span {
-    font-size: 14px;
+    font-size: 13px;
     border: 0;
   }
 

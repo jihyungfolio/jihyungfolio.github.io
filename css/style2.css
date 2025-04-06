@@ -51,7 +51,7 @@
     }
 
     .b4 {
-        background-color: rgb(125, 255, 125);
+        background-color: rgb(125 255 249);
     }
 
 }
@@ -73,7 +73,7 @@
     }
 
     .b4 {
-        background-color: #3671c6;
+        background-color: #020054;
     }
 }
 
@@ -90,52 +90,52 @@
     }
 
     .b3 {
-        background-color: #5fbeff;
+        background-color: #041674;
     }
 
     .b4 {
-        background-color: #7eff6d;
+        background-color: #ffcf00;
     }
 }
 
 .ruby {
 
-    background: linear-gradient(180deg, black, #270202, #55180d73, transparent);
+    background: linear-gradient(180deg, black, #250000, #55180d73, transparent);
 
     .b1 {
-        background-color: #ff0000;
+        background-color: #380000;
     }
 
     .b2 {
-        background-color: #ffffff;
+        background-color: #452e00;
     }
 
     .b3 {
-        background-color: #ffd1d1;
+        background-color: #003b57;
     }
 
     .b4 {
-        background-color: #500009;
+        background-color: #b97198;
     }
 }
 
 .visualstudio {
-    background: linear-gradient(0deg, #1d141400, transparent, #e0e4f7a6, transparent, transparent, #68caff8f, #0064af85, #286aa1db, #0f3e74b8, #10384fcf, #082b65);
+    background: linear-gradient(0deg, transparent, transparent, transparent, #69a9f1b8, #2f4d7acf, #1d2b42, #000);
 
     .b1 {
-        background-color: #0099ff;
+        background-color: #ff3f3f;
     }
 
     .b2 {
-        background-color: #110f29;
+        background-color: #0581ff;
     }
 
     .b3 {
-        background-color: #0f4366;
+        background-color: #0088ff;
     }
 
     .b4 {
-        background-color: #4d595f;
+        background-color: #005fe2;
     }
 }
 
@@ -331,18 +331,18 @@
 }
 
 .docker {
-    background: linear-gradient(0deg, #1d141400, transparent, #e0e4f7a6, transparent, transparent, #68caff4d, #229fff44, #62a7df9a, #34a7d4b8, #0690afcf, #0071a5);
+    background: linear-gradient(0deg, #68caff4d, #c8e7ff, #a1eff9c4, #7eacbeb8, #003c4aeb, #00121a);
 
     .b1 {
         background-color: #004b91;
     }
 
     .b2 {
-        background-color: rgb(1 94 138);
+        background-color: rgb(231 238 17);
     }
 
     .b3 {
-        background-color: rgb(0, 56, 120);
+        background-color: rgb(120 79 0);
     }
 
     .b4 {
@@ -360,7 +360,7 @@
     }
 
     .b2 {
-        background-color: #1f1f1f;
+        background-color: #553800;
     }
 
     .b3 {
