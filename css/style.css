@@ -443,15 +443,14 @@ A #tasks .tasks-wrapper .task a img {
 }
 
 .skills-container .skills-image .skill {
-  background-color: #f0f0f0;
   padding: 3vw;
   outline-offset: -1px;
   height: 30vw;
   overflow: hidden;
   position: relative;
-  border-radius: 5px;
+  border-radius: 3px;
   margin: 0 1vw;
-  filter: saturate(0.7);
+  filter: saturate(0.7) contrast(0.9) brightness(1.1);
   box-shadow: 2px 4px 20px #b3b3b3;
 }
 
@@ -529,7 +528,7 @@ A #tasks .tasks-wrapper .task a img {
   width: max-content;
   padding: 2px 5px;
   top: 5px;
-  border-radius: 5px;
+  border-radius: 2px;
   ;
 }
 

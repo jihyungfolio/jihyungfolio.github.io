@@ -35,13 +35,8 @@
 }
 
 .shopify {
-    background: linear-gradient(90deg, #66896c, transparent, #a9b3a7, transparent, #acb9aa, #a1c699e8);
 
-    span {
-        background: #56a493;
-        color: #fff;
-        border: 1px solid #649f83;
-    }
+    background: linear-gradient(180deg, black, #0f4316, transparent);
 
     .b1 {
         background-color: #b7dcff;
@@ -63,12 +58,7 @@
 
 .cafe24 {
 
-    background: linear-gradient(90deg, #b6bbe3, transparent, #a7b0b3a6, transparent, transparent, #9aadd9, #d1ecff, #abcaffe8);
-
-    span {
-        background: #5185ff;
-        color: #fff;
-    }
+    background: linear-gradient(180deg, black, #0f2743, transparent);
 
     .b1 {
         background-color: #fbffcd;
@@ -89,11 +79,7 @@
 
 .webstorm {
 
-    background: linear-gradient(90deg, #ffffff00, transparent, #a7b0b3a6, transparent, transparent, #d6e1e7, #fff2d1, #abffb8e8);
-
-    span {
-        background: #ffcf45;
-    }
+    background: linear-gradient(180deg, #001a0d, rgb(0, 117, 92), #beb099, transparent);
 
     .b1 {
         background-color: #fbfdff;
@@ -113,7 +99,8 @@
 }
 
 .ruby {
-    background: linear-gradient(90deg, #891010bf, #751d1d9c, #3b191ca6, #382424cf, #b41c1cb8, #030303, #40170b8f, #6219198a, #8a2a2ac9, #7f1522db, #000000de);
+
+    background: linear-gradient(180deg, black, #270202, #55180d73, transparent);
 
     .b1 {
         background-color: #ff0000;
@@ -133,7 +120,7 @@
 }
 
 .visualstudio {
-    background: linear-gradient(90deg, #ffffff00, transparent, #e0e4f7a6, transparent, transparent, #d6e1e7, #a7bbca1f, #4c677d00, transparent, #d6e1e7, #bfc6cae8);
+    background: linear-gradient(0deg, #1d141400, transparent, #e0e4f7a6, transparent, transparent, #68caff8f, #0064af85, #286aa1db, #0f3e74b8, #10384fcf, #082b65);
 
     .b1 {
         background-color: #0099ff;
@@ -153,7 +140,8 @@
 }
 
 .java {
-    background: linear-gradient(90deg, #f1c6a240, #fff5f591, #f1ede3d0, transparent, transparent, #e2e2e217, #6d7a851f, transparent, transparent, #c2ac9754, #0b89ff21);
+
+    background: linear-gradient(180deg, rgb(14, 38, 70), #270202, #64462e73, transparent);
 
     .b1 {
         background-color: #297781;
@@ -174,8 +162,8 @@
 }
 
 .html {
-    background-image: radial-gradient(ellipse farthest-corner, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 35%, #ffffff 30%, #ffffff 40%, rgba(0, 0, 0, 0) 90%), radial-gradient(ellipse farthest-corner at 0px 0px, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 20%, #ffffff 15%, #ffffff 20%, rgba(0, 0, 0, 0) 50%), radial-gradient(ellipse farthest-corner at 8px 8px, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 20%, #ffffff 15%, #ffffff 20%, rgba(0, 0, 0, 0) 50%), radial-gradient(ellipse farthest-corner at 0px 8px, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 20%, #ffffff 15%, #ffffff 20%, rgba(0, 0, 0, 0) 40%), radial-gradient(ellipse farthest-corner at 8px 0px, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 20%, #ffffff 15%, #ffffff 20%, rgba(0, 0, 0, 0) 50%), linear-gradient(40deg, #ff8a73 0, #ff8d48 30%, #ff6e51 50%, #f4502f 70%, #ab4d00 100%);
-    background-size: 1px 1px, 1px 1px, 1px 1px, 1px 1px, 1px 1px, 150% 150%;
+
+    background: linear-gradient(180deg, rgb(61, 9, 0), #310a00, #4e230073, transparent);
 
     .b1 {
         background-color: #6d4100;
@@ -195,7 +183,8 @@
 }
 
 .illustrator {
-    background: linear-gradient(178deg, #18292f40, #d6eaff21, #d2ff810f, #18273a12, #ffdb6f38, #171a1991, #403d2b5e, #6c684f52);
+
+    background: linear-gradient(180deg, #241900, #351500, #64512e73, transparent);
 
     .b1 {
         background-color: #473600;
@@ -216,7 +205,8 @@
 }
 
 .react {
-    background: linear-gradient(93deg, #00438247, #b2ebff3d, #9fe6ff70, #deebfb85, #6ebbd6c7, #6ee4f9, #59afcef0, #042957f0);
+
+    background: linear-gradient(180deg, #00171d, #003d55, #004b5873, transparent);
 
     .b1 {
         background-color: #ffffff;
@@ -236,8 +226,7 @@
 }
 
 .python {
-    background-image: radial-gradient(ellipse farthest-corner, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 35%, #ffffff 30%, #ffffff 40%, rgba(0, 0, 0, 0) 90%), radial-gradient(ellipse farthest-corner at 0px 0px, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 20%, #ffffff 15%, #ffffff 20%, rgba(0, 0, 0, 0) 50%), radial-gradient(ellipse farthest-corner at 8px 8px, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 20%, #ffffff 15%, #ffffff 20%, rgba(0, 0, 0, 0) 50%), radial-gradient(ellipse farthest-corner at 0px 8px, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 20%, #ffffff 15%, #ffffff 20%, rgba(0, 0, 0, 0) 40%), radial-gradient(ellipse farthest-corner at 8px 0px, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 20%, #ffffff 15%, #ffffff 20%, rgba(0, 0, 0, 0) 50%), linear-gradient(40deg, #ff8a73 0, #ffd748 30%, #8b870e 50%, #493701 70%, #ab9300 100%);
-    background-size: 1px 1px, 1px 1px, 1px 1px, 1px 1px, 1px 1px, 150% 150%;
+    background: linear-gradient(180deg, #241900, #2c2c2c, #64512e73, transparent);
 
     .b1 {
         background-color: #000f30;
@@ -257,7 +246,8 @@
 }
 
 .vue {
-    background: linear-gradient(46deg, #10891640, #344b334f, #3f4c5f70, #6583a585, #64775f6e, #0e605d, #021222f0, #042957f0);
+
+    background: linear-gradient(180deg, #1c2a2b, #194b44, #2e643a73, transparent);
 
     .b1 {
         background-color: #086ac6;
@@ -278,10 +268,11 @@
 }
 
 .css {
-    background: linear-gradient(0deg, #103d89bf, #1d3e759c, #19283ba6, #3f669500, #00034d00, #2a418ac9, #0026a9, #000000de);
+
+    background: linear-gradient(180deg, #000413, #000e36, #3e81ff73, transparent);
 
     .b1 {
-        background-color: #fbffcd;
+        background-color: #010052;
     }
 
     .b2 {
@@ -298,7 +289,8 @@
 }
 
 .figma {
-    background: linear-gradient(150deg, #18292f40, #d6eaff21, #d2ff810f, #18273a12, #6fc0ff38, #0e3f2f3b, #2984415e, #407dd652);
+
+    background: linear-gradient(180deg, #1b0000, #550000, #20005a73, transparent);
 
     .b1 {
         background-color: #0099ff;
@@ -339,8 +331,7 @@
 }
 
 .docker {
-    background-image: radial-gradient(ellipse farthest-corner, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 35%, #ffffff 30%, #ffffff 40%, rgba(0, 0, 0, 0) 90%), radial-gradient(ellipse farthest-corner at 0px 0px, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 20%, #ffffff 15%, #ffffff 20%, rgba(0, 0, 0, 0) 50%), radial-gradient(ellipse farthest-corner at 8px 8px, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 20%, #ffffff 15%, #ffffff 20%, rgba(0, 0, 0, 0) 50%), radial-gradient(ellipse farthest-corner at 0px 8px, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 20%, #ffffff 15%, #ffffff 20%, rgba(0, 0, 0, 0) 40%), radial-gradient(ellipse farthest-corner at 8px 0px, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 20%, #ffffff 15%, #ffffff 20%, rgba(0, 0, 0, 0) 50%), linear-gradient(40deg, #7395ff 0, #48ebff 30%, #51b8ff 50%, #2fb3f4 70%, #0059ab 100%);
-    background-size: 1px 1px, 1px 1px, 1px 1px, 1px 1px, 1px 1px, 150% 150%;
+    background: linear-gradient(0deg, #1d141400, transparent, #e0e4f7a6, transparent, transparent, #68caff4d, #229fff44, #62a7df9a, #34a7d4b8, #0690afcf, #0071a5);
 
     .b1 {
         background-color: #004b91;
@@ -361,11 +352,11 @@
 }
 
 .mysql {
-    background-image: radial-gradient(ellipse farthest-corner, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 35%, #ffffff 30%, #ffffff 40%, rgba(0, 0, 0, 0) 90%), radial-gradient(ellipse farthest-corner at 0px 0px, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 20%, #ffffff 15%, #ffffff 20%, rgba(0, 0, 0, 0) 50%), radial-gradient(ellipse farthest-corner at 8px 8px, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 20%, #ffffff 15%, #ffffff 20%, rgba(0, 0, 0, 0) 50%), radial-gradient(ellipse farthest-corner at 0px 8px, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 20%, #ffffff 15%, #ffffff 20%, rgba(0, 0, 0, 0) 40%), radial-gradient(ellipse farthest-corner at 8px 0px, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 20%, #ffffff 15%, #ffffff 20%, rgba(0, 0, 0, 0) 50%), linear-gradient(40deg, #ff8a73 0, #ff8d48 30%, #ff6e51 50%, #f4502f 70%, #ab4d00 100%);
-    background-size: 1px 1px, 1px 1px, 1px 1px, 1px 1px, 1px 1px, 150% 150%;
+
+    background: linear-gradient(180deg, #00141b, #00284e, #ffb26973, transparent);
 
     .b1 {
-        background-color: #f4bd02;
+        background-color: #554100;
     }
 
     .b2 {
@@ -373,7 +364,7 @@
     }
 
     .b3 {
-        background-color: #0066a5;
+        background-color: #9fdaff;
     }
 
     .b4 {
@@ -382,7 +373,8 @@
 }
 
 .js {
-    background: linear-gradient(91deg, #10891640, #344b334f, #d2ff810f, #3f669500, #678d5b5c, #348a2a3b, #2ba9005e, #6fb47ed4);
+
+    background: linear-gradient(180deg, #141b11, #2c5017, #8dc73173, transparent);
 
     .b1 {
         background-color: #f1ffd6;
@@ -403,31 +395,32 @@
 }
 
 .bootstrap {
-    background-image: radial-gradient(ellipse farthest-corner, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 35%, #ffffff 30%, #ffffff 40%, rgba(0, 0, 0, 0) 90%), radial-gradient(ellipse farthest-corner at 0px 0px, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 20%, #ffffff 15%, #ffffff 20%, rgba(0, 0, 0, 0) 50%), radial-gradient(ellipse farthest-corner at 8px 8px, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 20%, #ffffff 15%, #ffffff 20%, rgba(0, 0, 0, 0) 50%), radial-gradient(ellipse farthest-corner at 0px 8px, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 20%, #ffffff 15%, #ffffff 20%, rgba(0, 0, 0, 0) 40%), radial-gradient(ellipse farthest-corner at 8px 0px, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 20%, #ffffff 15%, #ffffff 20%, rgba(0, 0, 0, 0) 50%), linear-gradient(40deg, #8f73ff 0, #7048ff 30%, #0e1c8b 50%, #190149 70%, #470570 100%);
-    background-size: 1px 1px, 1px 1px, 1px 1px, 1px 1px, 1px 1px, 150% 150%;
+
+    background: linear-gradient(180deg, #0f0018, #312b38, #451e7773, transparent);
 
     .b1 {
-        background-color: #0400ff;
+        background-color: #110124;
     }
 
     .b2 {
-        background-color: #e0cdff;
+        background-color: #a057ff;
     }
 
     .b3 {
-        background-color: #000000;
+        background-color: #662eff;
     }
 
     .b4 {
-        background-color: #dfceff;
+        background-color: #7b33ff;
     }
 }
 
 .sql {
-    background: linear-gradient(222deg, #e5e3ffd2, #b7daffcb, #ffffff73, #e8f2ffb4, #ffffffe1, #d3f2ff3b, #ffffffe7, #ffffff52);
+
+    background: linear-gradient(180deg, #000000, #001438, #31c2c773, transparent);
 
     .b1 {
-        background-color: #01e1ff;
+        background-color: #08223a;
     }
 
     .b2 {
@@ -445,10 +438,11 @@
 }
 
 .photoshop {
-    background: linear-gradient(150deg, #18292fd3, #002d5ea4, #364f74bb, #1a488577, #6fc0ff38, #0e3f2f3b, #2954845e, #407dd652);
+
+    background: linear-gradient(180deg, #2a3257, #424a94, #3147c773, transparent);
 
     .b1 {
-        background-color: #4f5569;
+        background-color: #557cff;
     }
 
     .b2 {
@@ -456,7 +450,7 @@
     }
 
     .b3 {
-        background-color: #019eff;
+        background-color: #7a95a7;
     }
 
     .b4 {
@@ -465,14 +459,15 @@
 }
 
 .protools {
-    background: linear-gradient(150deg, #18292f40, #d6eaff21, #d2ff810f, #18273a12, #6fc0ff38, #0e3f2f3b, #2946845e, #407dd652);
+
+    background: linear-gradient(180deg, #13001b, #510077, #ad00b373, transparent);
 
     .b1 {
         background-color: #9000ff;
     }
 
     .b2 {
-        background-color: #d9c4ff;
+        background-color: #080213;
     }
 
     .b3 {
@@ -480,6 +475,6 @@
     }
 
     .b4 {
-        background-color: #ffdafb;
+        background-color: #b84fad;
     }
 }
