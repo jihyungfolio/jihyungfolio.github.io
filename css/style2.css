@@ -1,14 +1,458 @@
-/* @media screen and (max-width: 1024px) {
-    .skills-container {}
+:root {
+    --blur: blur(120px);
+}
 
-    .skills-image span {
-        font-size: 19px;
-        margin-top: unset;
-        border: 0;
+.blur {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    filter: blur(60px);
+    z-index: 0;
+}
+
+.b1 {
+    top: 0;
+    left: 0;
+}
+
+.b2 {
+    right: 0;
+    top: 0;
+}
+
+.b3 {
+    bottom: 0;
+    left: 0;
+}
+
+.b4 {
+    bottom: 0;
+    right: 0;
+}
+
+.shopify {
+
+    .b1 {
+        background-color: #b7dcff;
     }
 
-    .skills-container .skills-image .skill {}
+    .b2 {
+        background-color: rgb(139, 139, 255);
+    }
 
-    .skills-container .skills-image .skill img {}
+    .b3 {
+        background-color: rgb(233, 255, 213);
+    }
 
-} */
+    .b4 {
+        background-color: rgb(125, 255, 125);
+    }
+
+}
+
+.cafe24 {
+
+    .b1 {
+        background-color: #fbffcd;
+    }
+
+    .b2 {
+        background-color: #c7c7ff;
+    }
+
+    .b3 {
+        background-color: #d1edff;
+    }
+
+    .b4 {
+        background-color: #3671c6;
+    }
+}
+
+.webstorm {
+
+    .b1 {
+        background-color: #89cfff;
+    }
+
+    .b2 {
+        background-color: #fd742d;
+    }
+
+    .b3 {
+        background-color: #5fbeff;
+    }
+
+    .b4 {
+        background-color: #cbffcc;
+    }
+}
+
+.java {
+
+    .b1 {
+        background-color: #ffd57c;
+    }
+
+    .b2 {
+        background-color: rgb(241, 233, 215);
+    }
+
+    .b3 {
+        background-color: rgb(255, 177, 159);
+    }
+
+    .b4 {
+        background-color: rgb(255, 217, 216);
+    }
+
+}
+
+.ruby {
+
+    .b1 {
+        background-color: #ffd7d7;
+    }
+
+    .b2 {
+        background-color: #94746b;
+    }
+
+    .b3 {
+        background-color: #ffd1d1;
+    }
+
+    .b4 {
+        background-color: #fff7f8;
+    }
+}
+
+.visualstudio {
+
+    .b1 {
+        background-color: #89cfff;
+    }
+
+    .b2 {
+        background-color: #422dfd;
+    }
+
+    .b3 {
+        background-color: #5fbeff;
+    }
+
+    .b4 {
+        background-color: #cbfff8;
+    }
+}
+
+.java {
+
+    .b1 {
+        background-color: #ffd57c;
+    }
+
+    .b2 {
+        background-color: rgb(241, 233, 215);
+    }
+
+    .b3 {
+        background-color: rgb(255, 177, 159);
+    }
+
+    .b4 {
+        background-color: rgb(255, 217, 216);
+    }
+
+}
+
+.html {
+
+    .b1 {
+        background-color: #ffd7d7;
+    }
+
+    .b2 {
+        background-color: #94746b;
+    }
+
+    .b3 {
+        background-color: #ffd1d1;
+    }
+
+    .b4 {
+        background-color: #fff7f8;
+    }
+}
+
+.illustrator {
+
+    .b1 {
+        background-color: #ffeeb7;
+    }
+
+    .b2 {
+        background-color: rgb(255, 214, 139);
+    }
+
+    .b3 {
+        background-color: rgb(255, 223, 213);
+    }
+
+    .b4 {
+        background-color: rgb(230, 201, 199);
+    }
+
+}
+
+.react {
+
+    .b1 {
+        background-color: #fbffcd;
+    }
+
+    .b2 {
+        background-color: #c7c7ff;
+    }
+
+    .b3 {
+        background-color: #d1edff;
+    }
+
+    .b4 {
+        background-color: #3671c6;
+    }
+}
+
+.python {
+
+    .b1 {
+        background-color: #89cfff;
+    }
+
+    .b2 {
+        background-color: #fd742d;
+    }
+
+    .b3 {
+        background-color: #5fbeff;
+    }
+
+    .b4 {
+        background-color: #cbffcc;
+    }
+}
+
+.vue {
+
+    .b1 {
+        background-color: #b7dcff;
+    }
+
+    .b2 {
+        background-color: rgb(139, 139, 255);
+    }
+
+    .b3 {
+        background-color: rgb(233, 255, 213);
+    }
+
+    .b4 {
+        background-color: rgb(125, 255, 125);
+    }
+
+}
+
+.css {
+
+    .b1 {
+        background-color: #fbffcd;
+    }
+
+    .b2 {
+        background-color: #c7c7ff;
+    }
+
+    .b3 {
+        background-color: #d1edff;
+    }
+
+    .b4 {
+        background-color: #3671c6;
+    }
+}
+
+.figma {
+
+    .b1 {
+        background-color: #89cfff;
+    }
+
+    .b2 {
+        background-color: #fd742d;
+    }
+
+    .b3 {
+        background-color: #5fbeff;
+    }
+
+    .b4 {
+        background-color: #cbffcc;
+    }
+
+}
+
+.github {
+
+    .b1 {
+        background-color: #eee;
+    }
+
+    .b2 {
+        background-color: #cfcfcf;
+    }
+
+    .b3 {
+        background-color: #f0f9ff;
+    }
+
+    .b4 {
+        background-color: #adadad;
+    }
+}
+
+.docker {
+
+    .b1 {
+        background-color: #b7dcff;
+    }
+
+    .b2 {
+        background-color: rgb(201, 216, 245);
+    }
+
+    .b3 {
+        background-color: rgb(219, 233, 231);
+    }
+
+    .b4 {
+        background-color: rgb(125, 196, 255);
+    }
+
+}
+
+.mysql {
+
+    .b1 {
+        background-color: #ffeaa3;
+    }
+
+    .b2 {
+        background-color: #c7c7ff;
+    }
+
+    .b3 {
+        background-color: #58bfff;
+    }
+
+    .b4 {
+        background-color: #db741f;
+    }
+}
+
+.js {
+
+    .b1 {
+        background-color: #f1ffd6;
+    }
+
+    .b2 {
+        background-color: #efffe1;
+    }
+
+    .b3 {
+        background-color: #9daa9e;
+    }
+
+    .b4 {
+        background-color: #cbffcc;
+    }
+
+}
+
+.bootstrap {
+
+    .b1 {
+        background-color: #d0abff;
+    }
+
+    .b2 {
+        background-color: #d9c4ff;
+    }
+
+    .b3 {
+        background-color: #f0daff;
+    }
+
+    .b4 {
+        background-color: #c3bdce;
+    }
+}
+
+.sql {
+
+    .b1 {
+        background-color: #b7dcff;
+    }
+
+    .b2 {
+        background-color: rgb(201, 216, 245);
+    }
+
+    .b3 {
+        background-color: rgb(219, 233, 231);
+    }
+
+    .b4 {
+        background-color: rgb(125, 196, 255);
+    }
+
+}
+
+.photoshop {
+
+    .b1 {
+        background-color: #ffeaa3;
+    }
+
+    .b2 {
+        background-color: #c7c7ff;
+    }
+
+    .b3 {
+        background-color: #58bfff;
+    }
+
+    .b4 {
+        background-color: #db741f;
+    }
+}
+
+.protools {
+
+    .b1 {
+        background-color: #abb1ff;
+    }
+
+    .b2 {
+        background-color: #d9c4ff;
+    }
+
+    .b3 {
+        background-color: #cfa7e9;
+    }
+
+    .b4 {
+        background-color: #c3bdce;
+    }
+}
