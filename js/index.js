@@ -1,22 +1,21 @@
 document.addEventListener("DOMContentLoaded", () => {
 
-  // ========== Scroll 처리 부분 시작 ==========
   gsap.registerPlugin(ScrollTrigger);
 
-  const projectsWrapper = document.querySelector(".projects-wrapper");
-  const projects = document.querySelectorAll(".projects");
+  const projectsWrapper = document.querySelector(".tasks-wrapper");
+  const tasks = document.querySelectorAll(".tasks");
 
-  const projectsWidth = [...projects].reduce(
+  const projectsWidth = [...tasks].reduce(
     (acc, cur) => (acc += cur.offsetWidth),
     0
   );
-  const projectWidth = projectsWidth / projects.length;
+  const projectWidth = projectsWidth / tasks.length;
 
   gsap.to(projectsWrapper, {
     x: () => -(projectsWidth - (window.innerWidth - projectWidth)),
     ease: "none",
     scrollTrigger: {
-      trigger: "section#projects",
+      trigger: "section#tasks",
       pin: true,
       scrub: true,
       start: "top top",
@@ -25,15 +24,11 @@ document.addEventListener("DOMContentLoaded", () => {
       anticipatePin: 1,
     },
   });
-  // ========== Scroll 처리 부분 끝 ==========
 
 
-  // ========== Pagination 처리 부분 시작 ==========
   const container = document.querySelector(".container");
   const sections = document.querySelectorAll("main section");
-  const pagination = document.querySelector(".pagination ul");
   const paginationItems = document.querySelectorAll(".pagination li");
-  // const filterColors = ['white', 'black', 'orange', 'red']
 
   const observer = new IntersectionObserver(
     (entries) => {
@@ -43,7 +38,6 @@ document.addEventListener("DOMContentLoaded", () => {
         if (entry.isIntersecting) {
           console.log(index);
           container.style.backgroundImage = `url('./images/background${index}.png')`;
-          // container.style.backgroundColor = filterColors[index];
           paginationItems.forEach((item) => item.classList.remove("active"));
           if (paginationItems[index]) {
             paginationItems[index].classList.add("active");
@@ -66,4 +60,4 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 });
-// ========== Pagination 처리 부분 끝 ==========
+

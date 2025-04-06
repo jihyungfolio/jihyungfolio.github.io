@@ -1,0 +1,11 @@
+@media screen and (max-width: 1024px) {
+    .skills-container {
+        transform: unset;
+    }
+
+    .skills-image span {
+        font-size: 24px;
+
+    }
+
+}
