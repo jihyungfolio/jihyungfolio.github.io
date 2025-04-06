@@ -59,7 +59,7 @@ section h2 {
 .pagination {
   position: fixed;
   top: 4%;
-  right: 9%;
+  right: 50%;
   z-index: 2;
   width: 5vw;
   background: #ffffff;
@@ -83,7 +83,7 @@ section h2 {
   letter-spacing: 0.02em;
   height: 32px;
   line-height: 1;
-  font-size: 2.5vw;
+  font-size: 24px;
   -webkit-text-stroke: 1px #000;
   color: #fff;
 }
@@ -445,7 +445,7 @@ A #tasks .tasks-wrapper .task a img {
 .skills-container .skills-image .skill {
   padding: 3vw;
   outline-offset: -1px;
-  height: 30vw;
+  height: 38vw;
   overflow: hidden;
   position: relative;
   border-radius: 3px;
@@ -514,6 +514,7 @@ A #tasks .tasks-wrapper .task a img {
   width: 22vw;
   z-index: 1;
   position: relative;
+  margin-top: 4vw;
 }
 
 .skills-image span {
@@ -529,7 +530,6 @@ A #tasks .tasks-wrapper .task a img {
   padding: 2px 5px;
   top: 5px;
   border-radius: 2px;
-  ;
 }
 
 .contact-text {}
@@ -622,7 +622,7 @@ A #tasks .tasks-wrapper .task a img {
   .skills-container {}
 
   .skills-image span {
-    font-size: 12px;
+    font-size: 14px;
     border: 0;
   }
 
