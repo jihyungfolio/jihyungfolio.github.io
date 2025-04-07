@@ -1,3 +1,56 @@
+.skills-container {
+    padding: 10px;
+
+    .skills-image {
+        display: grid;
+        grid-template-columns: repeat(9, 1fr);
+        text-align: center;
+
+        .skill {
+            outline-offset: -1px;
+            height: 45vw;
+            overflow: hidden;
+            position: relative;
+            border-radius: 3px;
+            margin: 0 1vw;
+            filter: saturate(0.7) contrast(0.9) brightness(1.1);
+            box-shadow: 2px 4px 20px #b3b3b3;
+
+            img {
+                width: 22vw;
+                z-index: 1;
+                position: relative;
+                margin-top: 6vw;
+            }
+
+        }
+
+        .skill:nth-child(3n+1) {
+            margin-top: -10px;
+        }
+
+        .skill:nth-child(3n+2) {
+            margin-top: 10px;
+        }
+
+        span {
+            text-transform: uppercase;
+            font-size: 13px;
+            display: block;
+            margin: auto;
+            background: #ffffffd5;
+            z-index: 1;
+            position: relative;
+            box-shadow: 5px 1px 10px #ffffff8c;
+            width: max-content;
+            padding: 2px 5px;
+            top: 5px;
+            border-radius: 2px;
+        }
+
+    }
+}
+
 :root {
     --blur: blur(120px);
 }
@@ -477,4 +530,21 @@
     .b4 {
         background-color: #b84fad;
     }
+}
+
+
+@media screen and (max-width: 1024px) {
+    .skills-container {
+        padding: 50px 10px;
+    }
+
+    .skills-image span {
+        font-size: 13px;
+        border: 0;
+    }
+
+    .skills-container .skills-image {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
 }
