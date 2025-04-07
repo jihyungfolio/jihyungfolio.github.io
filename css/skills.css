@@ -11,7 +11,7 @@
             height: 45vw;
             overflow: hidden;
             position: relative;
-            border-radius: 3px;
+            border: 2px solid #00000052;
             margin: 0 1vw;
             filter: saturate(0.7) contrast(0.9) brightness(1.1);
             box-shadow: 2px 4px 20px #b3b3b3;
@@ -38,14 +38,14 @@
             font-size: 13px;
             display: block;
             margin: auto;
-            background: #ffffffd5;
+            background: linear-gradient(357deg, black, #00000091, #00000061);
             z-index: 1;
             position: relative;
-            box-shadow: 5px 1px 10px #ffffff8c;
             width: max-content;
-            padding: 2px 5px;
+            padding: 2px 9px;
             top: 5px;
-            border-radius: 2px;
+            color: #fff;
+            border-radius: 10px;
         }
 
     }

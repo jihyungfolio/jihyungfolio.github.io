@@ -1,0 +1,40 @@
+.alphabets {
+    display: block;
+    margin: 0 auto;
+    width: fit-content;
+    left: -20px;
+    position: relative;
+
+    img {
+        width: 50px;
+        margin-right: -17px;
+    }
+
+}
+
+.hapa .alphabets img {
+    width: 180px;
+    height: 120px;
+    margin-right: -10px;
+    filter: contrast(1.2);
+}
+
+.eotd .alphabets {
+    left: -35px;
+
+    img {
+        width: 70px;
+        margin-right: -42px;
+    }
+
+    img:nth-child(1) {
+        margin-bottom: -5px;
+        width: 80px;
+    }
+}
+
+
+.gmhr .alphabets img {
+    width: 280px;
+    margin-left: 3px;
+}
