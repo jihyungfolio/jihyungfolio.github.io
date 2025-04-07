@@ -1,5 +1,5 @@
 .skills-container {
-    padding: 10px;
+    padding: 150px 5px;
 
     .skills-image {
         display: grid;
@@ -11,10 +11,10 @@
             height: 45vw;
             overflow: hidden;
             position: relative;
-            border: 2px solid #00000052;
+            /* border: 2px solid #00000052; */
             margin: 0 1vw;
             filter: saturate(0.7) contrast(0.9) brightness(1.1);
-            box-shadow: 2px 4px 20px #b3b3b3;
+            /* box-shadow: 2px 4px 20px #b3b3b3; */
 
             img {
                 width: 22vw;
@@ -534,9 +534,6 @@
 
 
 @media screen and (max-width: 1024px) {
-    .skills-container {
-        padding: 50px 10px;
-    }
 
     .skills-image span {
         font-size: 13px;

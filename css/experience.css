@@ -1,13 +1,19 @@
+.experience {
+    margin: 10px;
+    border: 1px solid;
+}
+
+
 .alphabets {
     display: block;
     margin: 0 auto;
     width: fit-content;
-    left: -20px;
+    left: -15px;
     position: relative;
 
     img {
-        width: 50px;
-        margin-right: -17px;
+        width: 43px;
+        margin-right: -12px;
     }
 
 }
