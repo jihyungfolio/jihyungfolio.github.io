@@ -26,7 +26,7 @@
         }
 
         .sw:nth-child(3n+1) {
-            margin-top: -10px;
+            margin-top: -15px;
         }
 
         .sw:nth-child(3n+2) {
@@ -133,6 +133,7 @@
 .webstorm {
 
     background: linear-gradient(180deg, #001a0d, rgb(0, 117, 92), #beb099, transparent);
+    background-size: contain;
 
     .b1 {
         background-color: #fbfdff;
@@ -176,7 +177,7 @@
     background: linear-gradient(0deg, transparent, transparent, transparent, #69a9f1b8, #2f4d7acf, #1d2b42, #000);
 
     .b1 {
-        background-color: #ff3f3f;
+        background-color: #3f82ff;
     }
 
     .b2 {
