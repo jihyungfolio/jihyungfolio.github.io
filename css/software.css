@@ -1,12 +1,12 @@
-.skills-container {
+.software-container {
     padding: 150px 5px;
 
-    .skills-image {
+    .software-image {
         display: grid;
         grid-template-columns: repeat(9, 1fr);
         text-align: center;
 
-        .skill {
+        .sw {
             outline-offset: -1px;
             height: 45vw;
             overflow: hidden;
@@ -25,11 +25,11 @@
 
         }
 
-        .skill:nth-child(3n+1) {
+        .sw:nth-child(3n+1) {
             margin-top: -10px;
         }
 
-        .skill:nth-child(3n+2) {
+        .sw:nth-child(3n+2) {
             margin-top: 10px;
         }
 
@@ -83,7 +83,7 @@
     right: 0;
 }
 
-.skill span {
+.sw span {
     box-shadow: 1px 5px 10px #0000004a;
 }
 
@@ -532,15 +532,140 @@
     }
 }
 
+.canva {
+
+    background: linear-gradient(180deg, #13001b, #002077, #1b00b373, transparent);
+
+    .b1 {
+        background-color: #00ffff;
+    }
+
+    .b2 {
+        background-color: #020b13;
+    }
+
+    .b3 {
+        background-color: #1c002f;
+    }
+
+    .b4 {
+        background-color: #744fb8;
+    }
+}
+
+.sketches {
+
+    background: linear-gradient(180deg, #050505, #575757, #70707073, transparent);
+
+    .b1 {
+        background-color: #3d3d3d;
+    }
+
+    .b2 {
+        background-color: #080213;
+    }
+
+    .b3 {
+        background-color: #1c002f;
+    }
+
+    .b4 {
+        background-color: #858585;
+    }
+}
+
+.snapseed {
+
+    background: linear-gradient(180deg, #01422f, #5a7762, #00b31873, transparent);
+
+    .b1 {
+        background-color: #004235;
+    }
+
+    .b2 {
+        background-color: #91b69d;
+    }
+
+    .b3 {
+        background-color: #c2dd84;
+    }
+
+    .b4 {
+        background-color: #52b84f;
+    }
+}
+
+.pinterest {
+
+    background: linear-gradient(180deg, #1b0000, #771200, #b3000073, transparent);
+
+    .b1 {
+        background-color: #ff0000;
+    }
+
+    .b2 {
+        background-color: #130202;
+    }
+
+    .b3 {
+        background-color: #2f0004;
+    }
+
+    .b4 {
+        background-color: #b84f9e;
+    }
+}
+
+.airbrush {
+
+    background: linear-gradient(180deg, #c05c19, #773600, #ffae6b73, transparent);
+
+    .b1 {
+        background-color: #ff2600;
+    }
+
+    .b2 {
+        background-color: #130702;
+    }
+
+    .b3 {
+        background-color: #ffcdcb;
+    }
+
+    .b4 {
+        background-color: #b87e4f;
+    }
+}
+
+.picsart {
+
+    background: linear-gradient(180deg, #13001b, #001c77, #00a7b373, transparent);
+
+    .b1 {
+        background-color: #9000ff;
+    }
+
+    .b2 {
+        background-color: #9ff4ff;
+    }
+
+    .b3 {
+        background-color: #ff009d;
+    }
+
+    .b4 {
+        background-color: #b84f80;
+    }
+}
 
 @media screen and (max-width: 1024px) {
 
-    .skills-image span {
+    .software-image span {
         font-size: 13px;
         border: 0;
     }
 
-    .skills-container .skills-image {
+    .software-container .software-image {
         grid-template-columns: repeat(3, 1fr);
     }
 
