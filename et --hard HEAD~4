@@ -1,0 +1,325 @@
+[33mcommit 3fbac54e50a030c83c506c5f5c9c78a854575ec3[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: unknown <coolishh@naver.com>
+Date:   Wed Apr 9 19:13:23 2025 +0900
+
+    test
+
+[33mcommit a9cec114e1f04487670a88821c43139a3175b2c7[m
+Author: unknown <coolishh@naver.com>
+Date:   Wed Apr 9 18:38:32 2025 +0900
+
+    blog
+
+[33mcommit af091495c3fd322d4e6802bcc142d346d23f925b[m
+Merge: e769737 eff3334
+Author: unknown <coolishh@naver.com>
+Date:   Wed Apr 9 18:29:09 2025 +0900
+
+    Merge branch 'main' of https://github.com/zlt80/zlt80.github.io
+    
+    # Conflicts:
+    #       pages/art/drawing/index.html
+    #       pages/art/events/index.html
+
+[33mcommit e7697371caabba377b0f61c42849661bf1cf2cf5[m
+Author: unknown <coolishh@naver.com>
+Date:   Wed Apr 9 18:28:30 2025 +0900
+
+    reset
+
+[33mcommit eff3334ddb53df84a3bf8ae53777be0151c75dfc[m
+Author: unknown <coolishh@naver.com>
+Date:   Wed Apr 9 17:22:10 2025 +0900
+
+    images size
+
+[33mcommit 021a792de40baf56bbc24341da3d813e4f9b4584[m
+Author: unknown <coolishh@naver.com>
+Date:   Wed Apr 9 17:10:59 2025 +0900
+
+    image size
+
+[33mcommit 6dd13b53a8ec121ca381ac91ff3e653e783b378d[m
+Author: unknown <coolishh@naver.com>
+Date:   Mon Apr 7 22:55:30 2025 +0900
+
+    sw images
+
+[33mcommit d0ef89fc42309ed8eb25ec32b526284c497a91af[m
+Author: unknown <coolishh@naver.com>
+Date:   Mon Apr 7 20:02:57 2025 +0900
+
+    logo
+
+[33mcommit 6dd4e75ec202cfc3a3f50adacfff71504770daf6[m
+Author: unknown <coolishh@naver.com>
+Date:   Mon Apr 7 19:34:28 2025 +0900
+
+    sw css
+
+[33mcommit ffb9f5a5d77d654e0c3d9f0b23f04ec373c24612[m
+Author: unknown <coolishh@naver.com>
+Date:   Mon Apr 7 19:11:18 2025 +0900
+
+    font
+
+[33mcommit 4911b26e8b0f29de38fe194c50ccf70297ae74a2[m
+Author: unknown <coolishh@naver.com>
+Date:   Mon Apr 7 18:49:15 2025 +0900
+
+    experience texts
+
+[33mcommit 88288e2e9c1ca2fa641e14e7f674075c214c4a09[m
+Author: unknown <coolishh@naver.com>
+Date:   Mon Apr 7 15:50:46 2025 +0900
+
+    web works
+
+[33mcommit b0442e9c739032eab1566ba353a281a76f0ceba5[m
+Author: unknown <coolishh@naver.com>
+Date:   Mon Apr 7 15:41:05 2025 +0900
+
+    web works
+
+[33mcommit 70f44d9762076055b5ef61ce2c5c823d26135c32[m
+Author: unknown <coolishh@naver.com>
+Date:   Mon Apr 7 14:44:09 2025 +0900
+
+    software
+
+[33mcommit 138dff9f4a377c2a310ddbe5cc1701de525d9913[m
+Author: unknown <coolishh@naver.com>
+Date:   Mon Apr 7 14:28:09 2025 +0900
+
+    software
+
+[33mcommit bbbeea75fa44d677ff44b427a9c565813b161d1b[m
+Author: unknown <coolishh@naver.com>
+Date:   Mon Apr 7 13:03:29 2025 +0900
+
+    experience imgs
+
+[33mcommit 59fad7354545bf9d93232d3b8c809070827b3b59[m
+Author: unknown <coolishh@naver.com>
+Date:   Mon Apr 7 12:42:28 2025 +0900
+
+    experiences
+
+[33mcommit 714d961941ecd6613170d441e1148326a15163ed[m
+Author: unknown <coolishh@naver.com>
+Date:   Mon Apr 7 12:12:26 2025 +0900
+
+    tasks
+
+[33mcommit 7757113ba4b0911e1c3454743df41664c1c32984[m
+Author: unknown <coolishh@naver.com>
+Date:   Mon Apr 7 11:43:10 2025 +0900
+
+    tasks
+
+[33mcommit fa1cd6c7fc7145d14bcc33a7335387f5f042c457[m
+Author: unknown <coolishh@naver.com>
+Date:   Mon Apr 7 09:03:15 2025 +0900
+
+    css sheets
+
+[33mcommit 914fc65f7c2eb5f471f8940bb189c52cb74d4fbd[m
+Author: unknown <coolishh@naver.com>
+Date:   Mon Apr 7 00:07:23 2025 +0900
+
+    skills aos
+
+[33mcommit 9f52ee2794dbf7452c1c55813441b506e1cd0df0[m
+Author: unknown <coolishh@naver.com>
+Date:   Sun Apr 6 23:40:26 2025 +0900
+
+    aos duration
+
+[33mcommit 0a81d6308c33eb0ca2a74b5e7e9103ab85057797[m
+Author: unknown <coolishh@naver.com>
+Date:   Sun Apr 6 23:17:46 2025 +0900
+
+    aos added
+
+[33mcommit b9c95d8d0e040313b4b0342743f936143c855d0f[m
+Author: unknown <coolishh@naver.com>
+Date:   Sun Apr 6 22:58:41 2025 +0900
+
+    skills gradient
+
+[33mcommit 91b979e44df257d933786141aa856261cdff21a1[m
+Author: unknown <coolishh@naver.com>
+Date:   Sun Apr 6 22:15:07 2025 +0900
+
+    skills color
+
+[33mcommit 182bff78abbbffadac12ac0414075c641416c1d9[m
+Author: unknown <coolishh@naver.com>
+Date:   Sun Apr 6 21:40:45 2025 +0900
+
+    skills
+
+[33mcommit 16b983b00cd7d1d19293d0570c34df118eaa9316[m
+Author: unknown <coolishh@naver.com>
+Date:   Sun Apr 6 19:54:09 2025 +0900
+
+    skills background
+
+[33mcommit db9aeec48dd66ad10ac4673825369c410ebdf27e[m
+Author: unknown <coolishh@naver.com>
+Date:   Sun Apr 6 18:49:57 2025 +0900
+
+    works saturation
+
+[33mcommit e8dbeee8e9d6a371a207081f91be6bdb7520095b[m
+Author: unknown <coolishh@naver.com>
+Date:   Sun Apr 6 18:22:17 2025 +0900
+
+    gradients
+
+[33mcommit a55ec6eb01f2837cf0aa4748cb3d9d229463d7e3[m
+Author: unknown <coolishh@naver.com>
+Date:   Sun Apr 6 18:09:27 2025 +0900
+
+    works
+
+[33mcommit ffd71607e4b3b683e7b5dfbe28f21c5f8bedcc77[m
+Author: unknown <coolishh@naver.com>
+Date:   Sun Apr 6 17:09:45 2025 +0900
+
+    works
+
+[33mcommit a1aff02c8adf567544f42bd6c25a2d2a4ed2f332[m
+Author: unknown <coolishh@naver.com>
+Date:   Sun Apr 6 15:47:18 2025 +0900
+
+    skills
+
+[33mcommit 62d323c22f27402666a625d614cf97186b4635c0[m
+Author: unknown <coolishh@naver.com>
+Date:   Sun Apr 6 14:59:34 2025 +0900
+
+    skills part
+
+[33mcommit dd8fef02402365bed9516202b7befca614217227[m
+Author: unknown <coolishh@naver.com>
+Date:   Sun Apr 6 13:21:06 2025 +0900
+
+    skills
+
+[33mcommit ee62e627d9b566a0a3115b68e92d076a2f269a97[m
+Author: unknown <coolishh@naver.com>
+Date:   Sat Apr 5 21:05:13 2025 +0900
+
+    career
+
+[33mcommit e7b0db58f3c745577d5af04274d89c9d1756e9c3[m
+Author: unknown <coolishh@naver.com>
+Date:   Sat Apr 5 20:55:13 2025 +0900
+
+    sections
+
+[33mcommit 4d256068c9ec4801a333c1367bc581b2065d42c5[m
+Author: unknown <coolishh@naver.com>
+Date:   Sat Apr 5 19:42:37 2025 +0900
+
+    projects part project cards
+
+[33mcommit 13bad27dadaf475bd3efa1cf5d0d5d52c8e1fdd5[m
+Author: unknown <coolishh@naver.com>
+Date:   Sat Apr 5 15:33:15 2025 +0900
+
+    projects part project card
+
+[33mcommit ea0e548224962962c9318ce4b3f831126a966c28[m
+Author: unknown <coolishh@naver.com>
+Date:   Sat Apr 5 13:54:34 2025 +0900
+
+    pagination
+
+[33mcommit 29c72af635bc5db8dfe30db541b2d0748a23dbe3[m
+Author: unknown <coolishh@naver.com>
+Date:   Sat Apr 5 12:59:23 2025 +0900
+
+    projects page
+
+[33mcommit ee94dafa0d575577958a137c37811a0420477228[m
+Author: unknown <coolishh@naver.com>
+Date:   Fri Apr 4 22:50:07 2025 +0900
+
+    themes change
+
+[33mcommit bb794de09265315c3ed8d4eca2692e45325dde63[m
+Author: unknown <coolishh@naver.com>
+Date:   Fri Apr 4 17:51:55 2025 +0900
+
+    career section
+
+[33mcommit 1136aadc3aff8aeb7624f955933c0626f0d79a19[m
+Author: unknown <coolishh@naver.com>
+Date:   Fri Apr 4 14:48:22 2025 +0900
+
+    themes change
+
+[33mcommit 40d2b2909b6bfeb8784f426ae5f5402d46faed5a[m
+Author: unknown <coolishh@naver.com>
+Date:   Fri Apr 4 01:45:09 2025 +0900
+
+    css
+
+[33mcommit f90017a65eb4a1a40dc79a0647bc871583415268[m
+Author: unknown <coolishh@naver.com>
+Date:   Thu Apr 3 18:17:47 2025 +0900
+
+    works images
+
+[33mcommit defd1d39874030060f45c0fbbfefef3cd1ffc001[m
+Author: unknown <coolishh@naver.com>
+Date:   Wed Apr 2 17:29:05 2025 +0900
+
+    works hk
+
+[33mcommit 34790d1ec863692b4913d32a9bf5205b4a6b906a[m
+Author: unknown <coolishh@naver.com>
+Date:   Wed Apr 2 15:01:40 2025 +0900
+
+    works images
+
+[33mcommit 4b923b51b50602e79bcb72ce13435c057e5817ff[m
+Author: unknown <coolishh@naver.com>
+Date:   Sat Mar 29 02:43:22 2025 +0900
+
+    works titles
+
+[33mcommit 40b1e0bd3140776da456f80d3cd52911d62cf29f[m
+Author: unknown <coolishh@naver.com>
+Date:   Fri Mar 28 23:54:28 2025 +0900
+
+    images
+
+[33mcommit a82761edfe5227cfe2da7819e07f0c791df6fb69[m
+Author: unknown <coolishh@naver.com>
+Date:   Fri Mar 28 19:30:58 2025 +0900
+
+    images
+
+[33mcommit a133dc15225d0104b3f877316f7700cf56642f44[m
+Author: unknown <coolishh@naver.com>
+Date:   Fri Mar 28 18:14:54 2025 +0900
+
+    images
+
+[33mcommit 5159d60c5d9c1fedd0ea2a0563a7d7823ea937a4[m
+Author: unknown <coolishh@naver.com>
+Date:   Fri Mar 28 11:16:05 2025 +0900
+
+    works
+
+[33mcommit f780a668860e3731d5ad7b99a349ac9bbbfb47ee[m
+Author: unknown <coolishh@naver.com>
+Date:   Thu Mar 27 23:52:09 2025 +0900
+
+    works hp
+
+[33mcommit 7382854817323cf2707f5b98157823c79806c439[m
+Author
