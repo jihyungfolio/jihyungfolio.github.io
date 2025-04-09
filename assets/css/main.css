@@ -653,7 +653,6 @@ input[type="radio"] + label:before {
 }
 
 article img {
-	border-radius: 15px;
 }
 
 article .image.flex {
@@ -684,7 +683,6 @@ article .image.flex img {
 }
 
 .image img {
-	border-radius: 15px;
 	display: block;
 }
 
