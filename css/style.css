@@ -233,47 +233,44 @@ body {
 
 }
 
-.stickers-container {
-    img {
-        position: absolute;
-        z-index: 3;
-    }
-
-    img:nth-child(1) {
-        width: 12vw;
-        right: 18%;
-        top: 38%;
-    }
-
-    img:nth-child(2) {
-        width: 8vw;
-        right: 20%;
-        top: 20%;
-        transform: rotate(28deg);
-    }
-
-    img:nth-child(3) {
-        right: 58%;
-        top: 19%;
-        width: 6vw;
-        opacity: 0;
-    }
-
-    img:nth-child(4) {
-        right: 70%;
-        top: 30%;
-        transform: rotate(140deg);
-        width: 15vw;
-    }
-
-    img:nth-child(5) {
-        width: 12vw;
-        right: 70%;
-        top: 50%;
-    }
-
-
+.stickers-container img {
+    position: absolute;
+    z-index: 3;
 }
+
+.stickers-container img:nth-child(1) {
+    width: 12vw;
+    right: 18%;
+    top: 38%;
+}
+
+.stickers-container img:nth-child(2) {
+    width: 8vw;
+    right: 20%;
+    top: 20%;
+    transform: rotate(28deg);
+}
+
+.stickers-container img:nth-child(3) {
+    right: 58%;
+    top: 19%;
+    width: 6vw;
+    opacity: 0;
+}
+
+.stickers-container img:nth-child(4) {
+    right: 70%;
+    top: 30%;
+    transform: rotate(140deg);
+    width: 15vw;
+}
+
+.stickers-container img:nth-child(5) {
+    width: 12vw;
+    right: 70%;
+    top: 50%;
+}
+
 
 #work {
     padding-top: 10vw;
