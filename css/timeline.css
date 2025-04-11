@@ -1,5 +1,9 @@
-.timeline-wrapper {
-    padding: 5vw;
+.timeline-container {
+    margin: 20px 0;
+    padding: 3vw;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: rgb(226 227 235) 0px 1px 2px 2px inset;
 
     .t {
 
@@ -137,25 +141,30 @@
 
     }
 
-    li {}
+    li {
+    }
 
 }
 
 @media screen and (max-width: 1024px) {
 
-    .timeline-wrapper {
+    .timeline-container {
 
         .t {
 
             display: block;
 
-            .t1 {}
+            .t1 {
+            }
 
-            .t2 {}
+            .t2 {
+            }
 
-            .t3 {}
+            .t3 {
+            }
 
-            .t4 {}
+            .t4 {
+            }
 
 
             li {

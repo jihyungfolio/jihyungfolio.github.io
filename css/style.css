@@ -18,52 +18,31 @@ body {
     font-family: "Dovemayo_gothic", sans-serif;
 }
 
-.container {
-    height: auto;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-    transition: background-image 0.25s ease-in-out;
-}
-
-.container:before {
-    --size: 60px;
-    --line: hsl(0deg 0% 100% / 15%);
-    content: '';
-    height: 100vh;
-    width: 100vw;
-    position: fixed;
-    background: linear-gradient(90deg, var(--line) 1px, transparent 1px var(--size)) 50% 50% / var(--size) var(--size), linear-gradient(var(--line) 1px, transparent 1px var(--size)) 50% 50% / var(--size) var(--size);
-    -webkit-mask: linear-gradient(-15deg, transparent 30%, white);
-    mask: linear-gradient(-15deg, transparent 30%, white);
-    top: 0;
-    transform-style: flat;
-    pointer-events: none;
-}
-
-.container section {
+section {
     height: 100%;
     min-height: 100vh;
     overflow: hidden;
+    background: #021733;
+    color: #e5e5df;
 }
 
-.container section:last-child {
+section:last-child {
     border-bottom: 0;
 }
 
 section h2 {
-    font-size: 19px;
+    font-size: 7vw;
     letter-spacing: -0.01em;
     padding-top: 3%;
-    padding-left: 3%;
     line-height: 0.8;
     z-index: 1;
     position: relative;
     width: fit-content;
     text-transform: capitalize;
+    margin: 0 auto;
 }
 
-#about {
+#about-jihyung {
 
     padding: 15px 15px 7vw;
     background: #021733;
@@ -133,12 +112,12 @@ section h2 {
         }
 
         .hello {
-            padding-bottom: 5px;
+            padding-bottom: 0 !important;
         }
 
         .profile-image {
-            width: auto;
-            margin: 30px 60px;
+            width: fit-content;
+            margin: 8vw auto;
             box-shadow: -1px -0.5px 3px #b2b2b2, 1px -0.5px 1px #aaaaaa;
             border-radius: 25px;
             border: 3px solid;
@@ -160,7 +139,7 @@ section h2 {
             span:nth-child(2) {
                 animation: fadein 1s ease-out forwards;
                 left: 30%;
-                padding-left: 5vw;
+                padding-left: 5px;
             }
 
             span:nth-child(3) {
@@ -170,12 +149,15 @@ section h2 {
             }
 
             img {
-                width: 100%;
+                width: 40vw;
+                margin: 0 auto;
                 display: block;
                 z-index: 2;
                 position: relative;
                 box-shadow: -1px -0.5px 3px #b2b2b2, 1px -0.5px 1px #aaaaaa;
                 border-radius: 25px;
+                background: #46668d;
+                padding: 6vw 4.5vw 0;
             }
         }
 
@@ -188,7 +170,6 @@ section h2 {
             padding: 3vw;
             background: #fff;
             border-radius: 10px;
-            padding-left: 5vw;
             box-shadow: rgb(226 227 235) 0px 1px 2px 2px inset;
 
             p {
@@ -222,7 +203,11 @@ section h2 {
         }
 
         .description {
-            padding-bottom: 10px;
+            margin: 20px 0;
+            padding: 3vw;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: rgb(226 227 235) 0px 1px 2px 2px inset;
 
             p {
                 line-height: 1.4;
@@ -240,8 +225,21 @@ section h2 {
 
 }
 
+#work {
+    padding-top: 10vw;
+}
+
 mark {
     text-transform: uppercase;
+}
+
+.experience-container,
+.software-container {
+    margin: 20px 0;
+    padding: 3vw;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: rgb(226 227 235) 0px 1px 2px 2px inset;
 }
 
 .mark2 {
