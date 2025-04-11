@@ -242,6 +242,7 @@ body {
     width: 12vw;
     right: 18%;
     top: 38%;
+    opacity: 0;
 }
 
 .stickers-container img:nth-child(2) {
