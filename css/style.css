@@ -146,20 +146,21 @@ section h2 {
             span {
                 letter-spacing: 0.07em;
                 text-transform: capitalize;
-                font-size: 10vw;
+                font-size: 11vw;
                 position: absolute;
                 transform: rotateZ(349deg);
                 margin-top: -17%;
                 color: #ffffff;
                 z-index: 2;
                 font-family: 'Cafe24Lovingu', sans-serif;
-                text-shadow: 2px 3px 1px #000000ab;
+                text-shadow: 2px 3px 1px #000000c7;
                 opacity: 0;
             }
 
             span:nth-child(2) {
                 animation: fadein 1s ease-out forwards;
-                left: 38%;
+                left: 30%;
+                padding-left: 5vw;
             }
 
             span:nth-child(3) {
@@ -183,27 +184,26 @@ section h2 {
         }
 
         .contact {
-
             margin: 20px 0;
             padding: 3vw;
             background: #fff;
             border-radius: 10px;
             padding-left: 5vw;
-            box-shadow: rgb(223, 222, 222) 0px 0px 6px 1px inset;
+            box-shadow: rgb(226 227 235) 0px 1px 2px 2px inset;
 
             p {
                 padding: 5px 0;
-                font-size: 3.1vw;
+                font-size: 3.8vw;
 
                 img {
-                    width: 31vw;
+                    width: 37vw;
                     filter: contrast(1.1) brightness(1.1);
                     background: #fff;
                     margin-bottom: -1.5vw;
                 }
 
                 .phone {
-                    width: 17vw;
+                    width: 21vw;
                 }
 
                 span {
@@ -212,7 +212,7 @@ section h2 {
                     border-radius: 15px;
                     padding: 1px 8px 0;
                     margin-right: 5px;
-                    font-size: 2.8vw;
+                    font-size: 3.5vw;
                     border: 1px solid #7a7a7a;
                 }
 
