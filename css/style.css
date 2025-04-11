@@ -18,7 +18,7 @@ body {
     font-family: "Dovemayo_gothic", sans-serif;
 }
 
-section {
+.about-jihyung {
     height: 100%;
     min-height: 100vh;
     overflow: hidden;
@@ -26,11 +26,7 @@ section {
     color: #e5e5df;
 }
 
-section:last-child {
-    border-bottom: 0;
-}
-
-section h2 {
+.about-jihyung h2 {
     font-size: 7vw;
     letter-spacing: -0.01em;
     padding-top: 3%;
@@ -55,18 +51,18 @@ section h2 {
 
         .rope {
             right: 28%;
-            height: 130px;
+            height: 135px;
             width: 18px;
-            background: linear-gradient(45deg, #fcffff, #d8d8d8);
+            background: linear-gradient(246deg, #ffffff, #d8d8d8);
             position: absolute;
             border-radius: 0 0 7px 7px;
             top: -80px;
-            box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.3);
+            box-shadow: 0px 3px 5px rgb(0 0 0 / 63%);
         }
 
         .rope2 {
             left: 28%;
-            height: 130px;
+            height: 135px;
             width: 18px;
             background: linear-gradient(45deg, #fcffff, #d8d8d8);
             position: absolute;
@@ -77,20 +73,28 @@ section h2 {
     }
 
     .profile {
-        padding: 20px 5vw;
+        padding: 2px;
         border-radius: 25px;
         margin: 10px;
         color: #000;
         box-shadow: 11px 1px 50px #0000002e, -11px -1px 50px #000000a8;
         background: linear-gradient(45deg, #ececec, #fff, #f6f8f9, #ffffff);
-        border: 2px solid #fff;
+        border: 2px solid #7d7d7d;
         box-sizing: border-box;
+
+        .profile-border {
+            padding: 20px 5vw;
+            border: 3px solid #c5c7c8;
+            border-radius: 25px;
+            box-shadow: 11px 1px 50px #0000002e, -11px -1px 50px #000000a8;
+        }
 
         .holes {
             display: flex;
             padding: 5px 0;
+            border: 1px solid #eee;
             border-bottom: 10px solid #eee;
-            box-shadow: 11px 11px 50px #bebebebf, -11px -11px 50px #ffffff;
+            box-shadow: 11px 11px 50px #fffffff0, -11px -11px 50px #ffffff70;
             border-radius: 25px;
 
             .hole {
@@ -165,12 +169,12 @@ section h2 {
             font-size: 3.6vw
         }
 
-        .contact {
+        .contact-container {
             margin: 20px 0;
-            padding: 3vw;
-            background: #fff;
-            border-radius: 10px;
-            box-shadow: rgb(226 227 235) 0px 1px 2px 2px inset;
+            /*padding: 3vw;*/
+            /*background: #fff;*/
+            /*border-radius: 10px;*/
+            /*box-shadow: rgb(226 227 235) 0px 1px 2px 2px inset;*/
 
             p {
                 padding: 5px 0;
@@ -206,12 +210,12 @@ section h2 {
 
         }
 
-        .description {
+        .introduction-container {
             margin: 20px 0;
-            padding: 3vw;
-            background: #fff;
-            border-radius: 10px;
-            box-shadow: rgb(226 227 235) 0px 1px 2px 2px inset;
+            /*padding: 3vw;*/
+            /*background: #fff;*/
+            /*border-radius: 10px;*/
+            /*box-shadow: rgb(226 227 235) 0px 1px 2px 2px inset;*/
 
             p {
                 line-height: 1.4;
@@ -229,7 +233,7 @@ section h2 {
 
 }
 
-.stickers {
+.stickers-container {
     img {
         position: absolute;
         z-index: 3;
@@ -282,10 +286,10 @@ mark {
 .experience-container,
 .software-container {
     margin: 20px 0;
-    padding: 3vw;
-    background: #fff;
-    border-radius: 10px;
-    box-shadow: rgb(226 227 235) 0px 1px 2px 2px inset;
+    /*padding: 3vw;*/
+    /*background: #fff;*/
+    /*border-radius: 10px;*/
+    /*box-shadow: rgb(226 227 235) 0px 1px 2px 2px inset;*/
 }
 
 .mark2 {
