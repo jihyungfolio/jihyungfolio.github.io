@@ -14,6 +14,20 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Hahmlet-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/Hahmlet-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: '양진체';
+    src: url('https://fastly.jsdelivr.net/gh/supernovice-lab/font@0.9/yangjin.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     font-family: "Dovemayo_gothic", sans-serif;
 }
@@ -38,6 +52,15 @@ body {
     margin: 0 auto;
 }
 
+h3 {
+    font-family: '양진체', sans-serif;
+    font-size: 4vw;
+    text-transform: capitalize;
+    color: #000000;
+    letter-spacing: -0.02em;
+    line-height: 2;
+}
+
 #about-jihyung {
 
     padding: 15px 15px 7vw;
@@ -53,7 +76,7 @@ body {
             right: 28%;
             height: 135px;
             width: 18px;
-            background: linear-gradient(246deg, #ffffff, #d8d8d8);
+            background: linear-gradient(354deg, #ffffff, #d8d8d8);
             position: absolute;
             border-radius: 0 0 7px 7px;
             top: -80px;
@@ -78,7 +101,7 @@ body {
         margin: 10px;
         color: #000;
         box-shadow: 11px 1px 50px #0000002e, -11px -1px 50px #000000a8;
-        background: linear-gradient(45deg, #ececec, #fff, #f6f8f9, #ffffff);
+        background: linear-gradient(180deg, #fff, #ececec, #fff, #f6f8f9, #ffffff);
         border: 2px solid #7d7d7d;
         box-sizing: border-box;
 
@@ -129,10 +152,10 @@ body {
             span {
                 letter-spacing: 0.07em;
                 text-transform: capitalize;
-                font-size: 11vw;
+                font-size: 7vw;
                 position: absolute;
-                transform: rotateZ(349deg);
-                margin-top: -17%;
+                transform: rotateZ(350deg);
+                margin-top: -12%;
                 color: #ffffff;
                 z-index: 2;
                 font-family: 'Cafe24Lovingu', sans-serif;
@@ -142,7 +165,7 @@ body {
 
             span:nth-child(2) {
                 animation: fadein 1s ease-out forwards;
-                left: 30%;
+                left: 45%;
                 padding-left: 5px;
             }
 
@@ -199,6 +222,7 @@ body {
                     margin-right: 5px;
                     font-size: 3.5vw;
                     border: 1px solid #7a7a7a;
+                    letter-spacing: -0.03em;
                 }
 
             }
