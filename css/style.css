@@ -60,11 +60,11 @@ body {
 }
 
 h3 {
-    font-size: 5vw;
+    font-size: 6vw;
     text-transform: capitalize;
     color: #000000;
     letter-spacing: -0.01em;
-    line-height: 2;
+    line-height: 2.5;
     font-family: 'LeeSeoyun', sans-serif;
 }
 
@@ -149,7 +149,7 @@ h3 {
 
         .profile-image {
             width: fit-content;
-            margin: 8vw auto;
+            margin: 1vw auto 5vw;
             box-shadow: -1px -0.5px 3px #b2b2b2, 1px -0.5px 1px #aaaaaa;
             border-radius: 25px;
             border: 3px solid;
@@ -240,11 +240,6 @@ h3 {
         }
 
         .introduction-container {
-            margin: 20px 0;
-            /*padding: 3vw;*/
-            /*background: #fff;*/
-            /*border-radius: 10px;*/
-            /*box-shadow: rgb(226 227 235) 0px 1px 2px 2px inset;*/
 
             p {
                 line-height: 1.4;
@@ -274,21 +269,21 @@ h3 {
 }
 
 .stickers-container img:nth-child(2) {
-    width: 8vw;
+    width: 7vw;
     right: 25%;
-    top: 15%;
+    top: 20%;
     transform: rotate(30deg);
 }
 
 .stickers-container img:nth-child(3) {
-    right: 20%;
-    top: 20%;
+    right: 26%;
+    top: 30%;
     width: 7vw;
 }
 
 .stickers-container img:nth-child(4) {
     right: 70%;
-    top: 15%;
+    top: 25%;
     transform: rotate(140deg);
     width: 10vw;
 }
