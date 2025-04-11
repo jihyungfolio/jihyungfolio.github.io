@@ -63,7 +63,7 @@ body {
 @import url('https://fonts.googleapis.com/css?family=Black+Han+Sans:400');
 
 h3 {
-    font-size: 6vw;
+    font-size: 7vw;
     text-transform: capitalize;
     letter-spacing: -0.04em;
     line-height: 2;
@@ -151,15 +151,22 @@ h3 {
             margin: 8vw auto 3vw;
             box-shadow: -1px -0.5px 3px #b2b2b2, 1px -0.5px 1px #aaaaaa;
             border-radius: 25px;
-            border: 3px solid;
+
+            .image {
+                padding: 2vw 3vw;
+                box-shadow: -1px -0.5px 3px #b2b2b2, 1px -0.5px 1px #aaaaaa;
+                border-radius: 25px;
+                background: linear-gradient(45deg, #e7eeff8a, #f1f7ff6b, #f0f5fe);
+                border: 3px solid #fff;
+            }
 
             span {
                 letter-spacing: 0.07em;
                 text-transform: capitalize;
-                font-size: 7vw;
+                font-size: 12vw;
                 position: absolute;
                 transform: rotateZ(350deg);
-                margin-top: -12%;
+                margin-top: -18%;
                 color: #ffffff;
                 z-index: 2;
                 font-family: 'InkLipquid', sans-serif;
@@ -180,7 +187,7 @@ h3 {
             }
 
             img {
-                width: 40vw;
+                width: 42vw;
                 margin: 0 auto;
                 display: block;
                 z-index: 2;
@@ -189,6 +196,7 @@ h3 {
                 border-radius: 25px;
                 background: #46668d;
                 padding: 1vw 1vw 0;
+                border: 3px solid #8a95a299;
             }
         }
 
@@ -259,6 +267,7 @@ h3 {
 .stickers-container img {
     position: absolute;
     z-index: 3;
+    opacity: 0;
 }
 
 .stickers-container img:nth-child(1) {
@@ -268,16 +277,16 @@ h3 {
 }
 
 .stickers-container img:nth-child(2) {
-    width: 7vw;
-    right: 27%;
-    top: 17%;
+    width: 10vw;
+    right: 32%;
+    top: 12%;
     transform: rotate(30deg);
 }
 
 .stickers-container img:nth-child(3) {
-    right: 24%;
-    top: 27%;
-    width: 10vw;
+    right: 65%;
+    top: 15%;
+    width: 15vw;
 }
 
 .stickers-container img:nth-child(4) {
@@ -288,9 +297,9 @@ h3 {
 }
 
 .stickers-container img:nth-child(5) {
-    width: 14vw;
-    right: 65%;
-    top: 35%;
+    width: 20vw;
+    right: 62%;
+    top: 29%;
 }
 
 
