@@ -239,6 +239,7 @@ section h2 {
         width: 22vw;
         right: 60%;
         top: 20%;
+        opacity: 0;
     }
 
     img:nth-child(2) {
