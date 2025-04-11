@@ -36,14 +36,14 @@
 }
 
 @font-face {
-    font-family: 'Ownglyph_wiseelist-Rg';
-    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2501-1@1.1/Ownglyph_wiseelist-Rg.woff2') format('woff2');
+    font-family: 'Happiness-Sans-Title';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2205@1.0/Happiness-Sans-Title.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
 }
 
 body {
-    font-family: "Ownglyph_wiseelist-Rg", sans-serif;
+    font-family: "omyu_pretty", sans-serif;
 }
 
 .about-jihyung {
@@ -66,13 +66,14 @@ body {
     margin: 0 auto;
 }
 
+@import url('https://fonts.googleapis.com/css?family=Black+Han+Sans:400');
+
 h3 {
     font-size: 6vw;
     text-transform: capitalize;
-    color: #000000;
-    letter-spacing: -0.01em;
-    line-height: 2.5;
-    font-family: '';
+    letter-spacing: -0.04em;
+    line-height: 2;
+    font-family: 'Black Han Sans', sans-serif;
 }
 
 #about-jihyung {
@@ -156,7 +157,7 @@ h3 {
 
         .profile-image {
             width: fit-content;
-            margin: 1vw auto 5vw;
+            margin: 8vw auto 3vw;
             box-shadow: -1px -0.5px 3px #b2b2b2, 1px -0.5px 1px #aaaaaa;
             border-radius: 25px;
             border: 3px solid;
@@ -292,7 +293,7 @@ h3 {
     right: 70%;
     top: 18%;
     transform: rotate(140deg);
-    width: 14vw;
+    width: 12vw;
 }
 
 .stickers-container img:nth-child(5) {
