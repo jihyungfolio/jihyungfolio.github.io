@@ -29,14 +29,21 @@
 }
 
 @font-face {
-    font-family: 'LeeSeoyun';
-    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2202-2@1.0/LeeSeoyun.woff') format('woff');
+    font-family: 'InkLipquid';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/InkLipquid.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ownglyph_wiseelist-Rg';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2501-1@1.1/Ownglyph_wiseelist-Rg.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
 }
 
 body {
-    font-family: "omyu_pretty", sans-serif;
+    font-family: "Ownglyph_wiseelist-Rg", sans-serif;
 }
 
 .about-jihyung {
@@ -65,7 +72,7 @@ h3 {
     color: #000000;
     letter-spacing: -0.01em;
     line-height: 2.5;
-    font-family: 'LeeSeoyun', sans-serif;
+    font-family: '';
 }
 
 #about-jihyung {
@@ -163,7 +170,7 @@ h3 {
                 margin-top: -12%;
                 color: #ffffff;
                 z-index: 2;
-                font-family: 'Cafe24Lovingu', sans-serif;
+                font-family: 'InkLipquid', sans-serif;
                 text-shadow: 2px 3px 1px #000000c7;
                 opacity: 0;
             }
@@ -244,7 +251,7 @@ h3 {
             p {
                 line-height: 1.4;
                 padding-bottom: 15px;
-                font-size: 4.2vw;
+                font-size: 5vw;
             }
 
             img {
@@ -270,22 +277,22 @@ h3 {
 
 .stickers-container img:nth-child(2) {
     width: 7vw;
-    right: 25%;
-    top: 20%;
+    right: 27%;
+    top: 17%;
     transform: rotate(30deg);
 }
 
 .stickers-container img:nth-child(3) {
-    right: 26%;
-    top: 30%;
-    width: 7vw;
+    right: 24%;
+    top: 27%;
+    width: 10vw;
 }
 
 .stickers-container img:nth-child(4) {
     right: 70%;
-    top: 25%;
+    top: 18%;
     transform: rotate(140deg);
-    width: 10vw;
+    width: 14vw;
 }
 
 .stickers-container img:nth-child(5) {
