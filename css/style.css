@@ -75,7 +75,7 @@ section h2 {
         z-index: 1;
 
         .rope {
-            right: 26%;
+            right: 28%;
             height: 130px;
             width: 18px;
             background: linear-gradient(45deg, #fcffff, #d8d8d8);
@@ -86,7 +86,7 @@ section h2 {
         }
 
         .rope2 {
-            left: 26%;
+            left: 28%;
             height: 130px;
             width: 18px;
             background: linear-gradient(45deg, #fcffff, #d8d8d8);
@@ -98,12 +98,14 @@ section h2 {
     }
 
     .profile {
-        padding: 20px 35px;
+        padding: 20px 5vw;
         border-radius: 25px;
         margin: 10px;
         color: #000;
         box-shadow: 11px 1px 50px #0000002e, -11px -1px 50px #000000a8;
-        background: linear-gradient(45deg, #ececec, #f6f8f9, #ffffff);
+        background: linear-gradient(45deg, #ececec, #fff, #f6f8f9, #ffffff);
+        border: 2px solid #fff;
+        box-sizing: border-box;
 
         .holes {
             display: flex;
@@ -157,7 +159,7 @@ section h2 {
 
             span:nth-child(2) {
                 animation: fadein 1s ease-out forwards;
-                left: 35%;
+                left: 38%;
             }
 
             span:nth-child(3) {
