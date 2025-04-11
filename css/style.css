@@ -22,14 +22,15 @@
 }
 
 @font-face {
-    font-family: '양진체';
-    src: url('https://fastly.jsdelivr.net/gh/supernovice-lab/font@0.9/yangjin.woff') format('woff');
+    font-family: 'omyu_pretty';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-01@1.0/omyu_pretty.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
 }
 
+
 body {
-    font-family: "Dovemayo_gothic", sans-serif;
+    font-family: "omyu_pretty", sans-serif;
 }
 
 .about-jihyung {
@@ -53,7 +54,6 @@ body {
 }
 
 h3 {
-    font-family: '양진체', sans-serif;
     font-size: 4vw;
     text-transform: capitalize;
     color: #000000;
@@ -68,7 +68,6 @@ h3 {
     color: #e5e5df;
 
     .ropes {
-
         position: relative;
         z-index: 1;
 
@@ -76,7 +75,7 @@ h3 {
             right: 28%;
             height: 135px;
             width: 18px;
-            background: linear-gradient(354deg, #ffffff, #d8d8d8);
+            background: linear-gradient(270deg, #ebebeb, #f1f1f1, #ffffff, #ffffff, #dfdfdf);
             position: absolute;
             border-radius: 0 0 7px 7px;
             top: -80px;
@@ -87,7 +86,7 @@ h3 {
             left: 28%;
             height: 135px;
             width: 18px;
-            background: linear-gradient(45deg, #fcffff, #d8d8d8);
+            background: linear-gradient(270deg, #ebebeb, #f1f1f1, #ffffff, #ffffff, #dfdfdf);
             position: absolute;
             border-radius: 0 0 7px 7px;
             top: -80px;
@@ -276,8 +275,8 @@ h3 {
 }
 
 .stickers-container img:nth-child(3) {
-    right: 70%;
-    top: 25%;
+    right: 30%;
+    top: 20%;
     width: 7vw;
 }
 
@@ -290,8 +289,8 @@ h3 {
 
 .stickers-container img:nth-child(5) {
     width: 12vw;
-    right: 70%;
-    top: 50%;
+    right: 65%;
+    top: 45%;
 }
 
 
