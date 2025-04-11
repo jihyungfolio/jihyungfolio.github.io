@@ -179,7 +179,7 @@ section h2 {
         }
 
         .hello, .name {
-            font-size: 3.4vw
+            font-size: 3.6vw
         }
 
         .contact {
@@ -227,11 +227,11 @@ section h2 {
             p {
                 line-height: 1.4;
                 padding-bottom: 15px;
-                font-size: 3.2vw;
+                font-size: 3.5vw;
             }
 
             img {
-                width: 2.5vw !important;
+                width: 3.5vw !important;
                 margin-bottom: -2px ! Important;
             }
         }

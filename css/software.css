@@ -1,5 +1,5 @@
 .software-container {
-    padding: 150px 5px;
+    padding-bottom: 100%;
 
     .software-image {
         display: grid;
@@ -99,7 +99,7 @@
     }
 
     .software-container .software-image {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(4, 1fr);
     }
 
 }
