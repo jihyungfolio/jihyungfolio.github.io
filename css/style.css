@@ -244,7 +244,7 @@ h3 {
             p {
                 line-height: 1.4;
                 padding-bottom: 15px;
-                font-size: 3.5vw;
+                font-size: 3.6vw;
             }
 
             img {
@@ -276,17 +276,16 @@ h3 {
 }
 
 .stickers-container img:nth-child(3) {
-    right: 58%;
-    top: 19%;
-    width: 6vw;
-    opacity: 0;
+    right: 70%;
+    top: 25%;
+    width: 7vw;
 }
 
 .stickers-container img:nth-child(4) {
     right: 70%;
     top: 30%;
     transform: rotate(140deg);
-    width: 15vw;
+    width: 10vw;
 }
 
 .stickers-container img:nth-child(5) {

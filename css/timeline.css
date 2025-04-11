@@ -1,7 +1,6 @@
 .timeline-container {
     margin: 20px 0;
     /*padding: 3vw;*/
-    background: #fff;
     border-radius: 10px;
     /*box-shadow: rgb(226 227 235) 0px 1px 2px 2px inset;*/
 
@@ -107,7 +106,7 @@
             }
 
             .b3 {
-                background-color: #cfe9cf;
+                background-color: #eae6fc;
             }
 
             .b4 {
