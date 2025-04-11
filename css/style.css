@@ -164,7 +164,7 @@ h3 {
 
             span:nth-child(2) {
                 animation: fadein 1s ease-out forwards;
-                left: 45%;
+                left: 40%;
                 padding-left: 5px;
             }
 
@@ -243,7 +243,7 @@ h3 {
             p {
                 line-height: 1.4;
                 padding-bottom: 15px;
-                font-size: 3.6vw;
+                font-size: 4.2vw;
             }
 
             img {
@@ -269,28 +269,28 @@ h3 {
 
 .stickers-container img:nth-child(2) {
     width: 8vw;
-    right: 20%;
-    top: 20%;
-    transform: rotate(28deg);
+    right: 25%;
+    top: 15%;
+    transform: rotate(30deg);
 }
 
 .stickers-container img:nth-child(3) {
-    right: 30%;
+    right: 20%;
     top: 20%;
     width: 7vw;
 }
 
 .stickers-container img:nth-child(4) {
     right: 70%;
-    top: 30%;
+    top: 15%;
     transform: rotate(140deg);
     width: 10vw;
 }
 
 .stickers-container img:nth-child(5) {
-    width: 12vw;
+    width: 14vw;
     right: 65%;
-    top: 45%;
+    top: 35%;
 }
 
 
