@@ -86,6 +86,46 @@ section h2 {
         border: 2px solid #fff;
         box-sizing: border-box;
 
+        .stickers {
+            img {
+                position: absolute;
+                z-index: 3;
+            }
+
+            img:nth-child(1) {
+                width: 22vw;
+                right: 60%;
+                top: 20%;
+            }
+
+            img:nth-child(2) {
+                width: 8vw;
+                right: 20%;
+                top: 20%;
+                transform: rotate(5deg);
+            }
+
+            img:nth-child(3) {
+                right: 58%;
+                top: 19%;
+                width: 6vw;
+            }
+
+            img:nth-child(4) {
+                right: 70%;
+                top: 30%;
+                transform: rotate(140deg);
+                width: 15vw;
+            }
+
+            img:nth-child(5) {
+                right: 20%;
+                top: 55%;
+                width: 12vw;
+            }
+
+        }
+
         .holes {
             display: flex;
             padding: 5px 0;
