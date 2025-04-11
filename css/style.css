@@ -15,26 +15,20 @@
 }
 
 @font-face {
-    font-family: 'Hahmlet-Regular';
-    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/Hahmlet-Regular.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'omyu_pretty';
-    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-01@1.0/omyu_pretty.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
     font-family: 'InkLipquid';
     src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/InkLipquid.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'HakgyoansimBadasseugiTTF-L';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2408-5@1.0/HakgyoansimBadasseugiTTF-L.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* title */
 @font-face {
     font-family: 'Happiness-Sans-Title';
     src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2205@1.0/Happiness-Sans-Title.woff2') format('woff2');
@@ -43,7 +37,7 @@
 }
 
 body {
-    font-family: "omyu_pretty", sans-serif;
+    font-family: "HakgyoansimBadasseugiTTF-L", sans-serif;
 }
 
 .about-jihyung {
@@ -73,7 +67,8 @@ h3 {
     text-transform: capitalize;
     letter-spacing: -0.04em;
     line-height: 2;
-    font-family: 'Black Han Sans', sans-serif;
+    font-family: 'Giants-Inline', sans-serif;
+    padding: 2vw 0;
 }
 
 #about-jihyung {
@@ -149,10 +144,6 @@ h3 {
                 width: 20px;
                 margin-bottom: -5px;
             }
-        }
-
-        .hello {
-            padding-bottom: 0 !important;
         }
 
         .profile-image {
@@ -250,7 +241,7 @@ h3 {
         .introduction-container {
 
             p {
-                line-height: 1.4;
+                line-height: 1.2;
                 padding-bottom: 15px;
                 font-size: 5vw;
             }
