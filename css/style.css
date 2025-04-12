@@ -114,13 +114,13 @@ h2 {
 .light {
     width: 150px;
     height: 70%;
-    background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgb(243 250 255 / 22%) 50%, rgb(255 247 247 / 0%) 100%);
+    background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgb(255 251 246 / 31%) 50%, rgb(255 247 247 / 0%) 100%);
     position: fixed;
-    top: 100px;
+    top: 30px;
     left: -150px;
-    animation: slide 3s infinite;
-    z-index: 2;
-    transform: rotateZ(15deg);
+    animation: slide 4s infinite;
+    z-index: 3;
+    transform: rotateZ(355deg);
     margin: 0 5vw;
 }
 
