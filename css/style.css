@@ -56,6 +56,13 @@ body {
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'intelone-mono-font-family-regular';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-1@1.1/intelone-mono-font-family-regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+
 .container {
     margin-top: 7vw !important;
 }
@@ -68,15 +75,15 @@ h2 {
     font-family: 'YoonChildfundkoreaDaeHan', sans-serif;
     padding: 4vw 0 0;
     text-align: center;
-    color: #3c3a38;
+    color: #252730;
 }
 
 h3 {
-    font-size: 7vw;
+    font-size: 6vw;
     text-transform: capitalize;
     letter-spacing: -0.07em;
-    line-height: 2;
-    font-family: 'Black Han Sans', sans-serif;
+    padding-bottom: 10px;
+    font-family: 'intelone-mono-font-family-regular', sans-serif;
 }
 
 #about-jihyung {
