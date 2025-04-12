@@ -9,6 +9,13 @@
 }
 
 @font-face {
+    font-family: 'LeferiPoint-SpecialItalicA';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/LeferiPoint-SpecialItalicA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
     font-family: 'Cafe24Lovingu';
     src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2405-3@1.1/Cafe24Lovingu.woff2') format('woff2');
     font-weight: normal;
@@ -74,16 +81,55 @@ body {
 }
 
 h2 {
-    font-size: 5vw;
+    font-size: 8vw;
     text-transform: uppercase;
-    letter-spacing: -0.06em;
-    line-height: 1;
-    font-family: 'RixYeoljeongdo_Regular', sans-serif;
+    letter-spacing: -0.02em;
+    font-family: 'LeferiPoint-SpecialItalicA', sans-serif;
     padding-top: 4vw;
     text-align: center;
     color: #252730;
     margin: 0 auto;
     font-weight: 400;
+}
+
+.big-name {
+    font-size: 7vw;
+    box-shadow: -1px -0.5px 3px #b2b2b2, 1px -0.5px 1px #aaaaaa;
+    margin-top: 7vw;
+    width: 60vw;
+    line-height: 1.2;
+    border-radius: 10px;
+    background: linear-gradient(45deg, #f7f7f7, transparent);
+}
+
+
+.big-name {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.light {
+    width: 100px;
+    height: 100%;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgb(243 250 255 / 22%) 50%, rgb(255 247 247 / 0%) 100%);
+    position: absolute;
+    top: -160px;
+    left: -150px;
+    animation: slide 3s infinite;
+    z-index: 2;
+    transform: rotateZ(15deg);
+}
+
+@keyframes slide {
+    0% {
+        left: -150px;
+    }
+    100% {
+        left: 100%;
+    }
 }
 
 h3 {
