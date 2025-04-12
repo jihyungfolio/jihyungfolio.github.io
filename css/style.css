@@ -50,7 +50,7 @@ body {
 @import url('https://fonts.googleapis.com/css?family=Black+Han+Sans:400');
 
 .container {
-    margin-top: 5vw !important;
+    margin-top: 7vw !important;
 }
 
 h2 {
@@ -115,7 +115,7 @@ h3 {
         border-radius: 25px;
         color: #000;
         box-shadow: 11px 1px 50px #0000002e, -11px -1px 50px #000000a8;
-        background: linear-gradient(180deg, #fff, #ececec, #fff, #f6f8f9, #ffffff);
+        background: #fff;
         border: 2px solid #7d7d7d;
         box-sizing: border-box;
 
