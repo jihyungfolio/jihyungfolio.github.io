@@ -56,13 +56,6 @@ body {
     font-style: normal;
 }
 
-@font-face {
-    font-family: 'intelone-mono-font-family-regular';
-    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-1@1.1/intelone-mono-font-family-regular.woff2') format('woff2');
-    font-weight: 400;
-    font-style: normal;
-}
-
 .container {
     margin-top: 7vw !important;
 }
@@ -78,43 +71,16 @@ h2 {
     color: #252730;
 }
 
-/*h3 {*/
-/*    font-size: 5vw;*/
-/*    text-transform: capitalize;*/
-/*    letter-spacing: -0.01em;*/
-/*    padding-bottom: 10px;*/
-/*    font-family: cursive;*/
-/*    background: #2b3033;*/
-/*    color: #fff;*/
-/*    margin-bottom: 5vw;*/
-/*    font-weight: 100;*/
-/*    box-shadow: -1px -0.5px 3px #d1cdcd, 1px -0.5px 1px #ffffff;*/
-/*}*/
-
 h3 {
-    animation: typing 5s steps(22), blink .20s ease-in-out infinite;
-    animation-iteration-count: infinite;
-    white-space: nowrap;
-    overflow: hidden;
-    border-right: 3px solid;
-    font-family: cursive;
-    font-size: 6vw;
+    font-size: 5vw;
+    text-transform: capitalize;
+    letter-spacing: -0.01em;
+    padding-bottom: 10px;
+    font-family: 'YoonChildfundkoreaDaeHan', sans-serif;
     margin-bottom: 5vw;
-    width: 100%;
-
+    font-weight: 100;
 }
 
-@keyframes typing {
-    from {
-        width: 0
-    }
-}
-
-@keyframes blink {
-    50% {
-        border-color: transparent
-    }
-}
 
 #about-jihyung {
 
