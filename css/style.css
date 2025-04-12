@@ -21,13 +21,6 @@
     font-style: normal;
 }
 
-@font-face {
-    font-family: 'HakgyoansimBadasseugiTTF-L';
-    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2408-5@1.0/HakgyoansimBadasseugiTTF-L.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-}
-
 /* title */
 @font-face {
     font-family: 'Happiness-Sans-Title';
@@ -37,7 +30,7 @@
 }
 
 body {
-    font-family: "HakgyoansimBadasseugiTTF-L", sans-serif;
+    font-family: "Dovemayo_gothic", sans-serif;
 }
 
 .about-jihyung {
@@ -148,42 +141,39 @@ h3 {
 
         .profile-image {
             width: fit-content;
-            margin: 8vw auto 3vw;
+            margin: 6vw 0 0 6vw;
             box-shadow: -1px -0.5px 3px #b2b2b2, 1px -0.5px 1px #aaaaaa;
             border-radius: 25px;
 
             .image {
-                padding: 2vw 3vw;
-                box-shadow: -1px -0.5px 3px #b2b2b2, 1px -0.5px 1px #aaaaaa;
+                padding: 1vw;
+                box-shadow: -1px -0.5px 3px #afafaf, 1px -0.5px 1px #ffffff;
                 border-radius: 25px;
-                background: linear-gradient(45deg, #e7eeff8a, #f1f7ff6b, #f0f5fe);
+                background: linear-gradient(45deg, #d5d7da8a, #f1f7ff6b, #f0f5fe);
                 border: 3px solid #fff;
             }
 
             span {
-                letter-spacing: 0.07em;
+                letter-spacing: 0.8em;
                 text-transform: capitalize;
-                font-size: 12vw;
+                font-size: 7vw;
                 position: absolute;
-                transform: rotateZ(350deg);
-                margin-top: -18%;
-                color: #ffffff;
+                margin-top: -53%;
                 z-index: 2;
-                font-family: 'InkLipquid', sans-serif;
-                text-shadow: 2px 3px 1px #000000c7;
+                writing-mode: vertical-lr;
                 opacity: 0;
-            }
-
-            span:nth-child(2) {
                 animation: fadein 1s ease-out forwards;
-                left: 40%;
-                padding-left: 5px;
+                right: 21vw;
+                font-family: Cafe24Lovingu;
+                -webkit-text-stroke-width: 1px;
+                color: #99c8ff;
+                -webkit-text-stroke-color: #132030;
+                text-shadow: 1px 5px 10px #8b8b8b1c;
+                padding-right: 10px;
             }
 
             span:nth-child(3) {
-                animation: fadein 5s ease-out forwards;
-                left: 62%;
-                margin-top: -25%;
+
             }
 
             img {
@@ -196,7 +186,7 @@ h3 {
                 border-radius: 25px;
                 background: #46668d;
                 padding: 1vw 1vw 0;
-                border: 3px solid #8a95a299;
+                border: 3px solid #424e5c;
             }
         }
 
