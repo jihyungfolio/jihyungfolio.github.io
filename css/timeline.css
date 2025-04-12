@@ -62,7 +62,6 @@
         .t1 {
 
             padding: 7vw 2vw;
-            background: #dadfe8;
 
             .b1 {
                 background-color: #e5eaec;
@@ -84,7 +83,6 @@
         .t2 {
 
             padding: 7vw 2vw;
-            background: rgba(202, 239, 224, 0.56);
 
             .b1 {
                 background-color: #e5eae8;
@@ -104,7 +102,6 @@
         }
 
         .t3 {
-            background: #fffcf2;
 
             .b1 {
                 background-color: #b3b2a7;
@@ -125,8 +122,6 @@
         }
 
         .t4 {
-
-            background: #fff3f7;
 
             .b1 {
                 background-color: #efffb2;
