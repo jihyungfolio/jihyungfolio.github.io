@@ -264,13 +264,17 @@ h4 {
 
             p {
                 line-height: 1.5;
-                padding-bottom: 15px;
-                font-size: 5vw;
+                padding-bottom: 5vw;
+                font-size: 4.5vw;
             }
 
             img {
                 width: 4.5vw !important;
                 margin-bottom: -2px ! Important;
+            }
+
+            .description {
+                padding: 0 2vw;
             }
         }
 
