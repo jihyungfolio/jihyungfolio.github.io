@@ -74,6 +74,7 @@
 
 body {
     font-family: "HakgyoansimSantteutdotumL", sans-serif;
+    overflow-x: hidden;
 }
 
 .container {
