@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Gloock:ital,wght@0,400;0,700&display=swap');
 
+@import url('https://fonts.googleapis.com/css?family=Black+Han+Sans:400');
+
+@font-face {
+    font-family: 'Dovemayo_gothic';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2408@1.0/YoonChildfundkoreaDaeHan.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
 @font-face {
     font-family: 'Cafe24Lovingu';
     src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2405-3@1.1/Cafe24Lovingu.woff2') format('woff2');
@@ -36,29 +45,21 @@
     font-style: normal;
 }
 
-body {
-    font-family: "ThecircleM", sans-serif;
-}
-
-@import url('https://fonts.googleapis.com/css?family=Black+Han+Sans:400');
-
-@font-face {
-    font-family: 'Dovemayo_gothic';
-    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2408@1.0/YoonChildfundkoreaDaeHan.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-}
-
-.container {
-    margin-top: 7vw !important;
-}
-
 @font-face {
     font-family: 'ThecircleM';
     src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/ThecircleM.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
+
+body {
+    font-family: "ThecircleM", sans-serif;
+}
+
+.container {
+    margin-top: 7vw !important;
+}
+
 
 h2 {
     font-size: 11vw;
@@ -82,6 +83,10 @@ h3 {
     font-weight: 100;
 }
 
+h3:first-child {
+    font-family: 'Cafe24Lovingu', sans-serif;
+    font-size: 10vw;
+}
 
 #about-jihyung {
 
