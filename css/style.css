@@ -269,8 +269,9 @@ h4 {
             }
 
             img {
-                width: 4.5vw !important;
+                width: 5.5vw !important;
                 margin-bottom: -3px ! Important;
+                margin-right: 2px;
             }
 
             .description {
@@ -322,10 +323,6 @@ h4 {
 
 #work {
     padding-top: 10vw;
-}
-
-mark {
-    text-transform: uppercase;
 }
 
 .experience,
