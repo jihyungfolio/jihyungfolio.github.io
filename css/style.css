@@ -21,6 +21,13 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'HakgyoansimBadasseugiTTF-L';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2408-5@1.0/HakgyoansimBadasseugiTTF-L.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
 /* title */
 @font-face {
     font-family: 'Happiness-Sans-Title';
@@ -30,7 +37,7 @@
 }
 
 body {
-    font-family: "Dovemayo_gothic", sans-serif;
+    font-family: "HakgyoansimBadasseugiTTF-L", sans-serif;
 }
 
 .about-jihyung {
@@ -116,7 +123,7 @@ h3 {
         .holes {
             display: flex;
             padding: 5px 0;
-            border: 1px solid #eee;
+            border: 1px solid #ebebeb;
             border-bottom: 10px solid #eee;
             box-shadow: 11px 11px 50px #fffffff0, -11px -11px 50px #ffffff70;
             border-radius: 25px;
@@ -141,35 +148,32 @@ h3 {
 
         .profile-image {
             width: fit-content;
-            margin: 6vw 0 0 6vw;
+            margin: 6vw auto 0;
             box-shadow: -1px -0.5px 3px #b2b2b2, 1px -0.5px 1px #aaaaaa;
             border-radius: 25px;
 
             .image {
                 padding: 1vw;
-                box-shadow: -1px -0.5px 3px #afafaf, 1px -0.5px 1px #ffffff;
+                box-shadow: -1px -0.5px 3px #d1cdcd, 1px -0.5px 1px #ffffff;
                 border-radius: 25px;
                 background: linear-gradient(45deg, #d5d7da8a, #f1f7ff6b, #f0f5fe);
                 border: 3px solid #fff;
             }
 
             span {
-                letter-spacing: 0.8em;
+                letter-spacing: 0.1em;
                 text-transform: capitalize;
-                font-size: 7vw;
+                font-size: 5vw;
                 position: absolute;
-                margin-top: -53%;
+                color: #ffffff;
+                margin-top: -50%;
                 z-index: 2;
+                text-shadow: 2px 3px 1px #000000c7;
                 writing-mode: vertical-lr;
                 opacity: 0;
                 animation: fadein 1s ease-out forwards;
-                right: 21vw;
-                font-family: Cafe24Lovingu;
-                -webkit-text-stroke-width: 1px;
-                color: #99c8ff;
-                -webkit-text-stroke-color: #132030;
-                text-shadow: 1px 5px 10px #8b8b8b1c;
-                padding-right: 10px;
+                left: 62%;
+                padding-left: 5px;
             }
 
             span:nth-child(3) {
@@ -186,7 +190,7 @@ h3 {
                 border-radius: 25px;
                 background: #46668d;
                 padding: 1vw 1vw 0;
-                border: 3px solid #424e5c;
+                border: 3px solid #8a95a299;
             }
         }
 
