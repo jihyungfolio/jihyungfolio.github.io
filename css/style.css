@@ -60,7 +60,6 @@ body {
     margin-top: 7vw !important;
 }
 
-
 h2 {
     font-size: 8vw;
     text-transform: uppercase;
@@ -134,7 +133,7 @@ h4 {
         box-sizing: border-box;
 
         .profile-border {
-            padding: 20px 8vw;
+            padding: 20px 5vw;
             border: 3px solid #c5c7c8;
             border-radius: 25px;
             box-shadow: 11px 1px 50px #0000002e, -11px -1px 50px #000000a8;
