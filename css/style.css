@@ -60,9 +60,9 @@ body {
 }
 
 h2 {
-    font-size: 8vw;
+    font-size: 7vw;
     text-transform: uppercase;
-    letter-spacing: -0.07em;
+    letter-spacing: -0.06em;
     line-height: 1;
     font-family: 'RixYeoljeongdo_Regular', sans-serif;
     padding-top: 4vw;
@@ -70,6 +70,7 @@ h2 {
     color: #252730;
     width: 80%;
     margin: 0 auto;
+    font-weight: 400;
 }
 
 h3 {
@@ -264,7 +265,7 @@ h4 {
             p {
                 line-height: 1.5;
                 padding-bottom: 15px;
-                font-size: 4vw;
+                font-size: 5vw;
             }
 
             img {
