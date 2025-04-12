@@ -102,7 +102,6 @@ h2 {
     background: linear-gradient(45deg, #f7f7f7, transparent);
 }
 
-
 .big-name {
     position: relative;
     display: flex;
@@ -112,15 +111,16 @@ h2 {
 }
 
 .light {
-    width: 100px;
-    height: 100%;
+    width: 150px;
+    height: 70%;
     background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgb(243 250 255 / 22%) 50%, rgb(255 247 247 / 0%) 100%);
     position: absolute;
-    top: -160px;
+    top: 100px;
     left: -150px;
     animation: slide 3s infinite;
     z-index: 2;
     transform: rotateZ(15deg);
+    margin: 0 5vw;
 }
 
 @keyframes slide {
@@ -316,7 +316,9 @@ h4 {
                 font-size: 3.5vw;
             }
 
+        }
 
+        .about-me {
             .what-i {
                 padding: 0 2vw;
                 text-align: center;
