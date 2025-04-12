@@ -150,34 +150,3 @@
     }
 
 }
-
-@media screen and (max-width: 1024px) {
-
-    .timeline {
-
-        .t {
-
-            display: block;
-
-            .t1 {
-            }
-
-            .t2 {
-            }
-
-            .t3 {
-            }
-
-            .t4 {
-            }
-
-
-            li {
-
-
-            }
-        }
-
-    }
-
-}

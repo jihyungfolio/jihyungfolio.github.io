@@ -270,10 +270,6 @@ h4 {
                 font-size: 4.5vw;
             }
 
-            img {
-                width: 12vw !important;
-                margin: 3vw;
-            }
 
             .what-i {
                 padding: 0 2vw;
@@ -284,7 +280,14 @@ h4 {
                     overflow: hidden;
                     margin: 10vw 0;
 
-                    img, p {
+                    img {
+                        width: 12vw !important;
+                        margin: 3vw;
+                        z-index: 1;
+                        position: relative;
+                    }
+
+                    p {
                         z-index: 1;
                         position: relative;
                     }
