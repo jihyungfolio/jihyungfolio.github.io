@@ -72,6 +72,7 @@
     font-style: normal;
 }
 
+
 body {
     font-family: "HakgyoansimSantteutdotumL", sans-serif;
     overflow-x: hidden;
@@ -85,8 +86,8 @@ h2 {
     font-size: 8vw;
     text-transform: uppercase;
     letter-spacing: -0.02em;
-    font-family: 'LeferiPoint-SpecialItalicA', sans-serif;
-    padding-top: 4vw;
+    font-family: "Playfair Display", serif;
+    padding: 1vw 0 2vw;
     text-align: center;
     color: #252730;
     margin: 0 auto;
@@ -98,17 +99,9 @@ h2 {
     box-shadow: -1px -0.5px 3px #b2b2b2, 1px -0.5px 1px #aaaaaa;
     margin-top: 7vw;
     width: 60vw;
-    line-height: 1.2;
+    line-height: 1.7;
     border-radius: 10px;
     background: linear-gradient(45deg, #f7f7f7, transparent);
-}
-
-.big-name {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
 }
 
 .light {
@@ -116,7 +109,7 @@ h2 {
     height: 70%;
     background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgb(255 251 246 / 31%) 50%, rgb(255 247 247 / 0%) 100%);
     position: fixed;
-    top: 30px;
+    top: 20px;
     left: -150px;
     animation: slide 4s infinite;
     z-index: 3;
