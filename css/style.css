@@ -68,8 +68,7 @@ h2 {
     font-family: 'YoonChildfundkoreaDaeHan', sans-serif;
     padding: 4vw 0 0;
     text-align: center;
-    background: linear-gradient(68deg, #212628, #888888, #c5c5c5, #444b50);
-    color: transparent;
+    color: #262628;
     text-shadow: 1px 1px 1px hsla(0, 0%, 255%, 0.5);
     background-clip: text;
 }
