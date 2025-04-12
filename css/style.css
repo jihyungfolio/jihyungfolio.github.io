@@ -61,12 +61,12 @@ body {
 }
 
 h2 {
-    font-size: 14vw;
+    font-size: 10vw;
     text-transform: uppercase;
     letter-spacing: -0.05em;
     line-height: 1.2;
     font-family: 'YoonChildfundkoreaDaeHan', sans-serif;
-    padding: 4vw 0 2vw;
+    padding: 4vw 0 0;
     text-align: center;
     background: linear-gradient(68deg, #212628, #888888, #c5c5c5, #444b50);
     color: transparent;
