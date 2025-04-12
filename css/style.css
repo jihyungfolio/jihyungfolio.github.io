@@ -112,16 +112,16 @@ h2 {
 }
 
 .light {
-    width: 150px;
-    height: 70%;
-    background: linear-gradient(to right, rgb(255 224 224 / 0%) 0%, rgb(251 247 255 / 31%) 50%, rgb(190 255 251 / 0%) 100%);
+    width: 200px;
+    height: 160%;
+    background: linear-gradient(to right, rgb(242 247 253 / 0%) 0%, rgb(255 255 241 / 31%) 50%, rgb(217 255 253 / 0%) 100%);
     position: fixed;
-    top: 20px;
+    top: 10vw;
     left: -150px;
-    animation: slide 4s infinite;
+    animation: slide 2s infinite;
     z-index: 3;
-    transform: rotateZ(355deg);
-    margin: 0 5vw;
+    transform: rotateZ(141deg);
+    margin: 0 15vw;
 }
 
 @keyframes slide {
