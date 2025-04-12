@@ -37,7 +37,7 @@
 }
 
 body {
-    font-family: "HakgyoansimBadasseugiTTF-L", sans-serif;
+    font-family: "ThecircleM", sans-serif;
 }
 
 @import url('https://fonts.googleapis.com/css?family=Black+Han+Sans:400');
@@ -54,8 +54,8 @@ body {
 }
 
 @font-face {
-    font-family: 'GapyeongWave';
-    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2312-1@1.1/GapyeongWave.woff2') format('woff2');
+    font-family: 'ThecircleM';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/ThecircleM.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -65,7 +65,7 @@ h2 {
     text-transform: uppercase;
     letter-spacing: -0.07em;
     line-height: 1;
-    font-family: 'GapyeongWave', sans-serif;
+    font-family: 'ThecircleM', sans-serif;
     padding-top: 4vw;
     text-align: center;
     color: #252730;
@@ -74,11 +74,11 @@ h2 {
 }
 
 h3 {
-    font-size: 10vw;
+    font-size: 5vw;
     text-transform: capitalize;
     letter-spacing: -0.01em;
     padding-bottom: 10px;
-    font-family: 'Cafe24Lovingu', sans-serif;
+    font-family: 'RixYeoljeongdo_Regular', sans-serif;
     font-weight: 100;
 }
 
