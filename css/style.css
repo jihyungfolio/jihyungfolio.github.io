@@ -263,7 +263,7 @@ h4 {
 
         }
 
-        .introduction {
+        .self-introduce {
 
             p {
                 line-height: 1.5;
@@ -275,11 +275,11 @@ h4 {
                 margin: 3vw;
             }
 
-            .description {
+            .what-i {
                 padding: 0 2vw;
                 text-align: center;
 
-                .d {
+                .focus-on {
                     position: relative;
                     overflow: hidden;
                     margin: 10vw 0;
