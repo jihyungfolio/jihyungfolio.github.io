@@ -30,44 +30,50 @@
 
 /* title */
 @font-face {
-    font-family: 'Happiness-Sans-Title';
-    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2205@1.0/Happiness-Sans-Title.woff2') format('woff2');
+    font-family: 'SBAggroB';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroB.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'RixYeoljeongdo_Regular';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2102-01@1.0/RixYeoljeongdo_Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 body {
-    font-family: "HakgyoansimBadasseugiTTF-L", sans-serif;
-}
-
-.about-jihyung {
-    height: 100%;
-    min-height: 100vh;
-    overflow: hidden;
-    background: #021733;
-    color: #e5e5df;
-}
-
-.about-jihyung h2 {
-    font-size: 7vw;
-    letter-spacing: -0.01em;
-    padding-top: 3%;
-    line-height: 0.8;
-    z-index: 1;
-    position: relative;
-    width: fit-content;
-    text-transform: capitalize;
-    margin: 0 auto;
+    font-family: "Dovemayo_gothic", sans-serif;
 }
 
 @import url('https://fonts.googleapis.com/css?family=Black+Han+Sans:400');
 
+.container {
+    margin-top: 5vw !important;
+}
+
+h2 {
+    font-size: 14vw;
+    text-transform: uppercase;
+    letter-spacing: -0.05em;
+    line-height: 1.2;
+    font-family: 'InkLipquid', sans-serif;
+    padding: 4vw 0 2vw;
+    text-align: center;
+    background: linear-gradient(68deg, #212628, #888888, #c5c5c5, #444b50);
+    color: transparent;
+    text-shadow: 1px 1px 1px hsla(0, 0%, 255%, 0.5);
+    -moz-background-clip: text;
+    background-clip: text;
+}
+
 h3 {
     font-size: 7vw;
     text-transform: capitalize;
-    letter-spacing: -0.04em;
+    letter-spacing: -0.07em;
     line-height: 2;
-    font-family: 'Giants-Inline', sans-serif;
+    font-family: 'Black Han Sans', sans-serif;
     padding: 2vw 0;
 }
 
@@ -82,9 +88,9 @@ h3 {
         z-index: 1;
 
         .rope {
-            right: 26%;
+            right: 27%;
             height: 135px;
-            width: 18px;
+            width: 15px;
             background: linear-gradient(270deg, #ebebeb, #f1f1f1, #ffffff, #ffffff, #dfdfdf);
             position: absolute;
             border-radius: 0 0 7px 7px;
@@ -93,9 +99,9 @@ h3 {
         }
 
         .rope2 {
-            left: 26%;
+            left: 27%;
             height: 135px;
-            width: 18px;
+            width: 15px;
             background: linear-gradient(270deg, #ebebeb, #f1f1f1, #ffffff, #ffffff, #dfdfdf);
             position: absolute;
             border-radius: 0 0 7px 7px;
@@ -148,7 +154,7 @@ h3 {
 
         .profile-image {
             width: fit-content;
-            margin: 6vw auto 0;
+            margin: 0 auto 0;
             box-shadow: -1px -0.5px 3px #b2b2b2, 1px -0.5px 1px #aaaaaa;
             border-radius: 25px;
 
@@ -161,19 +167,20 @@ h3 {
             }
 
             span {
-                letter-spacing: 0.1em;
+                letter-spacing: 0.5em;
                 text-transform: capitalize;
-                font-size: 5vw;
+                font-size: 4vw;
                 position: absolute;
                 color: #ffffff;
-                margin-top: -50%;
+                margin-top: -52%;
                 z-index: 2;
                 text-shadow: 2px 3px 1px #000000c7;
                 writing-mode: vertical-lr;
                 opacity: 0;
                 animation: fadein 1s ease-out forwards;
-                left: 62%;
+                left: 64%;
                 padding-left: 5px;
+                font-family: 'HakgyoansimBadasseugiTTF-L', sans-serif;
             }
 
             span:nth-child(3) {
@@ -198,7 +205,7 @@ h3 {
             font-size: 3.6vw
         }
 
-        .contact-container {
+        .contact {
             margin: 20px 0;
             /*padding: 3vw;*/
             /*background: #fff;*/
@@ -240,7 +247,7 @@ h3 {
 
         }
 
-        .introduction-container {
+        .introduction {
 
             p {
                 line-height: 1.2;
@@ -258,39 +265,38 @@ h3 {
 
 }
 
-.stickers-container img {
+.stickers img {
     position: absolute;
     z-index: 3;
-    opacity: 0;
 }
 
-.stickers-container img:nth-child(1) {
+.stickers img:nth-child(1) {
     width: 12vw;
     right: 18%;
     top: 38%;
 }
 
-.stickers-container img:nth-child(2) {
+.stickers img:nth-child(2) {
     width: 10vw;
     right: 32%;
     top: 12%;
     transform: rotate(30deg);
 }
 
-.stickers-container img:nth-child(3) {
+.stickers img:nth-child(3) {
     right: 65%;
     top: 15%;
     width: 15vw;
 }
 
-.stickers-container img:nth-child(4) {
+.stickers img:nth-child(4) {
     right: 70%;
     top: 18%;
     transform: rotate(140deg);
     width: 12vw;
 }
 
-.stickers-container img:nth-child(5) {
+.stickers img:nth-child(5) {
     width: 20vw;
     right: 62%;
     top: 29%;
@@ -305,8 +311,8 @@ mark {
     text-transform: uppercase;
 }
 
-.experience-container,
-.software-container {
+.experience,
+.software {
     margin: 20px 0;
     /*padding: 3vw;*/
     /*background: #fff;*/

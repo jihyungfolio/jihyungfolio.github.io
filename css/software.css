@@ -1,4 +1,4 @@
-.software-container {
+.software {
 
     .software-image {
         display: grid;
@@ -97,7 +97,7 @@
         border: 0;
     }
 
-    .software-container .software-image {
+    .software .software-image {
         grid-template-columns: repeat(4, 1fr);
     }
 
