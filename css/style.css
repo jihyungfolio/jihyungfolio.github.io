@@ -72,6 +72,12 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'TTHakgyoansimKkokkomaR';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2402_keris@1.0/TTHakgyoansimKkokkomaR.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
 
 body {
     font-family: "HakgyoansimSantteutdotumL", sans-serif;
@@ -86,28 +92,30 @@ h2 {
     font-size: 8vw;
     text-transform: uppercase;
     letter-spacing: -0.02em;
-    font-family: "Playfair Display", serif;
+    font-family: "TTHakgyoansimKkokkomaR", serif;
     padding: 1vw 0 2vw;
     text-align: center;
     color: #252730;
     margin: 0 auto;
-    font-weight: 400;
 }
 
 .big-name {
     font-size: 7vw;
-    box-shadow: -1px -0.5px 3px #b2b2b2, 1px -0.5px 1px #aaaaaa;
+    box-shadow: -1px -0.5px 3px #000000, 1px -0.5px 1px #000000;
     margin-top: 7vw;
-    width: 60vw;
-    line-height: 1.7;
+    width: 65vw;
     border-radius: 10px;
-    background: linear-gradient(45deg, #f7f7f7, transparent);
+    background: linear-gradient(45deg, #ececec, #ffffff, #ffffff, #ededed, #f7f7f7);
+    border: 3px solid #f2f2f2;
+    height: 30px;
+    line-height: 1.6;
+    font-weight: 600;
 }
 
 .light {
     width: 150px;
     height: 70%;
-    background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgb(255 251 246 / 31%) 50%, rgb(255 247 247 / 0%) 100%);
+    background: linear-gradient(to right, rgb(255 245 245 / 0%) 0%, rgb(255 255 246 / 31%) 50%, rgb(253 238 218 / 0%) 100%);
     position: fixed;
     top: 20px;
     left: -150px;
@@ -253,7 +261,7 @@ h4 {
                 position: relative;
                 box-shadow: -1px -0.5px 3px #b2b2b2, 1px -0.5px 1px #aaaaaa;
                 border-radius: 25px;
-                padding: 1vw 1vw 0;
+                padding: 2px;
             }
         }
 
