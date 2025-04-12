@@ -91,7 +91,6 @@ body {
 h2 {
     font-size: 8vw;
     text-transform: uppercase;
-    letter-spacing: -0.02em;
     font-family: "TTHakgyoansimKkokkomaR", serif;
     padding: 1vw 0 2vw;
     text-align: center;
@@ -101,11 +100,11 @@ h2 {
 
 .big-name {
     font-size: 7vw;
-    box-shadow: -1px -0.5px 3px #000000, 1px -0.5px 1px #000000;
-    margin-top: 7vw;
+    box-shadow: -1px -0.5px 3px #939393, 1px -0.5px 1px #bababa;
+    margin-top: 8vw;
     width: 65vw;
     border-radius: 10px;
-    background: linear-gradient(45deg, #ececec, #ffffff, #ffffff, #ededed, #f7f7f7);
+    background: linear-gradient(45deg, #ececec, #ffffff, #ffffff, #f7f5f5, #f7f7f7);
     border: 3px solid #f2f2f2;
     height: 30px;
     line-height: 1.6;
@@ -115,7 +114,7 @@ h2 {
 .light {
     width: 150px;
     height: 70%;
-    background: linear-gradient(to right, rgb(255 245 245 / 0%) 0%, rgb(255 255 246 / 31%) 50%, rgb(253 238 218 / 0%) 100%);
+    background: linear-gradient(to right, rgb(255 224 224 / 0%) 0%, rgb(251 247 255 / 31%) 50%, rgb(190 255 251 / 0%) 100%);
     position: fixed;
     top: 20px;
     left: -150px;
