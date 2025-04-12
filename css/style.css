@@ -1,13 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Gloock:ital,wght@0,400;0,700&display=swap');
 
 @font-face {
-    font-family: 'Dovemayo_gothic';
-    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.1/Dovemayo_gothic.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
     font-family: 'Cafe24Lovingu';
     src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2405-3@1.1/Cafe24Lovingu.woff2') format('woff2');
     font-weight: normal;
@@ -44,13 +37,13 @@
 }
 
 body {
-    font-family: "Dovemayo_gothic", sans-serif;
+    font-family: "HakgyoansimBadasseugiTTF-L", sans-serif;
 }
 
 @import url('https://fonts.googleapis.com/css?family=Black+Han+Sans:400');
 
 @font-face {
-    font-family: 'YoonChildfundkoreaDaeHan';
+    font-family: 'Dovemayo_gothic';
     src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2408@1.0/YoonChildfundkoreaDaeHan.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
@@ -61,22 +54,22 @@ body {
 }
 
 h2 {
-    font-size: 11vw;
+    font-size: 10vw;
     text-transform: uppercase;
     letter-spacing: -0.05em;
     line-height: 1.2;
-    font-family: 'YoonChildfundkoreaDaeHan', sans-serif;
+    font-family: sans-serif;
     padding: 4vw 0 0;
     text-align: center;
     color: #252730;
 }
 
 h3 {
-    font-size: 5vw;
+    font-size: 10vw;
     text-transform: capitalize;
     letter-spacing: -0.01em;
     padding-bottom: 10px;
-    font-family: 'YoonChildfundkoreaDaeHan', sans-serif;
+    font-family: 'Cafe24Lovingu', sans-serif;
     font-weight: 100;
 }
 
