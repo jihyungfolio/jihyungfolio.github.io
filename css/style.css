@@ -22,13 +22,6 @@
     font-style: normal;
 }
 
-@font-face {
-    font-family: 'HakgyoansimBadasseugiTTF-L';
-    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2408-5@1.0/HakgyoansimBadasseugiTTF-L.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-}
-
 /* title */
 @font-face {
     font-family: 'SBAggroB';
@@ -51,8 +44,15 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Happiness-Sans-Bold';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2205@1.0/Happiness-Sans-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
 body {
-    font-family: "HakgyoansimBadasseugiTTF-L", sans-serif;
+    font-family: "Happiness-Sans-Bold", sans-serif;
 }
 
 .container {
@@ -264,7 +264,7 @@ h4 {
 
             p {
                 line-height: 1.5;
-                padding-bottom: 5vw;
+
                 font-size: 4.5vw;
             }
 
@@ -276,11 +276,61 @@ h4 {
 
             .description {
                 padding: 0 2vw;
+
+                .d {
+                    position: relative;
+                    overflow: hidden;
+                    margin: 5vw 0;
+                    padding: 3vw;
+
+                    img, p {
+                        z-index: 1;
+                        position: relative;
+                    }
+                }
+
             }
         }
 
     }
 
+}
+
+
+:root {
+    --blur: blur(120px);
+}
+
+.blur {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    filter: blur(45px);
+    z-index: 0;
+}
+
+.b1 {
+    top: 0;
+    left: 0;
+    background-color: rgb(244, 235, 240);
+}
+
+.b2 {
+    right: 0;
+    top: 0;
+    background-color: rgb(217, 216, 233);
+}
+
+.b3 {
+    bottom: 0;
+    left: 0;
+    background-color: rgb(230, 233, 216);
+}
+
+.b4 {
+    bottom: 0;
+    right: 0;
+    background-color: rgb(216, 230, 233);
 }
 
 .stickers img {

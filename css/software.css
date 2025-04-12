@@ -50,42 +50,6 @@
     }
 }
 
-:root {
-    --blur: blur(120px);
-}
-
-.blur {
-    position: absolute;
-    width: 50%;
-    height: 50%;
-    filter: blur(45px);
-    z-index: 0;
-}
-
-.b1 {
-    top: 0;
-    left: 0;
-    background-color: rgb(244, 235, 240);
-}
-
-.b2 {
-    right: 0;
-    top: 0;
-    background-color: rgb(217, 216, 233);
-}
-
-.b3 {
-    bottom: 0;
-    left: 0;
-    background-color: rgb(230, 233, 216);
-}
-
-.b4 {
-    bottom: 0;
-    right: 0;
-    background-color: rgb(216, 230, 233);
-}
-
 .sw span {
     box-shadow: 1px 5px 10px #0000004a;
 }
