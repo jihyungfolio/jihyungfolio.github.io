@@ -10,6 +10,7 @@
 
             .work-title {
                 font-size: 4.5vw;
+                letter-spacing: -0.05em;
             }
 
             img {
@@ -29,7 +30,7 @@
 
             .pb-logo {
                 width: 80px;
-                background: linear-gradient(45deg, #f7fffa, #f9fffd, #f4fffc, #fefefe);
+                background: linear-gradient(45deg, #f7fffa, #f9fffd, #f9fffd, #fefefe);
                 padding: 3vw 4vw;
                 margin: 3vw 0;
             }
