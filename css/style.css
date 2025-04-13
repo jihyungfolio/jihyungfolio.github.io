@@ -86,6 +86,7 @@ body {
 
 .container {
     margin-top: 7vw !important;
+    margin-bottom: 20vw;
 }
 
 h2 {
@@ -327,7 +328,7 @@ h4 {
                 .focus-on {
                     position: relative;
                     overflow: hidden;
-                    margin: 10vw 0;
+                    margin: 7vw 0;
 
                     img {
                         width: 18vw !important;
