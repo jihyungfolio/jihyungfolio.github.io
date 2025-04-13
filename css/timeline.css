@@ -5,148 +5,59 @@
 
     .t {
         margin: 5vw 0 10vw;
-
-        li {
-            letter-spacing: -0.02em;
-
-            .work-title {
-                font-size: 4vw;
-                letter-spacing: -0.05em;
-            }
-
-            span {
-                display: block;
-            }
-
-            img {
-                display: block;
-                border: none !important;
-                z-index: 1;
-                position: relative;
-                padding: 3vw 0;
-            }
-
-            .w-logo {
-                height: 24px;
-                padding: 2vw 0;
-                margin-left: -10px;
-            }
-
-            .pb-logo {
-                width: 80px;
-                background: linear-gradient(45deg, #f7fffa, #f9fffd, #f9fffd, #fefefe);
-                padding: 3vw 0;
-                margin: 3vw 0;
-            }
-
-            .kg-logo {
-                width: 70px;
-                background: linear-gradient(45deg, #fff, #fffaf9, #fbf8f4, #fffdff);
-                padding: 3px 0;
-                margin: 3vw 0;
-            }
-
-            h3 {
-                font-size: 1.75em;
-            }
-
-            h4 {
-                font-size: 1.2em;
-                margin-bottom: 1.2em;
-            }
-
-            p {
-                z-index: 1;
-                position: relative;
-                line-height: 1.4;
-            }
-        }
-
-        .t1 {
-
-            .b1 {
-                background-color: #ecfaff;
-            }
-
-            .b2 {
-                background-color: #d4e4ff;
-            }
-
-            .b3 {
-                background-color: rgb(234, 239, 238);
-            }
-
-            .b4 {
-                background-color: rgb(230, 237, 255);
-            }
-        }
-
-        .t2 {
-
-            .b1 {
-                background-color: #dffff4;
-            }
-
-            .b2 {
-                background-color: rgb(203, 232, 223);
-            }
-
-            .b3 {
-                background-color: #e3e8e0;
-            }
-
-            .b4 {
-                background-color: rgb(217, 234, 236);
-            }
-        }
-
-        .t3 {
-
-            .b1 {
-                background-color: #f1dde9;
-            }
-
-            .b2 {
-                background-color: #deeccf;
-            }
-
-            .b3 {
-                background-color: #fefff8;
-            }
-
-            .b4 {
-                background-color: #dee2f7;
-            }
-
-        }
-
-        .t4 {
-
-            .b1 {
-                background-color: #ffe9dd;
-            }
-
-            .b2 {
-                background-color: rgb(255, 251, 251);
-            }
-
-            .b3 {
-                background-color: rgb(227, 211, 225);
-            }
-
-            .b4 {
-                background-color: rgb(249, 231, 249);
-            }
-        }
-
-        li p span {
-            display: block;
+        letter-spacing: -0.02em;
+        
+        .work-title {
             font-size: 4vw;
+            letter-spacing: -0.05em;
         }
 
-    }
+        span {
+            display: block;
+        }
 
-    li {
+        img {
+            display: block;
+            border: none !important;
+            z-index: 1;
+            position: relative;
+            padding: 3vw 0;
+        }
+
+        .w-logo {
+            height: 24px;
+            padding: 2vw 0;
+            margin-left: -10px;
+        }
+
+        .pb-logo {
+            width: 80px;
+            background: linear-gradient(45deg, #f7fffa, #f9fffd, #f9fffd, #fefefe);
+            padding: 3vw 0;
+            margin: 3vw 0;
+        }
+
+        .kg-logo {
+            width: 70px;
+            background: linear-gradient(45deg, #fff, #fffaf9, #fbf8f4, #fffdff);
+            padding: 3px 0;
+            margin: 3vw 0;
+        }
+
+        h3 {
+            font-size: 1.75em;
+        }
+
+        h4 {
+            font-size: 1.2em;
+            margin-bottom: 1.2em;
+        }
+
+        p {
+            z-index: 1;
+            position: relative;
+            line-height: 1.4;
+        }
     }
 
 }

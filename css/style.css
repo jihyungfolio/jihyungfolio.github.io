@@ -324,6 +324,7 @@ h4 {
             .what-i {
                 padding: 0 2vw;
                 text-align: center;
+                margin-top: -5vw;
 
                 .focus-on {
                     position: relative;
