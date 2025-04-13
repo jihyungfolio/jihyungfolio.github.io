@@ -22,17 +22,22 @@
             }
 
             .w-logo {
-                height: 28px;
-                margin-left: -10px;
+                height: 25px;
+                background: linear-gradient(45deg, #fff, #ffffff, #f3f8ff, #fefefe);
+                padding: 2vw 4vw;
+                margin: 3vw 0 3vw -10px;
             }
 
             .pb-logo {
-                width: 90px;
+                width: 80px;
+                background: linear-gradient(45deg, #f7fffa, #f9fffd, #f4fffc, #fefefe);
+                padding: 3vw 4vw;
+                margin: 3vw 0;
             }
 
             .kg-logo {
                 width: 70px;
-                background: linear-gradient(45deg, #fff, #fffaf9, #fffaf3, #fffdff);
+                background: linear-gradient(45deg, #fff, #fffaf9, #fbf8f4, #fffdff);
                 padding: 3px 5vw 2vw;
                 margin: 3vw 0;
             }
