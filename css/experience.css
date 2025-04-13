@@ -41,7 +41,8 @@
         .exp01 {
             width: 30%;
             margin-bottom: 10vw;
-            padding: 5vw 10vw 5vw 45vw;
+            padding: 10vw 10vw 3vw 45vw;
+            transform: rotate3d(1, 1, 1, 340deg);
         }
 
     }
