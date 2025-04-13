@@ -357,8 +357,8 @@ h4 {
 
 .blur {
     position: absolute;
-    width: 50%;
-    height: 50%;
+    width: 20%;
+    height: 40%;
     filter: blur(45px);
     z-index: 0;
 }
