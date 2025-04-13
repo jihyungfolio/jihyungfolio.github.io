@@ -313,7 +313,7 @@ h4 {
 
         .about-me {
             .about-me-wrapper {
-                margin: 2vw 0 10vw 0;
+                margin-bottom: 10vw;
 
                 p {
                     line-height: 1.5;
