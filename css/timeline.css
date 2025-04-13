@@ -5,11 +5,12 @@
     .t {
 
         li {
-            padding: 7vw 0;
+            padding: 5.5vw 0;
             letter-spacing: -0.02em;
 
             .work-title {
                 font-weight: 600;
+                font-size: 4vw;
             }
 
             img {
@@ -21,17 +22,19 @@
             }
 
             .w-logo {
-                height: 30px;
+                height: 28px;
                 margin-left: -10px;
             }
 
             .pb-logo {
-                width: 100px;
+                width: 90px;
             }
 
             .kg-logo {
-                width: 100px;
-                padding-top: 0
+                width: 70px;
+                background: linear-gradient(45deg, #fff, #fffaf9, #fffaf3, #fffdff);
+                padding: 3px 5vw 2vw;
+                margin: 3vw 0;
             }
 
             h3 {
