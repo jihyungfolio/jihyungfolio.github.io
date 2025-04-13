@@ -16,22 +16,14 @@
             display: block;
         }
 
-        img {
-            display: block;
-            border: none !important;
-            z-index: 1;
-            position: relative;
-            padding: 3vw 0;
-        }
-
         .w-logo {
-            height: 24px;
+            height: 24px !important;
             padding: 2vw 0;
             margin-left: -10px;
         }
 
         .kg-logo {
-            width: 70px;
+            width: 70px !important;
             background: linear-gradient(45deg, #fff, #fffaf9, #fbf8f4, #fffdff);
             padding: 3px 0;
             margin: 3vw 0;
