@@ -14,6 +14,7 @@
             overflow: hidden;
             margin: 2vw 0;
             border-radius: 25px;
+            letter-spacing: -0.02em;
 
             .work-title {
                 font-size: 5vw;
