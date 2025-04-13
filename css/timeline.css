@@ -1,5 +1,4 @@
 .timeline {
-    margin: 20px 0;
     font-size: 3.5vw;
     line-height: 1.6;
 
@@ -25,8 +24,7 @@
         .kg-logo {
             width: 70px !important;
             background: linear-gradient(45deg, #fff, #fffaf9, #fbf8f4, #fffdff);
-            padding: 3px 0 0;
-            margin: 3vw 0;
+            margin: 3vw 0 1vw;
         }
 
     }
