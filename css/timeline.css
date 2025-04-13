@@ -17,8 +17,7 @@
 
         .w-logo {
             height: 24px !important;
-            padding: 2vw 0 0;
-            margin-left: -10px;
+            margin: 2vw 0 0 -5px;
         }
 
         .kg-logo {
