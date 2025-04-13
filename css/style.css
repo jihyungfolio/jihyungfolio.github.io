@@ -102,7 +102,7 @@ h2 {
 .big-name {
     font-size: 7vw;
     box-shadow: -1px -0.5px 3px #939393, 1px -0.5px 1px #bababa;
-    margin-top: 8vw;
+    margin: 10vw auto;
     width: 65vw;
     border-radius: 10px;
     background: linear-gradient(45deg, #ececec, #ffffff, #ffffff, #f7f5f5, #f7f7f7);
@@ -313,6 +313,7 @@ h4 {
 
         .about-me {
             .about-me-wrapper {
+                margin-top: 5vw;
                 margin-bottom: 10vw;
 
                 p {
