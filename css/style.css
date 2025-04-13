@@ -321,7 +321,8 @@ h4 {
         }
 
         .my-vision {
-            .what-i {
+
+            .my-vision-wrapper {
                 padding: 0 2vw;
                 text-align: center;
                 margin-top: -5vw;
