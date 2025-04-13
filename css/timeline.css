@@ -6,7 +6,7 @@
     .t {
         margin: 5vw 0 10vw;
         letter-spacing: -0.02em;
-        
+
         .work-title {
             font-size: 4vw;
             letter-spacing: -0.05em;
@@ -30,13 +30,6 @@
             margin-left: -10px;
         }
 
-        .pb-logo {
-            width: 80px;
-            background: linear-gradient(45deg, #f7fffa, #f9fffd, #f9fffd, #fefefe);
-            padding: 3vw 0;
-            margin: 3vw 0;
-        }
-
         .kg-logo {
             width: 70px;
             background: linear-gradient(45deg, #fff, #fffaf9, #fbf8f4, #fffdff);
@@ -44,20 +37,6 @@
             margin: 3vw 0;
         }
 
-        h3 {
-            font-size: 1.75em;
-        }
-
-        h4 {
-            font-size: 1.2em;
-            margin-bottom: 1.2em;
-        }
-
-        p {
-            z-index: 1;
-            position: relative;
-            line-height: 1.4;
-        }
     }
 
 }
