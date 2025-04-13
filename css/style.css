@@ -312,11 +312,15 @@ h4 {
         }
 
         .about-me {
+            .about-me-wrapper {
+                margin: 2vw 0 10vw 0;
 
-            p {
-                line-height: 1.5;
-                font-size: 3.5vw;
+                p {
+                    line-height: 1.5;
+                    font-size: 3.5vw;
+                }
             }
+
 
         }
 
@@ -325,7 +329,6 @@ h4 {
             .my-vision-wrapper {
                 padding: 0 2vw;
                 text-align: center;
-                margin-top: -5vw;
 
                 .focus-on {
                     position: relative;
