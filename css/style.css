@@ -116,7 +116,7 @@ h2 {
     height: 160%;
     background: linear-gradient(to right, rgb(242 247 253 / 0%) 0%, rgb(255 255 241 / 31%) 50%, rgb(217 255 253 / 0%) 100%);
     position: fixed;
-    top: 10vw;
+    top: -10vw;
     left: -150px;
     animation: slide 5s infinite;
     z-index: 3;
