@@ -37,13 +37,11 @@
             font-size: 13px;
             display: block;
             margin: auto;
-            background: linear-gradient(357deg, black, #00000091, #00000061);
             z-index: 1;
             position: relative;
             width: max-content;
             padding: 2px 9px;
             top: 5px;
-            color: #fff;
             border-radius: 10px;
         }
 
