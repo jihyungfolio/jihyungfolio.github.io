@@ -1,16 +1,21 @@
 .timeline {
     margin: 20px 0;
     font-size: 3.5vw;
+    line-height: 1.6;
 
     .t {
+        margin: 5vw 0 10vw;
 
         li {
-            padding: 5.5vw 0;
             letter-spacing: -0.02em;
 
             .work-title {
-                font-size: 4.5vw;
+                font-size: 4vw;
                 letter-spacing: -0.05em;
+            }
+
+            span {
+                display: block;
             }
 
             img {
@@ -22,23 +27,22 @@
             }
 
             .w-logo {
-                height: 25px;
-                background: linear-gradient(45deg, #fff, #ffffff, #f3f8ff, #fefefe);
-                padding: 2vw 4vw;
-                margin: 3vw 0 3vw -10px;
+                height: 24px;
+                padding: 2vw 0;
+                margin-left: -10px;
             }
 
             .pb-logo {
                 width: 80px;
                 background: linear-gradient(45deg, #f7fffa, #f9fffd, #f9fffd, #fefefe);
-                padding: 3vw 4vw;
+                padding: 3vw 0;
                 margin: 3vw 0;
             }
 
             .kg-logo {
                 width: 70px;
                 background: linear-gradient(45deg, #fff, #fffaf9, #fbf8f4, #fffdff);
-                padding: 3px 5vw 2vw;
+                padding: 3px 0;
                 margin: 3vw 0;
             }
 
