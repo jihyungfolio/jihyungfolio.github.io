@@ -17,16 +17,31 @@
         }
 
         .w-logo {
-            height: 24px !important;
+            height: 25px !important;
             margin: 2vw 0 0 -5px;
         }
 
         .kg-logo {
-            width: 20vw !important;
-            background: linear-gradient(45deg, #fff, #fffaf9, #fbf8f4, #fffdff);
-            margin: 3vw 0 1vw;
+            width: 21vw !important;
+            margin: 3vw 0 0;
         }
 
+        .kg-image,
+        .s-image,
+        .w-image {
+            height: 35vw;
+            width: 100%;
+            object-fit: cover;
+            object-position: 70%;
+        }
+
+        .kg-image {
+            filter: invert(1) hue-rotate(274deg) saturate(1.4) contrast(0.7) brightness(1.2);
+        }
+
+        .s-image {
+            filter: contrast(1.4) saturate(1.7);
+        }
 
     }
 
