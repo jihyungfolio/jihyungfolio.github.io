@@ -1,11 +1,12 @@
 .software {
 
+    margin-bottom: 20vw;
+
     .software-image {
         display: grid;
         grid-template-columns: repeat(9, 1fr);
         text-align: center;
         margin-top: 7vw;
-        padding-bottom: 150%;
 
         .sw {
             height: 24vw;
