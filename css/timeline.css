@@ -5,10 +5,11 @@
     .t {
         margin-top: 7vw;
         letter-spacing: -0.02em;
+        padding-bottom: 4px;
 
         span {
             display: block;
-            font-size: 4vw;
+            font-size: 4.5vw;
             letter-spacing: -0.05em;
         }
 
