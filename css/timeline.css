@@ -9,7 +9,7 @@
 
         span {
             display: block;
-            font-size: 4.5vw;
+            font-size: 4.1vw;
             letter-spacing: -0.05em;
         }
 
@@ -54,7 +54,7 @@
             object-position: 70%;
             box-shadow: -1px -0.5px 3px #b2b2b2, 1px -0.5px 1px #aaaaaa;
             border-radius: 20px;
-            margin: 2vw 0;
+            margin: 2vw 0 0;
         }
 
         .kg-image {
