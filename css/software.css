@@ -10,10 +10,7 @@
             height: 45vw;
             overflow: hidden;
             position: relative;
-            /* border: 2px solid #00000052; */
             margin: 0 1vw;
-            filter: saturate(0.7) contrast(0.9) brightness(1.1);
-            /* box-shadow: 2px 4px 20px #b3b3b3; */
 
             img {
                 width: 12vw;
@@ -49,7 +46,6 @@
 }
 
 .sw span {
-    box-shadow: 1px 5px 10px #0000004a;
 }
 
 @media screen and (max-width: 1024px) {
