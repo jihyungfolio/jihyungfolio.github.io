@@ -160,7 +160,7 @@ h4 {
 
         .rope {
             right: 27%;
-            height: 135px;
+            height: 140px;
             width: 15px;
             background: linear-gradient(270deg, #ebebeb, #f1f1f1, #ffffff, #ffffff, #dfdfdf);
             position: absolute;
@@ -171,7 +171,7 @@ h4 {
 
         .rope2 {
             left: 27%;
-            height: 135px;
+            height: 140px;
             width: 15px;
             background: linear-gradient(270deg, #ebebeb, #f1f1f1, #ffffff, #ffffff, #dfdfdf);
             position: absolute;
