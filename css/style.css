@@ -270,48 +270,6 @@ h4 {
             font-size: 3.6vw
         }
 
-        .contact {
-            margin: 20px 0;
-            /*padding: 3vw;*/
-            /*background: #fff;*/
-            /*border-radius: 10px;*/
-            /*box-shadow: rgb(226 227 235) 0px 1px 2px 2px inset;*/
-
-            p {
-                padding: 5px 0;
-                font-size: 3.8vw;
-
-                img {
-                    width: 37vw;
-                    filter: contrast(1.1) brightness(1.1);
-                    background: #fff;
-                    margin-bottom: -1.5vw;
-                }
-
-                .phone {
-                    width: 21vw;
-                }
-
-                span {
-                    text-transform: uppercase;
-                    color: #373737;
-                    border-radius: 15px;
-                    padding: 1px 8px 0;
-                    margin-right: 5px;
-                    font-size: 3.5vw;
-                    border: 1px solid #7a7a7a;
-                    letter-spacing: -0.03em;
-                }
-
-            }
-
-            a {
-                text-decoration: underline;
-            }
-
-
-        }
-
         .about-me {
             .about-me-wrapper {
                 margin-top: 5vw;
@@ -320,6 +278,41 @@ h4 {
                 p {
                     line-height: 1.5;
                     font-size: 4vw;
+                }
+            }
+
+            .info {
+
+                p {
+                    padding: 5px 0;
+                    font-size: 3.8vw;
+
+                    img {
+                        width: 37vw;
+                        filter: contrast(1.1) brightness(1.1);
+                        background: #fff;
+                        margin-bottom: -1.5vw;
+                    }
+
+                    .phone {
+                        width: 21vw;
+                    }
+
+                    span {
+                        text-transform: uppercase;
+                        color: #373737;
+                        border-radius: 15px;
+                        padding: 1px 8px 0;
+                        margin-right: 5px;
+                        font-size: 3.5vw;
+                        border: 1px solid #7a7a7a;
+                        letter-spacing: -0.03em;
+                    }
+
+                }
+
+                a {
+                    text-decoration: underline;
                 }
             }
 

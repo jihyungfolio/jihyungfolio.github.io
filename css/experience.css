@@ -1,13 +1,14 @@
 .experience-wrapper {
-    margin-bottom: 10vw;
+    margin: 10vw 0;
 
     .exp {
+
+        margin-bottom: 10vw;
 
         p {
             text-transform: capitalize;
             line-height: 1.5;
-            width: fit-content;
-            padding: 1px 5px;
+            padding: 1px 0;
             margin-bottom: 2px;
         }
 
@@ -23,10 +24,6 @@
                 line-height: 1.5;
             }
 
-            li:last-child {
-                margin-top: 7vw;
-            }
-
             img {
                 width: 100%;
                 display: block;
@@ -38,10 +35,7 @@
             }
 
             .exp01 {
-                width: 40%;
                 margin-bottom: 10vw;
-                transform: rotate3d(1, 1, 1, 350deg);
-                padding-right: 40vw;
             }
 
         }
