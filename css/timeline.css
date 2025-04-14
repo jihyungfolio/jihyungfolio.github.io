@@ -12,17 +12,31 @@
             letter-spacing: -0.05em;
         }
 
+        p {
+            font-size: 3.5vw !important;
+            line-height: 2;
+            padding: 0 !important;
+        }
+
         .s-logo {
-            height: 18px !important;
+            height: 24px !important;
+            margin-bottom: 2px;
+        }
+
+        .p-logo {
+            height: 24px !important;
+            margin-bottom: 2px;
+            margin-left: 3px;
         }
 
         .w-logo {
-            height: 25px !important;
-            margin: 2vw 0 0 -5px;
+            height: 32px !important;
+            margin-left: -5px;
+            margin-bottom: -2px;
         }
 
         .kg-logo {
-            width: 21vw !important;
+            width: 25vw !important;
             margin: 3vw 0 0;
         }
 
@@ -33,6 +47,9 @@
             width: 100%;
             object-fit: cover;
             object-position: 70%;
+            box-shadow: -1px -0.5px 3px #b2b2b2, 1px -0.5px 1px #aaaaaa;
+            border-radius: 20px;
+            margin: 2vw 0;
         }
 
         .kg-image {
