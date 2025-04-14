@@ -1,5 +1,13 @@
 .experience-wrapper {
-    margin: 10vw 0;
+
+    margin: 7vw 0;
+
+    .exp01 {
+
+        img {
+            width: 45vw;
+        }
+    }
 
     .exp {
 
@@ -18,7 +26,6 @@
         }
 
         .content {
-            margin: 3vw 0;
 
             ul {
                 line-height: 1.5;
@@ -28,10 +35,7 @@
                 width: 100%;
                 display: block;
                 margin: 0 auto;
-            }
-
-            .experience-image {
-
+                padding-bottom: 5vw;
             }
 
             .exp01 {
