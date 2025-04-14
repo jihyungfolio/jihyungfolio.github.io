@@ -269,8 +269,7 @@ h4 {
 
         .about-me {
             .about-me-wrapper {
-                margin-top: 5vw;
-                margin-bottom: 10vw;
+                margin: 5vw 0;
 
                 p {
                     line-height: 1.5;
@@ -279,6 +278,8 @@ h4 {
             }
 
             .info {
+
+                line-height: 2;
 
                 p {
                     padding: 5px 0;
@@ -298,10 +299,10 @@ h4 {
                     span {
                         text-transform: uppercase;
                         color: #373737;
-                        border-radius: 15px;
-                        padding: 1px 8px 0;
+                        border-radius: 10px;
+                        padding: 1px 10px 0;
                         margin-right: 5px;
-                        font-size: 3.5vw;
+                        font-size: 4vw;
                         border: 1px solid #7a7a7a;
                         letter-spacing: -0.03em;
                     }

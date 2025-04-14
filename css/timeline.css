@@ -1,11 +1,12 @@
 .timeline {
     font-size: 3.5vw;
     line-height: 1.6;
+    margin-bottom: 20vw;
 
     .t {
         margin-top: 7vw;
         letter-spacing: -0.02em;
-        padding-bottom: 4px;
+        padding-bottom: 3vw;
 
         span {
             display: block;
