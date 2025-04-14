@@ -16,12 +16,12 @@
             text-align: center;
 
             img {
-                width: 10vw;
+                width: 16vw;
                 z-index: 1;
                 position: relative;
                 box-shadow: -1px -0.5px 3px #b2b2b2, 1px -0.5px 1px #aaaaaa;
                 padding: 2px;
-                border-radius: 10px;
+                border-radius: 14px;
             }
 
         }
