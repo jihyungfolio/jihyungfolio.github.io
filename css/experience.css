@@ -47,3 +47,14 @@
     padding: 2px;
     margin-bottom: 2vw;
 }
+
+.exp-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    .experience-image {
+        border-radius: 5px;
+        width: 90% !important;
+        margin: 5px auto;
+    }
+}
