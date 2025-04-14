@@ -24,24 +24,24 @@
         }
 
         .s-logo {
-            height: 8.5vw !important;
+            height: 5.5vw !important;
             padding-bottom: 7px;
         }
 
         .p-logo {
-            height: 24px !important;
+            height: 18px !important;
             margin-left: 3px;
         }
 
         .w-logo {
-            height: 12vw !important;
+            height: 8vw !important;
             margin-left: -4vw;
             filter: blur(0.1px) contrast(1.2);
             padding-bottom: 2px;
         }
 
         .kg-logo {
-            width: 40vw !important;
+            width: 25vw !important;
             padding-bottom: 5px;
         }
 
@@ -55,6 +55,7 @@
             box-shadow: -1px -0.5px 3px #b2b2b2, 1px -0.5px 1px #aaaaaa;
             border-radius: 20px;
             margin: 2vw 0 0;
+            padding: 2px;
         }
 
         .kg-image {
