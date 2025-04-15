@@ -72,6 +72,14 @@
     }
 }
 
+.part01 {
+    background: #ea278a;
+}
+
+.part02 {
+    background: #aaaec4;
+}
+
 .experience-image {
     width: 100% !important;
     max-width: 100vw;
@@ -130,17 +138,17 @@
     height: 30vw !important;
     width: 45vw !important;
     transform: rotate(30deg);
-    margin-bottom: -35vw;
+    margin-bottom: -38vw;
     left: 55%;
 }
 
 .grad-sticker-2 {
-    height: 20vw;
+    height: 15vw;
     width: 35vw !important;
-    transform: rotate(30deg);
-    margin-bottom: 35vw;
+    margin-bottom: -25vw;
     margin-top: -30vw;
-    left: 45%;
+    left: -5%;
+    transform: rotate(30deg);
 }
 
 .star-sticker {
@@ -211,7 +219,7 @@
     margin: 20vw auto;
     border-radius: 0;
     padding: 10vw 3vw 3vw;
-    background: linear-gradient(5deg, #57586f, #cbbab8, #cdcde4, #f5f8fd);
+    background: linear-gradient(5deg, #332247, #bba0c3, #ddddf8, #ffebe9, #f5f8fd);
     box-shadow: 2px -2px 20px 0px rgba(0, 0, 0, 0.6), inset 4px 5px 10px 0 rgba(0, 0, 0, 0.1);
     width: 76vw;
 
