@@ -56,14 +56,17 @@
 }
 
 .part02 {
-    background: linear-gradient(180deg, #91bfff, #535188);
+    background: linear-gradient(180deg, #98a7bc, #d2cacd, #c8d8e7);
+}
+
+.part03 {
+    background: linear-gradient(180deg, #b9b8b0, #e2e3d9, #f0f1ea, #e9eded, #eef3e6);
 }
 
 .experience-image {
     width: 100% !important;
     max-width: 100vw;
     box-shadow: -1px -0.5px 3px #b2b2b2, 1px -0.5px 1px #aaaaaa;
-    border-radius: 5px;
     padding: 2px;
     margin-bottom: 2vw;
 }
@@ -85,6 +88,15 @@
 .stickers img {
     z-index: 3;
     position: relative;
+}
+
+.ribbon2 {
+    width: 100%;
+    transform: rotate(71deg);
+    position: absolute !important;
+    margin-top: 180%;
+    filter: brightness(1.2) saturate(0.5);
+    opacity: 0.5;
 }
 
 .bear-sticker {
@@ -179,7 +191,7 @@
     box-shadow: -1px -1px 3px #7c7c7c, 1px -0.5px 1px #959595;
 }
 
-.exp-hk .experience-image.logo {
+.experience-image.logo {
     padding: 7vw 2vw 15vw;
     border: 0;
     width: 30vw !important;
@@ -204,24 +216,39 @@
 }
 
 .blank2 {
-    background-image: url(../images/exp/blank2.jpg);
+    background-image: url(../images/exp/blank2.png);
     background-size: cover;
 }
+
+.exp-gm {
+    margin: 5vw auto 10vw;
+    border-radius: 0;
+    padding: 10vw 4vw 3vw;
+    background: linear-gradient(45deg, #1d171dd6, #d4ddde7d, #ffffff2e);
+    box-shadow: 1px 5px 4px rgb(0 0 0 / 59%);
+    width: 84vw;
+
+    .logo {
+        width: 70% !important;
+        padding: 0 2vw 10vw !important;
+    }
+}
+
 
 .exp-ch {
     margin: 5vw auto 10vw;
     border-radius: 0;
-    padding: 10vw 3vw 3vw;
-    background: linear-gradient(5deg, #332247, #bba0c3, #ddddf8, #ffebe9, #f5f8fd);
+    padding: 10vw 5vw 10vw;
+    background: linear-gradient(5deg, #e7ebef, #eeeff7, #e2e2ee, #e9dedd, #f5f8fd);
     box-shadow: 1px 5px 4px rgb(0 0 0 / 59%);
-    width: 86vw;
+    width: 80vw;
 
     .experience-image {
         border-radius: 0;
         padding: 0;
         height: 60vw;
         object-fit: cover;
-        margin-bottom: 5vw;
+        margin-bottom: 6vw;
     }
 
     .logo {
