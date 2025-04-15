@@ -127,7 +127,7 @@
 }
 
 .grad-sticker {
-    height: 30vw;
+    height: 30vw !important;
     width: 45vw !important;
     transform: rotate(30deg);
     margin-bottom: -35vw;
