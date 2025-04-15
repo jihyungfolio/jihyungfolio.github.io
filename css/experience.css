@@ -62,5 +62,7 @@
     .experience-image {
         border-radius: 5px;
         margin: 0 auto;
+        height: 50vw;
+        object-fit: cover;
     }
 }
