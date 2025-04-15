@@ -1,3 +1,8 @@
+.polaroid-concept {
+    padding: 5vw;
+    background: #e6dfda;
+}
+
 .experience-wrapper {
 
     margin: 7vw 0;
@@ -79,10 +84,10 @@
 .exp-hk {
     padding: 5vw 5vw 25vw;
     box-shadow: 1px 5px 4px rgb(0 0 0 / 37%);
-    transform: rotate(5deg);
+    /*transform: rotate(2deg);*/
     width: 80%;
     background: linear-gradient(30deg, #d6affc, #ffc0f8, #ffbad7, #ffd7e9, #f2a9a9);
-    margin: 5vw 0 10vw;
+    margin: 5vw auto 10vw;
 }
 
 .stickers.exp-stickers {
@@ -121,6 +126,38 @@
     transform: rotate(340deg) !important;
 }
 
+.grad-sticker {
+    height: 30vw;
+    width: 45vw !important;
+    transform: rotate(30deg);
+    margin-bottom: -35vw;
+    left: 55%;
+}
+
+.grad-sticker-2 {
+    height: 20vw;
+    width: 35vw !important;
+    transform: rotate(30deg);
+    margin-bottom: 35vw;
+    margin-top: -30vw;
+    left: 45%;
+}
+
+.star-sticker {
+    width: 35vw;
+}
+
+.star-sticker-2 {
+    width: 35vw;
+}
+
+.antique-sticker {
+    width: 30vw !important;
+}
+
+.rose-sticker {
+    width: 30vw !important;
+}
 
 .stickers img:nth-child(2) {
     width: 10vw;
@@ -171,13 +208,12 @@
 }
 
 .exp-ch {
-    margin: 20vw 0;
+    margin: 20vw auto;
     border-radius: 0;
     padding: 10vw 3vw 3vw;
-    background: linear-gradient(120deg, #e4e1d9, #ffffff, #dedcdc);
+    background: linear-gradient(120deg, #1c1b1a, #000000, #1b1818);
     box-shadow: 2px -2px 20px 0px rgba(0, 0, 0, 0.6), inset 4px 5px 10px 0 rgba(0, 0, 0, 0.1);
-    transform: rotate(357deg);
-    width: 65vw;
+    width: 76vw;
 
     img {
         border-radius: 0;
@@ -187,8 +223,16 @@
     }
 
     .logo {
-        height: 20vw;
-        object-fit: cover;
+        height: 10vw;
+        object-fit: contain;
+        padding: 5vw 10vw;
+        border: 0;
+        margin: 5vw auto 15vw;
+        box-shadow: none;
+        display: block;
+        width: 20vw !important;
+        background: linear-gradient(180deg, #3e4568, #b1a9bc, #cfc3ce);
+        border-radius: 50%;
     }
 
 }
