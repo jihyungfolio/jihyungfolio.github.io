@@ -16,11 +16,29 @@
             line-height: 1.5;
             padding: 1px 0;
             margin-bottom: 2px;
-            -webkit-text-stroke: 1px #000;
-            font-weight: 600;
-            font-size: 7vw !important;
-            color: #fff;
-            font-family: 'SBAggroB', sans-serif;
+            font-size: 5vw !important;
+            font-weight: 100 !important;
+            font-family: 'RixYeoljeongdo_Regular', sans-serif;
+        }
+
+        .p-exp01 {
+            color: #dfe5ff;
+            -webkit-text-stroke: 1px #455ebf;
+        }
+
+        .p-exp02 {
+            color: #eae2e2;
+            -webkit-text-stroke: 1px #6c615f;
+        }
+
+        .p-exp03 {
+            color: #ffe5f8;
+            -webkit-text-stroke: 1px #715b70;
+        }
+
+        .p-exp04 {
+            color: #ffeae5;
+            -webkit-text-stroke: 1px #654646;
         }
 
         .countries {
