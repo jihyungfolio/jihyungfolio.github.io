@@ -6,6 +6,11 @@
 
         margin-bottom: 10vw;
 
+        .cf-image {
+            height: 35vw;
+            object-fit: cover;
+        }
+
         p {
             text-transform: capitalize;
             line-height: 1.5;
@@ -16,6 +21,8 @@
         .countries {
             background: #fff;
             color: #000;
+
+
         }
 
         .content {
