@@ -76,6 +76,59 @@
     margin-bottom: 2vw;
 }
 
+.exp-hk {
+    padding: 5vw 5vw 25vw;
+    box-shadow: 5px 15px 14px #0000008f;
+    transform: rotate(5deg);
+    width: 80%;
+    background: linear-gradient(45deg, #fcd7f4, #d2a9ce, #faa4ce);
+    margin: 10vw 0;
+}
+
+.stickers img {
+    z-index: 3;
+}
+
+.stickers img:nth-child(1) {
+    width: 12vw;
+    right: 18%;
+    top: 38%;
+}
+
+.stickers img:nth-child(2) {
+    width: 10vw;
+    right: 32%;
+    top: 12%;
+    transform: rotate(30deg);
+}
+
+.stickers img:nth-child(3) {
+    right: 65%;
+    top: 15%;
+    width: 15vw;
+}
+
+.stickers img:nth-child(4) {
+    right: 70%;
+    top: 18%;
+    transform: rotate(140deg);
+    width: 12vw;
+}
+
+.stickers img:nth-child(5) {
+    width: 20vw;
+    right: 62%;
+    top: 29%;
+}
+
+
+.exp-hk .experience-image {
+    border-radius: 0;
+    border: 1px solid #fff;
+    padding: 0;
+    box-shadow: -1px -1px 3px #7c7c7c, 1px -0.5px 1px #959595;
+}
+
 .exp-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
