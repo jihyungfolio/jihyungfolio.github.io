@@ -211,7 +211,7 @@
     margin: 20vw auto;
     border-radius: 0;
     padding: 10vw 3vw 3vw;
-    background: linear-gradient(120deg, #1c1b1a, #000000, #1b1818);
+    background: linear-gradient(5deg, #57586f, #cbbab8, #cdcde4, #f5f8fd);
     box-shadow: 2px -2px 20px 0px rgba(0, 0, 0, 0.6), inset 4px 5px 10px 0 rgba(0, 0, 0, 0.1);
     width: 76vw;
 
@@ -231,7 +231,7 @@
         box-shadow: none;
         display: block;
         width: 20vw !important;
-        background: linear-gradient(180deg, #3e4568, #b1a9bc, #cfc3ce);
+        background: linear-gradient(180deg, #a9a8c6, #c8b6bc, #dac9d8);
         border-radius: 50%;
     }
 
