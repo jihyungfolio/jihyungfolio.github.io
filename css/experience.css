@@ -1,6 +1,5 @@
 .polaroid-concept {
-    padding: 5vw;
-    background: #e6dfda;
+    padding: 5vw 0;
 }
 
 .experience-wrapper {
@@ -24,26 +23,6 @@
             font-size: 5vw !important;
             font-weight: 100 !important;
             font-family: 'RixYeoljeongdo_Regular', sans-serif;
-        }
-
-        .p-exp01 {
-            color: #dfe5ff;
-            -webkit-text-stroke: 1px #455ebf;
-        }
-
-        .p-exp02 {
-            color: #eae2e2;
-            -webkit-text-stroke: 1px #6c615f;
-        }
-
-        .p-exp03 {
-            color: #ffe5f8;
-            -webkit-text-stroke: 1px #715b70;
-        }
-
-        .p-exp04 {
-            color: #ffeae5;
-            -webkit-text-stroke: 1px #654646;
         }
 
         .countries {
@@ -73,11 +52,11 @@
 }
 
 .part01 {
-    background: #ea278a;
+    background: linear-gradient(180deg, #ff68b3, #ea278a);
 }
 
 .part02 {
-    background: #aaaec4;
+    background: linear-gradient(180deg, #91bfff, #535188);
 }
 
 .experience-image {
@@ -91,7 +70,7 @@
 
 .exp-hk {
     padding: 5vw 5vw 25vw;
-    box-shadow: 1px 5px 4px rgb(0 0 0 / 37%);
+    box-shadow: 1px 5px 4px rgb(0 0 0 / 59%);
     /*transform: rotate(2deg);*/
     width: 80%;
     background: linear-gradient(30deg, #d6affc, #ffc0f8, #ffbad7, #ffd7e9, #f2a9a9);
@@ -117,38 +96,38 @@
 
 .point-sticker {
     width: 15vw;
-    left: 10%;
-    margin-bottom: -30vw;
+    left: 15%;
+    margin-bottom: -20vw;
     transform: rotate(350deg);
 }
 
 .heart-sticker {
-    width: 15vw !important;
+    width: 16vw !important;
     left: 50%;
 }
 
 .ring-sticker {
-    width: 17vw !important;
+    width: 19vw !important;
     margin-bottom: -90vw;
-    left: -35%;
+    left: -25%;
     transform: rotate(340deg) !important;
 }
 
 .grad-sticker {
     height: 30vw !important;
     width: 45vw !important;
-    transform: rotate(30deg);
-    margin-bottom: -38vw;
+    transform: rotate(20deg);
+    margin-bottom: -25vw;
     left: 55%;
 }
 
 .grad-sticker-2 {
     height: 15vw;
-    width: 35vw !important;
-    margin-bottom: -25vw;
+    width: 60vw !important;
+    margin-bottom: -30vw;
     margin-top: -30vw;
     left: -5%;
-    transform: rotate(30deg);
+    transform: rotate(20deg);
 }
 
 .star-sticker {
@@ -213,21 +192,36 @@
 .blank {
     height: 10vw;
     display: block;
+    z-index: -1;
+    position: relative;
+    margin-top: -30vw;
+    padding-bottom: 50vw;
+}
+
+.blank1 {
+    background-image: url(../images/exp/blank1.jpg);
+    background-size: cover;
+}
+
+.blank2 {
+    background-image: url(../images/exp/blank2.jpg);
+    background-size: cover;
 }
 
 .exp-ch {
-    margin: 20vw auto;
+    margin: 5vw auto 10vw;
     border-radius: 0;
     padding: 10vw 3vw 3vw;
     background: linear-gradient(5deg, #332247, #bba0c3, #ddddf8, #ffebe9, #f5f8fd);
-    box-shadow: 2px -2px 20px 0px rgba(0, 0, 0, 0.6), inset 4px 5px 10px 0 rgba(0, 0, 0, 0.1);
-    width: 76vw;
+    box-shadow: 1px 5px 4px rgb(0 0 0 / 59%);
+    width: 86vw;
 
-    img {
+    .experience-image {
         border-radius: 0;
         padding: 0;
         height: 60vw;
         object-fit: cover;
+        margin-bottom: 5vw;
     }
 
     .logo {
@@ -235,7 +229,7 @@
         object-fit: contain;
         padding: 5vw 10vw;
         border: 0;
-        margin: 5vw auto 15vw;
+        margin: 0 auto 10vw;
         box-shadow: none;
         display: block;
         width: 20vw !important;

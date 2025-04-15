@@ -144,11 +144,11 @@ h3 {
 }
 
 h4 {
-    font-size: 5vw;
-    font-family: sans-serif;
-    font-weight: 100;
-    line-height: 3;
-    display: none;
+    padding: 15vw 0 10vw;
+    font-family: 'TTHakgyoansimKkokkomaR', sans-serif;
+    font-size: 8vw;
+    color: #fff;
+    text-align: center;
 }
 
 #about-jihyung {
