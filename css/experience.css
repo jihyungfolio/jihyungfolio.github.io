@@ -81,12 +81,13 @@
     box-shadow: 5px 15px 14px #0000008f;
     transform: rotate(5deg);
     width: 80%;
-    background: linear-gradient(45deg, #fcd7f4, #d2a9ce, #faa4ce);
+    background: linear-gradient(45deg, #ecb5f9, #fdc8f8, #ff79a2);
     margin: 10vw 0;
 }
 
 .stickers img {
     z-index: 3;
+    position: relative;
 }
 
 .stickers img:nth-child(1) {
@@ -127,6 +128,32 @@
     border: 1px solid #fff;
     padding: 0;
     box-shadow: -1px -1px 3px #7c7c7c, 1px -0.5px 1px #959595;
+}
+
+.exp-hk .experience-image.logo {
+    padding: 3vw 2vw 10vw;
+    border: 0;
+    width: 30vw !important;
+    box-shadow: none;
+    margin: 0 auto;
+    position: relative;
+    display: block;
+}
+
+.exp-stickers .hap01 {
+    position: absolute;
+    z-index: 1;
+    width: 50vw;
+    right: 0;
+    margin-top: -10vw;
+}
+
+.hap02 {
+    position: absolute;
+    z-index: 1;
+    width: 15vw;
+    left: 10vw;
+    margin-top: 20vw;
 }
 
 .exp-grid {
