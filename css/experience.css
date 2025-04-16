@@ -397,13 +397,13 @@
     background-image: url(../images/exp/hp-background.jpg);
     background-size: contain;
     box-shadow: 2px 5px 14px rgb(0 0 0 / 59%);
-    width: 60vw;
+    width: 70vw;
     transform: rotate(1deg);
     z-index: -1;
     position: relative;
 
     .experience-image {
-        padding: 0;
+        padding: 0 !important;
         filter: grayscale(0.2) contrast(1.1);
     }
 
