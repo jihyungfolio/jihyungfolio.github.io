@@ -372,8 +372,8 @@
     margin: 5vw auto 10vw;
     border-radius: 0;
     padding: 10vw 5vw 10vw;
-    background-image: linear-gradient(rgb(226 193 154 / 74%), rgb(61 118 209 / 27%)), url(../images/exp/blank1.jpg);
-    background-size: contain;
+    background-image: linear-gradient(rgba(246, 243, 240, 0.81), rgb(217 185 45 / 33%)), url(../images/background/2.jpg);
+    background-size: cover;
     box-shadow: 1px 5px 4px rgb(0 0 0 / 59%);
     width: 40vw;
 
@@ -386,7 +386,7 @@
     margin: 5vw auto 10vw;
     border-radius: 0;
     padding: 10vw 5vw 10vw;
-    background-image: url("../images/exp/hp-background.jpg");
+    background-image: url(../images/exp/hp-background.jpg);
     background-size: contain;
     box-shadow: 2px 5px 14px rgb(0 0 0 / 59%);
     width: 60vw;
