@@ -354,15 +354,30 @@
     width: 76vw;
 }
 
-.exp-lens {
-    margin: 5vw auto 15vw;
+.exp-hp {
+    margin: 5vw auto 10vw;
     border-radius: 0;
-    padding: 10vw 5vw 20vw;
-    background: linear-gradient(5deg, #f6f6f4, #ececed);
+    padding: 10vw 5vw 10vw;
+    background: linear-gradient(5deg, #f8f6f8, #f3e5e5, #eae8e4, #fdf2f9);
     box-shadow: 1px 5px 4px rgb(0 0 0 / 59%);
-    width: 76vw;
+    width: 70vw;
+
+    .experience-image {
+        filter: saturate(0.6) brightness(1.2) contrast(0.8);
+    }
+
+    .experience-image.logo {
+        padding: 0 0 5vw;
+        width: 42vw !important;
+        margin-top: -2vw;
+    }
 }
 
+.grid-lens {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1vw 4vw;
+}
 
 .exp-ch {
     margin: 5vw auto 10vw;
