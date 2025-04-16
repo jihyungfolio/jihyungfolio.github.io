@@ -10,11 +10,6 @@
 
         margin-bottom: 10vw;
 
-        .cf-image {
-            height: 35vw;
-            object-fit: cover;
-        }
-
         p {
             text-transform: capitalize;
             line-height: 1.5;
@@ -52,15 +47,54 @@
 }
 
 .part01 {
-    background: linear-gradient(180deg, #ff68b3, #ea278a);
+
 }
 
 .part02 {
-    background: linear-gradient(180deg, #98a7bc, #d2cacd, #c8d8e7);
+
 }
 
 .part03 {
-    background: linear-gradient(180deg, #b9b8b0, #e2e3d9, #f0f1ea, #e9eded, #eef3e6);
+
+    margin-bottom: 30vw;
+
+    .gold-sticker {
+        padding: 0;
+        width: 24vw !important;
+        margin: 0 auto;
+        display: block;
+        margin-bottom: -12vw;
+        filter: saturate(0.6) brightness(1.2);
+        transform: rotate(5deg);
+    }
+
+}
+
+.part05 {
+
+}
+
+.part04 {
+
+    .ball-sticker,
+    .ball-sticker-2 {
+        width: 20vw;
+        margin: 0 auto;
+        margin-bottom: -15vw;
+        margin-left: 10%;
+        filter: brightness(0.85) contrast(1.55) saturate(0.3);
+        position: relative;
+        z-index: 2;
+    }
+
+    .ball-sticker-2 {
+        margin-bottom: 20vw;
+        margin-top: -20vw;
+        margin-left: 60%;
+        width: 22vw;
+    }
+
+
 }
 
 .experience-image {
@@ -91,12 +125,12 @@
 }
 
 .ribbon2 {
-    width: 100%;
-    transform: rotate(71deg);
+    width: 110%;
+    transform: rotate(330deg);
     position: absolute !important;
-    margin-top: 180%;
-    filter: brightness(1.2) saturate(0.5);
-    opacity: 0.5;
+    left: -10vw;
+    filter: brightness(0.8) contrast(1.5);
+    margin-top: 100vw;
 }
 
 .bear-sticker {
@@ -223,15 +257,60 @@
 .exp-gm {
     margin: 5vw auto 10vw;
     border-radius: 0;
-    padding: 10vw 4vw 3vw;
-    background: linear-gradient(45deg, #1d171dd6, #d4ddde7d, #ffffff2e);
+    padding: 15vw 3vw 10vw;
+    background: linear-gradient(5deg, #232222, #000000, #494545, #26272a, #352f2f);
     box-shadow: 1px 5px 4px rgb(0 0 0 / 59%);
-    width: 84vw;
+    width: 80vw;
+
+
+    .experience-image {
+        box-shadow: -1px -0.5px 3px #181616, 1px -0.5px 1px #aaaaaa;
+    }
+
+    .grid-gm {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 1vw 4vw;
+        padding: 0 2vw 5vw;
+
+        img {
+            height: 45vw;
+        }
+    }
 
     .logo {
         width: 70% !important;
         padding: 0 2vw 10vw !important;
+        box-shadow: none;
     }
+}
+
+.exp-cf {
+    margin: 5vw auto 10vw;
+    border-radius: 0;
+    padding: 10vw 5vw 10vw;
+    background-image: linear-gradient(5deg, #f6f6f4, #f4f4f4);
+    background-size: contain;
+    box-shadow: 1px 5px 4px rgb(0 0 0 / 59%);
+    width: 55vw;
+}
+
+.exp-eotd {
+    margin: 5vw auto 10vw;
+    border-radius: 0;
+    padding: 10vw 5vw 10vw;
+    background: linear-gradient(5deg, #f6f6f4, #e3e9f1);
+    box-shadow: 1px 5px 4px rgb(0 0 0 / 59%);
+    width: 76vw;
+}
+
+.exp-lens {
+    margin: 5vw auto 15vw;
+    border-radius: 0;
+    padding: 10vw 5vw 20vw;
+    background: linear-gradient(5deg, #f6f6f4, #ececed);
+    box-shadow: 1px 5px 4px rgb(0 0 0 / 59%);
+    width: 76vw;
 }
 
 
