@@ -58,15 +58,6 @@
 
     margin-bottom: 30vw;
 
-    .gold-sticker {
-        padding: 0;
-        width: 24vw !important;
-        margin: 0 auto;
-        display: block;
-        margin-bottom: -12vw;
-        filter: saturate(0.6) brightness(1.2);
-        transform: rotate(5deg);
-    }
 
 }
 
@@ -131,6 +122,16 @@
     left: -10vw;
     filter: brightness(0.8) contrast(1.5);
     margin-top: 100vw;
+}
+
+.gold-sticker {
+    padding: 0;
+    width: 24vw !important;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: -12vw;
+    filter: saturate(0.6) brightness(1.2);
+    transform: rotate(5deg);
 }
 
 .bear-sticker {
@@ -375,15 +376,18 @@
     background-image: linear-gradient(rgba(246, 243, 240, 0.81), rgb(217 185 45 / 33%)), url(../images/background/2.jpg);
     background-size: cover;
     box-shadow: 1px 5px 4px rgb(0 0 0 / 59%);
-    width: 40vw;
+    width: 45vw;
+    transform: rotate(355deg);
 
     .experience-image {
         background: rgba(250, 246, 239, 0.53);
+        height: 35vw;
+        object-fit: cover;
     }
 }
 
 .exp-hp {
-    margin: 5vw auto 10vw;
+    margin: 5vw auto 40vw;
     border-radius: 0;
     padding: 10vw 5vw 10vw;
     background-image: url(../images/exp/hp-background.jpg);
@@ -391,7 +395,10 @@
     box-shadow: 2px 5px 14px rgb(0 0 0 / 59%);
     width: 60vw;
     transform: rotate(1deg);
+    z-index: -1;
+    position: relative;
 
+    s
     .experience-image {
         padding: 0;
         filter: grayscale(0.2) contrast(1.1);
@@ -418,12 +425,12 @@
     padding: 10vw 5vw 10vw;
     background: linear-gradient(5deg, #e7ebef, #eeeff7, #e2e2ee, #e9dedd, #f5f8fd);
     box-shadow: 1px 5px 4px rgb(0 0 0 / 59%);
-    width: 80vw;
+    width: 60vw;
 
     .experience-image {
         border-radius: 0;
         padding: 0;
-        height: 60vw;
+        height: 50vw;
         object-fit: cover;
         margin-bottom: 6vw;
     }
