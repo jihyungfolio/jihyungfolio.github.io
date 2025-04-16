@@ -332,17 +332,20 @@
 }
 
 
-.exp-eotd {
+.exp-ne {
     margin: 5vw auto 10vw;
     border-radius: 0;
-    padding: 10vw 5vw 10vw;
-    background: linear-gradient(5deg, #f6f6f4, #e3e9f1);
+    padding: 0;
+    background-image: url("../images/exp/ne.png");
+    background-position: center;
+    background-size: cover;
     box-shadow: 1px 5px 4px rgb(0 0 0 / 59%);
     width: 76vw;
+    height: 100vw;
+    display: block;
 }
 
-
-.exp-ne {
+.exp-eotd {
     margin: 5vw auto 10vw;
     border-radius: 0;
     padding: 10vw 5vw 10vw;
