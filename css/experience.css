@@ -71,7 +71,7 @@
 }
 
 .part05 {
-
+    padding-bottom: 150%;
 }
 
 .part04 {
@@ -285,17 +285,64 @@
     }
 }
 
+.exp-d {
+    margin: 5vw auto 15vw;
+    border-radius: 0;
+    padding: 7vw 5vw 12vw;
+    background: linear-gradient(rgb(254 239 234 / 8%), rgb(34 79 4 / 17%)), url(../images/exp/d-back.jpg);
+    box-shadow: 1px 5px 4px rgb(0 0 0 / 59%);
+    width: 60vw;
+
+
+    .grid-d {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 1vw 4vw;
+    }
+
+    .logo {
+        padding: 5vw 10vw;
+        border: 0;
+        margin: 0 auto 5vw;
+        box-shadow: none !important;
+        display: block;
+        height: 15vw !important;
+        border-radius: 50%;
+        filter: saturate(0.3) brightness(1.7);
+    }
+
+
+    .experience-image {
+        height: 50vw;
+        object-fit: cover;
+    }
+
+}
+
 .exp-cf {
     margin: 5vw auto 10vw;
     border-radius: 0;
-    padding: 10vw 5vw 10vw;
-    background-image: linear-gradient(5deg, #f6f6f4, #f4f4f4);
-    background-size: contain;
+    padding: 0;
+    background-image: url("../images/exp/cf.png");
+    background-size: cover;
     box-shadow: 1px 5px 4px rgb(0 0 0 / 59%);
-    width: 55vw;
+    width: 80vw;
+    height: 100vw;
+    display: block;
 }
 
+
 .exp-eotd {
+    margin: 5vw auto 10vw;
+    border-radius: 0;
+    padding: 10vw 5vw 10vw;
+    background: linear-gradient(5deg, #f6f6f4, #e3e9f1);
+    box-shadow: 1px 5px 4px rgb(0 0 0 / 59%);
+    width: 76vw;
+}
+
+
+.exp-ne {
     margin: 5vw auto 10vw;
     border-radius: 0;
     padding: 10vw 5vw 10vw;
