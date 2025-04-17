@@ -104,8 +104,8 @@
     padding: 5vw 5vw 25vw;
     box-shadow: 1px 5px 4px rgb(0 0 0 / 59%);
     transform: rotate(2deg);
-    width: 70vw;
-    background: linear-gradient(30deg, #d6affc, #ffc0f8, #ffbad7, #ffd7e9, #f2a9a9);
+    width: 60vw;
+    background: linear-gradient(30deg, #d6affc, #ffc0f8, #ffbad7, #ffd7e9, #fff7f7);
     margin: 5vw auto 10vw;
 }
 
@@ -128,6 +128,29 @@
     margin-top: 100vw;
 }
 
+
+.grad-sticker-3 {
+    padding: 0;
+    width: 36vw !important;
+    height: 28vw;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: -17vw;
+    transform: rotate(4deg);
+    filter: hue-rotate(264deg);
+}
+
+.stripe-sticker {
+    padding: 0;
+    width: 30vw !important;
+    height: 40vw;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: -23vw;
+    transform: rotate(30deg);
+    filter: brightness(1.2) contrast(0.8) saturate(0.4);
+}
+
 .gold-sticker {
     padding: 0;
     width: 29vw !important;
@@ -138,6 +161,29 @@
     filter: saturate(0.3) brightness(1.2) hue-rotate(211deg);
     transform: rotate(11deg);
 }
+
+.gold-sticker-2 {
+    padding: 0;
+    width: 18vw !important;
+    height: 18vw;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: -13vw;
+    transform: rotate(90deg);
+    filter: brightness(1.1) hue-rotate(32deg) saturate(1.4);
+}
+
+.three-sticker {
+    padding: 0;
+    width: 38vw !important;
+    height: 26vw;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: -18vw;
+    transform: rotate(355deg);
+    filter: brightness(0.8);
+}
+
 
 .bear-sticker {
     width: 23vw;
@@ -382,9 +428,9 @@
     margin: 5vw auto 10vw;
     border-radius: 0;
     padding: 10vw 5vw 10vw;
-    background: linear-gradient(5deg, #f6f6f4, #fffdfb);
+    background: linear-gradient(5deg, #f6f6f4, #e8e5e5);
     box-shadow: 1px 5px 4px rgb(0 0 0 / 59%);
-    width: 76vw;
+    width: 72vw;
 
     .experience-image {
         filter: contrast(0.6) brightness(1.1) sepia(0.1);
@@ -418,7 +464,7 @@
 }
 
 .exp-hp {
-    margin: 5vw auto 40vw;
+    margin: 5vw auto 10vw;
     border-radius: 0;
     padding: 10vw 5vw 10vw;
     background-image: url(../images/exp/hp-background.jpg);
