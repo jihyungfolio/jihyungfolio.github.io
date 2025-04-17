@@ -4,7 +4,6 @@
     margin: 7vw 0;
 }
 
-
 .exp {
 
     margin-bottom: 10vw;
@@ -16,7 +15,6 @@
         margin-bottom: 2px;
         font-size: 5vw !important;
         font-weight: 100 !important;
-        font-family: 'RixYeoljeongdo_Regular', sans-serif;
     }
 
     .countries {
@@ -331,7 +329,7 @@
     margin: 5vw auto 10vw;
     border-radius: 0;
     padding: 15vw 3vw 10vw;
-    background: linear-gradient(5deg, #232222, #000000, #494545, #26272a, #352f2f);
+    background: linear-gradient(5deg, #232222, #000000, #120409, #000000);
     box-shadow: 1px 5px 4px rgb(0 0 0 / 59%);
     width: 80vw;
 
@@ -347,7 +345,9 @@
         padding: 0 2vw 5vw;
 
         img {
-            height: 45vw;
+            height: 35vw;
+            object-fit: cover;
+            filter: brightness(0.8) saturate(1.2) contrast(1.2);
         }
     }
 
