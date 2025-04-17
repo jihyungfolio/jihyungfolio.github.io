@@ -103,8 +103,8 @@
 .exp-hk {
     padding: 5vw 5vw 25vw;
     box-shadow: 1px 5px 4px rgb(0 0 0 / 59%);
-    /*transform: rotate(2deg);*/
-    width: 80%;
+    transform: rotate(2deg);
+    width: 70vw;
     background: linear-gradient(30deg, #d6affc, #ffc0f8, #ffbad7, #ffd7e9, #f2a9a9);
     margin: 5vw auto 10vw;
 }
