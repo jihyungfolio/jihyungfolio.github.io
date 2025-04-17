@@ -59,7 +59,6 @@ h4 {
     padding: 15vw 0 10vw;
     font-family: 'TTHakgyoansimKkokkomaR', sans-serif;
     font-size: 8vw;
-    color: #fff;
     text-align: center;
 }
 
@@ -85,7 +84,7 @@ h4 {
     }
 }
 
-.big-name {
+.name {
     font-size: 7vw;
     box-shadow: -1px -0.5px 3px #939393, 1px -0.5px 1px #bababa;
     margin: 10vw auto;
@@ -249,45 +248,46 @@ h4 {
 
             }
 
-            .info {
-
-                p {
-                    padding: 5px 0;
-                    font-size: 3.8vw;
-
-                    img {
-                        width: 37vw;
-                        filter: contrast(1.1) brightness(1.1);
-                        background: #fff;
-                        margin-bottom: -1.5vw;
-                    }
-
-                    .phone {
-                        width: 21vw;
-                    }
-
-                    span {
-                        text-transform: uppercase;
-                        color: #373737;
-                        border-radius: 10px;
-                        padding: 1px 10px 0;
-                        margin-right: 5px;
-                        font-size: 4vw;
-                        border: 1px solid #7a7a7a;
-                        letter-spacing: -0.03em;
-                    }
-
-                }
-
-                a {
-                    text-decoration: underline;
-                }
-            }
 
         }
 
     }
 
+}
+
+.info {
+
+    p {
+        padding: 5px 0;
+        font-size: 3.8vw;
+
+        img {
+            width: 37vw !important;
+            filter: contrast(1.1) brightness(1.1);
+            background: #fff;
+            margin-bottom: -1.5vw !important;
+        }
+
+        .phone {
+            width: 21vw !important;
+        }
+
+        span {
+            text-transform: uppercase;
+            color: #373737;
+            border-radius: 10px;
+            padding: 1px 10px 0;
+            margin-right: 5px;
+            font-size: 4vw;
+            border: 1px solid #7a7a7a;
+            letter-spacing: -0.03em;
+        }
+
+    }
+
+    a {
+        text-decoration: underline;
+    }
 }
 
 @keyframes fadein {
