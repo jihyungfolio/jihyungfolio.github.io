@@ -1,60 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Gloock:ital,wght@0,400;0,700&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Black+Han+Sans:400');
-
-@font-face {
-    font-family: 'Dovemayo_gothic';
-    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2408@1.0/YoonChildfundkoreaDaeHan.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'LeferiPoint-SpecialItalicA';
-    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/LeferiPoint-SpecialItalicA.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Cafe24Lovingu';
-    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2405-3@1.1/Cafe24Lovingu.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'InkLipquid';
-    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/InkLipquid.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-/* title */
-@font-face {
-    font-family: 'SBAggroB';
-    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroB.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
 @font-face {
     font-family: 'RixYeoljeongdo_Regular';
     src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2102-01@1.0/RixYeoljeongdo_Regular.woff') format('woff');
     font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'ThecircleM';
-    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/ThecircleM.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Happiness-Sans-Bold';
-    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2205@1.0/Happiness-Sans-Bold.woff2') format('woff2');
-    font-weight: 700;
     font-style: normal;
 }
 
@@ -151,7 +98,7 @@ h4 {
     text-align: center;
 }
 
-#about-jihyung {
+#id-card {
     padding: 15px 15px 7vw;
     background: #021733;
     color: #e5e5df;
@@ -357,100 +304,9 @@ h4 {
 
 }
 
-
-:root {
-    --blur: blur(120px);
-}
-
-.blur {
-    position: absolute;
-    width: 20%;
-    height: 40%;
-    filter: blur(45px);
-    z-index: 0;
-}
-
-.b1 {
-    top: 0;
-    left: 0;
-    background-color: rgb(244, 235, 240);
-}
-
-.b2 {
-    right: 0;
-    top: 0;
-    background-color: rgb(217, 216, 233);
-}
-
-.b3 {
-    bottom: 0;
-    left: 0;
-    background-color: rgb(230, 233, 216);
-}
-
-.b4 {
-    bottom: 0;
-    right: 0;
-    background-color: rgb(216, 230, 233);
-}
-
-
-#work {
-    padding-top: 10vw;
-}
-
 .experience,
 .software {
     margin: 20px 0;
-    /*padding: 3vw;*/
-    /*background: #fff;*/
-    /*border-radius: 10px;*/
-    /*box-shadow: rgb(226 227 235) 0px 1px 2px 2px inset;*/
-}
-
-.mark1 {
-    border-radius: 1em 0 1em 0.2em;
-    background-color: transparent;
-    background-image: linear-gradient(-100deg, rgb(248 252 255) 50%, rgb(255, 242, 236) 50%, rgb(245, 255, 200) 100%);
-    background-size: 200% 100%;
-    padding-left: 8px;
-    padding-right: 8px;
-}
-
-.mark2 {
-    border-radius: 1em 0 1em 0.2em;
-    background-color: transparent;
-    background-image: linear-gradient(-100deg, rgb(248 252 255) 50%, rgb(241, 242, 255) 50%, rgb(228, 255, 232) 100%);
-    background-size: 200% 100%;
-    padding-left: 8px;
-    padding-right: 8px;
-}
-
-.mark3 {
-    border-radius: 1em 0 1em 0.2em;
-    background-color: transparent;
-    background-image: linear-gradient(-100deg, rgb(255, 254, 246) 50%, rgb(250, 255, 234) 50%, rgb(228, 255, 214) 100%);
-    background-size: 200% 100%;
-    padding-left: 8px;
-    padding-right: 8px;
-}
-
-.mark4 {
-    border-radius: 1em 0 1em 0.2em;
-    background-color: transparent;
-    background-image: linear-gradient(-100deg, rgb(241, 255, 232) 50%, rgb(244, 244, 255) 50%, rgb(223, 249, 255) 100%);
-    background-size: 200% 100%;
-    padding-left: 8px;
-    padding-right: 8px;
-}
-
-.mark5 {
-    border-radius: 1em 0 1em 0.2em;
-    background-color: transparent;
-    background-image: linear-gradient(-100deg, rgb(255, 255, 255) 50%, rgb(255, 250, 230) 50%, rgba(255, 228, 225, 0.85) 100%);
-    background-size: 200% 100%;
-    padding-left: 8px;
-    padding-right: 8px;
 }
 
 @keyframes fadein {
