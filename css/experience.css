@@ -1,52 +1,46 @@
-#experiences-board {
+#experiences-polaroid {
     overflow-x: hidden;
-}
-
-.polaroid-concept {
     padding: 5vw 0;
+    margin: 7vw 0;
 }
 
-.experience-wrapper {
 
-    margin: 7vw 0;
+.exp {
 
-    .exp {
+    margin-bottom: 10vw;
 
-        margin-bottom: 10vw;
+    p {
+        text-transform: capitalize;
+        line-height: 1.5;
+        padding: 1px 0;
+        margin-bottom: 2px;
+        font-size: 5vw !important;
+        font-weight: 100 !important;
+        font-family: 'RixYeoljeongdo_Regular', sans-serif;
+    }
 
-        p {
-            text-transform: capitalize;
+    .countries {
+        background: #fff;
+        color: #000;
+    }
+
+    .content {
+
+        ul {
             line-height: 1.5;
-            padding: 1px 0;
-            margin-bottom: 2px;
-            font-size: 5vw !important;
-            font-weight: 100 !important;
-            font-family: 'RixYeoljeongdo_Regular', sans-serif;
         }
 
-        .countries {
-            background: #fff;
-            color: #000;
+        img {
+            width: 100%;
+            display: block;
+            margin: 0 auto;
+            padding-bottom: 5vw;
         }
 
-        .content {
-
-            ul {
-                line-height: 1.5;
-            }
-
-            img {
-                width: 100%;
-                display: block;
-                margin: 0 auto;
-                padding-bottom: 5vw;
-            }
-
-            .exp01 {
-                margin-bottom: 10vw;
-            }
-
+        .exp01 {
+            margin-bottom: 10vw;
         }
+
     }
 }
 
