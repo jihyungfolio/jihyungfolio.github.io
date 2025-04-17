@@ -329,7 +329,7 @@
     margin: 5vw auto 10vw;
     border-radius: 0;
     padding: 10vw 5vw 10vw;
-    background: linear-gradient(rgba(236, 240, 243, 0.76), rgba(17, 31, 46, 0.07), rgba(25, 26, 43, 0.06)), url(../images/exp/cf-b.jpg);
+    background: linear-gradient(rgba(236, 240, 243, 0.76), rgba(234, 223, 218, 0.64), rgba(25, 26, 43, 0.06)), url(../images/exp/cf-b.jpg);
     background-size: contain;
     box-shadow: 1px 5px 4px rgb(0 0 0 / 59%);
     width: 70vw;
@@ -453,29 +453,37 @@
     margin: 5vw auto 10vw;
     border-radius: 0;
     padding: 10vw 5vw 10vw;
-    background: linear-gradient(5deg, #e7ebef, #eeeff7, #e2e2ee, #e9dedd, #f5f8fd);
+    background: linear-gradient(rgba(246, 243, 240, 0.81), rgb(148 122 147 / 33%)), url(../images/exp/ch-b.jpg);
+    background-size: cover;
     box-shadow: 1px 5px 4px rgb(0 0 0 / 59%);
-    width: 60vw;
+    width: 76vw;
+
+    .grid-ch {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 2vw;
+    }
 
     .experience-image {
         border-radius: 0;
-        padding: 0;
-        height: 50vw;
+        background: #eeeeee59;
+        height: 30vw;
         object-fit: cover;
-        margin-bottom: 6vw;
+        margin-bottom: 0;
     }
 
     .logo {
         height: 10vw;
         object-fit: contain;
-        padding: 5vw 10vw;
+        padding: 2vw 5vw;
         border: 0;
-        margin: 0 auto 10vw;
+        margin: 0 auto 8vw;
         box-shadow: none;
         display: block;
         width: 20vw !important;
-        background: linear-gradient(180deg, #a9a8c6, #c8b6bc, #dac9d8);
+        filter: invert(1);
         border-radius: 50%;
+        background: #00000096;
     }
 
 }
