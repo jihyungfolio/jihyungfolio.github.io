@@ -130,12 +130,13 @@
 
 .gold-sticker {
     padding: 0;
-    width: 24vw !important;
+    width: 29vw !important;
+    height: 15vw;
     margin: 0 auto;
     display: block;
     margin-bottom: -12vw;
-    filter: saturate(0.6) brightness(1.2);
-    transform: rotate(5deg);
+    filter: saturate(0.3) brightness(1.2) hue-rotate(211deg);
+    transform: rotate(11deg);
 }
 
 .bear-sticker {
@@ -327,13 +328,40 @@
 .exp-cf {
     margin: 5vw auto 10vw;
     border-radius: 0;
-    padding: 0;
-    background-image: url("../images/exp/cf.png");
-    background-size: cover;
+    padding: 10vw 5vw 10vw;
+    background: linear-gradient(rgba(236, 240, 243, 0.76), rgba(17, 31, 46, 0.07), rgba(25, 26, 43, 0.06)), url(../images/exp/cf-b.jpg);
+    background-size: contain;
     box-shadow: 1px 5px 4px rgb(0 0 0 / 59%);
-    width: 80vw;
-    height: 100vw;
-    display: block;
+    width: 70vw;
+
+    .grid-cf {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 0 2vw;
+
+        .experience-image {
+            filter: contrast(0.75);
+            margin-bottom: 0;
+            height: 33vw;
+            object-fit: cover;
+        }
+
+        .experience-image:nth-child(1) {;
+            filter: hue-rotate(250deg) saturate(0.9) contrast(0.7) brightness(0.9);
+        }
+
+        .experience-image:nth-child(2) {
+            filter: hue-rotate(80deg) saturate(0.8) contrast(0.8);
+        }
+
+        .experience-image:nth-child(3) {
+            filter: contrast(0.75) hue-rotate(15deg) brightness(1.1);
+        }
+
+        .experience-image:nth-child(4) {
+            filter: contrast(0.75) hue-rotate(203deg)
+        }
+    }
 }
 
 
