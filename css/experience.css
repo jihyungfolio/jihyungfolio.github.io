@@ -409,7 +409,6 @@
     background-size: cover;
     box-shadow: 1px 5px 4px rgb(0 0 0 / 59%);
     width: 45vw;
-    transform: rotate(355deg);
 
     .experience-image {
         background: rgba(250, 246, 239, 0.53);
