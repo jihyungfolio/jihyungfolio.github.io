@@ -420,6 +420,10 @@ h4 {
     overflow-x: hidden;
     padding: 5vw 0;
     margin: 7vw 0;
+    background: linear-gradient(rgb(251 245 248 / 75%), rgba(238, 241, 234, 0.76), rgba(237, 237, 237, 0.47)), url(../images/background/6.jpg);
+    background-size: contain;
+    z-index: -1;
+    position: relative;
 }
 
 #experiences section {
@@ -692,8 +696,8 @@ h4 {
 #experiences .cafe24 .band-sticker-2 {
     padding: 0;
     width: 23vw !important;
-    height: 10vw;
-    margin: 0 auto -7vw;
+    height: 9vw;
+    margin: 0 auto -10vw;
     display: block;
     transform: rotate(70deg);
 }
@@ -768,9 +772,9 @@ h4 {
 }
 
 #experiences .shopify .shopify-gem {
-    margin: 5vw auto 10vw;
+    margin: 5vw auto 15vw;
     border-radius: 0;
-    padding: 15vw 3vw 10vw;
+    padding: 15vw 3vw 0;
     background: linear-gradient(5deg, #232222, #000000, #120409, #000000);
     box-shadow: 1px 5px 4px rgb(0 0 0 / 59%);
     width: 80vw;
@@ -822,7 +826,7 @@ h4 {
     filter: brightness(0.9) contrast(1.55) saturate(0.6);
 }
 
-#experiences .shopify .grad-sticker {
+#experiences .shopify .chlns-sticker {
     padding: 0;
     width: 40vw !important;
     height: 28vw;
@@ -830,6 +834,14 @@ h4 {
     display: block;
     transform: rotate(4deg);
     filter: hue-rotate(264deg);
+}
+
+#experiences .shopify .chlns-sticker-2 {
+    padding: 0;
+    width: 110%;
+    display: block;
+    transform: rotate(4deg);
+    position: absolute;
 }
 
 #experiences .shopify .brown-sticker {
