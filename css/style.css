@@ -526,7 +526,7 @@ h4 {
     margin: 0 auto -12vw;
     display: block;
     filter: saturate(0.3) hue-rotate(211deg);
-    transform: rotate(11deg);
+    transform: rotate(19deg);
     opacity: 0.9;
 }
 
@@ -598,7 +598,7 @@ h4 {
 #experiences .cafe24 .cafe24-d {
     margin: 5vw auto 40vw;
     border-radius: 0;
-    padding: 7vw 5vw 12vw;
+    padding: 12vw 5vw 15vw;
     background: linear-gradient(rgb(254 239 234 / 8%), rgb(34 79 4 / 17%)), url(../images/exp/d-back.jpg);
     box-shadow: 1px 5px 4px rgb(0 0 0 / 59%);
     width: 60vw;
@@ -683,23 +683,25 @@ h4 {
     display: block;
 }
 
-#experiences .cafe24 .band-sticker {
-    padding: 0;
-    width: 29vw !important;
-    height: 15vw;
-    margin: 0 auto -10vw;
-    display: block;
-    filter: hue-rotate(315deg) contrast(0.9) saturate(0.2) brightness(1.15);
-    transform: rotate(310deg);
-}
-
 #experiences .cafe24 .band-sticker-2 {
     padding: 0;
-    width: 23vw !important;
-    height: 9vw;
-    margin: 0 auto -10vw;
+    width: 28vw !important;
+    height: 15vw;
+    margin: 0 auto -8vw;
+    display: block;
+    transform: rotate(48deg);
+    filter: saturate(0.7);
+    opacity: 0.6;
+}
+
+#experiences .cafe24 .band-sticker {
+    padding: 0;
+    width: 20vw !important;
+    height: 20vw;
+    margin: 0 auto -15vw;
     display: block;
     transform: rotate(70deg);
+    filter: brightness(0.8) saturate(0.7);
 }
 
 #experiences .cafe24 .stripe-sticker {
