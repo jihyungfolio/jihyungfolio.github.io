@@ -1,4 +1,4 @@
-#relevant-experiences {
+#experiences {
     overflow-x: hidden;
     padding: 5vw 0;
     margin: 7vw 0;
@@ -43,15 +43,6 @@
 
 }
 
-
-.part01 {
-
-}
-
-.part02 {
-
-}
-
 .part03 {
     margin-bottom: 30vw;
 }
@@ -79,27 +70,25 @@
     transform: rotate(70deg);
 }
 
-.part04 {
 
-    .ball-sticker,
-    .ball-sticker-2 {
-        width: 20vw;
-        margin: 0 auto -15vw;
-        margin-left: 10%;
-        filter: brightness(0.9) contrast(1.55) saturate(0.3);
-        position: relative;
-        z-index: 2;
-    }
-
-    .ball-sticker-2 {
-        margin-bottom: 20vw;
-        margin-top: -16vw;
-        margin-left: 70%;
-        width: 15vw;
-        filter: brightness(0.9) contrast(1.55) saturate(0.6);
-    }
-
+.eotd-sticker,
+.eotd-sticker-2 {
+    width: 20vw;
+    margin: 0 auto -15vw;
+    margin-left: 10%;
+    filter: brightness(0.9) contrast(1.55) saturate(0.3);
+    position: relative;
+    z-index: 2;
 }
+
+.eotd-sticker-2 {
+    margin-bottom: 20vw;
+    margin-top: -16vw;
+    margin-left: 70%;
+    width: 15vw;
+    filter: brightness(0.9) contrast(1.55) saturate(0.6);
+}
+
 
 .exp-img {
     width: 100% !important;
@@ -109,7 +98,7 @@
     margin-bottom: 2vw;
 }
 
-.exp-hk {
+.exp3-hp {
     padding: 5vw 5vw 25vw;
     box-shadow: 1px 5px 4px rgb(0 0 0 / 59%);
     transform: rotate(2deg);
@@ -289,7 +278,7 @@
     top: 29%;
 }
 
-.exp-hk .exp-img {
+.exp3-grid .exp-img {
     border-radius: 0;
     border: 1px solid #fff;
     padding: 0;
@@ -315,17 +304,8 @@
     padding-bottom: 50vw;
 }
 
-.blank1 {
-    background-image: url(../images/exp/blank1.jpg);
-    background-size: cover;
-}
 
-.blank2 {
-    background-image: url(../images/exp/blank2.png);
-    background-size: cover;
-}
-
-.exp-gm {
+.gem .gem-grid {
     margin: 5vw auto 10vw;
     border-radius: 0;
     padding: 15vw 3vw 10vw;
@@ -338,7 +318,7 @@
         box-shadow: -1px -0.5px 3px #181616, 1px -0.5px 1px #aaaaaa;
     }
 
-    .grid-gm {
+    .exp3-grid-inner {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 1vw 4vw;
@@ -445,7 +425,7 @@
     display: block;
 }
 
-.exp2-inner {
+.exp2 .exp2-inner {
     margin: 5vw auto 10vw;
     border-radius: 0;
     padding: 10vw 5vw 10vw;
@@ -517,7 +497,7 @@
     grid-gap: 1vw 3vw;
 }
 
-.exp-ch {
+.exp3 .exp3-grid {
     margin: 5vw auto 10vw;
     border-radius: 0;
     padding: 10vw 5vw 10vw;
@@ -526,7 +506,7 @@
     box-shadow: 1px 5px 4px rgb(0 0 0 / 59%);
     width: 76vw;
 
-    .grid-ch {
+    .exp3-grid-inner {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 2vw;
