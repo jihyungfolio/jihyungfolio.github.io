@@ -539,6 +539,17 @@ h4 {
 
 #experiences .vue .vue1-sticker-3 {
     padding: 0;
+    width: 80%;
+    margin-top: -110vw;
+    margin-left: 10vw;
+    display: block;
+    position: absolute;
+    opacity: 0.8;
+    filter: saturate(1.4);
+}
+
+#experiences .vue .vue1-sticker-4 {
+    padding: 0;
     width: 7vw;
     height: 7vw;
     margin-top: -22vw;
@@ -546,6 +557,16 @@ h4 {
     display: block;
     transform: rotate(11deg);
     position: absolute;
+}
+
+#experiences .vue .vue2-sticker-2 {
+    padding: 0;
+    width: 37%;
+    margin-left: 32vw;
+    display: block;
+    transform: rotate(85deg);
+    position: absolute;
+    z-index: 1;
 }
 
 #experiences .vue .vue2-sticker {
