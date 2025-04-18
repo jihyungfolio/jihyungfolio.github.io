@@ -439,7 +439,6 @@ h4 {
             top: 5px;
             border-radius: 10px;
         }
-
     }
 }
 
@@ -819,7 +818,6 @@ h4 {
             width: 15vw;
             filter: brightness(0.9) contrast(1.55) saturate(0.6);
         }
-
 
         .grad-sticker {
             padding: 0;
