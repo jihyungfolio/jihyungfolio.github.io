@@ -115,7 +115,7 @@ h4 {
     position: absolute;
     border-radius: 0 0 7px 7px;
     top: -85px;
-    box-shadow: 0px 3px 5px rgb(0 0 0 / 63%);
+    box-shadow: 0 3px 5px rgb(0 0 0 / 63%);
 }
 
 .rope2 {
@@ -126,7 +126,7 @@ h4 {
     position: absolute;
     border-radius: 0 0 7px 7px;
     top: -85px;
-    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
 }
 
 .id-card-wrapper {
@@ -389,17 +389,14 @@ h4 {
     height: 24vw;
     overflow: hidden;
     position: relative;
-    margin: 0 1vw;
-    padding: 5px;
     text-align: center;
+    margin-bottom: 5vw;
 }
 
 .software-image .sw img {
     width: 16vw;
     z-index: 1;
     position: relative;
-    box-shadow: -1px -0.5px 3px #b2b2b2, 1px -0.5px 1px #aaaaaa;
-    padding: 2px;
     border-radius: 14px;
 }
 
@@ -521,12 +518,12 @@ h4 {
 
 #experiences .vue .vue1-sticker {
     padding: 0;
-    width: 29vw !important;
+    width: 26vw !important;
     height: 15vw;
     margin: 0 auto -12vw;
     display: block;
     filter: saturate(0.3) hue-rotate(211deg);
-    transform: rotate(19deg);
+    transform: rotate(3deg);
     opacity: 0.9;
 }
 
