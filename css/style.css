@@ -64,8 +64,7 @@ h3 {
 
 h4 {
     padding: 15vw 0 10vw;
-    font-family: 'TTHakgyoansimKkokkomaR', sans-serif;
-    font-size: 8vw;
+    font-size: 5vw;
     text-align: center;
 }
 
@@ -411,7 +410,7 @@ h4 {
 #experiences {
     padding: 15px 15px 7vw;
     overflow-x: hidden;
-    background: linear-gradient(275deg, rgb(183, 198, 209), #e4e6ec, #ebebed);
+    background: linear-gradient(275deg, rgb(187 195 200), #bbc3c8, #ebebed, #ece9e9);
 }
 
 #experiences h3 {
