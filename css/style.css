@@ -33,7 +33,6 @@ body {
 
 .container {
     margin-top: 10vw;
-    margin-bottom: 20vw;
 }
 
 h2 {
@@ -70,7 +69,7 @@ h4 {
 
 .light {
     width: 200px;
-    height: 160%;
+    height: 100%;
     background: linear-gradient(to right, rgb(242 247 253 / 0%) 0%, rgba(255, 255, 255, 0.31) 50%, rgb(217 255 253 / 0%) 100%);
     position: fixed;
     top: -10vw;
@@ -91,7 +90,7 @@ h4 {
 }
 
 #id-card {
-    padding: 15px 15px 7vw;
+    padding: 15px;
     background: #021733;
     color: #e5e5df;
 }
@@ -124,7 +123,6 @@ h4 {
 }
 
 .id-card-wrapper {
-    padding: 2px;
     border-radius: 25px;
     color: #000;
     box-shadow: 11px 1px 50px #0000002e, -11px -1px 50px #000000a8;
@@ -134,7 +132,7 @@ h4 {
 }
 
 .id-card-inner {
-    padding: 25px 5vw;
+    padding: 25px 5vw 0;
     border: 3px solid #c5c7c8;
     border-radius: 25px;
     box-shadow: 11px 1px 50px #0000002e, -11px -1px 50px #000000a8;
@@ -407,15 +405,13 @@ h4 {
     border-radius: 10px;
 }
 
-#experiences {
-    padding: 15px 15px 7vw;
-    overflow-x: hidden;
-    background: linear-gradient(275deg, rgb(187 195 200), #bbc3c8, #ebebed, #ece9e9);
+#experiences h3 {
+    margin: 20vw 0 10vw;
 }
 
-#experiences h3 {
-    text-align: center;
-    padding-top: 10vw;
+#experiences h4 {
+    padding: 5vw 0;
+    text-align: left;
 }
 
 .experiences-inner {
@@ -424,8 +420,8 @@ h4 {
     border-radius: 25px;
 }
 
-#experiences section {
-    padding-bottom: 10vw;
+#experiences .container {
+    padding-bottom: 0;
 }
 
 #experiences .exp-img {
@@ -446,6 +442,11 @@ h4 {
     display: block;
 }
 
+#experiences .vue1-sticker-3 {
+    width: 115%;
+    margin-left: -7%;
+}
+
 #experiences .stickers img {
     z-index: 3;
     position: relative;
@@ -456,16 +457,28 @@ h4 {
     padding-bottom: 5vw;
     display: block;
     margin: 0 auto;
-    width: fit-content;
+}
+
+#experiences .vue {
+
+}
+
+#experiences .vue .band-sticker {
+    width: 40vw;
+    position: absolute;
+    margin-top: -15vw;
+    margin-left: 45vw;
+    filter: saturate(0.5) brightness(1.2);
+    transform: rotate(20deg);
 }
 
 #experiences .vue .vue-hp {
-    margin: 5vw auto 10vw;
+    margin: 15vw auto 10vw;
     border-radius: 0;
     padding: 10vw 5vw 10vw;
     background-image: url(../images/exp/hp-background.jpg);
     background-size: contain;
-    box-shadow: 2px 5px 14px rgb(0 0 0 / 59%);
+    box-shadow: 2px 5px 4px rgb(0 0 0 / 37%);
     width: 70vw;
     transform: rotate(1deg);
     z-index: 0;
@@ -497,7 +510,7 @@ h4 {
     padding: 10vw 5vw 10vw;
     background: linear-gradient(5deg, #f6f6f4, #e8e5e5);
     box-shadow: 1px 5px 4px rgb(0 0 0 / 59%);
-    width: 72vw;
+    width: 68vw;
 }
 
 #experiences .vue .vue-ppb .exp-img {
@@ -505,18 +518,20 @@ h4 {
 }
 
 #experiences .vue .vue-ch {
-    margin: 5vw auto 10vw;
+    margin: 5vw auto 0;
     border-radius: 0;
     padding: 10vw 5vw 10vw;
     background-image: linear-gradient(rgba(246, 243, 240, 0.81), rgb(217 185 45 / 33%)), url(../images/background/2.jpg);
     background-size: cover;
     box-shadow: 1px 5px 4px rgb(0 0 0 / 59%);
-    width: 45vw;
+    width: 50vw;
+    transform: rotate(355deg);
+    position: relative;
 }
 
 #experiences .vue .vue-ch .exp-img {
     background: rgba(250, 246, 239, 0.53);
-    height: 40vw;
+    height: 35vw;
     object-fit: cover;
     filter: saturate(1.2);
 }
@@ -525,8 +540,8 @@ h4 {
     padding: 0;
     width: 32vw !important;
     height: 20vw;
-    margin: 0 auto -15vw;
-    margin-left: 32vw;
+    margin: 5vw auto -25vw;
+    margin-left: 25vw;
     display: block;
     filter: saturate(0.7) brightness(1.4);
     transform: rotate(355deg);
@@ -535,59 +550,41 @@ h4 {
     position: relative;
 }
 
-#experiences .vue .vue1-sticker-2 {
-    padding: 0;
-    width: 6vw;
-    height: 6vw;
-    display: block;
-    position: absolute;
-    margin-left: 18vw;
-    margin-top: 27vw;
-    filter: brightness(1.3) hue-rotate(45deg);
-}
-
-#experiences .vue .vue1-sticker-3 {
-    padding: 0;
-    width: 80%;
-    margin-top: -105vw;
-    margin-left: 5.8vw;
-    display: block;
-    position: absolute;
-    filter: saturate(1.5) brightness(1.1);
-    opacity: 0.8;
-    transform: rotate(2deg);
-}
-
 #experiences .vue .vue1-sticker-4 {
     padding: 0;
-    width: 7vw;
-    height: 7vw;
-    margin-top: -22vw;
-    margin-left: 75vw;
+    width: 8vw;
+    height: 8vw;
+    display: block;
+    position: absolute;
+    margin-left: 70vw;
+    margin-top: 45vw;
+    z-index: 1;
+    filter: brightness(1.2) hue-rotate(35deg);
+}
+
+#experiences .vue .vue1-sticker-2 {
+    padding: 0;
+    width: 9vw;
+    height: 8vw;
+    margin-top: -65vw;
+    margin-left: -2vw;
     display: block;
     transform: rotate(11deg);
     position: absolute;
-}
-
-#experiences .vue .vue2-sticker-2 {
-    padding: 0;
-    width: 37%;
-    margin-left: 32vw;
-    display: block;
-    transform: rotate(85deg);
-    position: absolute;
-    z-index: 1;
+    filter: brightness(1.2) saturate(0.3);
 }
 
 #experiences .vue .vue2-sticker {
     padding: 0;
-    width: 25vw !important;
-    height: 18vw;
+    width: 20vw !important;
+    height: 16vw;
     margin: 0 auto -13vw;
     display: block;
     transform: rotate(90deg);
-    filter: hue-rotate(32deg) saturate(2) contrast(1.3) brightness(0.9);
+    filter: hue-rotate(32deg) saturate(2) contrast(1.3);
     opacity: 0.7;
+    z-index: 1;
+    position: relative;
 }
 
 #experiences .vue .vue3-sticker {
@@ -602,7 +599,7 @@ h4 {
 }
 
 #experiences .cafe24 .cafe24-d {
-    margin: 5vw auto 40vw;
+    margin: 5vw auto;
     border-radius: 0;
     padding: 12vw 5vw 15vw;
     background: linear-gradient(rgb(254 239 234 / 8%), rgb(34 79 4 / 17%)), url(../images/exp/d-back.jpg);
@@ -633,7 +630,7 @@ h4 {
 }
 
 #experiences .cafe24 .cafe24-cf {
-    margin: 5vw auto 40vw;
+    margin: 5vw auto;
     border-radius: 0;
     padding: 10vw 5vw 15vw;
     background: linear-gradient(rgba(236, 240, 243, 0.76), rgba(234, 223, 218, 0.64), rgba(25, 26, 43, 0.06)), url(../images/exp/cf-b.jpg);
@@ -677,7 +674,7 @@ h4 {
 }
 
 #experiences .cafe24 .cafe24-ne {
-    margin: 5vw auto 10vw;
+    margin: 5vw auto 20vw;
     border-radius: 0;
     padding: 0;
     background-image: url("../images/exp/ne.png");
@@ -721,7 +718,7 @@ h4 {
 }
 
 #experiences .shopify .shopify-hp {
-    padding: 5vw 5vw 25vw;
+    padding: 10vw 5vw;
     box-shadow: 1px 5px 4px rgb(0 0 0 / 59%);
     transform: rotate(2deg);
     width: 60vw;
@@ -736,7 +733,20 @@ h4 {
     background: linear-gradient(rgba(246, 243, 240, 0.81), rgb(148 122 147 / 33%)), url(../images/exp/ch-b.jpg);
     background-size: cover;
     box-shadow: 1px 5px 4px rgb(0 0 0 / 59%);
-    width: 76vw;
+    width: 66vw;
+}
+
+#experiences .box ul {
+    line-height: 1.8;
+}
+
+#experiences .box.vue {
+    border-bottom-right-radius: 60px 5px;
+    background: linear-gradient(340deg, rgb(224 238 255 / 13%), rgba(248, 248, 255, 0.82), rgb(248 247 253 / 67%), rgb(231 222 227 / 68%)), url(../images/background/10.jpg);
+    background-size: contain;
+    box-shadow: 0 8px 10px -7px #999;
+    padding: 5vw 10vw;
+    font-size: 4vw;
 }
 
 #experiences .shopify .shopify-ch .shopify-ch-inner {
@@ -771,21 +781,21 @@ h4 {
 }
 
 #experiences .shopify .shopify-eotd {
-    margin: 5vw auto 10vw;
+    margin: 2vw auto;
     border-radius: 0;
-    padding: 10vw 5vw 10vw;
+    padding: 8vw 5vw;
     background: linear-gradient(5deg, #f6f6f4, #e3e9f1);
     box-shadow: 2px 4px 7px rgb(0 0 0 / 25%);
-    width: 76vw;
+    width: 66vw;
 }
 
 #experiences .shopify .shopify-gem {
-    margin: 5vw auto 15vw;
+    margin: 5vw auto 10vw;
     border-radius: 0;
     padding: 15vw 3vw 0;
     background: linear-gradient(180deg, #32323f, #1a1412, #000000, #1f0727);
     box-shadow: 1px 5px 4px rgb(0 0 0 / 59%);
-    width: 80vw;
+    width: 70vw;
 }
 
 #experiences .shopify .shopify-gem .exp-img {
@@ -800,7 +810,7 @@ h4 {
 }
 
 #experiences .shopify .shopify-gem img {
-    height: 35vw;
+    height: 30vw;
     object-fit: cover;
     filter: brightness(0.8) saturate(1.2) contrast(1.2);
 }
@@ -812,14 +822,14 @@ h4 {
 }
 
 #experiences .shopify .hp-stickers {
-    margin-top: -40vw;
-    margin-bottom: 30vw;
+    margin-top: -30vw;
+    margin-bottom: 15vw;
 }
 
 #experiences .shopify .eotd-sticker,
 #experiences .shopify .eotd-sticker-2 {
-    width: 20vw;
-    margin: 0 auto -15vw;
+    width: 15vw;
+    margin: 0 auto -10vw;
     margin-left: 10%;
     filter: brightness(0.9) contrast(1.55) saturate(0.3);
     position: relative;
@@ -827,8 +837,8 @@ h4 {
 }
 
 #experiences .shopify .eotd-sticker-2 {
-    margin-bottom: 20vw;
-    margin-top: -16vw;
+    margin-bottom: 1vw;
+    margin-top: -10vw;
     margin-left: 70%;
     width: 15vw;
     filter: brightness(0.9) contrast(1.55) saturate(0.6);
