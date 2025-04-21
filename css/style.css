@@ -454,10 +454,14 @@ h4 {
 }
 
 #experiences .content ul {
-    line-height: 1.5;
-    padding-bottom: 5vw;
+    line-height: 1.6;
+    padding-bottom: 3vw;
     display: block;
     margin: 0 auto;
+}
+
+#experiences .content ul li {
+    font-size: 3.5vw;
 }
 
 #experiences .vue {
@@ -511,7 +515,7 @@ h4 {
     padding: 10vw 5vw 5vw;
     background: linear-gradient(5deg, #f6f6f4, #e8e5e5);
     box-shadow: 1px 5px 4px rgb(0 0 0 / 59%);
-    width: 68vw;
+    width: 60vw;
 }
 
 #experiences .vue .vue-ppb .exp-img {
@@ -521,12 +525,12 @@ h4 {
 #experiences .vue .vue-ch {
     margin: 0 auto;
     border-radius: 0;
-    padding: 10vw 5vw 10vw;
+    padding: 10vw 3vw 10vw;
     background-image: linear-gradient(rgba(246, 243, 240, 0.81), rgb(217 185 45 / 33%)), url(../images/background/2.jpg);
     background-size: cover;
     box-shadow: 1px 5px 4px rgb(0 0 0 / 59%);
     width: 50vw;
-    transform: rotate(355deg);
+    transform: rotate(359deg);
     position: relative;
 }
 
@@ -720,9 +724,8 @@ h4 {
 #experiences .shopify .shopify-hp {
     padding: 10vw 5vw;
     box-shadow: 1px 5px 4px rgb(0 0 0 / 59%);
-    transform: rotate(2deg);
-    width: 60vw;
-    background: linear-gradient(30deg, #d6affc, #ffc0f8, #ffbad7, #ffd7e9, #fff7f7);
+    width: 70vw;
+    background: linear-gradient(10deg, #d6affc, #ffc0f8, #ffbad7, #fee3ef, #fff7f7);
     margin: 5vw auto 10vw;
 }
 
@@ -739,6 +742,7 @@ h4 {
 #experiences .box {
     box-shadow: -1px -0.5px 3px #b2b2b2, 1px -0.5px 1px #aaaaaa;
     padding: 2px;
+    background: #eee;
 }
 
 #experiences .box ul {
@@ -746,19 +750,21 @@ h4 {
 }
 
 #experiences .box.box-hp {
+    margin-top: 1vw;
+}
+
+#experiences .box.box-hp .box-inner {
     background: linear-gradient(220deg, rgba(204, 194, 201, 0.29), rgb(253 246 250 / 82%), rgba(253, 244, 244, 0.94), rgb(250 208 236 / 75%)), url(../images/background/11.jpg);
     background-size: cover;
     padding: 3vw 6vw;
     font-size: 3.5vw;
-    margin-top: 1vw;
 }
 
-#experiences .box.box-ch {
-    background: linear-gradient(340deg, rgb(255 248 180 / 83%), rgb(255 240 219 / 78%), rgb(253 255 227 / 61%), rgb(255 211 79 / 81%)), url(../images/background/4.jpg);
+#experiences .box.box-ch .box-inner {
+    background: linear-gradient(340deg, rgb(255 248 180 / 83%), rgba(250, 245, 239, 0.91), rgb(253 255 227 / 61%), rgb(255 211 79 / 81%)), url(../images/background/4.jpg);
     background-size: cover;
-    padding: 10vw 5vw;
+    padding: 5vw;
     font-size: 3.5vw;
-    margin-top: 1vw;
 }
 
 #experiences .shopify .shopify-ch .shopify-ch-inner {
