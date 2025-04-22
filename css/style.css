@@ -441,6 +441,7 @@ h4 {
     margin: 0 auto;
     position: relative;
     display: block;
+    box-shadow: none !important;
 }
 
 #experiences .vue1-sticker-3 {
@@ -461,11 +462,17 @@ h4 {
 }
 
 #experiences .content ul li {
-    font-size: 3vw;
+    font-size: 3.5vw;
 }
 
-#experiences .vue {
-
+#experiences .exp-img {
+    width: 100%;
+    object-fit: cover;
+    object-position: 70%;
+    box-shadow: -1px -0.5px 3px #b2b2b2, 1px -0.5px 1px #aaaaaa;
+    border-radius: 20px;
+    margin: 2vw 0 0;
+    padding: 2px;
 }
 
 #experiences .vue .band-sticker {
@@ -478,13 +485,6 @@ h4 {
 }
 
 #experiences .vue .vue-hp {
-    margin: 15vw auto 10vw;
-    border-radius: 0;
-    padding: 12vw 4vw;
-    background-image: url(../images/background/43.jpg);
-    background-size: cover;
-    box-shadow: 2px 5px 4px rgb(0 0 0 / 37%);
-    width: 65vw;
     z-index: 0;
     position: relative;
 }
@@ -496,91 +496,34 @@ h4 {
 }
 
 #experiences .vue .vue-hp .exp-img {
-    filter: contrast(1.1) brightness(1.05);
+    height: 60vw;
+    object-fit: cover;
+    filter: saturate(0.8) contrast(0.8) brightness(1.1);
 }
 
 #experiences .vue .vue-hp .logo {
     padding: 0;
-    width: 48vw !important;
-    margin-top: -2vw;
+    width: 35vw !important;
+    margin: -7vw 1vw;
     height: 25vw;
-    object-fit: cover;
-}
-
-#experiences .vue .vue-ppb {
-    margin: 5vw auto;
-    border-radius: 0;
-    padding: 10vw 5vw 5vw;
-    background: linear-gradient(5deg, #f6f6f4, #e8e5e5);
-    box-shadow: 1px 5px 4px rgb(0 0 0 / 59%);
-    width: 60vw;
-}
-
-#experiences .vue .vue-ppb .exp-img {
-    filter: contrast(0.8);
-}
-
-#experiences .vue .vue-ch {
-    margin: 0 auto;
-    border-radius: 0;
-    padding: 10vw 3vw 10vw;
-    background-image: url(../images/background/26.png);
-    background-size: cover;
-    box-shadow: 1px 5px 4px rgb(0 0 0 / 59%);
-    width: 60vw;
-    transform: rotate(359deg);
-    position: relative;
-}
-
-#experiences .vue .vue-ch .exp-img {
-    background: rgba(250, 246, 239, 0.53);
-    height: 38vw;
-    object-fit: cover;
-    filter: saturate(1.2);
-}
-
-#experiences .vue .vue-ch .exp-img:nth-child(2) {
-    background-image: linear-gradient(rgba(230, 203, 228, 0.46), rgba(255, 217, 239, 0.16), rgba(139, 65, 207, 0.17)), url(../images/exp/chlns01.png);
-    background-size: cover;
-}
-
-#experiences .vue .vue-ch .exp-img:nth-child(3) {
-    background-image: linear-gradient(rgba(230, 203, 228, 0.46), rgba(255, 217, 239, 0.16), rgba(241, 159, 243, 0.17)), url(../images/exp/chlns02.png);
-    background-size: cover;
-}
-
-#experiences .vue .vue-ch .exp-img:nth-child(5) {
-    background-image: linear-gradient(rgba(202, 87, 83, 0.25), rgba(255, 224, 217, 0.38), rgba(221, 133, 113, 0.21)), url(../images/exp/chlns03.png);
-    background-size: cover;
-}
-
-#experiences .vue .vue-ch .exp-img:nth-child(6) {
-    background-image: linear-gradient(rgba(221, 176, 127, 0.46), rgba(255, 217, 239, 0.16), rgba(218, 167, 56, 0.55)), url(../images/exp/chlns04.png);
-    background-size: cover;
-}
-
-#experiences .vue .vue-ch .logo {
-    width: 80% !important;
-    background: none;
-    height: 20vw;
-    padding: 2vw 0 7vw;
-    filter: contrast(1.1) hue-rotate(70deg) brightness(1.2);
-    opacity: 0.8;
     object-fit: contain;
 }
 
-#experiences .vue .vue1-sticker {
-    padding: 0;
-    width: 60vw !important;
-    height: 38vw;
-    margin: 5vw auto -32vw;
-    margin-left: 8vw;
-    display: block;
-    filter: saturate(0.7) brightness(1.5);
-    transform: rotate(355deg);
-    opacity: 0.8;
-    z-index: 1;
-    position: relative;
+#experiences .vue .vue-ppb {
+}
+
+#experiences .vue .vue-ppb .exp-img {
+}
+
+#experiences .vue .vue-ch {
+}
+
+#experiences .vue .vue-ch .logo {
+    background: none;
+    height: 15vw;
+    width: 30vw !important;
+    filter: hue-rotate(260deg) saturate(1.6) brightness(0.7);
+    object-fit: contain;
 }
 
 #experiences .vue .vue2-sticker-3 {
@@ -789,9 +732,7 @@ h4 {
 }
 
 #experiences .box {
-    box-shadow: -1px -0.5px 3px #b2b2b2, 1px -0.5px 1px #aaaaaa;
     width: 100% !important;
-    padding: 2px;
 }
 
 #experiences .box ul {
@@ -799,18 +740,16 @@ h4 {
 }
 
 #experiences .box.box-hp {
-    margin: 0 0 3vw;
+
 }
 
 #experiences .box.box-hp .box-inner {
-    background: linear-gradient(20deg, rgb(243, 247, 255), rgb(255, 248, 251), rgb(255 242 255 / 94%));
-    padding: 3vw 6vw;
-    font-size: 3.5vw;
+    padding: 2vw 1.5vw;
+    font-size: 4vw;
 }
 
 #experiences .box.box-ch .box-inner {
-    padding: 2vw 5vw 25vw;
-    font-size: 3.5vw;
+    font-size: 4vw;
 }
 
 #experiences .shopify .shopify-ch .shopify-ch-inner {
