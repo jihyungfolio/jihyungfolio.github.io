@@ -496,9 +496,7 @@ h4 {
 }
 
 #experiences .vue .vue-hp .exp-img {
-    height: 60vw;
-    object-fit: cover;
-    filter: saturate(0.8) contrast(0.8) brightness(1.1);
+
 }
 
 #experiences .vue .vue-hp .logo {
