@@ -516,6 +516,15 @@ h4 {
 #experiences .vue .vue-ch {
 }
 
+
+#experiences .vue .vue-ch .exp-img {
+    object-fit: cover;
+    height: 170vw;
+    object-position: center;
+    border-radius: 20px;
+    box-shadow: none;
+}
+
 #experiences .vue .vue-ch .logo {
     background: none;
     height: 15vw;
