@@ -467,6 +467,7 @@ p {
     position: relative;
     display: block;
     box-shadow: none !important;
+    border-radius: 0 !important;
 }
 
 #experiences .vue1-sticker-3 {
