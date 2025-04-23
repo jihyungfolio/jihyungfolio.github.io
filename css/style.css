@@ -536,14 +536,14 @@ p {
     padding: 0;
     width: 35vw !important;
     margin: -7vw 1vw;
-    height: 45vw;
+    height: 25vw;
     object-fit: contain;
 }
 
 
 .phone-frame:before {
     box-shadow: 0vh 0vh 10vh 0vh rgba(0, 0, 0, 0.30);
-    Width: 45vh;
+    Width: 35vh;
     height: 91vh;
     position: relative;
 }
@@ -552,7 +552,7 @@ p {
     margin: 0 auto;
     position: relative;
     background: black;
-    Width: 70vw;
+    Width: 45vw;
     height: 100%;
     border-radius: 6vh;
     padding: 1.5vh;
