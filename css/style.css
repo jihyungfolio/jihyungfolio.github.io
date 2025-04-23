@@ -380,7 +380,7 @@ h4 {
 }
 
 .timeline .t .ew-image {
-    filter: hue-rotate(157deg) saturate(1.5) brightness(0.8) contrast(1.2) saturate(0.5);
+    filter: hue-rotate(137deg) brightness(0.8) contrast(1.8) saturate(0.3);
     height: 35vw;
     width: 100% !important;
     object-fit: cover;
