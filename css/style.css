@@ -354,7 +354,7 @@ h4 {
 .timeline .t .w-image,
 .timeline .t .ew-image {
     height: 35vw;
-    width: 100%;
+    width: 100% !important;
     object-fit: cover;
     object-position: 70%;
     box-shadow: -1px -0.5px 3px #b2b2b2, 1px -0.5px 1px #aaaaaa;
