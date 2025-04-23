@@ -32,7 +32,7 @@ body {
 }
 
 .id-card__Section {
-    padding: 10vw 5vw 0;
+    padding: 9vw 5vw 0;
     background: #021733;
     color: #e5e5df;
 }
@@ -60,7 +60,6 @@ body {
 .id-card__Container {
     margin: 10vw 0 20vw;
 }
-
 
 h2 {
     text-transform: uppercase;
@@ -95,6 +94,11 @@ h4 {
     text-align: center;
 }
 
+p {
+    font-size: 4vw;
+    padding-bottom: 5px;
+}
+
 .light {
     width: 200px;
     height: 100%;
@@ -124,9 +128,9 @@ h4 {
 
 .rope {
     right: 26.5%;
-    height: 140px;
+    height: 32vw;
     width: 15px;
-    top: -100px;
+    top: -22vw;
     background: linear-gradient(270deg, #ebebeb, #f1f1f1, #ffffff, #ffffff, #dfdfdf);
     position: absolute;
     border-radius: 2px 3px 7px 7px;
@@ -135,9 +139,9 @@ h4 {
 
 .rope2 {
     left: 26.5%;
-    height: 140px;
+    height: 32vw;
     width: 15px;
-    top: -100px;
+    top: -22vw;
     background: linear-gradient(270deg, #ebebeb, #f1f1f1, #ffffff, #ffffff, #dfdfdf);
     position: absolute;
     border-radius: 3px 2px 7px 7px;
@@ -146,7 +150,7 @@ h4 {
 
 .holes {
     display: flex;
-    padding: 5px 0;
+    padding: 10px 0;
     border: 1px solid #ebebeb;
     border-bottom: 10px solid #eee;
     box-shadow: 11px 11px 50px #fffffff0, -11px -11px 50px #ffffff70;
@@ -161,10 +165,6 @@ h4 {
     margin: 0 auto;
 }
 
-.id-card__Inner p {
-    font-size: 4vw;
-    padding-bottom: 5px;
-}
 
 .profile-image {
     width: fit-content;
