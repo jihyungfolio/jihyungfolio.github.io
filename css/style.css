@@ -59,6 +59,7 @@ h3 {
     padding-bottom: 10px;
     font-family: sans-serif;
     font-weight: 600;
+    text-align: center;
 }
 
 h4 {
@@ -301,11 +302,6 @@ h4 {
     margin-bottom: 20vw;
 }
 
-.timeline h3 {
-    padding-top: 10vw;
-}
-
-
 .timeline .t {
     margin-top: 7vw;
     letter-spacing: -0.02em;
@@ -432,10 +428,6 @@ h4 {
     padding: 2px 9px;
     top: 5px;
     border-radius: 10px;
-}
-
-#experiences h3 {
-    margin: 20vw 0 10vw;
 }
 
 #experiences h4 {
