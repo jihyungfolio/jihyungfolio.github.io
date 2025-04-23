@@ -507,22 +507,71 @@ h4 {
     object-fit: contain;
 }
 
-#experiences .vue .vue-ppb {
+
+.phone-frame:before {
+    box-shadow: 0vh 0vh 10vh 0vh rgba(0, 0, 0, 0.30);
+    Width: 45vh;
+    height: 91vh;
+    position: relative;
 }
 
-#experiences .vue .vue-ppb .exp-img {
+.phone-frame {
+    margin: 0 auto;
+    position: relative;
+    background: black;
+    Width: 45vh;
+    height: 100%;
+    border-radius: 6vh;
+    padding: 1.5vh;
+    border: 0.3vh solid #444;
+    box-shadow: inset 0 0 2vh #888;
+}
+
+#experiences .vue .vue-hp .phone-frame {
+    height: 100%;
 }
 
 #experiences .vue .vue-ch {
 }
 
+#experiences .vue .vue-ppb {
+}
+
+.phone-frame-inner {
+    margin: 0 auto;
+    Width: 100%;
+    height: 100%;
+    border-radius: 4vh;
+}
+
+.top {
+    width: 26vh;
+    background: black;
+    height: 3.5vh;
+    border-radius: 0vh 0vh 2vh 2vh;
+    margin: 0 auto;
+}
+
+.circle {
+    background: blue;
+    width: 0.6vh;
+    height: 0.6vh;
+    float: right;
+    margin: 1.2vh 6vh;
+    border-radius: 100%;
+}
+
+.bottom {
+    height: 0.5vh;
+    background: rgba(255, 255, 255, 0.2);
+    position: inherit;
+    bottom: 2vh;
+    width: 17vh;
+    margin: 0 auto !important;
+}
 
 #experiences .vue .vue-ch .exp-img {
-    object-fit: cover;
-    height: 170vw;
-    object-position: center;
-    border-radius: 20px;
-    box-shadow: none;
+
 }
 
 #experiences .vue .vue-ch .logo {
