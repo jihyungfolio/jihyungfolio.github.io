@@ -27,14 +27,19 @@
 }
 
 body {
-    font-family: "HakgyoansimSantteutdotumL", sans-serif;
+    height: 100%;
+    width: 100%;
     overflow-x: hidden;
 }
 
 .id-card__Section {
+    font-family: "HakgyoansimSantteutdotumL", sans-serif;
     padding: 9vw 5vw 0;
     background: #021733;
     color: #e5e5df;
+    display: block;
+    position: sticky;
+    overflow-x: hidden;
 }
 
 .id-card__Section:last-child {
@@ -100,7 +105,7 @@ p {
 }
 
 .light {
-    width: 200px;
+    width: 10vw;
     height: 100%;
     background: linear-gradient(to right, rgb(242 247 253 / 0%) 0%, rgba(255, 255, 255, 0.31) 50%, rgb(217 255 253 / 0%) 100%);
     position: fixed;
@@ -109,7 +114,7 @@ p {
     animation: slide 5s infinite;
     z-index: 3;
     transform: rotateZ(183deg);
-    margin: 0 15vw;
+    margin-left: -10vw;
 }
 
 @keyframes slide {
@@ -308,9 +313,8 @@ p {
 }
 
 .timeline .t {
-    margin-bottom: 7vw;
+    margin-bottom: 15vw;
     letter-spacing: -0.02em;
-    padding-bottom: 3vw;
 }
 
 .timeline .t span {
