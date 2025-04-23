@@ -217,7 +217,7 @@ p {
 .my-vision {
     position: relative;
     overflow: hidden;
-    margin: 7vw 0;
+    margin-bottom: 12vw;
 }
 
 .my-vision img {
@@ -238,6 +238,12 @@ p {
     width: 3.5vw !important;
 }
 
+.info {
+    margin-left: 6vw;
+    margin-top: 10vw;
+    width: fit-content;
+}
+
 .info p {
     padding: 5px 0;
     font-size: 3.8vw;
@@ -247,22 +253,23 @@ p {
     width: 37vw !important;
     filter: contrast(1.1) brightness(1.1);
     background: #fff;
-    margin-bottom: -1.5vw !important;
+    margin-bottom: -2vw !important;
 }
 
 .info p .phone {
-    width: 21vw !important;
+    width: 22vw !important;
 }
 
 .info p span {
     text-transform: uppercase;
     color: #373737;
     border-radius: 10px;
-    padding: 1px 10px 0;
+    padding: 2px 10px;
     margin-right: 5px;
-    font-size: 4vw;
+    line-height: 1.5;
     border: 1px solid #7a7a7a;
     letter-spacing: -0.03em;
+    font-size: 3.5vw;
 }
 
 .info a {
