@@ -369,6 +369,14 @@ h4 {
 
 .timeline .t .ew-image {
     filter: hue-rotate(157deg) saturate(1.5) brightness(0.8) contrast(1.6) saturate(0.5);
+    height: 35vw;
+    width: 100% !important;
+    object-fit: cover;
+    object-position: 70%;
+    box-shadow: -1px -0.5px 3px #b2b2b2, 1px -0.5px 1px #aaaaaa;
+    border-radius: 20px;
+    margin: 2vw 0 0;
+    padding: 2px;
 }
 
 .timeline .t .s-image {
