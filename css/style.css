@@ -56,7 +56,7 @@ h3 {
     font-size: 6vw;
     text-transform: capitalize;
     letter-spacing: -0.04em;
-    padding-bottom: 10px;
+    padding-bottom: 5vw;
     font-family: sans-serif;
     font-weight: 600;
     text-align: center;
@@ -91,7 +91,7 @@ h4 {
 }
 
 .id-card {
-    padding: 15px;
+    padding: 15px 15px 30px;
     background: #021733;
     color: #e5e5df;
 }
@@ -103,23 +103,23 @@ h4 {
 
 .rope {
     right: 26.5%;
-    height: 130px;
+    height: 140px;
     width: 15px;
+    top: -95px;
     background: linear-gradient(270deg, #ebebeb, #f1f1f1, #ffffff, #ffffff, #dfdfdf);
     position: absolute;
-    border-radius: 0 0 7px 7px;
-    top: -85px;
+    border-radius: 2px 3px 7px 7px;
     box-shadow: 0 3px 5px rgb(0 0 0 / 63%);
 }
 
 .rope2 {
     left: 26.5%;
-    height: 130px;
+    height: 140px;
     width: 15px;
+    top: -95px;
     background: linear-gradient(270deg, #ebebeb, #f1f1f1, #ffffff, #ffffff, #dfdfdf);
     position: absolute;
-    border-radius: 0 0 7px 7px;
-    top: -85px;
+    border-radius: 3px 2px 7px 7px;x
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
 }
 
@@ -303,7 +303,7 @@ h4 {
 }
 
 .timeline .t {
-    margin-top: 7vw;
+    margin-bottom: 7vw;
     letter-spacing: -0.02em;
     padding-bottom: 3vw;
 }
@@ -540,7 +540,7 @@ h4 {
     margin: 0 auto;
     position: relative;
     background: black;
-    Width: 45vh;
+    Width: 70vw;
     height: 100%;
     border-radius: 6vh;
     padding: 1.5vh;
