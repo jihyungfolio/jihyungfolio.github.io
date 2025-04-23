@@ -91,7 +91,7 @@ h4 {
 }
 
 .id-card {
-    padding: 15px 15px 30px;
+    padding: 15px 15px 35px;
     background: #021733;
     color: #e5e5df;
 }
@@ -105,7 +105,7 @@ h4 {
     right: 26.5%;
     height: 140px;
     width: 15px;
-    top: -95px;
+    top: -100px;
     background: linear-gradient(270deg, #ebebeb, #f1f1f1, #ffffff, #ffffff, #dfdfdf);
     position: absolute;
     border-radius: 2px 3px 7px 7px;
@@ -116,7 +116,7 @@ h4 {
     left: 26.5%;
     height: 140px;
     width: 15px;
-    top: -95px;
+    top: -100px;
     background: linear-gradient(270deg, #ebebeb, #f1f1f1, #ffffff, #ffffff, #dfdfdf);
     position: absolute;
     border-radius: 3px 2px 7px 7px;x
@@ -376,7 +376,7 @@ h4 {
 }
 
 .timeline .t .ew-image {
-    filter: hue-rotate(137deg) brightness(0.8) contrast(1.8) saturate(0.3);
+    filter: hue-rotate(133deg) contrast(1.6) saturate(0.3);
     height: 35vw;
     width: 100% !important;
     object-fit: cover;
