@@ -34,7 +34,7 @@ body {
 
 .id-card__Section {
     font-family: "HakgyoansimSantteutdotumL", sans-serif;
-    padding: 9vw 5vw 0;
+    padding: 6vw 5vw 0;
     background: #021733;
     color: #e5e5df;
 }
@@ -135,7 +135,7 @@ p {
     right: 26.5%;
     height: 32vw;
     width: 15px;
-    top: -22vw;
+    top: -20vw;
     background: linear-gradient(270deg, #ebebeb, #f1f1f1, #ffffff, #ffffff, #dfdfdf);
     position: absolute;
     border-radius: 2px 3px 7px 7px;
@@ -146,7 +146,7 @@ p {
     left: 26.5%;
     height: 32vw;
     width: 15px;
-    top: -22vw;
+    top: -20vw;
     background: linear-gradient(270deg, #ebebeb, #f1f1f1, #ffffff, #ffffff, #dfdfdf);
     position: absolute;
     border-radius: 3px 2px 7px 7px;
@@ -165,11 +165,10 @@ p {
 .hole {
     background: linear-gradient(45deg, #797979, #000000, #676363);
     width: 45px;
-    height: 20px;
-    border-radius: 10px;
+    height: 24px;
+    border-radius: 15px;
     margin: 0 auto;
 }
-
 
 .profile-image {
     width: fit-content;
