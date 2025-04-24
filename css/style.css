@@ -34,7 +34,7 @@ body {
 
 .id-card__Section {
     font-family: "HakgyoansimSantteutdotumL", sans-serif;
-    padding: 6vw 5vw 0;
+    padding: 6vw 5vw 10vw;
     background: #021733;
     color: #e5e5df;
 }
@@ -133,10 +133,10 @@ p {
 
 .rope {
     right: 26%;
-    height: 30vw;
+    height: 40vw;
     width: 4vw;
-    top: -19vw;
-    background: linear-gradient(270deg, #ebebeb, #f1f1f1, #ffffff, #ffffff, #dfdfdf);
+    top: -29vw;
+    background: linear-gradient(177deg, #302d2d, #f1f1f1, #ffffff, #ffffff, #dfdfdf);
     position: absolute;
     border-radius: 2px 3px 7px 7px;
     box-shadow: 0 3px 5px rgb(0 0 0 / 63%);
@@ -144,10 +144,10 @@ p {
 
 .rope2 {
     left: 26%;
-    height: 30vw;
+    height: 40vw;
     width: 4vw;
-    top: -19vw;
-    background: linear-gradient(270deg, #ebebeb, #f1f1f1, #ffffff, #ffffff, #dfdfdf);
+    top: -29vw;
+    background: linear-gradient(177deg, #302d2d, #f1f1f1, #ffffff, #ffffff, #dfdfdf);
     position: absolute;
     border-radius: 3px 2px 7px 7px;
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
