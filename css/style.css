@@ -47,7 +47,7 @@ body {
     border-radius: 25px;
     color: #000;
     box-shadow: 11px 1px 50px #0000002e, -11px -1px 50px #000000a8;
-    background: linear-gradient(45deg, #f9fbff, #fff, #f8f8fc);
+    background: linear-gradient(45deg, #f9fbff, #fff, #fefffc, #fcf9f8);
     border: 2px solid #7d7d7d;
     box-sizing: border-box;
 }
@@ -132,10 +132,10 @@ p {
 }
 
 .rope {
-    right: 26.5%;
-    height: 32vw;
-    width: 15px;
-    top: -20vw;
+    right: 26%;
+    height: 30vw;
+    width: 4vw;
+    top: -19vw;
     background: linear-gradient(270deg, #ebebeb, #f1f1f1, #ffffff, #ffffff, #dfdfdf);
     position: absolute;
     border-radius: 2px 3px 7px 7px;
@@ -143,10 +143,10 @@ p {
 }
 
 .rope2 {
-    left: 26.5%;
-    height: 32vw;
-    width: 15px;
-    top: -20vw;
+    left: 26%;
+    height: 30vw;
+    width: 4vw;
+    top: -19vw;
     background: linear-gradient(270deg, #ebebeb, #f1f1f1, #ffffff, #ffffff, #dfdfdf);
     position: absolute;
     border-radius: 3px 2px 7px 7px;
@@ -155,7 +155,7 @@ p {
 
 .holes {
     display: flex;
-    padding: 10px 0;
+    padding: 2vw 0;
     border: 1px solid #ebebeb;
     border-bottom: 10px solid #eee;
     box-shadow: 11px 11px 50px #fffffff0, -11px -11px 50px #ffffff70;
@@ -165,8 +165,8 @@ p {
 
 .hole {
     background: linear-gradient(45deg, #797979, #000000, #676363);
-    width: 45px;
-    height: 24px;
+    width: 14vw;
+    height: 6vw;
     border-radius: 15px;
     margin: 0 auto;
 }
@@ -486,6 +486,7 @@ p {
 #experiences .stickers img {
     z-index: 3;
     position: relative;
+    display: none;
 }
 
 #experiences .content ul {
@@ -678,12 +679,7 @@ p {
 }
 
 #experiences .cafe24 .cafe24-d {
-    margin: 5vw auto;
-    border-radius: 0;
-    padding: 12vw 5vw 15vw;
-    background: linear-gradient(rgb(254 239 234 / 8%), rgb(34 79 4 / 17%)), url(../images/exp/d-back.jpg);
-    box-shadow: 1px 5px 4px rgb(0 0 0 / 59%);
-    width: 60vw;
+
 }
 
 #experiences .cafe24 .cafe24-d .grid-d {
@@ -709,13 +705,6 @@ p {
 }
 
 #experiences .cafe24 .cafe24-cf {
-    margin: 5vw auto;
-    border-radius: 0;
-    padding: 10vw 5vw 15vw;
-    background: linear-gradient(rgba(236, 240, 243, 0.76), rgba(234, 223, 218, 0.64), rgba(25, 26, 43, 0.06)), url(../images/exp/cf-b.jpg);
-    background-size: contain;
-    box-shadow: 1px 5px 4px rgb(0 0 0 / 59%);
-    width: 70vw;
 }
 
 #experiences .cafe24 .cafe24-cf .grid-cf {
@@ -753,17 +742,6 @@ p {
 }
 
 #experiences .cafe24 .cafe24-ne {
-    margin: 5vw auto 20vw;
-    border-radius: 0;
-    padding-bottom: 50vw;
-    background-image: url(../images/exp/ne.png);
-    background-position: top;
-    background-size: contain;
-    background-repeat: no-repeat;
-    box-shadow: 1px 5px 4px rgb(0 0 0 / 59%);
-    width: 74vw;
-    height: 84vw;
-    display: block;
 }
 
 #experiences .cafe24 .cafe24-ne .box {
@@ -871,21 +849,10 @@ p {
 }
 
 #experiences .shopify .shopify-eotd {
-    margin: 2vw auto;
-    border-radius: 0;
-    padding: 8vw 5vw;
-    background: linear-gradient(5deg, #f6f6f4, #e3e9f1);
-    box-shadow: 2px 4px 7px rgb(0 0 0 / 25%);
-    width: 66vw;
+
 }
 
 #experiences .shopify .shopify-gem {
-    margin: 5vw auto 10vw;
-    border-radius: 0;
-    padding: 15vw 3vw 0;
-    background: linear-gradient(180deg, #32323f, #1a1412, #000000, #1f0727);
-    box-shadow: 1px 5px 4px rgb(0 0 0 / 59%);
-    width: 70vw;
 }
 
 #experiences .shopify .shopify-gem .exp-img {
