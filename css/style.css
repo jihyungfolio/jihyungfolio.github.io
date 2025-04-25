@@ -39,6 +39,7 @@ body {
     overflow-x: hidden;
 }
 
+
 .id-card__Section {
     font-family: "KOTRA_GOTHIC", sans-serif;
     padding: 6vw 5vw 10vw;
@@ -63,15 +64,21 @@ h2 {
     line-height: 1.6;
 }
 
+@font-face {
+    font-family: 'KOTRA_BOLD-Bold';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.1/KOTRA_BOLD-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 h3 {
     font-size: 7vw;
     text-transform: capitalize;
-    letter-spacing: -0.04em;
     padding-top: 5vw;
-    padding-bottom: 20vw;
-    font-family: sans-serif;
-    font-weight: 600;
+    margin: 0 auto;
+    margin-bottom: 20vw;
     text-align: center;
+    font-family: 'KOTRA_BOLD-Bold', sans-serif;
 }
 
 h4 {
@@ -333,7 +340,7 @@ p {
 }
 
 .timeline .t {
-    margin-bottom: 15vw;
+    margin-bottom: 20vw;
     letter-spacing: -0.02em;
 }
 
