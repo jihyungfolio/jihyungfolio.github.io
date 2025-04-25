@@ -38,13 +38,13 @@ h2 {
 }
 
 h3 {
-    font-size: 7vw;
+    font-size: 8vw;
     text-transform: capitalize;
     margin: 20vw 0 15vw;
     font-weight: 600;
-    font-family: sans-serif;
+    font-family: 'HakgyoansimBadasseugiTTF-L', sans-serif;
     text-align: center;
-    letter-spacing: -0.03em;
+    letter-spacing: -0.01em;
 }
 
 h4 {
@@ -124,9 +124,9 @@ p {
 
 .rope,
 .rope2 {
-    height: 42vw;
+    height: 43vw;
     width: 4vw;
-    top: -30vw;
+    top: -31vw;
     background: linear-gradient(177deg, #808080, #f1f1f2, #ffffff, #ffffff, #dfdfdf, #fff, #808080);
     position: absolute;
     border-radius: 2px 3px 7px 7px;
