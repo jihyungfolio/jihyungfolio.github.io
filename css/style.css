@@ -62,7 +62,7 @@ h2 {
     color: #252730;
     font-size: 7vw;
     box-shadow: -1px -0.5px 3px #939393, 1px -0.5px 1px #bababa;
-    margin: 12vw auto 10vw;
+    margin: 23vw auto 12vw;
     width: 55vw;
     border-radius: 10px;
     background: linear-gradient(45deg, #ececec, #ffffff, #ffffff, #f7f5f5, #f7f7f7);
@@ -78,13 +78,20 @@ h2 {
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'PTNoeulB';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2408@1.0/PTNoeulB.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
 h3 {
-    font-size: 9vw;
+    font-size: 7vw;
     text-transform: capitalize;
-    padding-top: 5vw;
-    margin-bottom: 20vw;
+    padding-top: 10vw;
+    margin-bottom: 15vw;
     font-weight: 600;
-    font-family: 'Cafe24Ssukssuk', sans-serif;
+    font-family: 'PTNoeulB', sans-serif;
     text-align: center;
 }
 
@@ -223,7 +230,7 @@ p {
 }
 
 .profile-image img {
-    width: 42vw;
+    width: 47vw;
     margin: 0 auto;
     display: block;
     z-index: 2;
