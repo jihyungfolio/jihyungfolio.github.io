@@ -33,6 +33,13 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'KOTRA_BOLD-Bold';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.1/KOTRA_BOLD-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     height: 100%;
     width: 100%;
@@ -64,13 +71,20 @@ h2 {
     line-height: 1.6;
 }
 
+@font-face {
+    font-family: 'Cafe24Ssukssuk';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/Cafe24Ssukssuk.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
 h3 {
-    font-size: 7vw;
+    font-size: 9vw;
     text-transform: capitalize;
     padding-top: 5vw;
-    margin: 0 auto;
     margin-bottom: 20vw;
+    font-weight: 600;
+    font-family: 'Cafe24Ssukssuk', sans-serif;
     text-align: center;
 }
 
@@ -357,7 +371,7 @@ p {
     object-position: 70%;
     box-shadow: -1px -0.5px 3px #b2b2b2, 1px -0.5px 1px #aaaaaa;
     border-radius: 10px;
-    margin: 3vw 0 1vw;
+    margin: 3vw 0;
     padding: 2px;
 }
 
@@ -381,9 +395,8 @@ p {
 }
 
 .timeline .t .s-logo {
-    width: 25vw !important;
+    width: 25.5vw !important;
     height: 6vw !important;
-    padding-bottom: 2px;
 }
 
 .timeline .t .p-logo {
@@ -405,7 +418,6 @@ p {
 
 .timeline .t .ew-logo {
     width: 35vw !important;
-    margin-bottom: -2vw;
 }
 
 .software {
