@@ -231,18 +231,14 @@ p {
 }
 
 .my-vision img {
-    width: 25vw !important;
-    height: 25vw !important;
+    width: 20vw !important;
+    height: 20vw !important;
     margin: 3vw;
     z-index: 1;
     position: relative;
     padding: 5px;
     filter: saturate(0.6) contrast(1.1);
 }
-
-/*.my-vision img {*/
-/*    background: linear-gradient(45deg, #482d09, #ffd6a1, #31a7da);*/
-/*}*/
 
 .my-vision p {
     z-index: 1;
