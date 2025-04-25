@@ -19,20 +19,21 @@ body {
 }
 
 h2 {
+    font-size: 9vw;
+    text-transform: capitalize;
+    padding-top: 10vw;
+    margin-bottom: 10vw;
+    font-weight: 600;
+    font-family: 'PTNoeulB', sans-serif;
     text-align: center;
-    color: #252730;
-    font-size: 6.5vw;
-    height: 8vw;
-    margin: 0 0 12vw;
-    padding-top: 8vw;
-    letter-spacing: -0.01em;
+    letter-spacing: -0.03em;
 }
 
 h3 {
     font-size: 7vw;
     text-transform: capitalize;
     padding-top: 10vw;
-    margin-bottom: 15vw;
+    margin-bottom: 10vw;
     font-weight: 600;
     font-family: 'PTNoeulB', sans-serif;
     text-align: center;
@@ -82,6 +83,9 @@ p {
     margin: 10vw 0 25vw;
 }
 
+.contact {
+    padding-bottom: 5vw;
+}
 
 .light {
     width: 10vw;
@@ -112,7 +116,7 @@ p {
 
 .rope,
 .rope2 {
-    height: 40vw;
+    height: 42vw;
     width: 4vw;
     top: -29vw;
     background: linear-gradient(177deg, #808080, #f1f1f2, #ffffff, #ffffff, #dfdfdf, #fff, #808080);
@@ -131,7 +135,7 @@ p {
 
 .holes {
     display: flex;
-    padding: 2vw 0;
+    padding: 3vw 0;
     border: 1px solid #ebebeb;
     border-bottom: 10px solid #eee;
     box-shadow: 11px 11px 50px #fffffff0, -11px -11px 50px #ffffff70;
