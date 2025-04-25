@@ -227,13 +227,13 @@ p {
 .my-vision {
     position: relative;
     overflow: hidden;
-    margin-bottom: 12vw;
+    margin-bottom: 15vw;
 }
 
 .my-vision img {
     width: 25vw !important;
     height: 25vw !important;
-    margin: 2vw;
+    margin: 3vw;
     z-index: 1;
     position: relative;
     padding: 5px;
