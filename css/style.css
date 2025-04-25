@@ -23,6 +23,7 @@ body {
     height: 100%;
     width: 100%;
     overflow-x: hidden;
+    font-family: 'Jal_Haru', sans-serif;
 }
 
 h2 {
@@ -31,7 +32,7 @@ h2 {
     padding-top: 10vw;
     margin-bottom: 10vw;
     font-weight: 600;
-    font-family: 'Jal_Haru', sans-serif;
+    font-family: sans-serif;
     text-align: center;
     letter-spacing: -0.03em;
 }
@@ -41,7 +42,7 @@ h3 {
     text-transform: capitalize;
     margin: 20vw 0 15vw;
     font-weight: 600;
-    font-family: 'Jal_Haru', sans-serif;
+    font-family: sans-serif;
     text-align: center;
     letter-spacing: -0.03em;
 }
