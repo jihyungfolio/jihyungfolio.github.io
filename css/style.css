@@ -33,6 +33,13 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'KOTRA_BOLD-Bold';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.1/KOTRA_BOLD-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     height: 100%;
     width: 100%;
@@ -64,12 +71,6 @@ h2 {
     line-height: 1.6;
 }
 
-@font-face {
-    font-family: 'KOTRA_BOLD-Bold';
-    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.1/KOTRA_BOLD-Bold.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
 
 h3 {
     font-size: 7vw;
@@ -224,7 +225,6 @@ p {
     box-shadow: -1px -0.5px 3px #b2b2b2, 1px -0.5px 1px #aaaaaa;
     border-radius: 25px;
     padding: 2px;
-    filter: brightness(1.1) saturate(0.9);
 }
 
 .my-vision-wrapper {
@@ -340,7 +340,7 @@ p {
 }
 
 .timeline .t {
-    margin-bottom: 20vw;
+    margin-bottom: 25vw;
     letter-spacing: -0.02em;
 }
 
@@ -351,6 +351,7 @@ p {
 
 .timeline .t p {
     line-height: 2;
+    padding-bottom: 2vw;
 }
 
 .timeline .t .kg-image,
