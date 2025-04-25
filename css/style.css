@@ -242,14 +242,14 @@ p {
 }
 
 .info p img {
-    width: 40vw !important;
+    width: 43vw !important;
     filter: contrast(1.1) brightness(1.1);
     background: #fff;
-    margin-bottom: -6px !important;
+    margin-bottom: -9px !important;
 }
 
 .info p .phone {
-    width: 22vw !important;
+    width: 25vw !important;
 }
 
 .info p span {
