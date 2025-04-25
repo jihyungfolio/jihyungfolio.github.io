@@ -19,20 +19,13 @@ body {
 }
 
 h2 {
-    text-transform: uppercase;
-    font-family: "TTHakgyoansimKkokkomaR", serif;
-    padding: 1vw 0 2vw;
     text-align: center;
     color: #252730;
-    font-size: 7vw;
-    box-shadow: -1px -0.5px 3px #939393, 1px -0.5px 1px #bababa;
-    margin: 23vw auto 12vw;
-    width: 55vw;
-    border-radius: 10px;
-    background: linear-gradient(45deg, #ececec, #ffffff, #ffffff, #f7f5f5, #f7f7f7);
-    border: 3px solid #f2f2f2;
+    font-size: 6.5vw;
     height: 8vw;
-    line-height: 1.6;
+    margin: 0 0 12vw;
+    padding-top: 8vw;
+    letter-spacing: -0.01em;
 }
 
 h3 {
@@ -167,18 +160,18 @@ p {
 }
 
 .profile-image span {
-    letter-spacing: 0.5em;
+    letter-spacing: 0.6em;
     text-transform: capitalize;
-    font-size: 4vw;
+    font-size: 5vw;
     position: absolute;
     color: #ffffff;
-    margin-top: -50%;
+    margin-top: -60%;
     z-index: 2;
     text-shadow: 2px 3px 1px #000000c7;
     writing-mode: vertical-lr;
     opacity: 0;
     animation: fadein 1s ease-out forwards;
-    left: 64%;
+    left: 65%;
     font-family: 'HakgyoansimBadasseugiTTF-L', sans-serif;
 }
 
@@ -340,7 +333,7 @@ p {
 }
 
 .timeline .t .kg-image {
-    filter: invert(1) hue-rotate(228deg) saturate(1.2) contrast(0.9) brightness(1.6);
+    filter: invert(1) hue-rotate(269deg) saturate(1.5) contrast(0.8) brightness(1.8);
 }
 
 .timeline .t .ew-image {
@@ -355,8 +348,8 @@ p {
 }
 
 .timeline .t .s-logo {
-    width: 25.5vw !important;
-    height: 6vw !important;
+    width: 26.2vw !important;
+    height: 6.5vw !important;
 }
 
 .timeline .t .p-logo {
