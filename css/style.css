@@ -231,15 +231,13 @@ p {
 }
 
 .my-vision img {
-    width: 15vw !important;
-    margin: 1vw;
+    width: 25vw !important;
+    height: 25vw !important;
+    margin: 2vw;
     z-index: 1;
     position: relative;
-    padding: 2px;
-    box-shadow: -1px -0.5px 3px #4e4e4e, 1px -0.5px 1px #5d5d5d;
-    border-radius: 15px;
-    filter: saturate(0.7) contrast(1.1);
-    background: linear-gradient(45deg, #786f6f, transparent);
+    padding: 5px;
+    filter: saturate(0.4) contrast(1.1);
 }
 
 /*.my-vision img {*/
