@@ -12,6 +12,13 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Jal_Haru';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.0/Jal_Haru.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     height: 100%;
     width: 100%;
@@ -24,7 +31,7 @@ h2 {
     padding-top: 10vw;
     margin-bottom: 10vw;
     font-weight: 600;
-    font-family: 'PTNoeulB', sans-serif;
+    font-family: 'Jal_Haru', sans-serif;
     text-align: center;
     letter-spacing: -0.03em;
 }
@@ -32,11 +39,11 @@ h2 {
 h3 {
     font-size: 7vw;
     text-transform: capitalize;
-    padding-top: 10vw;
-    margin-bottom: 10vw;
+    margin: 20vw 0 15vw;
     font-weight: 600;
-    font-family: 'PTNoeulB', sans-serif;
+    font-family: 'Jal_Haru', sans-serif;
     text-align: center;
+    letter-spacing: -0.03em;
 }
 
 h4 {
@@ -118,7 +125,7 @@ p {
 .rope2 {
     height: 42vw;
     width: 4vw;
-    top: -29vw;
+    top: -30vw;
     background: linear-gradient(177deg, #808080, #f1f1f2, #ffffff, #ffffff, #dfdfdf, #fff, #808080);
     position: absolute;
     border-radius: 2px 3px 7px 7px;
@@ -234,10 +241,10 @@ p {
 }
 
 .info p img {
-    width: 37vw !important;
+    width: 40vw !important;
     filter: contrast(1.1) brightness(1.1);
     background: #fff;
-    margin-bottom: -2vw !important;
+    margin-bottom: -6px !important;
 }
 
 .info p .phone {
@@ -350,7 +357,7 @@ p {
 }
 
 .timeline .t .s-logo {
-    width: 26.2vw !important;
+    width: 26.8vw !important;
     height: 6.5vw !important;
 }
 
