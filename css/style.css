@@ -1,6 +1,6 @@
 @font-face {
-    font-family: 'RixYeoljeongdo_Regular';
-    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2102-01@1.0/RixYeoljeongdo_Regular.woff') format('woff');
+    font-family: 'TTHakgyoansimKkokkomaR';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2402_keris@1.0/TTHakgyoansimKkokkomaR.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
 }
@@ -12,46 +12,10 @@
     font-style: normal;
 }
 
-@font-face {
-    font-family: 'HakgyoansimSantteutdotumL';
-    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-2@1.0/HakgyoansimSantteutdotumL.woff2') format('woff2');
-    font-weight: 300;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'TTHakgyoansimKkokkomaR';
-    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2402_keris@1.0/TTHakgyoansimKkokkomaR.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'KOTRA_GOTHIC';
-    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.0/KOTRA_GOTHIC.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'KOTRA_BOLD-Bold';
-    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.1/KOTRA_BOLD-Bold.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
 body {
     height: 100%;
     width: 100%;
     overflow-x: hidden;
-}
-
-
-.id-card__Section {
-    font-family: "KOTRA_GOTHIC", sans-serif;
-    padding: 6vw 5vw 10vw;
-    background: #021733;
-    color: #e5e5df;
 }
 
 h2 {
@@ -69,20 +33,6 @@ h2 {
     border: 3px solid #f2f2f2;
     height: 8vw;
     line-height: 1.6;
-}
-
-@font-face {
-    font-family: 'Cafe24Ssukssuk';
-    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/Cafe24Ssukssuk.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'PTNoeulB';
-    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2408@1.0/PTNoeulB.woff2') format('woff2');
-    font-weight: 700;
-    font-style: normal;
 }
 
 h3 {
@@ -104,6 +54,12 @@ h4 {
 p {
     font-size: 4vw;
     padding-bottom: 5px;
+}
+
+.id-card__Section {
+    padding: 6vw 5vw 10vw;
+    background: #021733;
+    color: #e5e5df;
 }
 
 .id-card__Section:last-child {
@@ -159,9 +115,6 @@ p {
 .ropes {
     position: relative;
     z-index: 1;
-}
-
-.id-card__Section:first-child .rope {
 }
 
 .rope,
@@ -359,7 +312,7 @@ p {
 
 .timeline .t span {
     display: block;
-    font-size: 4.8vw;
+    font-size: 4.2vw;
 }
 
 .timeline .t p {
