@@ -44,7 +44,7 @@ h3 {
     font-weight: 600;
     font-family: sans-serif;
     text-align: center;
-    letter-spacing: -0.01em;
+    letter-spacing: -0.04em;
 }
 
 h4 {
@@ -231,7 +231,6 @@ p {
 }
 
 .info {
-    margin-left: 6vw;
     margin-top: 10vw;
     width: fit-content;
 }
@@ -242,25 +241,25 @@ p {
 }
 
 .info p img {
-    width: 43vw !important;
+    width: 47vw !important;
     filter: contrast(1.1) brightness(1.1);
     background: #fff;
     margin-bottom: -9px !important;
 }
 
 .info p .phone {
-    width: 25vw !important;
+    width: 28vw !important;
+    margin-bottom: -9px !important;
 }
 
 .info p span {
     text-transform: uppercase;
     color: #373737;
     border-radius: 10px;
-    padding: 2px 10px 0;
-    margin-right: 5px;
+    padding: 2px 8px 0 12px;
     line-height: 1.5;
     letter-spacing: -0.03em;
-    font-size: 4vw;
+    font-size: 4.7vw;
 }
 
 .info a {
