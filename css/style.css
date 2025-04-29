@@ -250,7 +250,7 @@ p {
     width: 60vw;
     height: 40vw;
     object-fit: cover;
-    margin: 2px 2px 4vw;
+    margin: 5px auto 5vw;
     padding: 2px;
     display: block;
     z-index: 2;
