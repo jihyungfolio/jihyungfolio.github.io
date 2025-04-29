@@ -233,7 +233,7 @@ p {
     box-shadow: -1px -0.5px 3px #b2b2b2, 1px -0.5px 1px #aaaaaa;
     border-radius: 25px;
     padding: 2px;
-    filter: contrast(0.8) brightness(1.1);
+    filter: contrast(0.7) brightness(1.15);
 }
 
 .my-vision-wrapper {
