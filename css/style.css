@@ -247,7 +247,7 @@ p {
 }
 
 .my-vision img {
-    width: 57vw;
+    width: 60vw;
     height: 40vw;
     object-fit: cover;
     margin: 2px 2px 4vw;
@@ -256,7 +256,7 @@ p {
     z-index: 2;
     position: relative;
     box-shadow: -1px -0.5px 3px #b2b2b2, 1px -0.5px 1px #aaaaaa;
-    border-radius: 25px;
+    border-radius: 15px;
 }
 
 .my-vision p {
