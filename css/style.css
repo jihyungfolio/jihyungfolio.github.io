@@ -259,6 +259,46 @@ p {
     border-radius: 15px;
 }
 
+.my-vision .number {
+    box-shadow: none;
+    width: 6vw;
+    height: auto;
+    object-fit: contain;
+    margin: 2vw;
+    margin-bottom: -10vw;
+    z-index: 3;
+    position: relative;
+}
+
+.my-vision .n-1 {
+    filter: hue-rotate(140deg) saturate(1.2);
+}
+
+.my-vision .n-2 {
+    filter: hue-rotate(90deg) saturate(1.5);
+}
+
+.my-vision .n-3 {
+    filter: hue-rotate(100deg) saturate(0.5);
+}
+
+.my-vision .n-4 {
+    filter: hue-rotate(110deg);
+}
+
+.my-vision .n-5 {
+    filter: hue-rotate(310deg) saturate(0.4) brightness(1.1);
+}
+
+.my-vision .n-6 {
+    filter: hue-rotate(130deg) saturate(0.5);
+}
+
+.my-vision .n-7 {
+    filter: hue-rotate(250deg) brightness(1.1) saturate(0.8);
+}
+
+
 .my-vision p {
     z-index: 1;
     position: relative;
