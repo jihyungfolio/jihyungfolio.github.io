@@ -260,7 +260,7 @@ p {
 }
 
 .my-vision .number {
-    box-shadow: none;
+    box-shadow: none !important;
     width: 6vw;
     height: auto;
     object-fit: contain;
@@ -271,7 +271,7 @@ p {
 }
 
 .my-vision .n-1 {
-    filter: hue-rotate(140deg) saturate(1.2);
+    filter: hue-rotate(140deg) saturate(1.5);
 }
 
 .my-vision .n-2 {
