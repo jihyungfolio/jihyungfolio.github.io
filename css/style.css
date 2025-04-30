@@ -235,10 +235,8 @@ p {
     filter: contrast(0.7) brightness(1.15);
 }
 
-.my-vision-wrapper {
-}
-
-.my-vision {
+.my-vision,
+.my-tmi {
     position: relative;
     overflow: hidden;
     margin-bottom: 15vw;
@@ -257,7 +255,22 @@ p {
     border-radius: 15px;
 }
 
-.my-vision .svg {
+.my-tmi img {
+    height: 45vw;
+    object-fit: contain;
+    box-shadow: -1px -0.5px 3px #b2b2b2, 1px -0.5px 1px #aaaaaa;
+    border-radius: 10px;
+    margin: 1vw 0 0;
+    padding: 2px;
+    object-position: left;
+}
+
+.tmi-2 {
+    filter: brightness(1.2);
+}
+
+.my-vision .svg,
+.my-tmi .svg {
     height: 20vw;
     width: 25vw;
     box-shadow: none;
