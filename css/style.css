@@ -47,7 +47,9 @@ h3 {
 }
 
 h4 {
-    font-size: 1em;
+    font-weight: 100;
+    font-size: 4vw;
+    padding-bottom: 5px;
 }
 
 p {
@@ -363,24 +365,26 @@ p {
     }
 }
 
-.timeline {
+.timeline,
+.experience {
     font-size: 3.5vw;
     line-height: 1.6;
 }
 
-.timeline .t {
+.timeline .t,
+.experience .e {
     margin-bottom: 25vw;
     letter-spacing: -0.02em;
 }
 
-.timeline .t span {
+.timeline .t span,
+.experience .e span {
     display: block;
     font-size: 3.6vw;
 }
 
-.timeline .t p {
-}
 
+.experience .exp img,
 .timeline .t .kg-image,
 .timeline .t .s-image,
 .timeline .t .w-image,
@@ -394,6 +398,18 @@ p {
     border-radius: 10px;
     margin: 3vw 0;
     padding: 2px;
+}
+
+.experience .exp {
+    /*display: grid;*/
+    /*grid-template-columns: repeat(2, 1fr);*/
+    /*grid-gap: 3vw;*/
+    /*padding: 2vw 0;*/
+}
+
+.experience .exp img {
+    margin: 0;
+    height: 30vw;
 }
 
 .timeline .t .p-image {
@@ -536,6 +552,3 @@ p {
     width: 17vh;
     margin: 0 auto !important;
 }
-
-
-
