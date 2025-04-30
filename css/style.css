@@ -257,6 +257,14 @@ p {
     border-radius: 15px;
 }
 
+.my-vision .svg {
+    height: 20vw;
+    width: 25vw;
+    box-shadow: none;
+    object-fit: contain;
+    border-radius: 0;
+}
+
 .my-vision .number {
     box-shadow: none !important;
     width: 6vw;
