@@ -426,15 +426,15 @@ p {
     margin: 0;
 }
 
-.experience-wrapper .exp {
-    display: block;
-    margin-bottom: 3vw;
+.experience-wrapper a {
+    width: 40vw;
+    height: 40vw;
+    background: #eee;
 }
 
 .experience-wrapper a img {
-    display: block;
     border-radius: 5px;
-    height: 4vw;
+    height: 6vw;
     width: auto;
     margin-top: 4vw;
 }
@@ -450,7 +450,7 @@ p {
 }
 
 .experience-container {
-    margin-bottom: 15vw;
+    margin-bottom: 25vw;
 }
 
 .experience-box {
