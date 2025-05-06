@@ -338,14 +338,14 @@ p {
 }
 
 .info p img {
-    width: 42vw !important;
+    width: 46vw !important;
     filter: contrast(1.1) brightness(1.1);
     background: #fff;
     margin-bottom: -9px !important;
 }
 
 .info p .phone {
-    width: 25vw !important;
+    width: 28vw !important;
     margin-bottom: -9px !important;
 }
 
@@ -448,11 +448,12 @@ p {
 
 .experience-wrapper ul li {
     line-height: 2.2;
+    font-size: 3.8vw;
 }
 
 .experience-wrapper ul li img {
     width: 4vw;
-    margin-bottom: -4px;
+    margin-bottom: -3px;
     padding-right: 5px;
 }
 
