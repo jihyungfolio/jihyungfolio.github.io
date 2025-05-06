@@ -400,7 +400,7 @@ p {
 .timeline .t span,
 .experience-wrapper .e span {
     display: block;
-    font-size: 3.6vw;
+    font-size: 3.8vw;
 }
 
 .timeline .t .kg-image,
@@ -557,6 +557,10 @@ p {
 
 .timeline .t .ew-logo {
     width: 35vw !important;
+}
+
+.timeline .t .a-logo {
+    width: 30vw !important;
 }
 
 .software {
