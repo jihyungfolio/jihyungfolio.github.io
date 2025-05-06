@@ -432,6 +432,13 @@ p {
     background: #eee;
 }
 
+.experience-wrapper .title a {
+    display: block;
+    height: auto;
+    background: none;
+    width: 100%;
+}
+
 .experience-wrapper a img {
     border-radius: 5px;
     height: 6vw;
@@ -454,9 +461,10 @@ p {
 }
 
 .experience-box {
-    margin-bottom: 7vw;
+    margin-bottom: 15vw;
 }
 
+.experience-box.title,
 .experience-box.details {
     margin-top: 5vw;
 }
