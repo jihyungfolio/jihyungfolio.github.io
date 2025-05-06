@@ -470,6 +470,16 @@ p {
     margin-top: 5vw;
 }
 
+.hklens-logo {
+    width: 50vw !important;
+    height: auto !important;
+}
+
+.chlens-logo {
+    width: 30vw !important;
+    height: auto !important;
+}
+
 .webstorm-logo {
     padding: 1.5vw 2vw;
     height: 4vw !important;
