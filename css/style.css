@@ -396,7 +396,8 @@ p {
 }
 
 .timeline.career span {
-    font-size: 4.5vw !important;
+    font-size: 4vw !important;
+    line-height: 1.8;
 }
 
 .timeline .t,
