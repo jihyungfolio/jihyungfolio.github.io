@@ -12,18 +12,11 @@
     font-style: normal;
 }
 
-@font-face {
-    font-family: 'Jal_Haru';
-    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.0/Jal_Haru.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
 body {
     height: 100%;
     width: 100%;
     overflow-x: hidden;
-    font-family: 'Jal_Haru', sans-serif;
+    font-family: sans-serif;
 }
 
 h2 {
@@ -517,10 +510,9 @@ p {
 }
 
 .experience-wrapper a {
-    width: auto;
-    height: 5vw;
     text-transform: capitalize;
-    font-size: 4.5vw;
+    font-size: 3.8vw;
+    letter-spacing: -0.03em;
 }
 
 .experience-wrapper .title a {
@@ -539,7 +531,8 @@ p {
 
 .experience-wrapper ul li {
     line-height: 2;
-    font-size: 4.2vw;
+    font-size: 3.8vw;
+    letter-spacing: -0.03em;
 }
 
 .experience-wrapper ul li img {
@@ -553,9 +546,11 @@ p {
 }
 
 .experience-container span {
-    line-height: 2.6;
-    color: #5e5e5e;
+    line-height: 2.8;
     text-transform: capitalize;
+    font-size: 3vw;
+    letter-spacing: -0.03em;
+    font-weight: 400;
 }
 
 .experience-box {
@@ -565,27 +560,27 @@ p {
 .experience-box.title.exp-01 p:before {
     background: linear-gradient(0deg, rgb(251, 232, 242), transparent);
     transform: rotate(2deg);
-    width: 22%;
+    width: 20%;
 }
 
 .experience-box.title.exp-02 p:before {
     background: linear-gradient(0deg, rgb(219, 230, 248), transparent);
     transform: rotate(2deg);
-    width: 42%;
+    width: 38%;
 }
 
 .experience-box.title.exp-03 p:before {
     background: linear-gradient(0deg, rgb(238, 250, 225), transparent);
     transform: rotate(2deg);
-    width: 33%;
-    left: 34% !important;
+    width: 28%;
+    left: 32% !important;
 }
 
 .experience-box.title.exp-04 p:before {
     background: linear-gradient(0deg, rgb(249, 232, 255), transparent);
     transform: rotate(2deg);
-    width: 28%;
-    left: 34% !important;
+    width: 26%;
+    left: 30% !important;
 }
 
 .experience-box.title p:before {
@@ -606,6 +601,7 @@ p {
 
 .experience-box p {
     font-size: 4.2vw;
+    letter-spacing: -0.03em;
 }
 
 .software {
