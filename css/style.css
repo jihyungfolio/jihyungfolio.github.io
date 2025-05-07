@@ -120,11 +120,11 @@ p {
 }
 
 .education {
-    background: linear-gradient(0deg, #eef0f8, #fdfffc, #ffffff, #fffbf7);
+    background: linear-gradient(0deg, #eef0f8, #fdfffc, #ffffff, #fbf4ed);
 }
 
 .software {
-    background: linear-gradient(0deg, #fafdf6, #f6fdfd, #fffef9, #f0f6f8);
+    background: linear-gradient(0deg, #fafdf6, #f6fdfd, #fffef9, #f9feff);
 }
 
 .contact {
@@ -591,7 +591,7 @@ p {
 }
 
 .software {
-    padding: 0 3vw 10vw;
+    padding: 0 2vw 10vw;
 }
 
 .software-image {
