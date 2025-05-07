@@ -631,13 +631,12 @@ p {
 
 .software-image .sw span {
     text-transform: uppercase;
-    font-size: 13px;
+    font-size: 3.1vw;
     display: block;
     margin: auto;
     z-index: 1;
     position: relative;
     width: max-content;
-    top: 5px;
     border-radius: 10px;
 }
 
