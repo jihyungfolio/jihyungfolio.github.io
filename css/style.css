@@ -511,7 +511,7 @@ p {
 
 .experience-wrapper a {
     text-transform: capitalize;
-    font-size: 3.8vw;
+    font-size: 4vw;
     letter-spacing: -0.03em;
 }
 
@@ -531,7 +531,7 @@ p {
 
 .experience-wrapper ul li {
     line-height: 2;
-    font-size: 3.8vw;
+    font-size: 4vw;
     letter-spacing: -0.03em;
 }
 
@@ -548,7 +548,7 @@ p {
 .experience-container span {
     line-height: 2.8;
     text-transform: capitalize;
-    font-size: 3vw;
+    font-size: 3.5vw;
     letter-spacing: -0.03em;
     font-weight: 400;
 }
