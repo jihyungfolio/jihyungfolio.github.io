@@ -533,6 +533,7 @@ p {
     line-height: 2;
     font-size: 4vw;
     letter-spacing: -0.03em;
+    font-weight: 500;
 }
 
 .experience-wrapper ul li img {
@@ -555,6 +556,12 @@ p {
 
 .experience-box {
     margin-bottom: 7vw;
+}
+
+.experience-box p {
+    font-size: 4.2vw;
+    letter-spacing: -0.03em;
+    font-weight: 500;
 }
 
 .experience-box.title.exp-01 p:before {
@@ -593,15 +600,6 @@ p {
     z-index: -1;
     top: -2px;
     left: -2px;
-}
-
-.experience-box.title span {
-    color: #000;
-}
-
-.experience-box p {
-    font-size: 4.2vw;
-    letter-spacing: -0.03em;
 }
 
 .software {
