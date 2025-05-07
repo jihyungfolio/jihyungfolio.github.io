@@ -462,9 +462,10 @@ p {
 }
 
 .experience-wrapper a {
-    width: 40vw;
-    height: auto;
-    display: block;
+    width: auto;
+    height: 5vw;
+    text-transform: uppercase;
+    font-size: 4.2vw;
 }
 
 .experience-wrapper .title a {
@@ -496,59 +497,16 @@ p {
     margin-bottom: 25vw;
 }
 
+.experience-container span {
+    line-height: 2.6;
+}
+
 .experience-box {
-    margin-bottom: 15vw;
+    margin-bottom: 6vw;
 }
 
-.experience-box p,
-.experience-box a {
-    margin-top: 2vw;
-}
-
-.hklens-logo {
-    width: 50vw !important;
-    height: auto !important;
-}
-
-.jquery-logo,
-.chlens-logo {
-    width: 30vw !important;
-    height: auto !important;
-}
-
-.webstorm-logo {
-    padding: 1.5vw 2vw;
-    height: 4vw !important;
-}
-
-.vue-logo {
-    padding: 1vw 2vw;
-    height: 6vw !important;
-}
-
-.scss-logo {
-    padding: 2vw !important;
-    height: 5vw !important;
-}
-
-.docker-logo {
-    padding: 1vw 2vw;
-    height: 7vw !important;
-    filter: brightness(0);
-}
-
-.shopify-logo {
-    padding: 1vw 2vw;
-    height: 7vw !important;
-}
-
-.github-logo {
-    padding: 1vw 2vw;
-    height: 7vw !important;
-}
-
-.cafe24-logo {
-    padding: 1vw 2vw;
+.experience-box p {
+    font-size: 4.2vw;
 }
 
 .timeline .t .p-image {
