@@ -46,6 +46,15 @@ h3 {
     letter-spacing: -0.04em;
 }
 
+h3 img {
+    width: 6.5vw;
+    margin-left: 0.5vw !important;
+    padding: 0.03vw !important;
+    border: 2px solid #222222;
+    border-radius: 50%;
+    margin-bottom: -1vw !important;
+}
+
 h4 {
     font-weight: 100;
     font-size: 4vw;
