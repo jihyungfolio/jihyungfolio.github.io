@@ -464,7 +464,7 @@ p {
 .experience-wrapper a {
     width: auto;
     height: 5vw;
-    text-transform: uppercase;
+    text-transform: capitalize;
     font-size: 4.2vw;
 }
 
@@ -502,7 +502,7 @@ p {
 }
 
 .experience-box {
-    margin-bottom: 6vw;
+    margin-bottom: 7vw;
 }
 
 .experience-box p {
