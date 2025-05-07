@@ -250,7 +250,7 @@ p {
     display: block;
     z-index: 2;
     position: relative;
-    box-shadow: -1px -0.5px 3px #b2b2b2, 1px -0.5px 1px #aaaaaa;
+    box-shadow: -1px -0.5px 3px #292828, 1px -0.5px 1px #706d6d;
     border-radius: 25px;
     padding: 2px;
     filter: contrast(0.7) brightness(1.15);
@@ -447,7 +447,7 @@ p {
     width: 100%;
     object-fit: cover;
     object-position: 70%;
-    box-shadow: -1px -0.5px 3px #b2b2b2, 1px -0.5px 1px #aaaaaa;
+    box-shadow: -1px -0.5px 3px #292828, 1px -0.5px 1px #706d6d;
     border-radius: 10px;
     margin: 3vw 0;
     padding: 2px;
