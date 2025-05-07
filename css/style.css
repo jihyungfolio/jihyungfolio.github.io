@@ -458,6 +458,56 @@ p {
     height: 50vw;
 }
 
+.timeline .t .p-image {
+    filter: saturate(0.8) brightness(1.1);
+}
+
+.timeline .t .kg-image {
+    filter: invert(1) hue-rotate(270deg) saturate(1.2) brightness(1.8);
+}
+
+.timeline .t .ew-image {
+    filter: hue-rotate(45deg) contrast(0.9) brightness(1.3);
+}
+
+.timeline .t .s-image {
+    filter: contrast(1.3) brightness(1.1) saturate(1.8) hue-rotate(20deg);
+}
+
+.timeline .t .logo {
+}
+
+.timeline .t .s-logo {
+    width: 27vw !important;
+    height: 6.5vw !important;
+}
+
+.timeline .t .p-logo {
+    width: 28.5vw !important;
+    height: 6.5vw !important;
+    margin-left: 1.5vw;
+}
+
+.timeline .t .w-logo {
+    height: 8vw !important;
+    margin-left: -1vw;
+    margin-bottom: -1vw;
+    filter: contrast(1.2);
+}
+
+.timeline .t .kg-logo {
+    width: 26vw !important;
+}
+
+.timeline .t .ew-logo {
+    width: 35vw !important;
+}
+
+.timeline .t .a-logo {
+    width: 36vw !important;
+    margin-left: -1vw;
+}
+
 .experience-wrapper h4 {
     margin-bottom: 3vw;
 }
@@ -550,63 +600,12 @@ p {
     left: -2px;
 }
 
-
 .experience-box.title span {
     color: #000;
 }
 
 .experience-box p {
-    font-size: 4.7vw;
-}
-
-.timeline .t .p-image {
-    filter: saturate(0.8) brightness(1.1);
-}
-
-.timeline .t .kg-image {
-    filter: invert(1) hue-rotate(270deg) saturate(1.2) brightness(1.8);
-}
-
-.timeline .t .ew-image {
-    filter: hue-rotate(45deg) contrast(0.9) brightness(1.3);
-}
-
-.timeline .t .s-image {
-    filter: contrast(1.3) brightness(1.1) saturate(1.8) hue-rotate(20deg);
-}
-
-.timeline .t .logo {
-}
-
-.timeline .t .s-logo {
-    width: 27vw !important;
-    height: 6.5vw !important;
-}
-
-.timeline .t .p-logo {
-    width: 28.5vw !important;
-    height: 6.5vw !important;
-    margin-left: 1.5vw;
-}
-
-.timeline .t .w-logo {
-    height: 8vw !important;
-    margin-left: -1vw;
-    margin-bottom: -1vw;
-    filter: contrast(1.2);
-}
-
-.timeline .t .kg-logo {
-    width: 26vw !important;
-}
-
-.timeline .t .ew-logo {
-    width: 35vw !important;
-}
-
-.timeline .t .a-logo {
-    width: 36vw !important;
-    margin-left: -1vw;
+    font-size: 4.2vw;
 }
 
 .software {
