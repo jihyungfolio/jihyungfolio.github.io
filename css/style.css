@@ -154,7 +154,7 @@ p {
     position: absolute;
     border-radius: 20px 10px 15px 15px;
     box-shadow: 0 -3px 5px rgb(0 0 0 / 63%);
-    right: 48%;
+    right: 50%;
 }
 
 .holes {
@@ -552,13 +552,14 @@ p {
 }
 
 .timeline .t .p-logo {
-    width: 28vw !important;
+    width: 28.5vw !important;
     height: 6.5vw !important;
+    margin-left: 1.5vw;
 }
 
 .timeline .t .w-logo {
     height: 8vw !important;
-    margin-left: -3vw;
+    margin-left: -1vw;
     margin-bottom: -1vw;
     filter: contrast(1.2);
 }
