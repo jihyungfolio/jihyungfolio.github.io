@@ -391,6 +391,14 @@ p {
     line-height: 1.6;
 }
 
+.timeline.career p {
+    font-size: 4.2vw;
+}
+
+.timeline.career span {
+    font-size: 4.5vw !important;
+}
+
 .timeline .t,
 .experience-wrapper .e {
     margin-bottom: 25vw;
@@ -416,6 +424,11 @@ p {
     border-radius: 10px;
     margin: 3vw 0;
     padding: 2px;
+}
+
+.timeline .t .w-image,
+.timeline .t .p-image {
+    height: 50vw;
 }
 
 .experience-wrapper h4 {
@@ -541,12 +554,12 @@ p {
 .timeline .t .p-logo {
     width: 28vw !important;
     height: 6.5vw !important;
-    padding: 0 3px 3px;
 }
 
 .timeline .t .w-logo {
     height: 8vw !important;
-    margin-left: -4vw;
+    margin-left: -3vw;
+    margin-bottom: -1vw;
     filter: contrast(1.2);
 }
 
@@ -559,7 +572,8 @@ p {
 }
 
 .timeline .t .a-logo {
-    width: 34vw !important;
+    width: 36vw !important;
+    margin-left: -1vw;
 }
 
 .software {
