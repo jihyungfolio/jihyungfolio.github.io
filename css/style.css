@@ -115,6 +115,18 @@ p {
     background: linear-gradient(0deg, #fff, #fff, #eceded, #cfd2da);
 }
 
+.career {
+    background: linear-gradient(0deg, #fdf1ff, #f6f2ff, #fdfdff, #e1ebf4);
+}
+
+.education {
+    background: linear-gradient(0deg, #eef0f8, #fdfffc, #ffffff, #fffbf7);
+}
+
+.software {
+    background: linear-gradient(0deg, #fafdf6, #f6fdfd, #fffef9, #f0f6f8);
+}
+
 .contact {
     padding-bottom: 15vw;
 }
