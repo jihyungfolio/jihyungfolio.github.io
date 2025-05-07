@@ -256,7 +256,7 @@ p {
 }
 
 .my-vision,
-.my-story {
+.about-me {
     position: relative;
     overflow: hidden;
     margin-bottom: 15vw;
@@ -275,7 +275,7 @@ p {
     border-radius: 15px;
 }
 
-.my-story img {
+.about-me img {
     height: 45vw;
     object-fit: contain;
     box-shadow: -1px -0.5px 3px #b2b2b2, 1px -0.5px 1px #aaaaaa;
@@ -285,12 +285,12 @@ p {
     object-position: left;
 }
 
-.story-2 {
+.about-2 {
     filter: brightness(1.2);
 }
 
 .my-vision .svg,
-.my-story .svg {
+.about-me .svg {
     height: 20vw;
     width: 25vw;
     box-shadow: none;
@@ -463,8 +463,8 @@ p {
 
 .experience-wrapper a {
     width: 40vw;
-    height: 40vw;
-    background: #eee;
+    height: auto;
+    display: block;
 }
 
 .experience-wrapper .title a {
@@ -500,9 +500,9 @@ p {
     margin-bottom: 15vw;
 }
 
-.experience-box.title,
-.experience-box.details {
-    margin-top: 5vw;
+.experience-box p,
+.experience-box a {
+    margin-top: 2vw;
 }
 
 .hklens-logo {
@@ -510,6 +510,7 @@ p {
     height: auto !important;
 }
 
+.jquery-logo,
 .chlens-logo {
     width: 30vw !important;
     height: auto !important;
@@ -526,7 +527,8 @@ p {
 }
 
 .scss-logo {
-    padding: 1vw 2vw;
+    padding: 2vw !important;
+    height: 5vw !important;
 }
 
 .docker-logo {
