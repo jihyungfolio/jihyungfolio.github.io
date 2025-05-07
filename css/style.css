@@ -275,6 +275,10 @@ p {
     border-radius: 15px;
 }
 
+.about-me p {
+    text-transform: capitalize;
+}
+
 .about-me img {
     height: 45vw;
     object-fit: contain;
