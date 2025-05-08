@@ -677,7 +677,8 @@ p {
 
 .modal {
     text-align: center;
-    padding: 0 0 10vw;
+    border-radius: 15px;
+    border: 2px solid #989898;
 }
 
 .modal__state:checked + .modal__overlay .modal {
@@ -704,17 +705,17 @@ p {
     height: 70vh !important;
     width: auto !important;
     padding: 0 !important;
-    border-radius: 15px;
-    border: 2px solid #989898;
-    padding-top: 3vw 11.616px !important;
+    padding-top: 4vw !important;
+    margin: 0 !important;
+    border-top: 3px solid #eee;
 }
 
 .button {
     position: relative;
     display: inline-block;
-    padding: 1em;
     font-weight: bold;
     border-radius: 4px;
+    padding-top: 2vw;
 }
 
 .button:hover, .button:focus {
