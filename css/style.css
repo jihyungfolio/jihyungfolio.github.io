@@ -586,14 +586,6 @@ p {
     padding-right: 5px;
 }
 
-.preview {
-    height: 89vh !important;
-    width: auto;
-    padding: 0 !important;
-    border-radius: 15px;
-    box-shadow: 0px 0px 38px rgba(0, 0, 0, 0.2);
-}
-
 .experience-container {
     margin-bottom: 25vw;
 }
@@ -736,6 +728,14 @@ p {
 
 .modal__state {
     display: none;
+}
+
+.preview {
+    height: 89vh !important;
+    width: auto;
+    padding: 0 !important;
+    border-radius: 15px;
+    box-shadow: 0px 0px 38px rgba(0, 0, 0, 0.2);
 }
 
 .button {
