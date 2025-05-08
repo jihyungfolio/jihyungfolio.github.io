@@ -76,6 +76,7 @@ p {
     background: linear-gradient(45deg, #f9fbff, #fff, #fefffc, #fcf9f8);
     border: 2px solid #7d7d7d;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 .id-card__Inner {
