@@ -495,7 +495,7 @@ p {
 }
 
 .timeline .t .p-image {
-    filter: brightness(0.9);
+    filter: contrast(1.6) saturate(0.7) hue-rotate(20deg);
 }
 
 .timeline .t .kg-image {
