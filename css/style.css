@@ -700,16 +700,14 @@ p {
 
 .modal {
     position: relative;
-    margin: 50px;
-    margin-top: 80px;
     text-align: center;
     box-shadow: 0px 0px 38px rgba(0, 0, 0, 0.2);
     background: #000;
     padding: 10vw 0;
+    height: 100%;
 }
 
 .modal__state:checked + .modal__overlay .modal {
-    margin-top: 50px;
     animation: scoot-up 0.2s;
     animation-timing-function: ease-out;
     transform-origin: 50% 0px;
