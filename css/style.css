@@ -722,8 +722,6 @@ p {
 
 .button:hover, .button:focus {
     cursor: pointer;
-    box-shadow: 0 4px 0 #caccd0;
-    background: #f5f4f7;
 }
 
 .button:active {
