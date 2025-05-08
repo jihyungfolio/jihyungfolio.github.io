@@ -754,9 +754,8 @@ p {
 
 .button--close {
     padding: 0.2em 0.5em;
-    background-color: #8A0917;
+    background-color: #fff;
     box-shadow: 0 4px 0 #5a060f;
-    color: #fff;
 }
 
 .button--inline {
@@ -765,7 +764,7 @@ p {
 
 .button--close:hover,
 .button--close:focus {
-    background-color: #ba0c1f;
+    background-color: #eee;
     box-shadow: 0 4px 0 #8A0917;
 }
 
