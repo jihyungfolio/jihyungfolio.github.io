@@ -702,7 +702,6 @@ p {
 }
 
 .preview {
-    height: 70vh !important;
     width: 100% !important;
     padding: 0 !important;
     padding-top: 4vw !important;
