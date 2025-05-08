@@ -123,11 +123,11 @@ p {
 }
 
 .education {
-    background: linear-gradient(0deg, #eef0f8, #ffffff, #ffffff, #ffffff, #ffffff, #fbf4ed);
+    background: linear-gradient(0deg, #f1eef8, #ffffff, #ffffff, #ffffff, #ffffff, #fbf4ed)
 }
 
 .software {
-    background: linear-gradient(0deg, #e1efe2, #f6fdfd, #f9f7ec, #f9f4ee, #f6ece9);
+    background: linear-gradient(0deg, #e1efe2, #f6fdfd, #fffef4, #f9f4ee, #faf1fb);
 }
 
 .software {
