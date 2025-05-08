@@ -13,12 +13,11 @@
 }
 
 body {
-    height: 100%;
-    overflow-x: hidden;
     font-family: sans-serif;
     padding: 6vw 3vw 10vw;
     background: #021733;
     color: #e5e5df;
+    overflow-x: hidden;
 }
 
 .id-card__Light {
@@ -157,15 +156,11 @@ p {
 }
 
 .jhy-pf__Container {
-    margin: 6vw 0 0;
-    border: 2px solid #eee;
-    border-radius: 25px;
-    box-shadow: -1px -0.5px 3px #b2b2b2, 1px -0.5px 1px #c4c4c4;
-}
-
-.jhy-pf__Container__border {
     padding: 0 7vw;
     border-radius: 25px;
+    margin: 6vw 0 0;
+    border: 2px solid #eee;
+    box-shadow: -1px -0.5px 3px #b2b2b2, 1px -0.5px 1px #c4c4c4;
 }
 
 .jhy-pf__Inner__border {
