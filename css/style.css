@@ -587,9 +587,10 @@ p {
 }
 
 .preview {
-    width: 52vw !important;
+    width: 90vw !important;
     padding: 0 !important;
     border-radius: 15px;
+    border: 4px solid;
 }
 
 .experience-container {
