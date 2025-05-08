@@ -312,25 +312,22 @@
                             <span>my task</span>
                             <div class="experience-box my task">
 
-                                <label class="dropdown">
-
-                                    <div class="dd-button"> 고객 마이페이지 구현</div>
-                                    <input class="dd-input" id="test" type="checkbox">
-                                    <ul class="dd-menu">
-                                        <li>
-                                            <div class="phoneframe">
-                                                <img alt="exp" class="preview" src="./images/exp/mypage.png">
+                                <section class="experience-modal">
+                                    <div class="experience-modal__inner">
+                                        <div class="content">
+                                            <label class="button" for="modal__state">고객 마이페이지 구현</label>
+                                            <input class="modal__state" id="modal__state" name="modal__state"
+                                                   type="checkbox">
+                                            <div class="modal__overlay">
+                                                <label class="modal__overlay-close" for="modal__state"></label>
+                                                <div class="modal">
+                                                    <label class="button button--close modal__close" for="modal__state">/</label>
+                                                    <img alt="mypage" class="preview" src="./images/exp/mypage.png">
+                                                </div>
                                             </div>
-
-                                        </li>
-                                        <li class="divider"></li>
-                                        <li>
-
-                                        </li>
-                                    </ul>
-
-                                </label>
-
+                                        </div>
+                                    </div>
+                                </section>
 
                                 <ul>
                                     <li><img src="images/svg/1.svg">고객 마이페이지 구현</li>
