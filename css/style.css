@@ -678,7 +678,7 @@ p {
 .modal {
     text-align: center;
     border-radius: 15px;
-    border: 2px solid #989898;
+    border: 2px solid #f1d5ec;
 }
 
 .modal__state:checked + .modal__overlay .modal {
@@ -717,7 +717,8 @@ p {
     background: linear-gradient(0deg, #fbe8f2, #fff, transparent);
     box-shadow: 0 4px 0 #f1d5ec;
     margin: 1vw 0 2vw;
-    padding: 1vw 5vw;
+    width: 100%;
+    padding: 1vw 0;
 }
 
 .button:hover, .button:focus {
