@@ -331,14 +331,7 @@ p {
     font-size: 12px;
 }
 
-.vision .my-vision,
-.about .about-me {
-    position: relative;
-    overflow: hidden;
-    margin-bottom: 15vw;
-}
-
-.vision .my-vision img {
+.vision img {
     width: 60vw;
     height: 50vw;
     object-fit: cover;
@@ -351,11 +344,11 @@ p {
     border-radius: 15px;
 }
 
-.about .about-me p {
+.about p {
     text-transform: capitalize;
 }
 
-.about .about-me img {
+.about img {
     height: 45vw;
     object-fit: contain;
     box-shadow: -1px -0.5px 3px #b2b2b2, 1px -0.5px 1px #aaaaaa;
@@ -365,12 +358,12 @@ p {
     object-position: left;
 }
 
-.about .about-me .about-2 {
+.about .about-2 {
     filter: brightness(1.2);
 }
 
-.vision .my-vision .svg,
-.about .about-me .svg {
+.vision .svg,
+.about .svg {
     height: 20vw;
     width: 25vw;
     box-shadow: none;
@@ -378,51 +371,51 @@ p {
     border-radius: 0;
 }
 
-.vision .my-vision .number {
+.vision .number {
     box-shadow: none !important;
     width: 6vw;
     height: auto;
     object-fit: contain;
-    margin: 0 auto 4vw;
+    margin: 15vw auto 4vw;
     z-index: 3;
     position: relative;
 }
 
-.vision .my-vision .n-1 {
+.vision .n-1 {
     filter: hue-rotate(122deg) brightness(1.5) saturate(1.3);
 }
 
-.vision .my-vision .n-2 {
+.vision .n-2 {
     filter: hue-rotate(40deg) saturate(1.9);
 }
 
-.vision .my-vision .n-3 {
+.vision .n-3 {
     filter: hue-rotate(100deg) saturate(0.8);
 }
 
-.vision .my-vision .n-4 {
+.vision .n-4 {
     filter: hue-rotate(110deg);
 }
 
-.vision .my-vision .n-5 {
+.vision .n-5 {
     filter: hue-rotate(190deg) brightness(1.1);
 }
 
-.vision .my-vision .n-6 {
+.vision .n-6 {
     filter: brightness(1.2);
 }
 
-.vision .my-vision .n-7 {
+.vision .n-7 {
     filter: hue-rotate(250deg) brightness(1.1);
 }
 
-.vision .my-vision p {
+.vision p {
     z-index: 1;
     position: relative;
     line-height: 1.7;
 }
 
-.vision .my-vision p img {
+.vision p img {
     width: 3.5vw !important;
 }
 
