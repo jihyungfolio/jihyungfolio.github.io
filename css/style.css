@@ -677,7 +677,7 @@ p {
 
 .modal {
     text-align: center;
-    padding: 10vw 0;
+    padding: 0 0 10vw;
 }
 
 .modal__state:checked + .modal__overlay .modal {
@@ -687,11 +687,6 @@ p {
 }
 
 .modal__close {
-    position: absolute;
-    top: 3vw;
-    right: 2vw;
-    width: 4vw;
-    border-radius: 15px !important
 }
 
 .modal__overlay-close {
@@ -707,9 +702,11 @@ p {
 
 .preview {
     height: 70vh !important;
-    width: auto;
+    width: auto !important;
     padding: 0 !important;
     border-radius: 15px;
+    border: 2px solid #989898;
+    padding-top: 3vw 11.616px !important;
 }
 
 .button {
@@ -728,9 +725,10 @@ p {
 }
 
 .button--close {
-    padding: 0.2em 0.5em;
-    background-color: #fff;
-    box-shadow: 0 4px 0 #5a060f;
+}
+
+.button--close img {
+    width: 8vw !important;
 }
 
 .button--inline {
@@ -739,12 +737,9 @@ p {
 
 .button--close:hover,
 .button--close:focus {
-    background-color: #eee;
-    box-shadow: 0 4px 0 #8A0917;
 }
 
 .button--close:active {
-    box-shadow: 0 0 0 #8A0917;
 }
 
 @keyframes fade-in {
