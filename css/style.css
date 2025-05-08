@@ -650,9 +650,8 @@ p {
     display: table;
     width: 100%;
     height: 100%;
-    overflow-x: hidden;
-    overflow-y: scroll;
     z-index: 4;
+    overflow: hidden;
 }
 
 .experience-modal__inner {
@@ -661,23 +660,13 @@ p {
     vertical-align: middle;
 }
 
-@keyframes fade-in {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
-}
-
 .modal__overlay {
-    position: fixed;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(0, 0, 0, 0.4);
     display: none;
+    overflow: hidden;
 }
 
 .modal__state:checked + .modal__overlay {
@@ -686,22 +675,9 @@ p {
     display: block;
 }
 
-@keyframes scoot-up {
-    0% {
-        margin-top: 80px;
-    }
-    100% {
-        margin-top: 50px;
-    }
-}
-
 .modal {
-    position: relative;
     text-align: center;
-    box-shadow: 0px 0px 38px rgba(0, 0, 0, 0.2);
-    background: rgba(0, 0, 0, 0.73);
     padding: 10vw 0;
-    height: 100%;
 }
 
 .modal__state:checked + .modal__overlay .modal {
@@ -712,16 +688,15 @@ p {
 
 .modal__close {
     position: absolute;
-    top: 2vw;
+    top: 3vw;
     right: 2vw;
     width: 4vw;
-    border-radius: 50% !important
+    border-radius: 15px !important
 }
 
 .modal__overlay-close {
     height: 100%;
     width: 100%;
-    position: absolute;
     left: 0;
     top: 0;
 }
@@ -731,14 +706,14 @@ p {
 }
 
 .preview {
-    height: 89vh !important;
+    height: 70vh !important;
     width: auto;
     padding: 0 !important;
     border-radius: 15px;
-    box-shadow: 0px 0px 38px rgba(0, 0, 0, 0.2);
 }
 
 .button {
+    position: relative;
     display: inline-block;
     padding: 1em;
     font-weight: bold;
@@ -770,4 +745,22 @@ p {
 
 .button--close:active {
     box-shadow: 0 0 0 #8A0917;
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes scoot-up {
+    0% {
+        margin-top: 80px;
+    }
+    100% {
+        margin-top: 50px;
+    }
 }
