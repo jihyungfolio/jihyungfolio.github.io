@@ -544,9 +544,8 @@ p {
 }
 
 .preview {
-    width: 100% !important;
+    width: 52vw !important;
     padding: 0 !important;
-    margin-top: 2vw !important;
 }
 
 .experience-container {
