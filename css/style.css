@@ -678,6 +678,17 @@ p {
     margin: 0 !important;
 }
 
+.brand-info {
+    width: 40vw;
+    margin-right: 20vw !important;
+}
+
+.brand-info.ch {
+    width: 23vw;
+    margin-top: 3vw;
+    filter: brightness(0);
+}
+
 .button {
     position: relative;
     display: inline-block;
