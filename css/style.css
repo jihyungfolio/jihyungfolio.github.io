@@ -460,7 +460,7 @@ p {
 }
 
 .timeline .timeline-box .p-image {
-    filter: contrast(1.6) saturate(0.7) hue-rotate(20deg);
+    filter: contrast(1.6) saturate(0.3) hue-rotate(20deg) brightness(1.4);
 }
 
 .timeline .timeline-box .kg-image {
@@ -484,7 +484,7 @@ p {
 }
 
 .timeline .timeline-box .p-logo {
-    width: 28.5vw !important;
+    width: 29vw !important;
     height: 6.5vw !important;
     margin-left: 1.5vw;
 }
@@ -524,8 +524,8 @@ p {
 
 .experience a {
     text-transform: capitalize;
-    font-size: 4.6vw;
-    letter-spacing: -0.03em;
+    font-size: 5vw;
+    letter-spacing: 0em;
     font-weight: 500;
 }
 
@@ -562,9 +562,9 @@ p {
     margin-top: 7vw;
     display: block;
     color: #747474;
-    font-weight: 600;
-    letter-spacing: -0.04em;
+    letter-spacing: 0.02em;
     font-size: 3.6vw;
+    text-shadow: 2px 1px 10px #00000030;
 }
 
 .experience p {
