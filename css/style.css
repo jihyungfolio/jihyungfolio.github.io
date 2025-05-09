@@ -444,7 +444,7 @@ p {
 .timeline .timeline-box .w-image,
 .timeline .timeline-box .ew-image,
 .timeline .timeline-box .p-image {
-    height: 35vw;
+    height: 40vw;
     width: 100%;
     object-fit: cover;
     object-position: 70%;
@@ -456,7 +456,7 @@ p {
 
 .timeline .timeline-box .w-image,
 .timeline .timeline-box .p-image {
-    height: 50vw;
+    height: 45vw;
 }
 
 .timeline .timeline-box .p-image {
