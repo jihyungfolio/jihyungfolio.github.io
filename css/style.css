@@ -202,7 +202,7 @@ p {
     box-shadow: -1px -0.5px 3px #292828, 1px -0.5px 1px #706d6d;
     border-radius: 25px;
     padding: 2px;
-    filter: contrast(0.7) brightness(1.15);
+    filter: contrast(0.85) brightness(1.05) hue-rotate(354deg);
 }
 
 .profile .profile-image .image span {
@@ -677,7 +677,7 @@ p {
 }
 
 .brand-info.ch {
-    width: 23vw;
+    width: 20vw;
     margin-top: 3vw;
     filter: brightness(0);
 }
