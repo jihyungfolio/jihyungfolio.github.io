@@ -616,7 +616,7 @@ p {
     left: -2px;
 }
 
-.experience-modal {
+.experience-project {
     display: table;
     width: 100%;
     height: 100%;
@@ -624,13 +624,13 @@ p {
     overflow: hidden;
 }
 
-.experience-modal__inner {
+.experience-project__inner {
     display: table-cell;
     text-align: center;
     vertical-align: middle;
 }
 
-.modal__overlay {
+.project__overlay {
     top: 0;
     left: 0;
     right: 0;
@@ -639,36 +639,35 @@ p {
     overflow: hidden;
 }
 
-.modal__state:checked + .modal__overlay {
+.project__state:checked + .project__overlay {
     opacity: 1;
     animation: fade-in 0.4s;
     display: block;
 }
 
-.modal {
+.project {
     text-align: center;
     border-radius: 15px;
-    border: 2px solid #f1d5ec;
-    background: linear-gradient(45deg, #fdf1f7, #fff, #ffe9f5);
+    border: 4px solid #535353;
 }
 
-.modal__state:checked + .modal__overlay .modal {
+.project__state:checked + .project__overlay .project {
     animation: scoot-up 0.2s;
     animation-timing-function: ease-out;
     transform-origin: 50% 0;
 }
 
-.modal__close {
+.project__close {
 }
 
-.modal__overlay-close {
+.project__overlay-close {
     height: 100%;
     width: 100%;
     left: 0;
     top: 0;
 }
 
-.modal__state {
+.project__state {
     display: none;
 }
 
@@ -694,8 +693,8 @@ p {
     display: inline-block;
     font-weight: bold;
     border-radius: 15px;
-    background: linear-gradient(0deg, #fbe8f2, #fff, #fff6fd);
-    box-shadow: 0 4px 0 #f1d5ec;
+    background: linear-gradient(0deg, #e5e5e5, #fff, #ebebeb);
+    box-shadow: 0 4px 0 #535353;
     margin: 1vw 0 2vw;
     width: 100%;
     padding: 1vw 0;
