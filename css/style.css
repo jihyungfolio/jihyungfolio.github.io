@@ -473,7 +473,7 @@ p {
 }
 
 .timeline .timeline-box .ew-image {
-    filter: hue-rotate(45deg) contrast(0.9) brightness(1.3);
+    filter: hue-rotate(84deg) saturate(0.4) contrast(0.9) brightness(1.1);
 }
 
 .timeline .timeline-box .s-image {
