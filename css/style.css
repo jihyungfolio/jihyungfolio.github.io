@@ -143,7 +143,7 @@ h4 {
 
 p {
     font-size: 4.8vw;
-    padding-bottom: 5px;
+    padding-bottom: 3vw;
 }
 
 .jhy-pf__Wrapper {
@@ -424,8 +424,8 @@ p {
 }
 
 .timeline span {
-    font-size: 4vw !important;
-    line-height: 1.8;
+    font-size: 4.6vw !important;
+    padding-bottom: 1.7vw;
 }
 
 .timeline .timeline-box {
@@ -489,8 +489,8 @@ p {
 }
 
 .timeline .timeline-box .w-logo {
-    height: 9vw !important;
-    margin-left: -1.5vw;
+    height: 8.5vw !important;
+    margin-left: -2vw;
     margin-bottom: -1vw;
     filter: contrast(1.2);
 }
@@ -509,7 +509,7 @@ p {
 }
 
 .timeline .timeline-box.education span {
-    font-size: 3.7vw !important;
+    font-size: 4.2vw !important;
 }
 
 .experience {
