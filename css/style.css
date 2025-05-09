@@ -285,11 +285,9 @@ p {
 }
 
 .timeline {
-    background: linear-gradient(0deg, #fff, #fbfbff, #fffef9, #f9fdf6, #fdfdff, #f1f5f8);
 }
 
 .software {
-    background: linear-gradient(0deg, #fff, #f6fdfd, #fffef4, #fffcf8, #fdf9fb, #fff);
     padding: 0 2vw 20vw;
 }
 
