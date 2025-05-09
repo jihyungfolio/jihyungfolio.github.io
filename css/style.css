@@ -285,12 +285,12 @@ p {
 }
 
 .timeline {
-    background: linear-gradient(0deg, #fff, #fbfbff, #fffef9, #f9fdf6, #fdfdff, #e1ebf4);
+    background: linear-gradient(0deg, #fff, #fbfbff, #fffef9, #f9fdf6, #fdfdff, #f1f5f8);
 }
 
 .software {
-    background: linear-gradient(0deg, #e1efe2, #f6fdfd, #fffef4, #f9f4ee, #faf1fb);
-    padding: 0 2vw 10vw;
+    background: linear-gradient(0deg, #fff, #f6fdfd, #fffef4, #fffcf8, #fdf9fb, #fff);
+    padding: 0 2vw 20vw;
 }
 
 .software-grid {
@@ -515,7 +515,7 @@ p {
 }
 
 .timeline .timeline-box.education span {
-    font-size: 3.6vw !important;
+    font-size: 3.7vw !important;
 }
 
 .experience {
