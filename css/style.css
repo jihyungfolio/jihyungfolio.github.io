@@ -296,10 +296,10 @@ p {
     grid-template-columns: repeat(3, 1fr);
     text-align: center;
     margin-top: 7vw;
+    padding: 0 2vw;
 }
 
 .software-grid .item {
-    height: 24vw;
     overflow: hidden;
     position: relative;
     text-align: center;
@@ -307,7 +307,7 @@ p {
 }
 
 .software-grid .item img {
-    width: 16vw;
+    width: 22vw;
     z-index: 1;
     position: relative;
     border-radius: 14px;
@@ -316,17 +316,13 @@ p {
 
 .software-grid .item span {
     text-transform: uppercase;
-    font-size: 3.1vw;
+    font-size: 3.6vw;
     display: block;
     margin: auto;
     z-index: 1;
     position: relative;
     width: max-content;
     border-radius: 10px;
-}
-
-.software-grid .visualstudio span {
-    font-size: 12px;
 }
 
 .vision img {
