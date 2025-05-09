@@ -498,6 +498,7 @@ p {
 
 .timeline .timeline-box .kg-logo {
     width: 28vw !important;
+    margin-bottom: -1vw;
 }
 
 .timeline .timeline-box .ew-logo {
