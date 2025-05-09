@@ -436,6 +436,7 @@ p {
 .timeline .timeline-box span {
     display: block;
     font-size: 3.8vw;
+    text-transform: capitalize;
 }
 
 .timeline .timeline-box .kg-image,
