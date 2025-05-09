@@ -479,7 +479,7 @@ p {
 }
 
 .timeline .timeline-box .s-logo {
-    width: 29vw !important;
+    width: 31vw !important;
     height: 7vw !important;
 }
 
@@ -687,13 +687,13 @@ p {
 .button {
     position: relative;
     display: inline-block;
-    font-weight: bold;
     border-radius: 20px;
     border: 1px solid;
     box-shadow: 0 4px 0 #e0e0e0;
     margin: 2vw 0;
-    width: -webkit-fill-available;
+    width: 98%;
     padding: 1vw 0;
+    font-size: 4.5vw;
 }
 
 .button:hover, .button:focus {
