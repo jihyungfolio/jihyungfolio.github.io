@@ -142,7 +142,7 @@ h4 {
 }
 
 p {
-    font-size: 4vw;
+    font-size: 4.8vw;
     padding-bottom: 5px;
 }
 
@@ -489,8 +489,8 @@ p {
 }
 
 .timeline .timeline-box .w-logo {
-    height: 8vw !important;
-    margin-left: -1vw;
+    height: 9vw !important;
+    margin-left: -1.5vw;
     margin-bottom: -1vw;
     filter: contrast(1.2);
 }
