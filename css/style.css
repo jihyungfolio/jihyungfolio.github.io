@@ -563,14 +563,12 @@ p {
 .experience span {
     line-height: 2.8;
     text-transform: capitalize;
-    font-size: 4vw;
-    letter-spacing: -0.03em;
-    font-weight: 400;
-}
-
-.experience span {
     margin-top: 7vw;
     display: block;
+    color: #747474;
+    font-weight: 600;
+    letter-spacing: -0.04em;
+    font-size: 3.6vw;
 }
 
 .experience p {
@@ -716,7 +714,8 @@ p {
 }
 
 .button--close img {
-    width: 8vw !important;
+    width: 5vw !important;
+    margin-bottom: 0 !important;
 }
 
 .button--inline {
