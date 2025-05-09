@@ -729,7 +729,7 @@ p {
 .button--close:active {
 }
 
-.iframe-phone {
+.phone-frame {
     background: #000;
     width: 60vw;
     border-radius: 15px;
@@ -738,7 +738,7 @@ p {
     margin-bottom: 3vw;
 }
 
-.iframe-phone--speaker {
+.phone-frame_Speaker {
     background: #302F2F;
     height: 10px;
     width: 150px;
@@ -748,13 +748,13 @@ p {
     position: relative;
 }
 
-.iframe-phone--screen {
+.phone-frame__Screen {
     width: 54vw;
     margin-left: 3vw;
     margin-top: 3vw;
 }
 
-.iframe-phone--button {
+.phone-frame__Button {
     width: 7vw;
     height: 7vw;
     display: inline-block;
