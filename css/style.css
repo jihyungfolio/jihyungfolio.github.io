@@ -691,11 +691,11 @@ p {
     position: relative;
     display: inline-block;
     font-weight: bold;
-    border-radius: 15px;
-    background: linear-gradient(0deg, #e5e5e5, #fff, #ebebeb);
+    border-radius: 20px;
+    border: 1px solid;
     box-shadow: 0 4px 0 #e0e0e0;
-    margin: 1vw 0 2vw;
-    width: 100%;
+    margin: 2vw 0;
+    width: -webkit-fill-available;
     padding: 1vw 0;
 }
 
