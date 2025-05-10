@@ -455,7 +455,7 @@ p {
 }
 
 .timeline .timeline-box.education:last-child {
-    margin-bottom: 5vw;
+    margin-bottom: 0;
 }
 
 .timeline .timeline-box span {
