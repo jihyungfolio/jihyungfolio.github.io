@@ -552,14 +552,13 @@ p {
 
 .experience ul li img {
     width: 4.5vw;
-    margin-bottom: -2px;
+    margin-bottom: -0.5vw;
     padding-right: 5px;
 }
 
 .experience ul li .button img {
     filter: opacity(0.5);
 }
-
 
 .experience span {
     line-height: 2.8;
@@ -687,6 +686,17 @@ p {
     width: 20vw;
     margin-top: 3vw;
     filter: brightness(0);
+}
+
+.brand-info.ch-f {
+    margin-top: 4vw;
+    width: 25vw;
+}
+
+.brand-info.d {
+    filter: invert(1) saturate(0) brightness(1.3) contrast(1.3);
+    margin-left: -7vw;
+    width: 38vw;
 }
 
 .button {
