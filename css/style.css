@@ -116,13 +116,12 @@ h2 {
 }
 
 h3 {
-    font-size: 7vw;
+    font-size: 5vw;
     text-transform: uppercase;
     margin: 20vw 0;
     font-family: "Special Gothic Expanded One", sans-serif;
     text-align: center;
-    letter-spacing: 0.05em;
-    color: #808080;
+    letter-spacing: 0.04em;
 }
 
 h3 img {
