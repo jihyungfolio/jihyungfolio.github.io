@@ -623,7 +623,8 @@ p {
 }
 
 .exp1 .button,
-.exp4 .button {
+.exp4 .button,
+.exp5 .button {
     background: #000;
     color: #fff;
     box-shadow: 0 15px 25px -4px rgb(255 255 255 / 50%), inset 0 -3px 4px -1px rgba(0, 0, 0, 0.2), 0 -10px 15px -1px rgba(255, 255, 255, 0.6), inset 0 3px 4px -1px rgba(255, 255, 255, 0.2), inset 0 0 5px 1px rgba(255, 255, 255, 0.8), inset 0 20px 30px 0 rgba(255, 255, 255, 0.2);
@@ -774,7 +775,7 @@ p {
 
 .button--close img {
     width: 5vw !important;
-    margin: 3vw auto 0 !important;
+    margin: 0 auto !important;
     display: block !important;
 }
 
@@ -809,7 +810,7 @@ p {
 }
 
 .phone-frame__Screen {
-    width: 54vw;
+    width: 58vw;
     margin-left: 3vw;
     margin-top: 3vw;
 }
