@@ -117,7 +117,7 @@ body {
 h2 {
     font-size: 7.2vw;
     text-transform: capitalize;
-    margin: 20vw 0 10vw;
+    margin: 20vw 0 0;
     font-family: "Special Gothic Expanded One", sans-serif;
     text-align: center;
 }
@@ -125,7 +125,7 @@ h2 {
 h3 {
     font-size: 6vw;
     text-transform: uppercase;
-    margin: 20vw 0;
+    margin: 20vw 0 0;
     font-family: "Special Gothic Expanded One", sans-serif;
     text-align: center;
     letter-spacing: 0.04em;
@@ -144,6 +144,17 @@ h4 {
     font-weight: 100;
     font-size: 4vw;
     padding-bottom: 5px;
+}
+
+h5 {
+    text-align: center;
+    font-size: 5vw;
+    font-family: 'KOTRA_BOLD-Bold', sans-serif;
+    margin-bottom: 15vw;
+}
+
+.experience h5 {
+    font-size: 7vw;
 }
 
 p {
@@ -188,7 +199,7 @@ p {
 
 .profile .profile-image {
     width: fit-content;
-    margin: 0 auto 0;
+    margin: 15vw auto 0;
     border-radius: 25px;
 }
 
@@ -583,12 +594,6 @@ p {
     src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.1/KOTRA_BOLD-Bold.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-}
-
-.experience h4 {
-    text-align: center;
-    font-size: 7vw;
-    font-family: 'KOTRA_BOLD-Bold', sans-serif;
 }
 
 .experience p {
