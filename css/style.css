@@ -644,7 +644,7 @@ p {
 }
 
 .experience-project__inner .content {
-    padding: 0 1vw;
+    padding-right: 1vw;
 }
 
 .project__overlay {
