@@ -526,8 +526,8 @@ p {
 .experience a {
     text-transform: capitalize;
     font-size: 5vw;
-    letter-spacing: 0em;
-    font-weight: 500;
+    letter-spacing: -0.05em;
+    font-weight: 600;
 }
 
 .experience .title a {
