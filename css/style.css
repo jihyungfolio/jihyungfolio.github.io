@@ -559,13 +559,12 @@ p {
 
 .experience span {
     line-height: 2.8;
-    text-transform: capitalize;
-    margin-top: 7vw;
+    margin-top: 10vw;
     display: block;
-    color: #747474;
-    letter-spacing: 0.02em;
-    font-size: 3.6vw;
-    text-shadow: 2px 1px 10px #00000030;
+    letter-spacing: 0.04em;
+    font-size: 4vw;
+    text-transform: uppercase;
+    font-family: "Special Gothic Expanded One", sans-serif;
 }
 
 .experience p {
