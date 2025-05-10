@@ -168,7 +168,7 @@ p {
 }
 
 .jhy-pf__Container {
-    padding: 0 7vw;
+    padding: 0 7vw 20vw 7vw;
     border-radius: 25px;
     margin: 6vw 0 0;
     border: 2px solid #eee;
@@ -516,7 +516,7 @@ p {
 }
 
 .experience {
-    padding-bottom: 20vw;
+    padding-bottom: 25vw;
 }
 
 .experience img {
