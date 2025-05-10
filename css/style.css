@@ -12,6 +12,13 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Cafe24Ohsquare';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/Cafe24Ohsquare.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     font-family: sans-serif;
     padding: 6vw 3vw 10vw;
@@ -564,6 +571,24 @@ p {
     letter-spacing: 0.04em;
     font-size: 4vw;
     text-transform: uppercase;
+}
+
+.experience h3 {
+    margin-bottom: 0;
+    line-height: 1.2;
+}
+
+@font-face {
+    font-family: 'KOTRA_BOLD-Bold';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.1/KOTRA_BOLD-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.experience h4 {
+    text-align: center;
+    font-size: 7vw;
+    font-family: 'KOTRA_BOLD-Bold', sans-serif;
 }
 
 .experience p {
