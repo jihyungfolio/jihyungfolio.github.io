@@ -724,6 +724,27 @@ p {
     width: 42vw;
 }
 
+.brand-info.eotd {
+    width: 19vw;
+    margin: 4vw 0;
+}
+
+.brand-info.gmhr {
+    width: 31vw;
+    margin: 4vw 0 2vw;
+}
+
+.brand-info.chlens {
+    width: 29vw;
+    margin: 4vw 0 0;
+}
+
+.brand-info.chfashion {
+    width: 30vw;
+    margin-bottom: 1vw;
+}
+
+
 .button {
     position: relative;
     display: inline-block;
