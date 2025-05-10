@@ -551,10 +551,15 @@ p {
 }
 
 .experience ul li img {
-    width: 5vw;
-    margin-bottom: -3px;
+    width: 4.5vw;
+    margin-bottom: -2px;
     padding-right: 5px;
 }
+
+.experience ul li .button img {
+    filter: opacity(0.5);
+}
+
 
 .experience span {
     line-height: 2.8;
