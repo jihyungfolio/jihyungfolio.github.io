@@ -558,6 +558,7 @@ p {
 
 .experience ul li .button img {
     filter: opacity(0.5);
+    display: none;
 }
 
 .experience span {
