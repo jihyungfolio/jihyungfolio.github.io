@@ -108,23 +108,20 @@ body {
 }
 
 h2 {
-    font-size: 7vw;
+    font-size: 7.2vw;
     text-transform: capitalize;
     margin: 20vw 0 10vw;
-    font-weight: 600;
-    font-family: sans-serif;
+    font-family: "Special Gothic Expanded One", sans-serif;
     text-align: center;
-    letter-spacing: -0.03em;
 }
 
 h3 {
-    font-size: 6vw;
-    text-transform: capitalize;
+    font-size: 5vw;
+    text-transform: uppercase;
     margin: 20vw 0;
-    font-weight: 600;
-    font-family: sans-serif;
+    font-family: "Special Gothic Expanded One", sans-serif;
     text-align: center;
-    letter-spacing: -0.02em;
+    letter-spacing: 0.05em;
 }
 
 h3 img {
