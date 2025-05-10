@@ -637,12 +637,6 @@ p {
     filter: invert(1) !important;
 }
 
-.exp2 .button,
-.exp3 .button {
-    box-shadow: none;
-    border: 1px solid #eee
-}
-
 .experience-project__inner {
     display: table-cell;
     text-align: center;
