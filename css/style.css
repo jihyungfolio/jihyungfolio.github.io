@@ -182,7 +182,7 @@ p {
 }
 
 .jhy-pf__Container {
-    padding: 0 5vw 20vw;
+    padding: 0 5vw;
     border-radius: 25px;
     margin: 6vw 0 0;
     border: 2px solid #eee;
@@ -451,10 +451,6 @@ p {
 .timeline .timeline-box.education {
     margin-top: 20vw;
     margin-bottom: 20vw;
-}
-
-.timeline .timeline-box.education:last-child {
-    margin-bottom: 0;
 }
 
 .timeline .timeline-box span {
@@ -890,6 +886,7 @@ p {
     width: 93vw;
     background: rgba(255, 255, 255, 0.61);
     padding: 2vw;
+    backdrop-filter: blur(5px);
 }
 
 .nav__link {
