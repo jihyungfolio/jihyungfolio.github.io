@@ -904,4 +904,6 @@ p {
     -webkit-tap-highlight-color: transparent;
     transition: background-color 0.1s ease-in-out;
     text-transform: uppercase;
+    width: 25vw;
+    border-right: 1px solid #eee;
 }
