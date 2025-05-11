@@ -887,6 +887,7 @@ p {
     background: rgba(255, 255, 255, 0.61);
     padding: 2vw;
     backdrop-filter: blur(5px);
+    border: 1px solid #eee;
 }
 
 .nav__link {
@@ -902,11 +903,11 @@ p {
     text-decoration: none;
     -webkit-tap-highlight-color: transparent;
     transition: background-color 0.1s ease-in-out;
-    text-transform: uppercase;
+    text-transform: capitalize;
     width: 20vw;
     margin: 0 0.5vw;
-    background-image: linear-gradient(to top, #D8D9DB 0%, rgb(255, 255, 255) 80%, rgba(253, 253, 253, 0.57) 100%);
+    background-image: linear-gradient(to top, rgba(216, 217, 219, 0.6) 0%, rgba(255, 255, 255, 0.97) 80%, rgba(253, 253, 253, 0.57) 100%);
     border-radius: 30px;
     border: 1px solid #d5d5d5;
-    box-shadow: 0 4px 3px 1px #FCFCFC, 0 6px 8px #D6D7D9, 0 -4px 4px rgba(206, 207, 209, 0.37), 0 -6px 4px #FEFEFE, inset 0 0 3px 0 #CECFD1;
+    box-shadow: 0 4px 3px 1px rgba(252, 252, 252, 0.24), 0 6px 8px rgba(214, 215, 217, 0.41), 0 -4px 4px rgba(206, 207, 209, 0.22), 0 -6px 4px rgba(254, 254, 254, 0.27), inset 0 0 3px 0 #CECFD1;
 }
