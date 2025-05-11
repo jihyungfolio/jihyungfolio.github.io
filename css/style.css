@@ -74,6 +74,8 @@ body {
     box-shadow: 11px 11px 50px #fffffff0, -11px -11px 50px #ffffff70;
     border-radius: 25px;
     background: linear-gradient(45deg, #fff, #f8f8f8);
+    background: linear-gradient(145deg, #fff, #eceded, #cfd2da);
+    /*background: linear-gradient(45deg, #0000004d, #1e2653);*/
 }
 
 .jhy-pf__Hole1 {
@@ -179,6 +181,7 @@ p {
     display: block;
     position: sticky;
     overflow-x: hidden;
+    background: linear-gradient(45deg, #eee, #d9d9e6, #dbd6d6, #fffefc, #ddd);
 }
 
 .jhy-pf__Container {
@@ -187,6 +190,7 @@ p {
     margin: 6vw 0 0;
     border: 2px solid #eee;
     box-shadow: -1px -0.5px 3px #b2b2b2, 1px -0.5px 1px #c4c4c4;
+    background: #fff;
 }
 
 .profile {
