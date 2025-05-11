@@ -896,7 +896,6 @@ p {
     align-items: center;
     justify-content: center;
     flex-grow: 1;
-    min-width: 50px;
     overflow: hidden;
     white-space: nowrap;
     font-family: sans-serif;
@@ -905,16 +904,4 @@ p {
     -webkit-tap-highlight-color: transparent;
     transition: background-color 0.1s ease-in-out;
     text-transform: uppercase;
-}
-
-/*.nav__link:hover {*/
-/*    background-color: #eeeeee;*/
-/*}*/
-
-/*.nav__link--active {*/
-/*    color: #009578;*/
-/*}*/
-
-.nav__icon {
-    font-size: 18px;
 }
