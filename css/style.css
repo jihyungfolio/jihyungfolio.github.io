@@ -540,6 +540,7 @@ p {
 
 .experience {
     padding-bottom: 25vw;
+    text-align: center;
 }
 
 .experience img {
@@ -590,7 +591,6 @@ p {
     letter-spacing: 0.04em;
     font-size: 4vw;
     text-transform: uppercase;
-    font-family: 'KOTRA_BOLD-Bold', sans-serif;
 }
 
 .experience h3 {
@@ -733,7 +733,8 @@ p {
 
 .brand-info {
     width: 40vw;
-    margin-right: 20vw !important;
+    margin: 0 auto 5vw !important;
+    display: block;
 }
 
 .brand-info.ch {
