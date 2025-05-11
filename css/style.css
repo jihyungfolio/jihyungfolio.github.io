@@ -907,6 +907,6 @@ p {
     margin: 0 0.5vw;
     background-image: linear-gradient(to top, #D8D9DB 0%, rgb(255, 255, 255) 80%, rgba(253, 253, 253, 0.57) 100%);
     border-radius: 30px;
-    border: 1px solid #8F9092;
+    border: 1px solid #d5d5d5;
     box-shadow: 0 4px 3px 1px #FCFCFC, 0 6px 8px #D6D7D9, 0 -4px 4px rgba(206, 207, 209, 0.37), 0 -6px 4px #FEFEFE, inset 0 0 3px 0 #CECFD1;
 }
