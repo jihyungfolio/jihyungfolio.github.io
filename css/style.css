@@ -885,9 +885,10 @@ p {
     width: 100%;
     height: 12vw;
     box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
-    background-color: #ffffff;
+    background-color: #000;
     display: flex;
     overflow-x: auto;
+    color: #fff;
 }
 
 .nav__link {
@@ -905,5 +906,6 @@ p {
     transition: background-color 0.1s ease-in-out;
     text-transform: uppercase;
     width: 25vw;
-    border-right: 1px solid #eee;
+    border-right: 1px solid #666;
+    color: #fff;
 }
