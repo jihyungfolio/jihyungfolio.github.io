@@ -158,6 +158,10 @@ h5 {
     font-size: 5.5vw;
 }
 
+.experience.exp01 {
+    background: linear-gradient(15deg, #efeffa, #fafeff, #fffafd, #fffaf3, #fff8f8);
+}
+
 p {
     font-size: 4.8vw;
     padding-bottom: 3vw;
@@ -796,6 +800,7 @@ p {
     width: 100%;
     margin: 1.5vw 0.5vw;
     text-transform: capitalize;
+    background: #fff;
 }
 
 .button:hover, .button:focus {
@@ -941,12 +946,16 @@ p {
     background: linear-gradient(20deg, #97a7bf, #ad98d1, #babdb0);
 }
 
-.work3-01 {
-    background: linear-gradient(20deg, #e7efe7, #98aad1, #d9e8f1);
+.work4-01 {
+    background: linear-gradient(20deg, #cae0e3, #76a3bd, #0d3e5a);
 }
 
-.work2-01 img {
- 
+.work4-02 {
+    background: linear-gradient(20deg, #8e1124, #670e00, #ff6565);
+}
+
+.work4-03 {
+    background: linear-gradient(20deg, #ebede6, #b4b5ab, #9c9a99);
 }
 
 .desktop img {
