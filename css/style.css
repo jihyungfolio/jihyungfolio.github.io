@@ -504,7 +504,7 @@ p {
 }
 
 .timeline .timeline-box .ew-image {
-    filter: hue-rotate(19deg) saturate(0.4) brightness(1.1);
+    filter: hue-rotate(160deg) saturate(0.2) contrast(1.1) brightness(1.1);
 }
 
 .timeline .timeline-box .s-image {
@@ -971,15 +971,15 @@ p {
 }
 
 .work5-01 {
-    background: linear-gradient(20deg, #c3bbb0, #f4e1c8, #68330f);
+    background: linear-gradient(20deg, #f0b7d0, #c9d3d5, #ecd5ef);
 }
 
 .work5-02 {
-    background: linear-gradient(20deg, #cfd2c8, #a0adaf, #dce2ef);
+    background: linear-gradient(20deg, #cfd2c8, #f3f3e2, #fafbf1);
 }
 
 .work5-02 img {
-    background: linear-gradient(0deg, #ced5dd, #fff, #c1d0d3);
+    background: linear-gradient(20deg, #c9e785, #b7bba4, #f4ff97);
 }
 
 .desktop img {
