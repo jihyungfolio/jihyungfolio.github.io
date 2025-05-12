@@ -941,6 +941,14 @@ p {
     background: linear-gradient(20deg, #97a7bf, #ad98d1, #babdb0);
 }
 
+.work2-01 {
+    background: linear-gradient(20deg, #e7efe7, #98aad1, #d9e8f1);
+}
+
+.work2-01 img {
+    filter: blur(0.5px);
+}
+
 .desktop img {
     width: 100%;
     /*border-bottom-left-radius: 10px;*/
