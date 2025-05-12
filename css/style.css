@@ -950,7 +950,7 @@ p {
 .circles {
     margin-left: 10px;
     text-align: left;
-    padding: 1vw 0;
+    padding: 1.5vw 0 1vw;
 }
 
 .circle {
