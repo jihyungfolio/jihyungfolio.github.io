@@ -548,8 +548,10 @@ p {
 }
 
 .experience .experience-image {
-    width: 82vw;
+    width: 81.4vw;
     margin-left: -6vw;
+    border-left: 1px solid #c7c6c6;
+    border-right: 1px solid #c7c6c6;
 }
 
 .experience a {
