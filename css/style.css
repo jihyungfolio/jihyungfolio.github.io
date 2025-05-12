@@ -166,6 +166,10 @@ h5 {
     background: linear-gradient(45deg, #eff4f7, #fff, #eee, #f1fbff);
 }
 
+.experience.exp03 {
+    background: linear-gradient(45deg, #fff, #fff, #fbf8f7, #fff8fc, #f7f3ff, #fff1f8);
+}
+
 p {
     font-size: 4.8vw;
     padding-bottom: 3vw;
