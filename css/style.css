@@ -548,11 +548,13 @@ p {
 }
 
 .experience .experience-image {
-    width: 81.4vw;
-    margin-left: -6vw;
-    border-left: 1px solid #c7c6c6;
-    border-right: 1px solid #c7c6c6;
+    /*width: 81.4vw;*/
+    /*margin-left: -6vw;*/
+    /*border-left: 1px solid #c7c6c6;*/
+    /*border-right: 1px solid #c7c6c6;*/
     margin-bottom: 1vw;
+    width: 60vw;
+    box-shadow: -1px -0.5px 3px #292828, 1px -0.5px 1px #706d6d;
 }
 
 .experience a {
