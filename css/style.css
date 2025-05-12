@@ -547,6 +547,11 @@ p {
     margin: 0;
 }
 
+.experience .experience-image {
+    width: 82vw;
+    margin-left: -6vw;
+}
+
 .experience a {
     text-transform: capitalize;
     font-size: 5.8vw;
