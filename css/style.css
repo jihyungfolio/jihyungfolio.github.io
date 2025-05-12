@@ -930,7 +930,7 @@ p {
     width: 70vw;
     margin: 0 auto 5vw;
     padding-bottom: 3vw;
-    box-shadow: 0px 4px #cbcbcb36, 0px 10px 15px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 4px #cbcbcb36, 0px 10px 15px rgb(0 0 0 / 13%);
 }
 
 .work1-01 {
