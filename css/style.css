@@ -939,7 +939,7 @@ p {
 }
 
 .work1-01 {
-    background: linear-gradient(20deg, #f1c06f, #fbcbdd, #ffecec);
+    background: linear-gradient(20deg, #f1c06f, #c18ca0, #ffd8d8);
 }
 
 .work1-02 {
@@ -955,15 +955,29 @@ p {
 }
 
 .work4-03 {
-    background: linear-gradient(20deg, #ebede6, #b4b5ab, #9c9a99);
+    background: linear-gradient(20deg, #cfd2c8, #babdc3, #ced6dd);
 }
 
 .work4-03 img {
     background: linear-gradient(180deg, #ced5dd, #fff, transparent);
 }
 
+.work5-01 {
+    background: linear-gradient(20deg, #c3bbb0, #f4e1c8, #68330f);
+}
+
+.work5-02 {
+    background: linear-gradient(20deg, #cfd2c8, #a0adaf, #dce2ef);
+}
+
+.work5-02 img {
+    background: linear-gradient(0deg, #ced5dd, #fff, #c1d0d3);
+}
+
 .desktop img {
     width: 100%;
+    height: 35vw;
+    object-fit: cover;
     /*border-bottom-left-radius: 10px;*/
     /*border-bottom-right-radius: 10px;*/
 }
