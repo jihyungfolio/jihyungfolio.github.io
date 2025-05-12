@@ -552,9 +552,9 @@ p {
     /*margin-left: -6vw;*/
     /*border-left: 1px solid #c7c6c6;*/
     /*border-right: 1px solid #c7c6c6;*/
-    margin-bottom: 1vw;
-    width: 60vw;
-    box-shadow: -1px -0.5px 3px #292828, 1px -0.5px 1px #706d6d;
+    /*margin-bottom: 1vw;*/
+    /*width: 60vw;*/
+    /*box-shadow: -1px -0.5px 3px #292828, 1px -0.5px 1px #706d6d;*/
 }
 
 .experience a {
@@ -920,4 +920,56 @@ p {
     border-radius: 30px;
     border: 1px solid #d5d5d5;
     box-shadow: 0 4px 3px 1px rgba(252, 252, 252, 0.24), 0 6px 8px rgba(214, 215, 217, 0.41), 0 -4px 4px rgba(206, 207, 209, 0.22), 0 -6px 4px rgba(254, 254, 254, 0.27), inset 0 0 3px 0 #CECFD1;
+}
+
+.desktop {
+    background: linear-gradient(70deg, #ececed, #d8dee0);
+    border-top-width: 10px;
+    border-bottom-width: 4px;
+    border-radius: 10px;
+    width: 70vw;
+    margin: 0 auto 5vw;
+    padding-bottom: 3vw;
+    box-shadow: 0px 4px #cbcbcb36, 0px 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+.work1-01 {
+    background: linear-gradient(20deg, #f1c06f, #fbcbdd, #ffecec);
+}
+
+.work1-02 {
+    background: linear-gradient(20deg, #97a7bf, #ad98d1, #babdb0);
+}
+
+.desktop img {
+    width: 100%;
+    /*border-bottom-left-radius: 10px;*/
+    /*border-bottom-right-radius: 10px;*/
+}
+
+.circles {
+    margin-left: 10px;
+    margin-bottom: 5px;
+    padding-top: 5px;
+    text-align: left;
+}
+
+.circle {
+    width: 12px;
+    height: 12px;
+    background: black;
+    border-radius: 100%;
+    display: inline-block;
+}
+
+.c1 {
+    background: #FCB0AC;
+}
+
+.c2 {
+    background: #FEE48E;
+}
+
+.c3 {
+    background: #E3EFC6;
 }
