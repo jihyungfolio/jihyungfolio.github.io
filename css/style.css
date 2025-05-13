@@ -63,7 +63,7 @@ body {
     position: absolute;
     border-radius: 20px 10px 15px 15px;
     box-shadow: 0 -3px 5px rgb(0 0 0 / 63%);
-    right: 47vw;
+    right: 45.5vw;
 }
 
 .jhy-pf__Holes {
@@ -81,16 +81,16 @@ body {
     width: 14vw;
     height: 3vw;
     border-radius: 15px;
-    margin-left: 10vw;
+    margin-left: 12vw;
     position: relative;
 }
 
 .jhy-pf__Hole2 {
     background: linear-gradient(45deg, #797979, #000000, #676363);
-    width: 6vw;
+    width: 8vw;
     height: 3vw;
     border-radius: 15px;
-    margin-left: 12vw;
+    margin-left: 10vw;
     position: relative;
 }
 
