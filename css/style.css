@@ -373,11 +373,11 @@ p {
 }
 
 .vision .my-vision__Svg.www {
-    background: linear-gradient(45deg, #38455a, #05043e);
+    background: linear-gradient(45deg, #7496e8, #191049);
 }
 
 .vision .my-vision__Svg.color-wheel {
-    background: linear-gradient(45deg, #1b6e00, #084390);
+    background: linear-gradient(45deg, #457934, #fffcd3);
 }
 
 .vision .my-vision__Svg.collaboration {
@@ -385,11 +385,11 @@ p {
 }
 
 .vision .my-vision__Svg.responsive {
-    background: linear-gradient(45deg, #a2b3ff, #7700d5);
+    background: linear-gradient(45deg, #79afff, #f2e2ff);
 }
 
 .vision .my-vision__Svg.tool {
-    background: linear-gradient(45deg, #baf3c3, #fff199);
+    background: linear-gradient(45deg, #df84e2, #ffea98);
 }
 
 .vision p.vision-tool {
@@ -446,7 +446,7 @@ p {
 }
 
 .vision .n-2 {
-    filter: hue-rotate(230deg) saturate(1.9) brightness(1.1) contrast(1.1);
+    filter: hue-rotate(70deg) saturate(4) brightness(1.2);
 }
 
 .vision .n-3 {
