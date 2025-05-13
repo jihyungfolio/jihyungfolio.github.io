@@ -357,7 +357,7 @@ p {
 }
 
 .vision .my-vision__Svg {
-    width: 100% !important;
+    width: 72vw !important;
     height: 30vw;
     object-fit: cover;
     display: block;
@@ -397,7 +397,7 @@ p {
 }
 
 .vision .my-vision__Svg img {
-    width: 60vw;
+    width: 62vw;
     margin: auto;
     padding: 5vw;
     border: 2px solid #eee;
@@ -437,7 +437,8 @@ p {
     width: 6vw;
     height: auto;
     object-fit: contain;
-    margin: 10vw auto 2vw;
+    margin: 0 auto -10vw;
+    margin-left: 2vw;
     z-index: 3;
     position: relative;
 }
@@ -451,7 +452,7 @@ p {
 }
 
 .vision .n-3 {
-    filter: hue-rotate(325deg) saturate(1.2);
+    filter: hue-rotate(150deg) saturate(1.2) brightness(1.1);
 }
 
 .vision .n-4 {
@@ -459,7 +460,7 @@ p {
 }
 
 .vision .n-5 {
-    filter: hue-rotate(190deg) brightness(1.1);
+    filter: hue-rotate(32deg) saturate(0.6) brightness(1.2);
 }
 
 .vision .n-6 {
@@ -1069,4 +1070,166 @@ p {
 
 .c3 {
     background: #E3EFC6;
+}
+
+/* tablet and desktop */
+@media screen and (min-width: 780px) {
+
+    body {
+        background: linear-gradient(80deg, #fff, #d2dbdc, #f7f8fd);
+    }
+
+    h2 {
+        font-size: 56px;
+        margin: 140px 0 0;
+    }
+
+    h3 {
+        font-size: 46px;
+        margin: 150px 0 0;
+    }
+
+    h5 {
+        font-size: 38px;
+        margin: 15px 0 105px;
+    }
+
+    p {
+        font-size: 35px;
+        padding-bottom: 23px;
+    }
+
+    .jhy-pf__Wrapper {
+        width: 760px;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .jhy-pf__Rope {
+        height: 327px;
+        width: 50px;
+        top: -243px;
+        right: 48.5%;
+    }
+
+    .jhy-pf__Inner {
+        padding: 40px;
+    }
+
+    .jhy-pf__Holes {
+        padding: 23px 0;
+    }
+
+    .jhy-pf__Hole1 {
+        width: 300px;
+        height: 30px;
+        margin-left: 76px;
+        margin-right: 0;
+    }
+
+    .jhy-pf__Hole2 {
+        width: 550px;
+        height: 30px;
+        margin-left: 90px;
+    }
+
+    .jhy-pf__Hole3 {
+        width: 300px;
+        height: 30px;
+        margin-right: 76px;
+        margin-left: 92px;
+    }
+
+    .jhy-pf__Division {
+        height: 40px;
+        margin-top: 40px;
+    }
+
+    .profile .profile-image {
+        margin: 50px auto 0;
+    }
+
+    .profile .profile-image .image {
+        padding: 8px;
+    }
+
+    .profile .profile-image .image img {
+        width: 380px;
+    }
+
+    .profile .profile-image .image span {
+        font-size: 38px;
+    }
+
+    .profile .contact .info {
+        margin: 60px auto 10px;
+    }
+
+    .profile .contact .info p {
+        padding: 15px 0;
+        font-size: 30px;
+    }
+
+    .profile .contact .info p img {
+        width: 350px !important;
+    }
+
+    .profile .contact .info p .phone {
+        width: 200px !important;
+    }
+
+    .profile .contact {
+        padding-bottom: 120px;
+    }
+
+    .jhy-pf__Container {
+        /*margin: 40px 0 0;*/
+    }
+
+    .software {
+        padding: 0 15px 150px;
+    }
+
+    .software-grid .item img {
+        width: 167px;
+    }
+
+    .nav {
+        width: 760px;
+        margin: 0 auto;
+        height: 65px;
+        left: 29%;
+        padding: 15px;
+    }
+
+    .nav__link {
+        font-size: 28px;
+    }
+
+    .software-grid .item {
+        padding-bottom: 38px;
+    }
+
+    .software-grid .item span {
+        font-size: 28px;
+    }
+
+    .vision .my-vision__Svg {
+        height: 230px;
+        width: 480px !important;
+        margin-bottom: 23px;
+    }
+
+    .vision .my-vision__Svg img {
+        height: 150px;
+        width: 400px;
+        padding: 38px;
+    }
+
+    .vision .number {
+        width: 45px;
+        margin: 0 auto -65px;
+        margin-left: 10px;
+    }
+
 }
