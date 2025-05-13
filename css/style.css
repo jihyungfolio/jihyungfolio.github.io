@@ -169,7 +169,7 @@ h5 {
 /*}*/
 
 p {
-    font-size: 4.8vw;
+    font-size: 4vw;
     padding-bottom: 3vw;
 }
 
@@ -1035,6 +1035,10 @@ p {
 
 .work6-01 {
     background: linear-gradient(20deg, #b0f2ff, #0b0e0d, #7293c6);
+}
+
+.work7-01 {
+
 }
 
 
