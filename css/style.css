@@ -1228,8 +1228,16 @@ p {
 
     .vision .number {
         width: 45px;
-        margin: 0 auto -65px;
+        margin: 10px auto -65px;
         margin-left: 10px;
+    }
+
+    .vision p.vision-tool {
+        margin-bottom: 160px;
+    }
+
+    .vision p {
+        padding-bottom: 50px;
     }
 
 }
