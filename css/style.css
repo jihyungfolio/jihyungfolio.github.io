@@ -356,16 +356,51 @@ p {
     border-radius: 10px;
 }
 
-.vision img {
-    width: 60vw;
-    height: 50vw;
+.vision .my-vision__Svg {
+    width: 100% !important;
+    height: 30vw;
     object-fit: cover;
-    margin: 5px auto 5vw;
-    padding: 2px;
     display: block;
     z-index: 2;
     position: relative;
     box-shadow: -1px -0.5px 3px #b2b2b2, 1px -0.5px 1px #aaaaaa;
+    border-radius: 15px;
+    margin-bottom: 3vw;
+}
+
+.vision .my-vision__Svg.teamwork {
+    background: linear-gradient(45deg, black, #00516e);
+}
+
+.vision .my-vision__Svg.www {
+    background: linear-gradient(45deg, #38455a, #05043e);
+}
+
+.vision .my-vision__Svg.color-wheel {
+    background: linear-gradient(45deg, #1b6e00, #084390);
+}
+
+.vision .my-vision__Svg.collaboration {
+    background: linear-gradient(45deg, #0013b5, #0a0113);
+}
+
+.vision .my-vision__Svg.responsive {
+    background: linear-gradient(45deg, #a2b3ff, #7700d5);
+}
+
+.vision .my-vision__Svg.tool {
+    background: linear-gradient(45deg, #baf3c3, #fff199);
+}
+
+.vision p.vision-tool {
+    margin-bottom: 25vw;
+}
+
+.vision .my-vision__Svg img {
+    width: 60vw;
+    margin: auto;
+    padding: 5vw;
+    border: 2px solid #eee;
     border-radius: 15px;
 }
 
@@ -401,7 +436,7 @@ p {
     width: 6vw;
     height: auto;
     object-fit: contain;
-    margin: 15vw auto 4vw;
+    margin: 15vw auto 2vw;
     z-index: 3;
     position: relative;
 }
@@ -411,15 +446,15 @@ p {
 }
 
 .vision .n-2 {
-    filter: hue-rotate(40deg) saturate(1.9);
+    filter: hue-rotate(230deg) saturate(1.9) brightness(1.1) contrast(1.1);
 }
 
 .vision .n-3 {
-    filter: hue-rotate(100deg) saturate(0.8);
+    filter: hue-rotate(325deg) saturate(1.2);
 }
 
 .vision .n-4 {
-    filter: hue-rotate(110deg);
+    filter: hue-rotate(235deg);
 }
 
 .vision .n-5 {
@@ -504,7 +539,7 @@ p {
 }
 
 .timeline .timeline-box .ew-image {
-    filter: hue-rotate(160deg) saturate(0.3) contrast(1.1);
+    filter: hue-rotate(165deg) saturate(0.4) contrast(1.5) brightness(0.9);
 }
 
 .timeline .timeline-box .s-image {
