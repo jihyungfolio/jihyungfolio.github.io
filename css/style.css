@@ -436,7 +436,7 @@ p {
     width: 6vw;
     height: auto;
     object-fit: contain;
-    margin: 15vw auto 2vw;
+    margin: 10vw auto 2vw;
     z-index: 3;
     position: relative;
 }
