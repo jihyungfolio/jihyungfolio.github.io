@@ -363,7 +363,7 @@ p {
     display: block;
     z-index: 2;
     position: relative;
-    box-shadow: -1px -0.5px 3px #b2b2b2, 1px -0.5px 1px #aaaaaa;
+    box-shadow: -1px -0.5px 3px #292828, 1px -0.5px 1px #706d6d;
     border-radius: 15px;
     margin-bottom: 3vw;
 }
@@ -402,6 +402,7 @@ p {
     padding: 5vw;
     border: 2px solid #eee;
     border-radius: 15px;
+    border-bottom: 2px solid #666;
 }
 
 .about p {
@@ -1006,16 +1007,21 @@ p {
 }
 
 .work5-01 {
-    background: linear-gradient(20deg, #f0b7d0, #c9d3d5, #ecd5ef);
-}
-
-.work5-02 {
     background: linear-gradient(20deg, #b8d2c6, #73a67f, #b7eab7);
 }
 
-.work5-02 img {
+.work5-01 img {
     background: linear-gradient(20deg, #c9e785, #b7bba4, #f4ff97);
 }
+
+.work5-02 {
+    background: linear-gradient(20deg, #f0b7d0, #231d20, #ecd5ef);
+}
+
+.work5-03 {
+    background: linear-gradient(20deg, #dacdbb, #a08f98, #e9efff);
+}
+
 
 .desktop img {
     width: 100%;
