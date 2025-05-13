@@ -158,17 +158,17 @@ h5 {
     font-size: 5.5vw;
 }
 
-.experience.exp01 {
-    background: linear-gradient(15deg, #efeffa, #fafeff, #fffafd, #fffaf3, #fff8f8);
-}
+/*.experience.exp01 {*/
+/*    background: linear-gradient(15deg, #efeffa, #fafeff, #fffafd, #fffaf3, #fff8f8);*/
+/*}*/
 
-.experience.exp02 {
-    background: linear-gradient(45deg, #eff4f7, #fff, #eee, #f1fbff);
-}
+/*.experience.exp02 {*/
+/*    background: linear-gradient(45deg, #eff4f7, #fff, #eee, #f1fbff);*/
+/*}*/
 
-.experience.exp03 {
-    background: linear-gradient(45deg, #fff, #fff, #fbf8f7, #fff8fc, #f7f3ff, #fff1f8);
-}
+/*.experience.exp03 {*/
+/*    background: linear-gradient(45deg, #fff, #fff, #fbf8f7, #fff8fc, #f7f3ff, #fff1f8);*/
+/*}*/
 
 p {
     font-size: 4.8vw;
@@ -1019,6 +1019,10 @@ p {
 }
 
 .work5-03 {
+    background: linear-gradient(20deg, #dacdbb, #cdb391, #bcc1ce);
+}
+
+.work5-04 {
     background: linear-gradient(20deg, #dacdbb, #a08f98, #e9efff);
 }
 
