@@ -1072,7 +1072,7 @@ p {
     background: #E3EFC6;
 }
 
-/* tablet and desktop */
+/* tablet */
 @media screen and (min-width: 780px) {
 
     body {
@@ -1100,7 +1100,7 @@ p {
     }
 
     .jhy-pf__Wrapper {
-        width: 760px;
+        width: 580px;
         margin: 0 auto;
         display: block;
     }
@@ -1238,6 +1238,30 @@ p {
 
     .vision p {
         padding-bottom: 50px;
+    }
+
+    .timeline .timeline-box .w-logo {
+        height: 65px !important;
+        margin-left: -15px;
+        margin-bottom: -7px;
+    }
+
+    .timeline .timeline-box .kg-image,
+    .timeline .timeline-box .s-image,
+    .timeline .timeline-box .w-image,
+    .timeline .timeline-box .p-image {
+        height: 300px;
+        margin: 23px 0;
+    }
+
+    .timeline .timeline-box .w-image,
+    .timeline .timeline-box .p-image {
+        height: 220px;
+    }
+
+    .timeline .timeline-box span {
+        font-size: 38px !important;
+        padding-bottom: 12px;
     }
 
 }
