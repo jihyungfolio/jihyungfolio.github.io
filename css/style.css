@@ -1018,11 +1018,11 @@ p {
 }
 
 .work5-03 {
-    background: linear-gradient(20deg, #dacdbb, #cdb391, #bcc1ce);
+    background: linear-gradient(20deg, #dacdbb, #dfc9c4, #bcc1ce);
 }
 
 .work5-04 {
-    background: linear-gradient(20deg, #ed7979, #603c0b, #110801);
+    background: linear-gradient(20deg, #dce3cf, #ededed, #f1ebeb);
 }
 
 .work5-05 {
@@ -1051,8 +1051,9 @@ p {
 
 .flex {
     display: flex;
-    gap: 1vw;
+    gap: 2vw;
 }
+
 
 .desktop img {
     width: 100%;
@@ -1062,6 +1063,10 @@ p {
     background: #fff;
     /*border-bottom-left-radius: 10px;*/
     /*border-bottom-right-radius: 10px;*/
+}
+
+.flex .desktop img {
+    height: 52vw;
 }
 
 .circles {
