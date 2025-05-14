@@ -375,7 +375,7 @@ p {
 }
 
 .vision .my-vision__Svg.color-wheel {
-    background: linear-gradient(45deg, #897471, #e7e5d7);
+    background: linear-gradient(45deg, #2b1815, #e7e5d7);
 }
 
 .vision .my-vision__Svg.collaboration {
@@ -387,7 +387,7 @@ p {
 }
 
 .vision .my-vision__Svg.tool {
-    background: linear-gradient(45deg, #df84e2, #ffea98);
+    background: linear-gradient(45deg, #58285b, #1c1618);
 }
 
 .vision p.vision-tool {
