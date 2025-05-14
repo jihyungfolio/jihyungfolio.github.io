@@ -1041,10 +1041,14 @@ p {
 }
 
 .work7-03 {
-    background: linear-gradient(20deg, #ff96b5, #d9d9dd, #fdefff);
+    background: linear-gradient(20deg, #c9ddff, #d1b7d8, #ffebee);
 }
 
 .work7-04 {
+    background: linear-gradient(20deg, #ffebf2, #85202c, #fde4b8);
+}
+
+.work7-05 {
     background: linear-gradient(20deg, #eae0dd, #242f5c, #a2ccfb);
 }
 
