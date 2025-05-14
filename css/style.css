@@ -1038,7 +1038,11 @@ p {
 }
 
 .work7-01 {
+    background: linear-gradient(20deg, #0e3304, #c3d6d0, #d6c9e6);
+}
 
+.work8-01 {
+    background: linear-gradient(20deg, #d8ffb0, #0b0e0d, #d0b6c0);
 }
 
 
