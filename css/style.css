@@ -972,13 +972,12 @@ p {
 
 .desktop {
     background: linear-gradient(70deg, #ececed, #d8dee0);
-    border-top-width: 10px;
-    border-bottom-width: 4px;
     border-radius: 10px;
     width: 70vw;
     margin: 0 auto 5vw;
     padding-bottom: 3vw;
     box-shadow: 0px 4px #cbcbcb36, 0px 10px 15px rgb(0 0 0 / 13%);
+    border: 0.5px solid #c3c3c3;
 }
 
 .work1-01 {
@@ -1006,7 +1005,7 @@ p {
 }
 
 .work5-01 {
-    background: linear-gradient(20deg, #ebffe4, #dddddd, #effde1);
+    background: linear-gradient(20deg, #e4e8e5, #ffffff, #e2f0e6);
 }
 
 .work5-02 {
@@ -1014,7 +1013,7 @@ p {
 }
 
 .work5-03 {
-    background: linear-gradient(20deg, #dacdbb, #dfddc4, #bcc1ce);
+    background: linear-gradient(20deg, #dacdbb, #dacecd, #e4e8f2);
 }
 
 .work5-04 {
@@ -1022,11 +1021,11 @@ p {
 }
 
 .work5-05 {
-    background: linear-gradient(20deg, #ffeffa, #f6f7ff, #f4f6fb);
+    background: linear-gradient(20deg, #fcf4ff, #f6f7ff, #ecf0fa);
 }
 
 .work5-06 {
-    background: linear-gradient(20deg, #dfdddd, #dddad8, #ffffff);
+    background: linear-gradient(20deg, #dfdddd, #fffff0, #ededed);
 }
 
 .work6-01 {
@@ -1038,7 +1037,7 @@ p {
 }
 
 .work7-02 {
-    background: linear-gradient(20deg, #fae7e0, #7c7d95, #fff5fe);
+    background: linear-gradient(20deg, #ff96b5, #d9d9dd, #fdefff);
 }
 
 .work8-01 {
@@ -1057,8 +1056,8 @@ p {
     object-fit: cover;
     object-position: center;
     background: #fff;
-    /*border-bottom-left-radius: 10px;*/
-    /*border-bottom-right-radius: 10px;*/
+    border-top: 0.5px solid #c3c3c3;
+    border-bottom: 0.5px solid #c3c3c3;
 }
 
 .flex .desktop img {
@@ -1090,6 +1089,72 @@ p {
 .c3 {
     background: #E3EFC6;
 }
+
+
+.tabset > input[type="radio"] {
+    position: absolute;
+    left: -200vw;
+}
+
+.tabset .tab-panel {
+    display: none;
+}
+
+.tabset > input:first-child:checked ~ .tab-panels > .tab-panel:first-child,
+.tabset > input:nth-child(3):checked ~ .tab-panels > .tab-panel:nth-child(2),
+.tabset > input:nth-child(5):checked ~ .tab-panels > .tab-panel:nth-child(3),
+.tabset > input:nth-child(7):checked ~ .tab-panels > .tab-panel:nth-child(4),
+.tabset > input:nth-child(9):checked ~ .tab-panels > .tab-panel:nth-child(5),
+.tabset > input:nth-child(11):checked ~ .tab-panels > .tab-panel:nth-child(6) {
+    display: block;
+}
+
+/*
+ Styling
+*/
+body {
+    font: 16px/1.5em "Overpass", "Open Sans", Helvetica, sans-serif;
+    color: #333;
+    font-weight: 300;
+}
+
+.tabset > label {
+    position: relative;
+    display: inline-block;
+    padding: 15px 5px 25px;
+    border: 1px solid transparent;
+    border-bottom: 0;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+input:focus-visible + label {
+    outline: 2px solid rgba(0, 102, 204, 1);
+    border-radius: 3px;
+}
+
+.tabset > label:hover,
+.tabset > input:focus + label,
+.tabset > input:checked + label {
+    color: #06c;
+}
+
+.tabset > input:checked + label {
+    border-color: #ccc;
+    border-bottom: 1px solid #fff;
+    margin-bottom: -1px;
+}
+
+.tab-panel {
+    padding: 30px 0;
+    border-top: 1px solid #ccc;
+}
+
+.tabset {
+    margin-bottom: 3vw;
+    background: linear-gradient(45deg, #f3e8eb, #f7fdff);
+}
+
 
 /* tablet */
 /*@media screen and (min-width: 481px) {*/
