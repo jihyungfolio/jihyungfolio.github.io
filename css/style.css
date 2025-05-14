@@ -1049,6 +1049,10 @@ p {
     background: linear-gradient(20deg, #d8ffb0, #0b0e0d, #d0b6c0);
 }
 
+.flex {
+    display: flex;
+    gap: 1vw;
+}
 
 .desktop img {
     width: 100%;
