@@ -523,6 +523,7 @@ p {
     border-radius: 10px;
     margin: 3vw 0;
     padding: 2px;
+    box-sizing: border-box;
 }
 
 .timeline .timeline-box .w-image,
@@ -536,6 +537,7 @@ p {
 
 .timeline .timeline-box .kg-image {
     filter: invert(1) hue-rotate(270deg) saturate(1.2) brightness(1.8);
+    border: 1px solid #eee;
 }
 
 .timeline .timeline-box .ew-image {
