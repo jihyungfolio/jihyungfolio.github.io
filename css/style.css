@@ -785,50 +785,14 @@ p {
 }
 
 .brand-info {
-    width: 40vw;
-    margin: 0 auto 5vw !important;
+    width: 70%;
+    height: 20vw;
+    margin: 0 auto 2vw !important;
     display: block;
-}
-
-.brand-info.ch {
-    width: 20vw;
-    margin-top: 4vw;
-    filter: brightness(0);
-}
-
-.brand-info.ch-f {
-    margin-top: 4vw;
-    width: 25vw;
-}
-
-.brand-info.d {
-    filter: invert(1) saturate(0) brightness(1.3) contrast(1.3);
-    width: 30vw;
-}
-
-.brand-info.noe {
-    filter: contrast(1.4);
-    width: 42vw;
-}
-
-.brand-info.eotd {
-    width: 19vw;
-    margin: 4vw 0;
-}
-
-.brand-info.gmhr {
-    width: 31vw;
-    margin: 4vw 0 2vw;
-}
-
-.brand-info.chlens {
-    width: 29vw;
-    margin: 4vw 0 0;
-}
-
-.brand-info.chfashion {
-    width: 30vw;
-    margin-bottom: 1vw;
+    box-shadow: -1px -0.5px 3px #292828, 1px -0.5px 1px #706d6d;
+    border-radius: 10px;
+    padding: 2px;
+    object-fit: cover;
 }
 
 .button {
