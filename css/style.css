@@ -1083,13 +1083,12 @@ p {
     display: block;
 }
 
-/*
- Styling
-*/
-body {
-    font: 16px/1.5em "Overpass", "Open Sans", Helvetica, sans-serif;
-    color: #333;
-    font-weight: 300;
+.tab-panels .desktop {
+    width: 80%;
+}
+
+.tab-panels .desktop img {
+    height: 85vw;
 }
 
 .tabset > label {
