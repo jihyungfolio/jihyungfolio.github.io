@@ -1031,8 +1031,6 @@ p {
     object-fit: cover;
     object-position: center;
     background: #fff;
-    border-top: 0.5px solid #c3c3c3;
-    border-bottom: 0.5px solid #c3c3c3;
 }
 
 .flex .desktop img {
