@@ -789,7 +789,7 @@ p {
 .brand-info {
     width: 60vw;
     height: 15vw;
-    margin: 0 auto 2vw !important;
+    margin: 2vw auto !important;
     display: block;
     object-fit: cover;
 }
