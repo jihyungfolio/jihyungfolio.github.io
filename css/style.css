@@ -792,14 +792,14 @@ p {
 }
 
 .brand-info {
-    width: 50vw;
+    width: 52vw;
     height: 12vw;
     margin-left: 4vw !important;
     display: block;
     object-fit: cover;
     border-radius: 5px;
-    border: 3px solid #fff;
-    box-shadow: 2px 4px 15px #0000002e;
+    box-shadow: -1px -0.5px 3px #292828, 1px -0.5px 1px #706d6d;
+    padding: 2px;
     box-sizing: border-box;
 }
 
@@ -1110,7 +1110,7 @@ p {
 }
 
 .tabs label img.svg {
-    width: 10vw;
+    width: 6vw;
 }
 
 /* tablet */
