@@ -1084,6 +1084,10 @@ p {
     display: block;
 }
 
+.tabset label img {
+    width: 10vw;
+}
+
 .tab-panels .desktop {
     width: 80%;
 }
