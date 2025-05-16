@@ -795,6 +795,7 @@ p {
     border-radius: 5px;
     border: 3px solid #fff;
     box-shadow: 2px 4px 15px #0000002e;
+    box-sizing: border-box;
 }
 
 
@@ -945,6 +946,7 @@ p {
     padding-bottom: 3vw;
     box-shadow: 0px 4px #cbcbcb36, 0px 10px 15px rgb(0 0 0 / 13%);
     border: 0.5px solid #c3c3c3;
+    box-sizing: border-box;
 }
 
 .work1-01 {
