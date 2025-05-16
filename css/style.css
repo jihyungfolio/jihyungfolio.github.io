@@ -964,7 +964,7 @@ p {
 }
 
 .work4-01 {
-    background: linear-gradient(20deg, #fffde8, #fcf0ff, #ffe6d5);
+    background: linear-gradient(20deg, #ffe78a, #fcf0ff, #ffe6d5);
 }
 
 .work4-02 {
@@ -1079,7 +1079,7 @@ p {
 .tabs label {
     order: 1;
     display: block;
-    padding: 3vw;
+    padding: 3vw 2vw;
     cursor: pointer;
     font-weight: bold;
     transition: background ease 0.2s;
