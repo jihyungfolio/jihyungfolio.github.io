@@ -125,7 +125,7 @@ h2 {
 h3 {
     font-size: 6vw;
     text-transform: uppercase;
-    margin: 20vw 0 0;
+    /*margin: 20vw 0 0;*/
     font-family: "Special Gothic Expanded One", sans-serif;
     text-align: center;
     letter-spacing: 0.04em;
@@ -149,7 +149,7 @@ h5 {
     font-family: 'KOTRA_BOLD-Bold', sans-serif;
     margin-bottom: 15vw;
     line-height: 1.7;
-    margin-top: 2vw;
+    margin-top: 5vw;
 }
 
 .experience h5 {
@@ -439,31 +439,32 @@ p {
     box-shadow: none !important;
     width: 6vw;
     height: auto;
-    object-fit: contain;
-    margin: 0 auto -10vw;
-    margin-left: 2vw;
-    z-index: 3;
-    position: relative;
+    margin-bottom: -0.5vw;
+    /*object-fit: contain;*/
+    /*margin: 0 auto -10vw;*/
+    /*margin-left: 2vw;*/
+    /*z-index: 3;*/
+    /*position: relative;*/
 }
 
 .vision .n-1 {
-    filter: hue-rotate(122deg) brightness(1.5) saturate(1.3);
+    filter: hue-rotate(41deg) brightness(1.5);
 }
 
 .vision .n-2 {
-    filter: hue-rotate(70deg) saturate(4) brightness(1.2);
+    filter: hue-rotate(10deg) saturate(4) brightness(1.2);
 }
 
 .vision .n-3 {
-    filter: hue-rotate(150deg) saturate(1.2) brightness(1.1);
+    filter: hue-rotate(350deg) saturate(1.2) brightness(1.1);
 }
 
 .vision .n-4 {
-    filter: hue-rotate(235deg);
+    filter: hue-rotate(290deg);
 }
 
 .vision .n-5 {
-    filter: hue-rotate(32deg) saturate(0.6) brightness(1.2);
+    filter: hue-rotate(32deg) saturate(0.6);
 }
 
 .vision .n-6 {
@@ -481,7 +482,7 @@ p {
 }
 
 .vision p img {
-    width: 3.5vw !important;
+    width: 3.6vw !important;
 }
 
 .timeline,
@@ -597,7 +598,15 @@ p {
 }
 
 .experience img {
-    margin: 0;
+    /*margin: 0;*/
+}
+
+.dia-mark {
+    width: 5vw;
+    margin: 0 auto;
+    display: block;
+    margin-top: 15vw;
+    margin-bottom: 5vw;
 }
 
 .experience .experience-image {
