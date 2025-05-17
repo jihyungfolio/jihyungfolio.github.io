@@ -594,7 +594,6 @@ p {
 
 .experience {
     padding-bottom: 25vw;
-    text-align: center;
 }
 
 .experience img {
@@ -613,7 +612,7 @@ p {
 
 .experience a {
     text-transform: capitalize;
-    font-size: 5.8vw;
+    font-size: 5vw;
     letter-spacing: -0.05em;
     font-weight: 600;
 }
@@ -655,6 +654,7 @@ p {
     letter-spacing: 0.04em;
     font-size: 4vw;
     text-transform: uppercase;
+    text-align: left;
 }
 
 .experience h3 {
@@ -963,7 +963,7 @@ p {
 }
 
 .work4-01 {
-    background: linear-gradient(20deg, #ffe78a, #fcf0ff, #ffe6d5);
+    background: linear-gradient(20deg, #ffe78a, #ffffea, #ffe6d5);
 }
 
 .work4-02 {
