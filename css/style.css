@@ -206,7 +206,7 @@ p {
 }
 
 .jhy-pf__Container {
-    padding: 0 5vw;
+    padding: 0 5vw 25vw;
     border-radius: 25px;
     margin: 6vw 0 0;
     border: 2px solid #eee;
