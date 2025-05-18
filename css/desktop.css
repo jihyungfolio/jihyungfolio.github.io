@@ -7,6 +7,11 @@
     font-style: normal;
 }
 
+.container {
+    display: none;
+}
+
+
 @media screen and (min-width: 781px) {
 
     .jhy-pf__Mobile {
@@ -23,6 +28,7 @@
         background-attachment: fixed;
         background-position: center;
         transition: background-image 0.25s ease-in-out;
+        display: block;
     }
 
     .container:before {
