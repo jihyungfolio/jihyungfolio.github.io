@@ -19,7 +19,12 @@
     font-style: normal;
 }
 
-body {
+@media screen and (max-width: 780px) {
+
+
+}
+
+.jhy-pf__Mobile {
     font-family: sans-serif;
     padding: 6vw 3vw 10vw;
     background: #021733;
@@ -37,7 +42,6 @@ body {
     animation: slide 5s infinite;
     z-index: 3;
     transform: rotateZ(183deg);
-    margin-left: -10vw;
     overflow: hidden;
 }
 
@@ -56,14 +60,14 @@ body {
 }
 
 .jhy-pf__Rope {
-    height: 43vw;
+    margin: -11vw auto;
+    display: block;
+    height: 20vw;
     width: 4vw;
-    top: -32vw;
     background-image: linear-gradient(175deg, #a3a3a3, #f6f6f6, #ffffff, #ffffff, #ffffff, #c0c2c6, #222324);
-    position: absolute;
+    position: relative;
     border-radius: 20px 10px 15px 15px;
     box-shadow: 0 -3px 5px rgb(0 0 0 / 63%);
-    right: 45.5vw;
 }
 
 .jhy-pf__Holes {
@@ -76,31 +80,30 @@ body {
     background: linear-gradient(145deg, #fff, #eceded, #cfd2da);
 }
 
+.jhy-pf__Hole1,
+.jhy-pf__Hole2,
+.jhy-pf__Hole3 {
+    height: 3vw;
+    border-radius: 15px;
+    position: relative;
+}
+
 .jhy-pf__Hole1 {
     background: linear-gradient(45deg, #797979, #dddddd, #676363);
     width: 14vw;
-    height: 3vw;
-    border-radius: 15px;
-    margin-left: 12vw;
-    position: relative;
+    margin-left: 10vw;
 }
 
 .jhy-pf__Hole2 {
     background: linear-gradient(45deg, #797979, #000000, #676363);
     width: 8vw;
-    height: 3vw;
-    border-radius: 15px;
-    margin-left: 10vw;
-    position: relative;
+    margin: 0 auto;
 }
 
 .jhy-pf__Hole3 {
     background: linear-gradient(45deg, #797979, #dddddd, #676363);
     width: 14vw;
-    height: 3vw;
-    border-radius: 15px;
-    margin-left: 12vw;
-    position: relative;
+    margin-right: 10vw;
 }
 
 .jhy-pf__Division {
@@ -179,15 +182,12 @@ h5 {
 /*.experience.exp01 {*/
 /*    background: linear-gradient(15deg, #efeffa, #fafeff, #fffafd, #fffaf3, #fff8f8);*/
 /*}*/
-
 /*.experience.exp02 {*/
 /*    background: linear-gradient(45deg, #eff4f7, #fff, #eee, #f1fbff);*/
 /*}*/
-
 /*.experience.exp03 {*/
 /*    background: linear-gradient(45deg, #fff, #fff, #fbf8f7, #fff8fc, #f7f3ff, #fff1f8);*/
 /*}*/
-
 p {
     font-size: 4vw;
     padding-bottom: 3vw;
@@ -1294,4 +1294,5 @@ p {
         transform: rotate(0deg);
     }
 }
+
 
