@@ -375,7 +375,6 @@ p {
 }
 
 .about-box {
-    padding-bottom: 10vw;
 }
 
 .about span {
@@ -462,11 +461,11 @@ p {
 }
 
 .about .n-1 {
-    filter: hue-rotate(41deg) brightness(1.5);
+    filter: hue-rotate(190deg) brightness(1.5);
 }
 
 .about .n-2 {
-    filter: hue-rotate(10deg) saturate(4) brightness(1.2);
+    filter: hue-rotate(85deg) saturate(4);
 }
 
 .about .n-3 {
@@ -474,11 +473,11 @@ p {
 }
 
 .about .n-4 {
-    filter: hue-rotate(290deg);
+    filter: hue-rotate(7deg);
 }
 
 .about .n-5 {
-    filter: hue-rotate(32deg) saturate(0.6);
+    filter: hue-rotate(290deg) saturate(0.8);
 }
 
 .about .n-6 {
@@ -496,7 +495,8 @@ p {
 }
 
 .about p img {
-    width: 3.6vw !important;
+    width: 4.5vw !important;
+    margin-right: 1.5vw;
 }
 
 .timeline,
@@ -625,6 +625,7 @@ p {
     /*box-shadow: -1px -0.5px 3px #292828, 1px -0.5px 1px #706d6d;*/
 }
 
+.about p,
 .experience a {
     text-transform: capitalize;
     font-size: 5vw;
@@ -662,13 +663,13 @@ p {
 .experience ul li .button img {
 }
 
-.experience span {
+.experience span,
+.about span {
     line-height: 2.8;
     margin-top: 10vw;
     display: block;
     letter-spacing: 0.04em;
     font-size: 4vw;
-    text-transform: uppercase;
     text-align: left;
 }
 
