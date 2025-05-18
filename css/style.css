@@ -671,6 +671,7 @@ p {
     letter-spacing: 0.04em;
     font-size: 4vw;
     text-align: left;
+    text-transform: uppercase;
 }
 
 .experience h3 {
