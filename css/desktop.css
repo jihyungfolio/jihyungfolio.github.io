@@ -399,7 +399,7 @@
         white-space: nowrap;
     }
 
-    #career .timeline {
+    #profile .timeline {
         margin: 0 auto;
         position: relative;
         max-width: 45%;
@@ -407,7 +407,7 @@
         transform: translateY(-50%);
     }
 
-    #career .timeline:before {
+    #profile .timeline:before {
         background: #202026ed;
         content: "";
         margin-left: -3px;
@@ -421,7 +421,7 @@
         display: none;
     }
 
-    #career .timeline-event {
+    #profile .timeline-event {
         position: relative;
         list-style: none;
         left: 45px;
@@ -433,7 +433,7 @@
         font-family: "Hahmlet-Regular";
     }
 
-    #career .timeline-event img {
+    #profile .timeline-event img {
         height: 100%;
         display: block;
         border: none !important;
@@ -441,33 +441,33 @@
         padding: 10px;
     }
 
-    #career .timeline-event .w-logo {
+    #profile .timeline-event .w-logo {
         margin-top: 7px;
         margin-bottom: -7px;
     }
 
-    #career .timeline-event .pb-logo {
+    #profile .timeline-event .pb-logo {
         margin-left: 15px;
         margin-top: 10px;
     }
 
-    #career .timeline-event h3 {
+    #profile .timeline-event h3 {
         font-size: 1.75em;
     }
 
-    #career .timeline-event h4 {
+    #profile .timeline-event h4 {
         font-size: 1.2em;
         margin-bottom: 1.2em;
     }
 
-    #career .timeline-event .career-title {
+    #profile .timeline-event .career-title {
         display: block;
         width: fit-content;
         border-radius: 20px;
         font-size: 120%;
     }
 
-    #career .timeline-event:before {
+    #profile .timeline-event:before {
         content: "";
         -moz-transition: -moz-transform 0.2s ease-in;
         -o-transition: -o-transform 0.2s ease-in;
@@ -487,27 +487,27 @@
         border-radius: 5px;
     }
 
-    #career .timeline-event:nth-child(1):before {
+    #profile .timeline-event:nth-child(1):before {
         outline: 10px solid rgba(211, 223, 255, 0.45);
         background-color: #fbffeb;
     }
 
-    #career .timeline-event:nth-child(2):before {
+    #profile .timeline-event:nth-child(2):before {
         outline: 10px solid #ecbba563;
         background-color: #fff9eb;
     }
 
-    #career .timeline-event:nth-child(3):before {
+    #profile .timeline-event:nth-child(3):before {
         outline: 10px solid #e6ffac63;
         background-color: #fefdd1;
     }
 
-    #career .timeline-event:nth-child(4):before {
+    #profile .timeline-event:nth-child(4):before {
         outline: 10px solid #a5ece263;
         background-color: #e3f0df;
     }
 
-    #career .timeline-title {
+    #profile .timeline-title {
         line-height: 1.8;
         text-shadow: 5px 2px 10px #ffffff41;
         display: inline-block;
@@ -515,15 +515,15 @@
         letter-spacing: 0.02em;
     }
 
-    #career .timeline-event p span {
+    #profile .timeline-event p span {
         display: block;
     }
 
-    #career .timeline-event:nth-child(2) a {
+    #profile .timeline-event:nth-child(2) a {
         color: #c3e9dc;
     }
 
-    #career h2 {
+    #profile h2 {
         padding-top: 0;
     }
 
