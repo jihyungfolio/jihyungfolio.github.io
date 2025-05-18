@@ -7,7 +7,7 @@
     font-style: normal;
 }
 
-.container {
+body {
     display: none;
 }
 
@@ -15,10 +15,10 @@
 
     body {
         font-family: "Gloock", "Hahmlet-Regular", sans-serif;
+        display: block;
     }
 
     .container {
-        display: block;
         height: auto;
         background-size: cover;
         background-attachment: fixed;
