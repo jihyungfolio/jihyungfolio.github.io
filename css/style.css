@@ -167,6 +167,15 @@ h5 {
     margin-left: -5vw;
 }
 
+.dia-mark {
+    width: 5vw;
+    margin: 0 auto;
+    display: block;
+    margin-top: 15vw;
+    margin-bottom: 5vw;
+    box-shadow: none !important;
+}
+
 /*.experience.exp01 {*/
 /*    background: linear-gradient(15deg, #efeffa, #fafeff, #fffafd, #fffaf3, #fff8f8);*/
 /*}*/
@@ -206,7 +215,7 @@ p {
 }
 
 .jhy-pf__Container {
-    padding: 0 5vw 25vw;
+    padding: 0 5vw 10vw;
     border-radius: 25px;
     margin: 6vw 0 0;
     border: 2px solid #eee;
@@ -328,7 +337,7 @@ p {
 }
 
 .software {
-    padding: 0 2vw 20vw;
+    padding: 0 2vw 10vw;
 }
 
 .software-grid {
@@ -365,7 +374,20 @@ p {
     border-radius: 10px;
 }
 
-.vision .my-vision__Svg {
+.about-box {
+    padding-bottom: 10vw;
+}
+
+.about span {
+    line-height: 2.5;
+}
+
+.about .location {
+    width: 8vw;
+    display: block;
+}
+
+.about .my-vision__Svg {
     width: 70vw !important;
     height: 30vw;
     object-fit: cover;
@@ -377,35 +399,31 @@ p {
     margin-bottom: 3vw;
 }
 
-.vision .my-vision__Svg.teamwork {
+.about .my-vision__Svg.teamwork {
     background: linear-gradient(45deg, black, #00516e);
 }
 
-.vision .my-vision__Svg.www {
+.about .my-vision__Svg.www {
     background: linear-gradient(45deg, #7496e8, #191049);
 }
 
-.vision .my-vision__Svg.color-wheel {
+.about .my-vision__Svg.color-wheel {
     background: linear-gradient(45deg, #2b1815, #e7e5d7);
 }
 
-.vision .my-vision__Svg.collaboration {
+.about .my-vision__Svg.collaboration {
     background: linear-gradient(45deg, #0013b5, #0a0113);
 }
 
-.vision .my-vision__Svg.responsive {
+.about .my-vision__Svg.responsive {
     background: linear-gradient(45deg, #2c3c2f, #edd5c3);
 }
 
-.vision .my-vision__Svg.tool {
+.about .my-vision__Svg.tool {
     background: linear-gradient(45deg, #58285b, #1c1618);
 }
 
-.vision p.vision-tool {
-    margin-bottom: 25vw;
-}
-
-.vision .my-vision__Svg img {
+.about .my-vision__Svg img {
     width: 59vw;
     margin: auto;
     padding: 5vw;
@@ -418,21 +436,11 @@ p {
     text-transform: capitalize;
 }
 
-.about img {
-    height: 45vw;
-    object-fit: contain;
-    box-shadow: -1px -0.5px 3px #b2b2b2, 1px -0.5px 1px #aaaaaa;
-    border-radius: 10px;
-    margin: 1vw 0 0;
-    padding: 2px;
-    object-position: left;
-}
-
 .about .about-2 {
     filter: brightness(1.2);
 }
 
-.vision .svg,
+.about .svg,
 .about .svg {
     height: 20vw;
     width: 25vw;
@@ -441,7 +449,7 @@ p {
     border-radius: 0;
 }
 
-.vision .number {
+.about .number {
     box-shadow: none !important;
     width: 6vw;
     height: auto;
@@ -453,41 +461,41 @@ p {
     /*position: relative;*/
 }
 
-.vision .n-1 {
+.about .n-1 {
     filter: hue-rotate(41deg) brightness(1.5);
 }
 
-.vision .n-2 {
+.about .n-2 {
     filter: hue-rotate(10deg) saturate(4) brightness(1.2);
 }
 
-.vision .n-3 {
+.about .n-3 {
     filter: hue-rotate(350deg) saturate(1.2) brightness(1.1);
 }
 
-.vision .n-4 {
+.about .n-4 {
     filter: hue-rotate(290deg);
 }
 
-.vision .n-5 {
+.about .n-5 {
     filter: hue-rotate(32deg) saturate(0.6);
 }
 
-.vision .n-6 {
+.about .n-6 {
     filter: brightness(1.2);
 }
 
-.vision .n-7 {
+.about .n-7 {
     filter: hue-rotate(250deg) brightness(1.1);
 }
 
-.vision p {
+.about p {
     z-index: 1;
     position: relative;
     line-height: 1.7;
 }
 
-.vision p img {
+.about p img {
     width: 3.6vw !important;
 }
 
@@ -605,14 +613,6 @@ p {
 
 .experience img {
     /*margin: 0;*/
-}
-
-.dia-mark {
-    width: 5vw;
-    margin: 0 auto;
-    display: block;
-    margin-top: 15vw;
-    margin-bottom: 5vw;
 }
 
 .experience .experience-image {
@@ -1142,3 +1142,153 @@ p {
     background: #bababb;
     line-height: 2;
 }
+
+.swatch {
+    display: block;
+    text-align: center;
+    position: relative;
+}
+
+.swatch div {
+    width: 10vw;
+    height: 25vw;
+    top: 0;
+    border-radius: 5px;
+    border-top: solid 2px rgba(0, 0, 0, 0.2);
+    border-left: solid 3px rgba(255, 255, 255, 0.2);
+    border-bottom: solid 3px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    box-sizing: border-box;
+    transform-origin: center 90%;
+    display: inline-block;
+    backface-visibility: hidden;
+    margin-left: -35px;
+    transform: rotate(0deg);
+}
+
+.swatch div:before {
+    width: 16px;
+    height: 16px;
+    content: "";
+    background-color: #ffffff;
+    display: inline-block;
+    border-radius: 8px;
+    bottom: 10px;
+    position: absolute;
+    margin-left: -8px;
+}
+
+.swatch div:nth-child(1) {
+    background-color: #14095e;
+    animation: swatch-purple-motion 5s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+}
+
+.swatch div:nth-child(2) {
+    background-color: #151a4e;
+    animation: swatch-blue-motion 5s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+}
+
+.swatch div:nth-child(3) {
+    background-color: #004a19;
+    animation: swatch-green-motion 5s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+}
+
+.swatch div:nth-child(4) {
+    background-color: #3f7504;
+    animation: swatch-yellow-motion 5s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+}
+
+.swatch div:nth-child(5) {
+    background-color: #853b06;
+    animation: swatch-orange-motion 5s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+}
+
+.swatch div:nth-child(6) {
+    background-color: #771e27;
+    animation: swatch-red-motion 5s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+}
+
+@keyframes swatch-purple-motion {
+    0% {
+        transform: rotate(0deg);
+    }
+    30%,
+    70% {
+        transform: rotate(-65deg);
+    }
+    90%,
+    10% {
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes swatch-blue-motion {
+    0% {
+        transform: rotate(0deg);
+    }
+    30%,
+    70% {
+        transform: rotate(-40deg);
+    }
+    90%,
+    10% {
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes swatch-green-motion {
+    0% {
+        transform: rotate(0deg);
+    }
+    30%,
+    70% {
+        transform: rotate(-15deg);
+    }
+    90%,
+    10% {
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes swatch-yellow-motion {
+    0% {
+        transform: rotate(0deg);
+    }
+    30%,
+    70% {
+        transform: rotate(15deg);
+    }
+    90%,
+    10% {
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes swatch-orange-motion {
+    0% {
+        transform: rotate(0deg);
+    }
+    30%,
+    70% {
+        transform: rotate(40deg);
+    }
+    90%,
+    10% {
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes swatch-red-motion {
+    0% {
+        transform: rotate(0deg);
+    }
+    30%,
+    70% {
+        transform: rotate(65deg);
+    }
+    90%,
+    10% {
+        transform: rotate(0deg);
+    }
+}
+
