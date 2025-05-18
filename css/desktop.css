@@ -7,16 +7,7 @@
     font-style: normal;
 }
 
-.container {
-    display: none;
-}
-
-
-@media screen and (min-width: 781px) {
-
-    .jhy-pf__Mobile {
-        display: none;
-    }
+@media screen and (min-width: 780px) {
 
     body {
         font-family: "Gloock", "Hahmlet-Regular", sans-serif;
@@ -28,7 +19,6 @@
         background-attachment: fixed;
         background-position: center;
         transition: background-image 0.25s ease-in-out;
-        display: block;
     }
 
     .container:before {
@@ -399,7 +389,7 @@
         white-space: nowrap;
     }
 
-    #profile .timeline {
+    #career .timeline {
         margin: 0 auto;
         position: relative;
         max-width: 45%;
@@ -407,7 +397,7 @@
         transform: translateY(-50%);
     }
 
-    #profile .timeline:before {
+    #career .timeline:before {
         background: #202026ed;
         content: "";
         margin-left: -3px;
@@ -421,7 +411,11 @@
         display: none;
     }
 
-    #profile .timeline-event {
+    #career .timeline-flex {
+        display: flex;
+    }
+
+    #career .timeline-event {
         position: relative;
         list-style: none;
         left: 45px;
@@ -433,7 +427,7 @@
         font-family: "Hahmlet-Regular";
     }
 
-    #profile .timeline-event img {
+    #career .timeline-event img {
         height: 100%;
         display: block;
         border: none !important;
@@ -441,33 +435,57 @@
         padding: 10px;
     }
 
-    #profile .timeline-event .w-logo {
+    #career .timeline-event .w-logo {
         margin-top: 7px;
         margin-bottom: -7px;
     }
 
-    #profile .timeline-event .pb-logo {
+    #career .timeline-event .pb-logo {
         margin-left: 15px;
         margin-top: 10px;
     }
 
-    #profile .timeline-event h3 {
+    #career .timeline-event:nth-child(1) {
+        background-image: linear-gradient(270deg, #fdffbd66, #fff1d70d, #ffefc96b), url(../images/www.png);
+        background-size: cover;
+        background-position: center;
+    }
+
+    #career .timeline-event:nth-child(2) {
+        background: linear-gradient(270deg, #e0ebb76b, #fff1d745, #ffffd1), url(../images/w.png);
+        background-size: cover;
+        background-position: center;
+    }
+
+    #career .timeline-event:nth-child(3) {
+        background: linear-gradient(270deg, #ffe6d728, #ecffedc0, #fffae1), url(../images/ww.png);
+        background-size: cover;
+        background-position: center;
+    }
+
+    #career .timeline-event:nth-child(4) {
+        background: linear-gradient(270deg, #d4e3ff7a, #ffeeeacc, #f3feffdc), url(../images/wwww.png);
+        background-size: cover;
+        background-position: center;
+    }
+
+    #career .timeline-event h3 {
         font-size: 1.75em;
     }
 
-    #profile .timeline-event h4 {
+    #career .timeline-event h4 {
         font-size: 1.2em;
         margin-bottom: 1.2em;
     }
 
-    #profile .timeline-event .career-title {
+    #career .timeline-event .career-title {
         display: block;
         width: fit-content;
         border-radius: 20px;
         font-size: 120%;
     }
 
-    #profile .timeline-event:before {
+    #career .timeline-event:before {
         content: "";
         -moz-transition: -moz-transform 0.2s ease-in;
         -o-transition: -o-transform 0.2s ease-in;
@@ -487,27 +505,27 @@
         border-radius: 5px;
     }
 
-    #profile .timeline-event:nth-child(1):before {
+    #career .timeline-event:nth-child(1):before {
         outline: 10px solid rgba(211, 223, 255, 0.45);
         background-color: #fbffeb;
     }
 
-    #profile .timeline-event:nth-child(2):before {
+    #career .timeline-event:nth-child(2):before {
         outline: 10px solid #ecbba563;
         background-color: #fff9eb;
     }
 
-    #profile .timeline-event:nth-child(3):before {
+    #career .timeline-event:nth-child(3):before {
         outline: 10px solid #e6ffac63;
         background-color: #fefdd1;
     }
 
-    #profile .timeline-event:nth-child(4):before {
+    #career .timeline-event:nth-child(4):before {
         outline: 10px solid #a5ece263;
         background-color: #e3f0df;
     }
 
-    #profile .timeline-title {
+    #career .timeline-title {
         line-height: 1.8;
         text-shadow: 5px 2px 10px #ffffff41;
         display: inline-block;
@@ -515,15 +533,15 @@
         letter-spacing: 0.02em;
     }
 
-    #profile .timeline-event p span {
+    #career .timeline-event p span {
         display: block;
     }
 
-    #profile .timeline-event:nth-child(2) a {
+    #career .timeline-event:nth-child(2) a {
         color: #c3e9dc;
     }
 
-    #profile h2 {
+    #career h2 {
         padding-top: 0;
     }
 
@@ -565,6 +583,8 @@
         display: flex;
         box-shadow: 12px 7px 15px #282a307a;
         border-radius: 10px;
+        background: linear-gradient(270deg, #000000, #1c1c14, #000000, #000000);
+        color: #fff;
     }
 
     #works .works-wrapper .work a {
@@ -725,9 +745,19 @@
         color: #fff;
     }
 
+    .work.ch-jp a .work-site {
+        background-image: url(../images/chlns-jp-b.jpg);
+        background-size: cover;
+    }
+
     .work.ch-tw {
         background: linear-gradient(0deg, #000000, #0a0a0a, #121211, #000000, #000000);
         color: #fff;
+    }
+
+    .work.ch-tw a .work-site {
+        background-image: url(../images/chlns-tw-b.png);
+        background-size: cover;
     }
 
     .work.ch-fashion {
@@ -735,6 +765,15 @@
         color: #fff;
     }
 
+    .work.ch-fashion a .work-site {
+        background-image: url(../images/ch-fashion-b.png);
+        background-size: cover;
+    }
+
+    .work.cm-fashion a .work-site {
+        background-image: url(../images/cm-fashion-b.png);
+        background-size: cover;
+    }
 
     .work.cm-fashion .content {
         background: linear-gradient(270deg, #0a100a, #0e181b, #050606);
@@ -765,18 +804,62 @@
         background: linear-gradient(80deg, #eaf5fc, #d4edff, #bef4ff);
     }
 
+    .work.hapa-global a .work-site {
+        background-image: url(../images/hk-global-b.png);
+        background-size: cover;
+    }
+
+    .work.hapa-sg a .work-site {
+        background-image: url(../images/hk-sg-b.png);
+        background-size: cover;
+    }
+
+    .work.hapa-jp a .work-site {
+        background-image: url(../images/hk-jp-b.png);
+        background-size: cover;
+        background-position: left
+    }
+
+    .work.hapa-tw a .work-site {
+        background-image: url(../images/hk-tw-b.png);
+        background-size: cover;
+        background-position: top;
+    }
+
+    .work.hapa-kr a .work-site {
+        background-image: url(../images/hk-kr-b.png);
+        background-size: cover;
+        background-position: right;
+    }
+
     .work.gemhour .content {
         background: linear-gradient(310deg, #292129, #29292d, #343636, #464240, #332f20e6, #362f24);
         color: #fff;
+    }
+
+    .work.gemhour a .work-site {
+        background-image: linear-gradient(308deg, #44434b, #938d5938, #91966a26, #664d2700, #403f47), url(../images/gemhour-b.png);
+        background-size: cover;
     }
 
     .work.eotd-global .content {
         background: linear-gradient(90deg, #f6f6f6, #eceaef, #faf8f8db, #fffaf2, #efead4eb);
     }
 
+    .work.eotd-global a .work-site {
+        background-image: linear-gradient(90deg, #717f9861, #110e1100, #f7f6f3), url(../images/eotd-b.png);
+        background-size: cover;
+        background-position: right;
+    }
+
     .work.eotd-jp .content {
         background: linear-gradient(88deg, #000, #1b1216, #110e11f2, #0e0b09bd);
         color: #fff;
+    }
+
+    .work.eotd-jp a .work-site {
+        background-image: linear-gradient(90deg, #9c80799e, #110e1100, #010101), url(../images/eotd-jp-b.png);
+        background-size: cover;
     }
 
     .work .content {
@@ -815,7 +898,7 @@
         font-size: 12px;
     }
 
-    .skills-container {
+    .about-container {
         width: 80vw;
         margin: 0 auto;
         background: linear-gradient(45deg, #ffe7eabf 0%, rgba(225, 5, 34, 0) 70%), linear-gradient(135deg, #cec1fda1 10%, rgba(49, 5, 209, 0) 80%), linear-gradient(225deg, #e2fffec9 10%, rgba(10, 219, 216, 0) 80%), linear-gradient(315deg, #e4f8e48f 100%, rgba(9, 245, 5, 0) 70%);
@@ -825,7 +908,7 @@
         position: relative;
     }
 
-    .skills-container .skills-image {
+    .about-container .about-image {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -833,7 +916,8 @@
         padding-top: 30px;
     }
 
-    .skills-container .skills-image .skill {
+    .about-container .about-image .software-grid {
+        display: flex;
         flex-basis: 70px;
         flex-grow: 0;
         text-align: center;
@@ -841,31 +925,15 @@
         padding: 0 2px;
     }
 
-    .skills-container .skills-image .skill:nth-child(1) span {
-        color: #277314;
-    }
-
-    .skills-container .skills-image .skill:nth-child(2) span {
-        color: #3974ff;
-    }
-
-    .skills-container .skills-image .skill:nth-child(3) span {
-        color: #3f3f3f;
-    }
-
-    .skills-container .skills-image .skill:nth-child(6) span {
-        color: #0067cf;
-    }
-
-    .skills-image {
+    .about-image {
         text-align: center;
     }
 
-    .skills-image img {
+    .about-image img {
         width: 50px;
     }
 
-    .skills-image span {
+    .about-image span {
         font-family: auto;
         text-transform: uppercase;
         font-weight: 600;
@@ -876,19 +944,19 @@
         display: block;
     }
 
-    .skills-text {
+    .about-text {
         width: 80%;
         margin: 0 auto;
     }
 
-    .skills-text .skills-details {
+    .about-text .about-details {
         font-size: 14px;
         font-weight: 600;
         line-height: 2;
     }
 
-    .skills-text .email,
-    .skills-text .blog {
+    .about-text .email,
+    .about-text .blog {
         margin-top: 30px;
         font-weight: 700;
         margin-top: 30px;
@@ -966,3 +1034,4 @@
     }
 
 }
+
