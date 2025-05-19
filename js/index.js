@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
     const paginationItems = document.querySelectorAll(".pagination li");
-    const filterColors = ['rgb(20,26,46)', 'rgb(30,39,36)', '#999', '#555']
+    // const filterColors = ['rgb(20,26,46)', 'rgb(30,39,36)', '#999', '#555']
 
     const observer = new IntersectionObserver(
         (entries) => {
@@ -47,8 +47,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
                 if (entry.isIntersecting) {
                     console.log(index);
-                    // container.style.backgroundImage = `url('./images/background/background${index}.png')`;
-                    container.style.backgroundColor = filterColors[index];
+                    container.style.backgroundImage = `url('./images/background/background${index}.png')`;
+                    // container.style.backgroundColor = filterColors[index];
                     paginationItems.forEach((item) => item.classList.remove("active"));
                     if (paginationItems[index]) {
                         paginationItems[index].classList.add("active");

@@ -63,7 +63,6 @@ body {
     .objects-center,
     .objects-right {
         filter: saturate(0.8);
-        display: none;
     }
 
     .objects-left {
@@ -397,8 +396,6 @@ body {
         margin: 0 auto;
         position: relative;
         max-width: 45%;
-        top: 30%;
-        transform: translateY(-50%);
     }
 
     #career .timeline:before {
