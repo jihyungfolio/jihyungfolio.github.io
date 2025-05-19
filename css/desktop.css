@@ -14,7 +14,6 @@ body {
 @media screen and (min-width: 780px) {
 
     body {
-        font-family: "Gloock", "Hahmlet-Regular", sans-serif;
         display: block;
     }
 
@@ -50,13 +49,14 @@ body {
         font-size: 3vw;
         /*letter-spacing: -0.01em;*/
         padding-left: 30px;
-        line-height: 0.8;
+        line-height: 1;
         z-index: 1;
         position: relative;
         width: fit-content;
         color: #fff;
         text-shadow: 1px 3px 2px #30385b40;
         text-transform: uppercase;
+        font-family: "Gloock", "Hahmlet-Regular", sans-serif;
     }
 
     .objects-left,
@@ -347,10 +347,10 @@ body {
 
     .pagination ul li {
         background-color: #ffffff;
-        width: 4vw;
-        height: 0.7vw;
+        width: 1.2vw;
+        height: 1.2vw;
         list-style: none;
-        border-radius: 30px;
+        border-radius: 50%;
         box-shadow: 1px -2px 5px #ffffff47;
         cursor: pointer;
         transition: background-color 0.1s ease-in;
@@ -369,15 +369,15 @@ body {
     }
 
     .pagination ul li:nth-child(2).active {
-        background-color: #558b47;
+        background-color: #ff9ab0;
     }
 
     .pagination ul li:nth-child(3).active {
-        background-color: #bcc4b0;
+        background-color: #cae80b;
     }
 
     .pagination ul li:nth-child(4).active {
-        background-color: #e4ccd1;
+        background-color: #8e5ed6;
     }
 
     #home h1 {
@@ -387,7 +387,6 @@ body {
         font-size: 6vw;
         color: #fffffff3;
         text-shadow: 1px 3px 6px #30385bcc;
-        letter-spacing: -0.02em;
         top: 40%;
         position: relative;
     }
@@ -483,7 +482,7 @@ body {
         display: block;
         width: fit-content;
         border-radius: 20px;
-        font-size: 120%;
+        font-size: 1vw;
     }
 
     #career .timeline-event:before {
@@ -522,8 +521,13 @@ body {
     }
 
     #career .timeline-event:nth-child(4):before {
-        outline: 10px solid #a5ece263;
+        outline: 10px solid rgba(199, 250, 242, 0.39);
         background-color: #e3f0df;
+    }
+
+    #career .timeline-event:nth-child(5):before {
+        outline: 10px solid rgba(238, 218, 255, 0.39);
+        background-color: #f3eef8;
     }
 
     #career .timeline-title {
@@ -532,6 +536,7 @@ body {
         display: inline-block;
         padding: 7px 15px 10px 20px;
         letter-spacing: 0.02em;
+        font-size: 1vw;
     }
 
     #career .timeline-event p span {
@@ -900,11 +905,8 @@ body {
     }
 
     .about-container {
-        width: 90vw;
+        width: 92vw;
         margin: 0 auto;
-        background: #fff;
-        border-radius: 20px;
-        box-shadow: 1px 3px 2px #30385b21;
         transform: translateY(5%);
         position: relative;
     }
@@ -913,6 +915,7 @@ body {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
+        gap: 1vw;
         justify-content: center;
         padding-top: 30px;
     }
@@ -927,15 +930,35 @@ body {
     }
 
     .about-left {
-        width: 50%;
+        padding: 2vw;
+        width: 20%;
+        box-shadow: 1px 3px 2px #30385b21;
+        background: linear-gradient(270deg, rgba(255, 239, 229, 0.5), rgba(247, 255, 253, 0.73), rgba(208, 225, 236, 0.38)), url(../images/ww.png);
+        border-radius: 20px;
+    }
+
+    .about-middle {
+        padding: 2vw;
+        width: 24%;
+        box-shadow: 1px 3px 2px #30385b21;
+        background: linear-gradient(270deg, rgba(252, 255, 248, 0.62), rgba(251, 247, 255, 0.63), rgba(241, 216, 211, 0.65)), url(../images/ww.png);
+        border-radius: 20px;
     }
 
     .about-right {
-        width: 50%;
+        padding: 2vw;
+        width: 40%;
+        box-shadow: 1px 3px 2px #30385b21;
+        background: linear-gradient(270deg, rgba(255, 239, 229, 0.71), rgba(247, 255, 253, 0.45), rgba(225, 228, 255, 0.51)), url(../images/ww.png);
+        border-radius: 20px;
     }
 
     .about-inner {
         text-align: center;
+    }
+
+    .about-inner p {
+        font-size: 1.1vw;
     }
 
     .about-inner img {
@@ -953,12 +976,16 @@ body {
     .about-inner span {
         font-family: auto;
         text-transform: uppercase;
-        font-weight: 600;
         letter-spacing: -0.04em;
         padding-bottom: 10px;
         font-size: 13px;
         margin-top: -3px;
         display: block;
+    }
+
+    .my-vision__Box p {
+        margin-bottom: 1.5vw;
+        font-size: 1vw;
     }
 
     .about-text {
