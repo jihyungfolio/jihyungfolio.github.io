@@ -47,22 +47,23 @@ body {
     }
 
     section h2 {
-        font-size: 60px;
-        letter-spacing: -0.01em;
-        padding-top: 30px;
+        font-size: 3vw;
+        /*letter-spacing: -0.01em;*/
         padding-left: 30px;
         line-height: 0.8;
         z-index: 1;
         position: relative;
         width: fit-content;
-        color: #151515f3;
+        color: #fff;
         text-shadow: 1px 3px 2px #30385b40;
+        text-transform: uppercase;
     }
 
     .objects-left,
     .objects-center,
     .objects-right {
         filter: saturate(0.8);
+        display: none;
     }
 
     .objects-left {
@@ -340,25 +341,24 @@ body {
 
     .pagination {
         position: fixed;
-        right: 20px;
-        top: 50%;
-        transform: translateY(-50%);
+        right: 1.5%;
+        top: 3%;
         z-index: 2;
     }
 
     .pagination ul li {
-        background-color: #171719;
-        width: 15px;
-        height: 30px;
+        background-color: #ffffff;
+        width: 4vw;
+        height: 0.7vw;
         list-style: none;
         border-radius: 30px;
-        box-shadow: 1px 3px 6px #30385bcc;;
+        box-shadow: 1px -2px 5px #ffffff47;
         cursor: pointer;
         transition: background-color 0.1s ease-in;
     }
 
     .pagination ul li:not(:first-of-type) {
-        margin-top: 15px;
+        margin-top: 1vw;
     }
 
     .pagination ul li:hover {
@@ -366,11 +366,11 @@ body {
     }
 
     .pagination ul li.active {
-        background-color: rgb(240 227 242);
+        background-color: rgb(53 123 202);
     }
 
     .pagination ul li:nth-child(2).active {
-        background-color: #ffe18a;
+        background-color: #558b47;
     }
 
     .pagination ul li:nth-child(3).active {
@@ -382,16 +382,15 @@ body {
     }
 
     #home h1 {
-        position: absolute;
-        left: 50%;
-        top: 50%;
-        transform: translate(-50%, -50%);
-        font-size: 600%;
-        color: #151515f3;
+        margin: auto;
+        text-align: center;
+        display: block;
+        font-size: 6vw;
+        color: #fffffff3;
         text-shadow: 1px 3px 6px #30385bcc;
-        letter-spacing: -0.04em;
-        z-index: 2;
-        white-space: nowrap;
+        letter-spacing: -0.02em;
+        top: 40%;
+        position: relative;
     }
 
     #career .timeline {
@@ -904,16 +903,16 @@ body {
     }
 
     .about-container {
-        width: 80vw;
+        width: 90vw;
         margin: 0 auto;
-        background: linear-gradient(45deg, #ffe7eabf 0%, rgba(225, 5, 34, 0) 70%), linear-gradient(135deg, #cec1fda1 10%, rgba(49, 5, 209, 0) 80%), linear-gradient(225deg, #e2fffec9 10%, rgba(10, 219, 216, 0) 80%), linear-gradient(315deg, #e4f8e48f 100%, rgba(9, 245, 5, 0) 70%);
+        background: #fff;
         border-radius: 20px;
         box-shadow: 1px 3px 2px #30385b21;
-        transform: translateY(15%);
+        transform: translateY(5%);
         position: relative;
     }
 
-    .about-container .about-image {
+    .about-container .about-inner {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -921,24 +920,40 @@ body {
         padding-top: 30px;
     }
 
-    .about-container .about-image .software-grid {
-        display: flex;
-        flex-basis: 70px;
-        flex-grow: 0;
+    .about-container .about-inner .software-grid {
+        display: grid;
+        grid-gap: 1px;
+        grid-template-columns: repeat(6, 1fr);
         text-align: center;
         word-wrap: break-word;
         padding: 0 2px;
     }
 
-    .about-image {
+    .about-left {
+        width: 50%;
+    }
+
+    .about-right {
+        width: 50%;
+    }
+
+    .about-inner {
         text-align: center;
     }
 
-    .about-image img {
-        width: 50px;
+    .about-inner img {
+        width: 5vw;
     }
 
-    .about-image span {
+    .about-inner img.number {
+        width: 1.2vw;
+    }
+
+    .about-inner .item img {
+        width: 4vw;
+    }
+
+    .about-inner span {
         font-family: auto;
         text-transform: uppercase;
         font-weight: 600;
