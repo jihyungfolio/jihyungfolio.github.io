@@ -1,11 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Gloock:ital,wght@0,400;0,700&display=swap');
-
-@font-face {
-    font-family: 'Hahmlet-Regular';
-    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/Hahmlet-Regular.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-}
 
 body {
     display: none;
@@ -46,6 +38,7 @@ body {
     }
 
     section h2 {
+        font-family: "Cherry Bomb One", sans-serif;
         font-size: 3vw;
         /*letter-spacing: -0.01em;*/
         padding-left: 30px;
@@ -53,10 +46,8 @@ body {
         z-index: 1;
         position: relative;
         width: fit-content;
-        color: #fff;
         text-shadow: 1px 3px 2px #30385b40;
-        text-transform: uppercase;
-        font-family: "Gloock", "Hahmlet-Regular", sans-serif;
+        text-transform: capitalize;
     }
 
     .objects-left,
@@ -365,7 +356,7 @@ body {
     }
 
     .pagination ul li.active {
-        background-color: rgb(53 123 202);
+        background-color: #b7a4ff;
     }
 
     .pagination ul li:nth-child(2).active {
@@ -377,18 +368,18 @@ body {
     }
 
     .pagination ul li:nth-child(4).active {
-        background-color: #8e5ed6;
+        background-color: rgb(138, 178, 223);
     }
 
     #home h1 {
         margin: auto;
         text-align: center;
         display: block;
-        font-size: 6vw;
-        color: #fffffff3;
-        text-shadow: 1px 3px 6px #30385bcc;
+        font-size: 6.5vw;
+        text-shadow: 1px 3px 1px rgba(48, 56, 91, 0.25);
         top: 40%;
         position: relative;
+        font-family: "Cherry Bomb One", sans-serif;
     }
 
     #career .timeline {
@@ -424,7 +415,6 @@ body {
         background: linear-gradient(45deg, #f2f5ff, #f1ffe859);
         border-radius: 10px;
         box-shadow: 1px 3px 2px #30385b21;
-        font-family: "Hahmlet-Regular";
     }
 
     #career .timeline-event img {
@@ -884,7 +874,6 @@ body {
         list-style: none;
         font-size: 17px;
         padding-bottom: 15px;
-        font-family: "Hahmlet-Regular";
     }
 
     .work .content li label {
@@ -969,6 +958,10 @@ body {
         width: 1.2vw;
     }
 
+    .about-inner img.location {
+        width: 1.5vw;
+    }
+
     .about-inner .item img {
         width: 4vw;
     }
@@ -977,15 +970,18 @@ body {
         font-family: auto;
         text-transform: uppercase;
         letter-spacing: -0.04em;
-        padding-bottom: 10px;
-        font-size: 13px;
+        font-size: 1.2vw;
         margin-top: -3px;
         display: block;
     }
 
+    .about-box {
+        margin-bottom: 2vw;
+    }
+
     .my-vision__Box p {
         margin-bottom: 1.5vw;
-        font-size: 1vw;
+        font-size: 1.2vw;
     }
 
     .about-text {
