@@ -338,13 +338,14 @@ body {
 
     .pagination ul li {
         background-color: #ffffff;
-        width: 1.2vw;
-        height: 1.2vw;
+        width: 1.3vw;
+        height: 1.3vw;
         list-style: none;
         border-radius: 50%;
         box-shadow: 1px -2px 5px #ffffff47;
         cursor: pointer;
         transition: background-color 0.1s ease-in;
+        border: 2px solid #fff;
     }
 
     .pagination ul li:not(:first-of-type) {
@@ -356,11 +357,11 @@ body {
     }
 
     .pagination ul li.active {
-        background-color: #b7a4ff;
+        background-color: #5659dd;
     }
 
     .pagination ul li:nth-child(2).active {
-        background-color: #ff9ab0;
+        background-color: #dd738a;
     }
 
     .pagination ul li:nth-child(3).active {
@@ -368,7 +369,7 @@ body {
     }
 
     .pagination ul li:nth-child(4).active {
-        background-color: rgb(138, 178, 223);
+        background-color: rgb(59, 120, 188);
     }
 
     #home {
@@ -380,7 +381,7 @@ body {
         text-align: center;
         display: block;
         font-size: 7.2vw;
-        background: -webkit-linear-gradient(#ffffff, #ff84ad, rgb(107, 86, 133), #19071b, #413666c4, #6a6a6a);
+        background: -webkit-linear-gradient(#ffffff, #ffb0fb, rgb(107, 86, 133), #19071b, #413666c4, #6a6a6a);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         text-shadow: 1px 3px 3px rgba(0, 0, 0, 0.66);
