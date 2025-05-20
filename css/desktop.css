@@ -371,13 +371,20 @@ body {
         background-color: rgb(138, 178, 223);
     }
 
+    #home {
+        /*background: linear-gradient(5deg, transparent, transparent, rgba(170, 68, 255, 0.25), rgba(200, 87, 255, 0.18), rgba(195, 75, 255, 0.3));*/
+    }
+
     #home h1 {
         margin: auto;
         text-align: center;
         display: block;
-        font-size: 6.5vw;
-        text-shadow: 1px 3px 1px rgba(48, 56, 91, 0.25);
-        top: 40%;
+        font-size: 7.2vw;
+        background: -webkit-linear-gradient(#ffffff, #ff84ad, rgb(107, 86, 133), #19071b, #413666c4, #6a6a6a);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-shadow: 1px 3px 3px rgba(0, 0, 0, 0.66);
+        top: 38%;
         position: relative;
         font-family: "Cherry Bomb One", sans-serif;
     }
