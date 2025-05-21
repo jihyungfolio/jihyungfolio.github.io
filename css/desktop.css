@@ -867,6 +867,11 @@ body {
         text-transform: lowercase;
     }
 
+    .about-wrapper {
+        background: #000 !important;
+        color: #fff;
+    }
+
     .about-wrapper .about-title {
         margin-bottom: 1.5vw;
     }
@@ -895,8 +900,49 @@ body {
         border-radius: 20px;
     }
 
+    .about-left .profile-contact {
+        padding: 0 2vw;
+        text-align: center;
+    }
+
+    .contact-box {
+        margin-top: 1vw;
+    }
+
+    .about-left .profile-contact span {
+        margin: 0.5vw auto !important;
+        text-align: center !important;
+        font-size: 1.1vw;
+        letter-spacing: 2px;
+        border-radius: 25px;
+        background: #f0f2f3;
+        color: #000;
+        width: 10vw;
+        height: 2.5vw;
+        line-height: 2;
+    }
+
+    .about-left .contact {
+        padding-bottom: 0.5vw;
+    }
+
     .about-left .about-box {
         display: flex;
+    }
+
+    .about-left .about-box .info img {
+        width: 10vw;
+        background: #f0f2f3;
+        padding: 0.3vw 1vw;
+        margin: 0 auto 0.2vw;
+        border-radius: 25px;
+    }
+
+    .about-left .about-box .info .phone img {
+        padding: 0.2vw 3vw;
+        width: 6vw;
+        margin: 0 auto;
+        border-radius: 25px;
     }
 
     .about-left .about-box span {
@@ -907,6 +953,10 @@ body {
 
     .about-left .about-box img {
         width: 40%;
+    }
+
+    .contact img {
+
     }
 
     .about-middle span,
@@ -936,7 +986,9 @@ body {
     }
 
     .about-inner img.location {
-        width: 1.5vw;
+        width: 1.2vw;
+        filter: invert(1);
+        margin-bottom: -0.2vw;
     }
 
     .about-inner .item img {
@@ -953,6 +1005,11 @@ body {
 
     .about-box {
         margin-bottom: 1.2vw;
+    }
+
+    .about-box .profile-image img {
+        width: 8vw;
+        height: auto;
     }
 
     .my-vision__Box p {
@@ -1055,7 +1112,7 @@ body {
         text-align: center;
         position: relative;
         transform: scale(0.15);
-        margin-top: -14vw;
+        margin-top: -15vw;
         margin-bottom: -12vw;
         margin-left: 6vw;
     }
