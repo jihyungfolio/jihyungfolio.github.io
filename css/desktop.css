@@ -863,13 +863,12 @@ body {
 
     .about-container .about-inner .software-grid span {
         font-size: 0.9vw;
-        margin-bottom: 1.5vw;
+        padding-bottom: 0.2vw;
         text-transform: lowercase;
     }
 
     .about-wrapper {
-        background: #000 !important;
-        color: #fff;
+        background: #f2f4f5;
     }
 
     .about-wrapper .about-title {
@@ -877,49 +876,49 @@ body {
     }
 
     .about-left {
-        padding: 2vw;
-        width: 26%;
+        padding: 2vw 1.6vw;
+        width: 18%;
         box-shadow: 1px 3px 2px #30385b21;
-        background: linear-gradient(270deg, rgba(232, 228, 228, 0.81), #f2f3f4, rgba(236, 241, 255, 0.77));
         border-radius: 20px;
+        border: 6px solid #e8b3c6;
     }
 
     .about-middle {
-        padding: 2vw 1vw 1vw 1vw;
+        padding: 2vw 1vw 0 1vw;
         width: 42%;
         box-shadow: 1px 3px 2px #30385b21;
-        background: linear-gradient(270deg, rgba(243, 251, 255, 0.62), rgba(253, 255, 247, 0.8), rgba(255, 240, 246, 0.69));
         border-radius: 20px;
+        border: 6px solid #e9efbf;
     }
 
     .about-right {
-        padding: 2vw 2vw 1vw 2vw;
+        padding: 2vw 2vw 0.9vw 2vw;
         width: 17.6%;
         box-shadow: 1px 3px 2px #30385b21;
-        background: linear-gradient(270deg, rgba(252, 255, 248, 0.84), rgba(245, 237, 255, 0.88), rgba(243, 254, 255, 0.68));
         border-radius: 20px;
+        border: 6px solid #edb4ad;
     }
 
     .about-left .profile-contact {
-        padding: 0 2vw;
+        padding: 0 1vw;
         text-align: center;
     }
 
     .contact-box {
-        margin-top: 1vw;
+        margin-top: 2vw;
     }
 
     .about-left .profile-contact span {
         margin: 0.5vw auto !important;
         text-align: center !important;
-        font-size: 1.1vw;
+        font-size: 0.9vw;
         letter-spacing: 2px;
-        border-radius: 25px;
+        border-radius: 5px;
         background: #f0f2f3;
         color: #000;
-        width: 10vw;
-        height: 2.5vw;
-        line-height: 2;
+        width: 4.5vw !important;
+        height: 2vw;
+        line-height: 2.2;
     }
 
     .about-left .contact {
@@ -935,20 +934,21 @@ body {
         background: #f0f2f3;
         padding: 0.3vw 1vw;
         margin: 0 auto 0.2vw;
-        border-radius: 25px;
+        border-radius: 5px;
     }
 
     .about-left .about-box .info .phone img {
-        padding: 0.2vw 3vw;
+        padding: 0.1vw 0.8vw;
         width: 6vw;
         margin: 0 auto;
-        border-radius: 25px;
+        border-radius: 5px;
     }
 
     .about-left .about-box span {
         margin-right: 1vw;
         text-align: left;
-        width: 6vw
+        width: 4vw;
+        font-size: 1vw;
     }
 
     .about-left .about-box img {
@@ -969,7 +969,7 @@ body {
     }
 
     .about-inner p {
-        font-size: 1vw;
+        font-size: 0.8vw;
     }
 
     .about-inner img {
@@ -987,7 +987,7 @@ body {
 
     .about-inner img.location {
         width: 1.2vw;
-        filter: invert(1);
+        filter: brightness(0);
         margin-bottom: -0.2vw;
     }
 
@@ -1013,7 +1013,8 @@ body {
     }
 
     .my-vision__Box p {
-        margin-bottom: 1vw;
+        padding-top: 0.6vw;
+        margin-bottom: 0.8vw;
         font-size: 0.9vw;
     }
 
