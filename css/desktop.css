@@ -877,14 +877,14 @@ body {
 
     .about-left {
         padding: 2vw 1.6vw;
-        width: 18%;
+        width: 10%;
         box-shadow: 1px 3px 2px #30385b21;
         border-radius: 20px;
         border: 6px solid #e8b3c6;
     }
 
     .about-middle {
-        padding: 2vw 1vw 0 1vw;
+        padding: 2vw 1vw 0;
         width: 42%;
         box-shadow: 1px 3px 2px #30385b21;
         border-radius: 20px;
@@ -892,21 +892,13 @@ body {
     }
 
     .about-right {
-        padding: 2vw 2vw 0.9vw 2vw;
+        padding: 2vw 2vw 1vw;
         width: 17.6%;
         box-shadow: 1px 3px 2px #30385b21;
         border-radius: 20px;
         border: 6px solid #edb4ad;
     }
 
-    .about-left .profile-contact {
-        padding: 0 1vw;
-        text-align: center;
-    }
-
-    .contact-box {
-        margin-top: 2vw;
-    }
 
     .about-left .profile-contact span {
         margin: 0.5vw auto !important;
