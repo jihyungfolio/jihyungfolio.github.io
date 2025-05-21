@@ -880,7 +880,6 @@ body {
         width: 9%;
         box-shadow: 1px 3px 2px #30385b21;
         border-radius: 20px;
-        border: 6px solid #ffe5f1;
     }
 
     .about-middle {
@@ -888,7 +887,6 @@ body {
         width: 40%;
         box-shadow: 1px 3px 2px #30385b21;
         border-radius: 20px;
-        border: 6px solid #e9efbf;
         background: linear-gradient(45deg, #eaeadc, transparent);
     }
 
@@ -897,7 +895,6 @@ body {
         width: 17.6%;
         box-shadow: 1px 3px 2px #30385b21;
         border-radius: 20px;
-        border: 6px solid #ffdac8;
         background: linear-gradient(45deg, #ffeee9, rgba(255, 255, 255, 0.4));
     }
 
@@ -997,7 +994,7 @@ body {
     }
 
     .about-title {
-        font-size: 2.4vw !important;
+        font-size: 2.6vw !important;
         font-family: "Cherry Bomb One", sans-serif;
         background: -webkit-linear-gradient(#ffffff, #fdd3cb, #ffd3bc, rgb(63, 36, 99), #19071b, #040920c4, #872593);
         -webkit-background-clip: text;
