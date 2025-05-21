@@ -868,41 +868,50 @@ body {
     }
 
     .about-wrapper {
-        background: #f2f4f5;
     }
 
     .about-wrapper .about-title {
-        margin-bottom: 1.5vw;
+        margin-bottom: 0.5vw;
     }
 
     .about-left {
-        padding: 2vw 1.5vw;
-        width: 9%;
-        box-shadow: 1px 3px 2px #30385b21;
-        border-radius: 20px;
-        background: linear-gradient(45deg, #f3f8ff, rgba(239, 237, 251, 0.53));
-    }
-
-    .about-left p {
-        font-size: 1vw !important;
+        width: 12%;
     }
 
     .about-middle {
-        padding: 2vw 1vw 0;
         width: 40%;
-        box-shadow: 1px 3px 2px #30385b21;
-        border-radius: 20px;
-        background: linear-gradient(45deg, #eaeadc, transparent);
     }
 
     .about-right {
-        padding: 2vw;
-        width: 17.6%;
-        box-shadow: 1px 3px 2px #30385b21;
-        border-radius: 20px;
-        background: linear-gradient(45deg, #ffeee9, rgba(255, 255, 255, 0.4));
+        width: 25%;
     }
 
+    .about-left-inner {
+        padding: 2vw 1.5vw;
+        box-shadow: 1px 3px 2px #30385b21;
+        border-radius: 20px;
+        background: linear-gradient(45deg, #f3f8ff, #f0f1f2, rgba(245, 241, 255, 0.89), rgba(151, 142, 204, 0.29));
+    }
+
+    .about-middle-inner {
+        padding: 2vw 1vw 0;
+        box-shadow: 1px 3px 2px #30385b21;
+        border-radius: 20px;
+        background: linear-gradient(250deg, rgba(217, 225, 208, 0.6), rgba(210, 212, 225, 0.94), rgba(246, 227, 246, 0.25));
+    }
+
+    .about-right-inner {
+        padding: 2vw;
+        box-shadow: 1px 3px 2px #30385b21;
+        border-radius: 20px;
+        background: linear-gradient(45deg, #e1ddd8, rgba(221, 225, 216, 0.33), rgba(163, 180, 204, 0.6));
+    }
+
+    .about-left p {
+        font-size: 1.1vw !important;
+        letter-spacing: 0.01em;
+        line-height: 1.8;
+    }
 
     .about-left .profile-contact span {
         margin: 0.5vw auto !important;
@@ -948,6 +957,10 @@ body {
 
     .about-left .about-box img {
         width: 40%;
+    }
+
+    .about-left .about-box p img {
+        width: 100%;
     }
 
     .contact img {
@@ -999,9 +1012,9 @@ body {
     }
 
     .about-title {
-        font-size: 2.6vw !important;
+        font-size: 3.2vw !important;
         font-family: "Cherry Bomb One", sans-serif;
-        background: -webkit-linear-gradient(#ffffff, #fdd3cb, #ffd3bc, rgb(63, 36, 99), #19071b, #040920c4, #872593);
+        background: -webkit-linear-gradient(#ffffff, #f8edff, #89b0ff, rgb(63, 36, 99), #19071b, #040920c4, #872593);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         text-shadow: 1px 3px 3px rgba(16, 16, 16, 0.55);
@@ -1014,6 +1027,8 @@ body {
     .about-box .profile-image img {
         width: 8vw;
         height: auto;
+        border-radius: 10px;
+        margin-top: 1vw;
     }
 
     .my-vision__Box p {
