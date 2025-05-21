@@ -39,7 +39,7 @@ body {
 
     section h2 {
         font-family: "Cherry Bomb One", sans-serif;
-        font-size: 3vw;
+        font-size: 4vw;
         /*letter-spacing: -0.01em;*/
         padding-left: 30px;
         line-height: 1;
@@ -48,6 +48,9 @@ body {
         width: fit-content;
         text-shadow: 1px 3px 2px #30385b40;
         text-transform: capitalize;
+        background: -webkit-linear-gradient(#1b0419, #000, #19071b);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
     }
 
     .objects-left,
@@ -381,10 +384,10 @@ body {
         text-align: center;
         display: block;
         font-size: 7.2vw;
-        background: -webkit-linear-gradient(#ffffff, #ffb0fb, rgb(107, 86, 133), #19071b, #413666c4, #6a6a6a);
+        background: -webkit-linear-gradient(#ffffff, #fdd3cb, #ff92e9, rgb(63, 36, 99), #19071b, #040920c4, #872593);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-        text-shadow: 1px 3px 3px rgba(0, 0, 0, 0.66);
+        text-shadow: 1px 3px 3px rgba(16, 16, 16, 0.55);
         top: 38%;
         position: relative;
         font-family: "Cherry Bomb One", sans-serif;
@@ -441,30 +444,6 @@ body {
     #career .timeline-event .pb-logo {
         margin-left: 15px;
         margin-top: 10px;
-    }
-
-    #career .timeline-event:nth-child(1) {
-        background-image: linear-gradient(270deg, #fdffbd66, #fff1d70d, #ffefc96b), url(../images/www.png);
-        background-size: cover;
-        background-position: center;
-    }
-
-    #career .timeline-event:nth-child(2) {
-        background: linear-gradient(270deg, #e0ebb76b, #fff1d745, #ffffd1), url(../images/w.png);
-        background-size: cover;
-        background-position: center;
-    }
-
-    #career .timeline-event:nth-child(3) {
-        background: linear-gradient(270deg, #ffe6d728, #ecffedc0, #fffae1), url(../images/ww.png);
-        background-size: cover;
-        background-position: center;
-    }
-
-    #career .timeline-event:nth-child(4) {
-        background: linear-gradient(270deg, #d4e3ff7a, #ffeeeacc, #f3feffdc), url(../images/wwww.png);
-        background-size: cover;
-        background-position: center;
     }
 
     #career .timeline-event h3 {
@@ -749,34 +728,14 @@ body {
         color: #fff;
     }
 
-    .work.ch-jp a .work-site {
-        background-image: url(../images/chlns-jp-b.jpg);
-        background-size: cover;
-    }
-
     .work.ch-tw {
         background: linear-gradient(0deg, #000000, #0a0a0a, #121211, #000000, #000000);
         color: #fff;
     }
 
-    .work.ch-tw a .work-site {
-        background-image: url(../images/chlns-tw-b.png);
-        background-size: cover;
-    }
-
     .work.ch-fashion {
         background: linear-gradient(90deg, #000000, #000000, #191911, #090808, #211d14, #1e190a, #000);
         color: #fff;
-    }
-
-    .work.ch-fashion a .work-site {
-        background-image: url(../images/ch-fashion-b.png);
-        background-size: cover;
-    }
-
-    .work.cm-fashion a .work-site {
-        background-image: url(../images/cm-fashion-b.png);
-        background-size: cover;
     }
 
     .work.cm-fashion .content {
@@ -808,62 +767,18 @@ body {
         background: linear-gradient(80deg, #eaf5fc, #d4edff, #bef4ff);
     }
 
-    .work.hapa-global a .work-site {
-        background-image: url(../images/hk-global-b.png);
-        background-size: cover;
-    }
-
-    .work.hapa-sg a .work-site {
-        background-image: url(../images/hk-sg-b.png);
-        background-size: cover;
-    }
-
-    .work.hapa-jp a .work-site {
-        background-image: url(../images/hk-jp-b.png);
-        background-size: cover;
-        background-position: left
-    }
-
-    .work.hapa-tw a .work-site {
-        background-image: url(../images/hk-tw-b.png);
-        background-size: cover;
-        background-position: top;
-    }
-
-    .work.hapa-kr a .work-site {
-        background-image: url(../images/hk-kr-b.png);
-        background-size: cover;
-        background-position: right;
-    }
-
     .work.gemhour .content {
         background: linear-gradient(310deg, #292129, #29292d, #343636, #464240, #332f20e6, #362f24);
         color: #fff;
-    }
-
-    .work.gemhour a .work-site {
-        background-image: linear-gradient(308deg, #44434b, #938d5938, #91966a26, #664d2700, #403f47), url(../images/gemhour-b.png);
-        background-size: cover;
     }
 
     .work.eotd-global .content {
         background: linear-gradient(90deg, #f6f6f6, #eceaef, #faf8f8db, #fffaf2, #efead4eb);
     }
 
-    .work.eotd-global a .work-site {
-        background-image: linear-gradient(90deg, #717f9861, #110e1100, #f7f6f3), url(../images/eotd-b.png);
-        background-size: cover;
-        background-position: right;
-    }
-
     .work.eotd-jp .content {
         background: linear-gradient(88deg, #000, #1b1216, #110e11f2, #0e0b09bd);
         color: #fff;
-    }
-
-    .work.eotd-jp a .work-site {
-        background-image: linear-gradient(90deg, #9c80799e, #110e1100, #010101), url(../images/eotd-jp-b.png);
-        background-size: cover;
     }
 
     .work .content {
@@ -914,40 +829,47 @@ body {
         flex-wrap: wrap;
         gap: 1vw;
         justify-content: center;
-        padding-top: 30px;
     }
 
     .about-container .about-inner .software-grid {
         display: grid;
-        grid-gap: 1px;
         grid-template-columns: repeat(6, 1fr);
         text-align: center;
-        word-wrap: break-word;
-        padding: 0 2px;
+    }
+
+    .about-container .about-inner .software-grid span {
+        font-size: 0.9vw;
+        text-transform: uppercase;
+        margin-bottom: 1.4vw;
     }
 
     .about-left {
         padding: 2vw;
-        width: 20%;
+        width: 27%;
         box-shadow: 1px 3px 2px #30385b21;
         background: linear-gradient(270deg, rgba(255, 239, 229, 0.5), rgba(247, 255, 253, 0.73), rgba(208, 225, 236, 0.38)), url(../images/ww.png);
         border-radius: 20px;
     }
 
     .about-middle {
-        padding: 2vw;
-        width: 24%;
+        padding: 2vw 1vw 0 1vw;
+        width: 42%;
         box-shadow: 1px 3px 2px #30385b21;
-        background: linear-gradient(270deg, rgba(252, 255, 248, 0.62), rgba(251, 247, 255, 0.63), rgba(241, 216, 211, 0.65)), url(../images/ww.png);
+        background: linear-gradient(270deg, rgba(255, 239, 229, 0.71), rgba(247, 255, 253, 0.45), rgba(225, 228, 255, 0.51)), url(../images/ww.png);
         border-radius: 20px;
     }
 
     .about-right {
         padding: 2vw;
-        width: 40%;
+        width: 16%;
         box-shadow: 1px 3px 2px #30385b21;
-        background: linear-gradient(270deg, rgba(255, 239, 229, 0.71), rgba(247, 255, 253, 0.45), rgba(225, 228, 255, 0.51)), url(../images/ww.png);
+        background: linear-gradient(270deg, rgba(252, 255, 248, 0.62), rgba(251, 247, 255, 0.63), rgba(241, 216, 211, 0.65)), url(../images/ww.png);
         border-radius: 20px;
+    }
+
+    .about-middle span,
+    .about-right span {
+        margin-bottom: 2vw;
     }
 
     .about-inner {
@@ -955,7 +877,7 @@ body {
     }
 
     .about-inner p {
-        font-size: 1.1vw;
+        font-size: 1vw;
     }
 
     .about-inner img {
@@ -963,7 +885,8 @@ body {
     }
 
     .about-inner img.number {
-        width: 1.2vw;
+        width: 0.8vw;
+        margin-bottom: -0.1vw;
     }
 
     .about-inner img.location {
@@ -971,11 +894,11 @@ body {
     }
 
     .about-inner .item img {
-        width: 4vw;
+        width: 3.8vw;
+        margin: auto;
     }
 
     .about-inner span {
-        font-family: auto;
         text-transform: uppercase;
         letter-spacing: -0.04em;
         font-size: 1.2vw;
@@ -989,7 +912,7 @@ body {
 
     .my-vision__Box p {
         margin-bottom: 1.5vw;
-        font-size: 1.2vw;
+        font-size: 0.9vw;
     }
 
     .about-text {
