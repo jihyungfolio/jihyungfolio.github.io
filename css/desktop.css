@@ -880,6 +880,11 @@ body {
         width: 9%;
         box-shadow: 1px 3px 2px #30385b21;
         border-radius: 20px;
+        background: linear-gradient(45deg, #f3f8ff, rgba(239, 237, 251, 0.53));
+    }
+
+    .about-left p {
+        font-size: 1vw !important;
     }
 
     .about-middle {
