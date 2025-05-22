@@ -842,8 +842,7 @@ body {
 
     .about-container {
         width: 92vw;
-        margin: 0 auto;
-        transform: translateY(5%);
+        margin: auto;
         position: relative;
     }
 
@@ -862,9 +861,9 @@ body {
     }
 
     .about-container .about-inner .software-grid span {
-        font-size: 0.9vw;
-        padding-bottom: 0.2vw;
+        font-size: 0.85vw;
         text-transform: lowercase;
+        margin-bottom: 1.5vw;
     }
 
     .about-wrapper {
@@ -888,27 +887,27 @@ body {
 
     .about-left-inner {
         padding: 2vw 1.5vw;
-        box-shadow: 1px 3px 2px #30385b21;
+        box-shadow: 1px 3px 2px rgba(48, 56, 91, 0.42);
         border-radius: 20px;
-        background: linear-gradient(45deg, #f3f8ff, #f0f1f2, rgba(245, 241, 255, 0.89), rgba(151, 142, 204, 0.29));
+        background: linear-gradient(45deg, rgba(255, 198, 219, 0.39), rgba(243, 248, 255, 0.32), rgba(244, 246, 255, 0.64), rgba(255, 211, 237, 0.29));
     }
 
     .about-middle-inner {
-        padding: 2vw 1vw 0;
-        box-shadow: 1px 3px 2px #30385b21;
+        padding: 2vw 1.5vw;
+        box-shadow: 1px 3px 2px rgba(48, 56, 91, 0.42);
         border-radius: 20px;
         background: linear-gradient(250deg, rgba(217, 225, 208, 0.6), rgba(210, 212, 225, 0.94), rgba(246, 227, 246, 0.25));
     }
 
     .about-right-inner {
-        padding: 2vw;
-        box-shadow: 1px 3px 2px #30385b21;
+        padding: 2vw 1.5vw;
+        box-shadow: 1px 3px 2px rgba(48, 56, 91, 0.42);
         border-radius: 20px;
         background: linear-gradient(45deg, #e1ddd8, rgba(221, 225, 216, 0.33), rgba(163, 180, 204, 0.6));
     }
 
     .about-left p {
-        font-size: 1.1vw !important;
+        font-size: 0.85vw !important;
         letter-spacing: 0.01em;
         line-height: 1.8;
     }
@@ -931,6 +930,7 @@ body {
     }
 
     .about-left .about-box {
+        margin-top: 0.4vw;
     }
 
     .about-left .about-box .info img {
@@ -941,9 +941,13 @@ body {
         border-radius: 5px;
     }
 
+    .about-left .about-box .info img.phone {
+        width: 7vw;
+    }
+
+
     .about-left .about-box .info .phone img {
         padding: 0.1vw 0.8vw;
-        width: 6vw;
         margin: 0 auto;
         border-radius: 5px;
     }
@@ -961,6 +965,12 @@ body {
 
     .about-left .about-box p img {
         width: 100%;
+    }
+
+    .about-left .about-box p img.phone {
+        width: 5.1vw !important;
+        margin-bottom: 0.4vw;
+        margin-top: 1.2vw;
     }
 
     .contact img {
@@ -1012,12 +1022,13 @@ body {
     }
 
     .about-title {
-        font-size: 3.2vw !important;
+        font-size: 2.5vw !important;
         font-family: "Cherry Bomb One", sans-serif;
-        background: -webkit-linear-gradient(#ffffff, #f8edff, #89b0ff, rgb(63, 36, 99), #19071b, #040920c4, #872593);
+        background: -webkit-linear-gradient(#ffffff, #6e86ff, #516b9f, rgb(19, 23, 20), #19071b, #adbcffc4, #eaf9ff);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         text-shadow: 1px 3px 3px rgba(16, 16, 16, 0.55);
+        padding-bottom: 2vw;
     }
 
     .about-box {
@@ -1025,16 +1036,18 @@ body {
     }
 
     .about-box .profile-image img {
-        width: 8vw;
-        height: auto;
+        width: 100%;
+        height: 12.5vw;
+        object-fit: cover;
         border-radius: 10px;
         margin-top: 1vw;
+        filter: brightness(1.1) saturate(0.9) contrast(0.9) hue-rotate(355deg);
     }
 
     .my-vision__Box p {
         padding-top: 0.6vw;
         margin-bottom: 0.8vw;
-        font-size: 0.9vw;
+        font-size: 0.85vw;
     }
 
     .about-text {
