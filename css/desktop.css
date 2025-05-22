@@ -364,15 +364,15 @@ body {
     }
 
     .pagination ul li:nth-child(2).active {
-        background-color: #dd738a;
-    }
-
-    .pagination ul li:nth-child(3).active {
         background-color: #cae80b;
     }
 
-    .pagination ul li:nth-child(4).active {
+    .pagination ul li:nth-child(3).active {
         background-color: rgb(59, 120, 188);
+    }
+
+    .pagination ul li:nth-child(4).active {
+        background-color: #dd738a;
     }
 
     #home {
@@ -393,10 +393,15 @@ body {
         font-family: "Cherry Bomb One", sans-serif;
     }
 
-    #career .timeline {
+    .timeline-container {
+        display: flex;
+        width: 76vw;
         margin: 0 auto;
+    }
+
+    #career .timeline {
         position: relative;
-        max-width: 45%;
+        width: 50%;
     }
 
     #career .timeline:before {
@@ -420,12 +425,12 @@ body {
     #career .timeline-event {
         position: relative;
         list-style: none;
-        left: 45px;
-        padding: 5px;
-        margin: 20px 0 30px;
+        padding: 1vw;
+        margin: 2vw 0 0;
         background: linear-gradient(45deg, #f2f5ff, #f1ffe859);
         border-radius: 10px;
-        box-shadow: 1px 3px 2px #30385b21;
+        box-shadow: 1px 3px 2px rgba(48, 56, 91, 0.42);
+        width: 30vw;
     }
 
     #career .timeline-event img {
@@ -437,8 +442,7 @@ body {
     }
 
     #career .timeline-event .w-logo {
-        margin-top: 7px;
-        margin-bottom: -7px;
+
     }
 
     #career .timeline-event .pb-logo {
@@ -482,25 +486,25 @@ body {
         border-radius: 5px;
     }
 
-    #career .timeline-event:nth-child(1) {
-        background-image: linear-gradient(270deg, #fdffbd66, #fff1d70d, #ffefc96b), url(../images/www.png);
+    #career .timeline-event.career:nth-child(2) {
+        background-image: linear-gradient(270deg, rgba(65, 91, 115, 0.32), rgba(116, 159, 225, 0.09), rgba(255, 227, 197, 0.42)), url(../images/background/career1.png);
         background-size: cover;
         background-position: center;
     }
 
-    #career .timeline-event:nth-child(2) {
-        background: linear-gradient(270deg, #e0ebb76b, #fff1d745, #ffffd1), url(../images/w.png);
-        background-size: cover;
-        background-position: center;
-    }
-
-    #career .timeline-event:nth-child(3) {
-        background: linear-gradient(270deg, #ffe6d728, #ecffedc0, #fffae1), url(../images/ww.png);
+    #career .timeline-event.career:nth-child(3) {
+        background: linear-gradient(270deg, rgba(231, 255, 241, 0.53), rgba(240, 233, 251, 0.26), rgba(243, 255, 254, 0.88)), url(../images/background/career2.png);
         background-size: cover;
         background-position: center;
     }
 
     #career .timeline-event:nth-child(4) {
+        background: linear-gradient(270deg, #ffe6d728, #ecffedc0, #fffae1), url(../images/ww.png);
+        background-size: cover;
+        background-position: center;
+    }
+
+    #career .timeline-event:nth-child(5) {
         background: linear-gradient(270deg, #d4e3ff7a, #ffeeeacc, #f3feffdc), url(../images/wwww.png);
         background-size: cover;
         background-position: center;
@@ -549,12 +553,16 @@ body {
     }
 
     #career h2 {
+        font-size: 3vw;
         padding-top: 0;
+        background: -webkit-linear-gradient(#ffffff, #d2e0ff, rgba(166, 115, 255, 0.91), #3420b8, #151a62, #2f1790fc, #97c1ff);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-shadow: 1px 3px 3px rgba(16, 16, 16, 0.55);
     }
 
     #works .works-container {
         height: 80vh;
-        left: 50px;
         position: relative;
     }
 
@@ -840,10 +848,18 @@ body {
         font-size: 12px;
     }
 
-    .about-container {
-        width: 92vw;
-        margin: auto;
+    #about {
         position: relative;
+        display: table;
+    }
+
+    .about-container {
+        width: 90vw;
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+    .about-inner {
     }
 
     .about-container .about-inner {
@@ -882,14 +898,14 @@ body {
     }
 
     .about-right {
-        width: 25%;
+        width: 24%;
     }
 
     .about-left-inner {
         padding: 2vw 1.5vw;
         box-shadow: 1px 3px 2px rgba(48, 56, 91, 0.42);
         border-radius: 20px;
-        background: linear-gradient(45deg, rgba(255, 198, 219, 0.39), rgba(243, 248, 255, 0.32), rgba(244, 246, 255, 0.64), rgba(255, 211, 237, 0.29));
+        background: linear-gradient(45deg, rgba(255, 198, 219, 0.39), rgb(218 223 231 / 32%), rgba(244, 246, 255, 0.64), rgb(255 230 245 / 29%));
     }
 
     .about-middle-inner {
